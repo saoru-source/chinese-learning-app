@@ -34,7 +34,7 @@ HSKsentences_list, HSKspeaking_practice）を1つのアプリに統合する。
 
 ## 開発の優先順位
 1. 認証 + データ同期の実装（Supabase Auth）
-2. 既存コンテンツの統合（まず mimic_chinese から着手）
+2. 既存コンテンツの統合（まず HSKpractice_exercises から着手）
 3. AI出題機能（進捗データを見て弱点を突く問題を生成）
 4. SNS機能（共有・フォロー等）
 
