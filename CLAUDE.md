@@ -177,7 +177,8 @@ progressテーブル（学習履歴）と連動させ、既習単語を使った
     （hsk_level、category: free_topic/scenario の区別、prompt_text、
     meaning_jaのヒントは最小限 or なし）
   - 新規テーブル: writing_image_prompts（hsk_level、image_url、
-    ヒントキーワード）
+    ヒントキーワード）※必要画像リストはwriting-image-list.mdを参照
+    （HSKレベル別に合計60枚の画像テーマ一覧。他AIでの画像調達・生成に使用）
   - 長文要約は既存のlong_passagesテーブルを参照し、専用テーブルは作らない
   - 新規テーブル: writing_submissions（user_id、item_type: topic/image/
     passage_summary、item_id、submitted_text、ai_feedback、created_at。
