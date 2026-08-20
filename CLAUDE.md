@@ -54,8 +54,12 @@ HSKsentences_list, HSKspeaking_practice）を1つのアプリに統合する。
 ### ヒアリング・ライティング機能分
 - listening_questions: ヒアリング問題（選択式/ディクテーション両対応）
 - writing_scramble_questions: 語順並べ替え問題
-- writing_topics / writing_submissions: 自由作文のお題と、ユーザーの
-  提出内容＋AI添削結果の履歴（1対多構成）
+- writing_topics: 自由作文・場面設定ライティングのお題
+  （category列で free_topic/scenario を区別）
+- writing_image_prompts: 画像描写ライティング用の画像とヒント
+- writing_submissions: 自由記述系4種類（自由作文/場面設定/画像描写/長文要約）
+  すべての提出内容＋AI添削結果を一元管理する履歴テーブル
+  （item_type列で種類を区別、長文要約はlong_passagesのidを参照）
 
 ## 開発の優先順位
 1. 認証 + データ同期の実装（Supabase Auth）
@@ -150,16 +154,34 @@ progressテーブル（学習履歴）と連動させ、既習単語を使った
   choices: 選択式の場合の選択肢(jsonb)、correct_answer、hsk_level）
 
 ### ⑦ ライティング機能
+日本語を介さず中国語で発想する力を鍛えることを重視する。
+そのため翻訳練習（日本語→中国語）は採用しない。
+
 - **語順練習**: シャッフルされた単語を並べ替えて正しい文を作る
   - 新規テーブル: writing_scramble_questions
     （hsk_level、words_shuffled: シャッフル済み単語配列(jsonb)、
     correct_sentence、meaning_ja）
-- **自由作文（AI添削）**: お題を与えられ、自由に中国語で作文する。
-  提出した文章をClaude API(AI出題機能と同じ仕組み)で添削・フィードバックする
-  - 新規テーブル: writing_topics（hsk_level、prompt_text、meaning_ja のヒント）
-  - 新規テーブル: writing_submissions（user_id、topic_id、submitted_text、
-    ai_feedback、created_at。ユーザーの提出履歴として保存し、progressとも連動）
-- 翻訳練習（日本語→中国語の短文）は今回は見送り。将来的な追加候補として残す
+
+- **自由記述系（4種類、すべてAI添削）**: 提出した文章をClaude API
+  （AI出題機能と同じ仕組み）で添削・フィードバックする
+  1. **自由作文**: 与えられたテーマについて自由に書く
+  2. **場面設定ライティング**: お題自体を中国語のみで提示する
+     ロールプレイ的な設定（例: 写一写你周末做了什么）。日本語の指示文を
+     使わないことで、日本語を介さず中国語で発想する練習になる
+  3. **画像描写**: 画像を見て、その内容を中国語で説明する。
+     日本語の文章が一切介在しない、最も直接的な方法
+  4. **長文要約**: 長文読解（③）で読んだ文章を、自分の言葉で
+     中国語のまま要約する。読解とライティングを連動させる
+
+  - 新規テーブル: writing_topics
+    （hsk_level、category: free_topic/scenario の区別、prompt_text、
+    meaning_jaのヒントは最小限 or なし）
+  - 新規テーブル: writing_image_prompts（hsk_level、image_url、
+    ヒントキーワード）
+  - 長文要約は既存のlong_passagesテーブルを参照し、専用テーブルは作らない
+  - 新規テーブル: writing_submissions（user_id、item_type: topic/image/
+    passage_summary、item_id、submitted_text、ai_feedback、created_at。
+    4種類すべての提出履歴をこの1テーブルで一元管理し、progressとも連動）
 
 ## 契約・料金プラン（商用利用前提）
 現在は無料枠のみで開発を進める。商用化（課金機能追加/広告掲載/
