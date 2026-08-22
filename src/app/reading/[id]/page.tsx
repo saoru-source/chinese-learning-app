@@ -53,6 +53,15 @@ export default async function ReadingPassagePage({
       </div>
 
       <ReadingQuestions questions={questions} />
+
+      <div className="mt-8 text-center">
+        <Link
+          href={`/reading/${passage.id}/summary`}
+          className="text-sm underline"
+        >
+          この文章を要約する →
+        </Link>
+      </div>
     </div>
   );
 }

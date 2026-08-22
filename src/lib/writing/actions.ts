@@ -77,3 +77,81 @@ ${text}
     };
   }
 }
+
+export async function submitPassageSummary(
+  formData: FormData
+): Promise<{ ok: true; feedback: string } | { ok: false; error: string }> {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) {
+    redirect("/login");
+  }
+
+  const passageId = Number(formData.get("passageId"));
+  const text = (formData.get("text") as string)?.trim();
+
+  if (!text) {
+    return { ok: false, error: "要約を入力してください。" };
+  }
+
+  const { data: passage } = await supabase
+    .from("long_passages")
+    .select("title, body, hsk_level")
+    .eq("id", passageId)
+    .maybeSingle();
+
+  if (!passage) {
+    return { ok: false, error: "長文が見つかりませんでした。" };
+  }
+
+  const prompt = `あなたは中国語の長文要約の先生です。以下はHSK${passage.hsk_level}級の
+学習者が、次の文章を読んで中国語で要約した内容です。
+
+原文:
+${passage.body}
+
+学習者の要約:
+${text}
+
+この要約を読み、次の内容を日本語で分かりやすく述べてください(箇条書きで構いません)。
+1. 文法・語彙の誤りがあれば指摘し、正しい表現を提案する
+2. 原文の要点をきちんと捉えられているか評価する(抜けている重要なポイントがあれば指摘する)
+3. より自然な言い回しがあれば提案する
+4. 良かった点を1つ以上褒める
+出力はプレーンテキストのみで、JSON形式にはしないでください。`;
+
+  const client = new Anthropic();
+
+  try {
+    const response = await client.messages.create({
+      model: "claude-haiku-4-5",
+      max_tokens: 1024,
+      messages: [{ role: "user", content: prompt }],
+    });
+
+    const textBlock = response.content.find((b) => b.type === "text");
+    const feedback =
+      textBlock && textBlock.type === "text"
+        ? textBlock.text
+        : "AIからの応答が空でした。";
+
+    await supabase.from("writing_submissions").insert({
+      user_id: user.id,
+      item_type: "passage_summary",
+      item_id: passageId,
+      submitted_text: text,
+      ai_feedback: feedback,
+    });
+
+    return { ok: true, feedback };
+  } catch (e) {
+    console.error("submitPassageSummary failed", e);
+    return {
+      ok: false,
+      error: "AIによる添削に失敗しました。時間をおいて再度お試しください。",
+    };
+  }
+}
