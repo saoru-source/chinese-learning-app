@@ -1,0 +1,201 @@
+id,style,situation,hsk_level,hanzi,pinyin,meaning_ja
+1,colloquial,友達との約束,5,周末有空吗？一起去看电影吧。,Zhōumò yǒu kòng ma? Yìqǐ qù kàn diànyǐng ba.,週末暇？一緒に映画見に行こうよ。
+2,colloquial,友達との約束,5,我们几点在老地方见面？,Wǒmen jǐ diǎn zài lǎo dìfang jiànmiàn?,何時にいつもの場所で会う？
+3,colloquial,友達との約束,5,你今天晚上有什么安排吗？,Nǐ jīntiān wǎnshang yǒu shénme ānpái ma?,今夜何か予定ある？
+4,colloquial,友達との約束,5,好久不见，找时间聚一聚吧。,"Hǎojiǔ bú jiàn, zhǎo shíjiān jù yi jù ba.",久しぶりだね、そのうち集まろうよ。
+5,colloquial,友達との約束,5,我们改天再约吧，我今天有点忙。,"Wǒmen gǎitiān zài yuē ba, wǒ jīntiān yǒudiǎn máng.",また今度約束しよう、今日はちょっと忙しくて。
+6,colloquial,友達との約束,5,你要不要跟我们一起去爬山？,Nǐ yào bu yào gēn wǒmen yìqǐ qù páshān?,一緒に登山に行かない？
+7,colloquial,友達との約束,5,到时候我去楼下等你。,Dào shíhou wǒ qù lóuxià děng nǐ.,その時になったら下で待ってるね。
+8,colloquial,友達との約束,5,我们几点集合比较合适？,Wǒmen jǐ diǎn jíhé bǐjiào héshì?,何時に集合するのがいいかな？
+9,colloquial,友達との約束,5,要是下雨的话，我们就改天吧。,"Yàoshi xià yǔ dehuà, wǒmen jiù gǎitiān ba.",もし雨だったら、日を改めよう。
+10,colloquial,友達との約束,5,别忘了带伞，天气预报说会下雨。,"Bié wàng le dài sǎn, tiānqì yùbào shuō huì xià yǔ.",傘を持ってくるの忘れないで、天気予報で雨って言ってたから。
+11,colloquial,友達との約束,5,到了以后给我打个电话。,Dào le yǐhòu gěi wǒ dǎ ge diànhuà.,着いたら電話してね。
+12,colloquial,友達との約束,5,这次说好了，可不能再放我鸽子了。,"Zhè cì shuō hǎo le, kě bù néng zài fàng wǒ gēzi le.",今回は約束したんだから、もうすっぽかさないでよ。
+13,colloquial,友達との約束,5,我们去年去过的那家咖啡厅还开着吗？,Wǒmen qùnián qù guo de nà jiā kāfēitīng hái kāi zhe ma?,去年行ったあのカフェ、まだやってるかな？
+14,colloquial,友達との約束,5,周五晚上一起吃饭怎么样？,Zhōuwǔ wǎnshang yìqǐ chī fàn zěnmeyàng?,金曜の夜、一緒にご飯どう？
+15,colloquial,友達との約束,5,我可能会晚到十分钟左右，你先进去吧。,"Wǒ kěnéng huì wǎn dào shí fēnzhōng zuǒyòu, nǐ xiān jìnqù ba.",10分くらい遅れるかも、先に入ってて。
+16,colloquial,友達との約束,5,这周末我没事，随时都可以。,"Zhè zhōumò wǒ méi shì, suíshí dōu kěyǐ.",今週末は暇だから、いつでも大丈夫。
+17,colloquial,友達との約束,5,我们好像已经好几个月没见了。,Wǒmen hǎoxiàng yǐjīng hǎo jǐ ge yuè méi jiàn le.,もう何ヶ月も会ってない気がする。
+18,colloquial,買い物・値段交渉,5,这个可以便宜一点吗？,Zhège kěyǐ piányi yìdiǎn ma?,これ、もう少し安くなりますか？
+19,colloquial,買い物・値段交渉,5,太贵了，能不能打个折？,"Tài guì le, néng bu néng dǎ ge zhé?",高すぎます、割引してもらえませんか？
+20,colloquial,買い物・値段交渉,5,老板，这件衣服有没有别的颜色？,"Lǎobǎn, zhè jiàn yīfu yǒu méiyǒu bié de yánsè?",店長、この服、他の色はありますか？
+21,colloquial,買い物・値段交渉,5,我可以试穿一下吗？,Wǒ kěyǐ shìchuān yíxià ma?,試着してもいいですか？
+22,colloquial,買い物・値段交渉,5,这个尺码有点小，有没有大一号的？,"Zhège chǐmǎ yǒudiǎn xiǎo, yǒu méiyǒu dà yí hào de?",このサイズはちょっと小さいです、1つ大きいのはありますか？
+23,colloquial,買い物・値段交渉,5,如果买两件的话能便宜多少？,Rúguǒ mǎi liǎng jiàn dehuà néng piányi duōshao?,2つ買ったらいくら安くなりますか？
+24,colloquial,買い物・値段交渉,5,这个是今年新出的款式吗？,Zhège shì jīnnián xīn chū de kuǎnshì ma?,これは今年の新作ですか？
+25,colloquial,買い物・値段交渉,5,别的地方好像卖得更便宜。,Bié de dìfang hǎoxiàng mài de gèng piányi.,他の店の方が安く売ってるみたいです。
+26,colloquial,買い物・値段交渉,5,可以刷卡吗，还是只能付现金？,"Kěyǐ shuā kǎ ma, háishi zhǐ néng fù xiànjīn?",カードは使えますか、それとも現金だけですか？
+27,colloquial,買い物・値段交渉,5,这个质量怎么样，会不会容易坏？,"Zhège zhìliàng zěnmeyàng, huì bu huì róngyì huài?",これ品質はどうですか、壊れやすくないですか？
+28,colloquial,買い物・値段交渉,5,有没有正在打折的商品？,Yǒu méiyǒu zhèngzài dǎzhé de shāngpǐn?,今セール中の商品はありますか？
+29,colloquial,買い物・値段交渉,5,我再逛逛别的店，比较一下价格。,"Wǒ zài guàngguang bié de diàn, bǐjiào yíxià jiàgé.",他の店も見て、値段を比べてみます。
+30,colloquial,買い物・値段交渉,5,这双鞋能不能便宜个二十块？,Zhè shuāng xié néng bu néng piányi ge èrshí kuài?,この靴、20元安くなりませんか？
+31,colloquial,買い物・値段交渉,5,如果不满意的话可以退换吗？,Rúguǒ bù mǎnyì dehuà kěyǐ tuìhuàn ma?,気に入らなかったら返品交換できますか？
+32,colloquial,買い物・値段交渉,5,这个价格已经是最低的了。,Zhège jiàgé yǐjīng shì zuì dī de le.,これはもう最安値です。
+33,colloquial,買い物・値段交渉,5,买这个送不送小礼品？,Mǎi zhège sòng bu sòng xiǎo lǐpǐn?,これを買ったら、ちょっとしたおまけはつきますか？
+34,colloquial,買い物・値段交渉,5,我先考虑一下，一会儿再回来。,"Wǒ xiān kǎolǜ yíxià, yíhuìr zài huílai.",ちょっと考えてから、また戻ってきます。
+35,colloquial,体調不良・病院,5,我肚子有点疼，想去医院看看。,"Wǒ dùzi yǒudiǎn téng, xiǎng qù yīyuàn kànkan.",お腹が少し痛くて、病院に行ってみたいです。
+36,colloquial,体調不良・病院,5,医生，我最近老是头晕。,"Yīshēng, wǒ zuìjìn lǎoshi tóuyūn.",先生、最近ずっとめまいがするんです。
+37,colloquial,体調不良・病院,5,我从昨天晚上开始就发烧了。,Wǒ cóng zuótiān wǎnshang kāishǐ jiù fāshāo le.,昨夜からずっと熱があります。
+38,colloquial,体調不良・病院,5,嗓子疼得厉害，咽东西都费劲。,"Sǎngzi téng de lìhai, yàn dōngxi dōu fèijìn.",喉がひどく痛くて、物を飲み込むのも大変です。
+39,colloquial,体調不良・病院,5,我需要挂号吗？在哪儿挂号？,Wǒ xūyào guàhào ma? Zài nǎr guàhào?,受付は必要ですか？どこで受付すればいいですか？
+40,colloquial,体調不良・病院,5,这个药一天吃几次？,Zhège yào yì tiān chī jǐ cì?,この薬は1日何回飲みますか？
+41,colloquial,体調不良・病院,5,我对这种药有点过敏。,Wǒ duì zhè zhǒng yào yǒudiǎn guòmǐn.,この薬には少しアレルギーがあります。
+42,colloquial,体調不良・病院,5,最近老是睡不好，是不是压力太大了？,"Zuìjìn lǎoshi shuì bù hǎo, shì bu shì yālì tài dà le?",最近ずっとよく眠れなくて、ストレスが大きいせいでしょうか？
+43,colloquial,体調不良・病院,5,需要空腹吃还是饭后吃？,Xūyào kōngfù chī háishi fànhòu chī?,空腹時に飲むべきですか、それとも食後ですか？
+44,colloquial,体調不良・病院,5,我可能是感冒了，一直咳嗽。,"Wǒ kěnéng shì gǎnmào le, yìzhí késou.",風邪をひいたみたいで、ずっと咳が出ます。
+45,colloquial,体調不良・病院,5,大概需要休息几天才能好？,Dàgài xūyào xiūxi jǐ tiān cái néng hǎo?,何日くらい休めば良くなりますか？
+46,colloquial,体調不良・病院,5,我这几天胃口一直不太好。,Wǒ zhè jǐ tiān wèikǒu yìzhí bú tài hǎo.,ここ数日食欲があまりありません。
+47,colloquial,体調不良・病院,5,摔倒的时候把脚扭伤了。,Shuāidǎo de shíhou bǎ jiǎo niǔshāng le.,転んだ時に足をひねってしまいました。
+48,colloquial,体調不良・病院,5,医生说没什么大问题，多喝水就行。,"Yīshēng shuō méi shénme dà wèntí, duō hē shuǐ jiù xíng.",医者は大したことないと言っていました、水をたくさん飲めば大丈夫だそうです。
+49,colloquial,体調不良・病院,5,这种感觉大概持续了一个星期了。,Zhè zhǒng gǎnjué dàgài chíxù le yí ge xīngqī le.,この感じはもう1週間くらい続いています。
+50,colloquial,体調不良・病院,5,有没有比较严重的副作用？,Yǒu méiyǒu bǐjiào yánzhòng de fùzuòyòng?,深刻な副作用はありますか？
+51,colloquial,体調不良・病院,5,我想请一天假去医院检查一下。,Wǒ xiǎng qǐng yì tiān jià qù yīyuàn jiǎnchá yíxià.,1日休みをもらって病院で検査を受けたいです。
+52,colloquial,レストラン・注文,5,服务员，麻烦帮我们点菜。,"Fúwùyuán, máfan bāng wǒmen diǎn cài.",すみません、注文お願いします。
+53,colloquial,レストラン・注文,5,这道菜辣不辣？我不太能吃辣。,Zhè dào cài là bu là? Wǒ bú tài néng chī là.,この料理辛いですか？辛いのはあまり得意じゃなくて。
+54,colloquial,レストラン・注文,5,请问有几个人的座位？,Qǐngwèn yǒu jǐ ge rén de zuòwèi?,何名様の席はありますか？
+55,colloquial,レストラン・注文,5,我们想要一个安静一点的位置。,Wǒmen xiǎng yào yí ge ānjìng yìdiǎn de wèizhi.,少し静かな席がいいのですが。
+56,colloquial,レストラン・注文,5,这道菜大概要等多久？,Zhè dào cài dàgài yào děng duō jiǔ?,この料理はどれくらい待ちますか？
+57,colloquial,レストラン・注文,5,麻烦再给我们加双筷子。,Máfan zài gěi wǒmen jiā shuāng kuàizi.,すみません、お箸をもう一膳お願いします。
+58,colloquial,レストラン・注文,5,我们还没决定好，再看一下菜单。,"Wǒmen hái méi juédìng hǎo, zài kàn yíxià càidān.",まだ決めていないので、もう少しメニューを見ます。
+59,colloquial,レストラン・注文,5,这个套餐里都包括什么？,Zhège tàocān lǐ dōu bāokuò shénme?,このセットには何が含まれていますか？
+60,colloquial,レストラン・注文,5,能不能少放点盐？,Néng bu néng shǎo fàng diǎn yán?,塩を控えめにしてもらえますか？
+61,colloquial,レストラン・注文,5,我们点的菜怎么还没上？,Wǒmen diǎn de cài zěnme hái méi shàng?,注文した料理がまだ来ないんですが。
+62,colloquial,レストラン・注文,5,打包带走要另外收费吗？,Dǎbāo dàizǒu yào lìngwài shōufèi ma?,持ち帰りは別料金ですか？
+63,colloquial,レストラン・注文,5,这里可以刷手机付款吗？,Zhèlǐ kěyǐ shuā shǒujī fùkuǎn ma?,ここはスマホ決済できますか？
+64,colloquial,レストラン・注文,5,麻烦把这道菜撤了，我们没点。,"Máfan bǎ zhè dào cài chè le, wǒmen méi diǎn.",すみません、この料理は下げてください、注文していません。
+65,colloquial,レストラン・注文,5,有没有推荐的招牌菜？,Yǒu méiyǒu tuījiàn de zhāopáicài?,おすすめの看板料理はありますか？
+66,colloquial,レストラン・注文,5,麻烦买单，一共多少钱？,"Máfan mǎidān, yígòng duōshao qián?",お会計お願いします、全部でいくらですか？
+67,colloquial,レストラン・注文,5,我们四个人，两荤两素就够了。,"Wǒmen sì ge rén, liǎng hūn liǎng sù jiù gòu le.",4人なので、肉料理2品と野菜料理2品で十分です。
+68,colloquial,レストラン・注文,5,这家店的甜点特别有名。,Zhè jiā diàn de tiándiǎn tèbié yǒumíng.,この店のデザートはとても有名です。
+69,colloquial,道を尋ねる,5,请问，去地铁站怎么走？,"Qǐngwèn, qù dìtiězhàn zěnme zǒu?",すみません、地下鉄の駅へはどう行けばいいですか？
+70,colloquial,道を尋ねる,5,从这儿到火车站远不远？,Cóng zhèr dào huǒchēzhàn yuǎn bu yuǎn?,ここから駅まで遠いですか？
+71,colloquial,道を尋ねる,5,这附近有没有便利店？,Zhè fùjìn yǒu méiyǒu biànlìdiàn?,この辺にコンビニはありますか？
+72,colloquial,道を尋ねる,5,一直往前走就能看到吗？,Yìzhí wǎng qián zǒu jiù néng kàndào ma?,まっすぐ行けば見えますか？
+73,colloquial,道を尋ねる,5,坐几路公交车能到那里？,Zuò jǐ lù gōngjiāo chē néng dào nàlǐ?,何番のバスに乗ればそこに着きますか？
+74,colloquial,道を尋ねる,5,走路大概要多长时间？,Zǒulù dàgài yào duō cháng shíjiān?,歩いてどのくらいかかりますか？
+75,colloquial,道を尋ねる,5,到十字路口往左拐就是了。,Dào shízì lùkǒu wǎng zuǒ guǎi jiù shì le.,交差点を左に曲がればそこです。
+76,colloquial,道を尋ねる,5,不好意思，我好像迷路了。,"Bù hǎoyìsi, wǒ hǎoxiàng mílù le.",すみません、道に迷ったみたいです。
+77,colloquial,道を尋ねる,5,这条路能直接通到火车站吗？,Zhè tiáo lù néng zhíjiē tōng dào huǒchēzhàn ma?,この道はまっすぐ駅まで続いていますか？
+78,colloquial,道を尋ねる,5,附近有停车场吗？,Fùjìn yǒu tíngchēchǎng ma?,近くに駐車場はありますか？
+79,colloquial,道を尋ねる,5,那栋大楼后面就是我们要去的地方。,Nà dòng dàlóu hòumian jiù shì wǒmen yào qù de dìfang.,あの建物の裏が私たちの行きたい場所です。
+80,colloquial,道を尋ねる,5,打车过去要多少钱？,Dǎchē guòqù yào duōshao qián?,タクシーで行くといくらかかりますか？
+81,colloquial,道を尋ねる,5,请问最近的地铁口在哪儿？,Qǐngwèn zuìjìn de dìtiěkǒu zài nǎr?,一番近い地下鉄の出入り口はどこですか？
+82,colloquial,道を尋ねる,5,骑自行车的话大概二十分钟就到了。,Qí zìxíngchē dehuà dàgài èrshí fēnzhōng jiù dào le.,自転車なら大体20分で着きます。
+83,colloquial,道を尋ねる,5,麻烦您在地图上给我指一下路。,Máfan nín zài dìtú shang gěi wǒ zhǐ yíxià lù.,すみません、地図で道を指し示していただけますか？
+84,colloquial,道を尋ねる,5,沿着这条河一直走就行。,Yánzhe zhè tiáo hé yìzhí zǒu jiù xíng.,この川沿いをまっすぐ行けばいいです。
+85,colloquial,SNS・チャット表現,5,你发的那张照片也太好看了吧！,Nǐ fā de nà zhāng zhàopiàn yě tài hǎokàn le ba!,あなたが投稿したあの写真、すごく素敵じゃん！
+86,colloquial,SNS・チャット表現,5,在吗？有空的话回我一下。,Zài ma? Yǒu kòng dehuà huí wǒ yíxià.,いる？暇だったら返信して。
+87,colloquial,SNS・チャット表現,5,刚才发的消息你看到了吗？,Gāngcái fā de xiāoxi nǐ kàndào le ma?,さっき送ったメッセージ見た？
+88,colloquial,SNS・チャット表現,5,我把你拉进群里了，进来看看吧。,"Wǒ bǎ nǐ lā jìn qún lǐ le, jìnlai kànkan ba.",グループに招待したから、入って見てみて。
+89,colloquial,SNS・チャット表現,5,这条视频笑死我了，你也看看。,"Zhè tiáo shìpín xiào sǐ wǒ le, nǐ yě kànkan.",この動画めっちゃ笑った、あなたも見て。
+90,colloquial,SNS・チャット表現,5,别光看不回复啊。,Bié guāng kàn bù huífù a.,既読無視しないでよ。
+91,colloquial,SNS・チャット表現,5,我先撤了，明天再聊。,"Wǒ xiān chè le, míngtiān zài liáo.",私はもう落ちるね、また明日話そう。
+92,colloquial,SNS・チャット表現,5,你朋友圈更新的那条动态是什么意思？,Nǐ péngyou quān gēngxīn de nà tiáo dòngtài shì shénme yìsi?,モーメンツに投稿してたあれ、どういう意味？
+93,colloquial,SNS・チャット表現,5,手机没电了，一会儿联系你。,"Shǒujī méi diàn le, yíhuìr liánxì nǐ.",スマホの充電が切れそう、また後で連絡するね。
+94,colloquial,SNS・チャット表現,5,这个表情包也太搞笑了。,Zhège biǎoqíngbāo yě tài gǎoxiào le.,このスタンプ、めっちゃ面白いんだけど。
+95,colloquial,SNS・チャット表現,5,帮我点个赞呗。,Bāng wǒ diǎn ge zàn bei.,いいねしてよ。
+96,colloquial,SNS・チャット表現,5,你怎么把我删了？,Nǐ zěnme bǎ wǒ shān le?,なんで私を削除したの？
+97,colloquial,SNS・チャット表現,5,我发的链接你打开看看。,Wǒ fā de liànjiē nǐ dǎkāi kànkan.,送ったリンク開いてみて。
+98,colloquial,SNS・チャット表現,5,这个群怎么突然这么多人说话？,Zhège qún zěnme tūrán zhème duō rén shuōhuà?,このグループ、なんで急にこんなに発言が多いの？
+99,colloquial,SNS・チャット表現,5,你朋友圈三天可见还是全部可见？,Nǐ péngyou quān sān tiān kějiàn háishi quánbù kějiàn?,モーメンツは3日間限定公開？それとも全部公開？
+100,colloquial,SNS・チャット表現,5,私信我一下，这里不方便说。,"Sīxìn wǒ yíxià, zhèlǐ bù fāngbiàn shuō.",DMして、ここではちょっと話しにくいから。
+101,business,メールの書き出し・結び,5,您好，感谢您在百忙之中抽空阅读这封邮件。,"Nín hǎo, gǎnxiè nín zài bǎimáng zhī zhōng chōu kòng yuèdú zhè fēng yóujiàn.",こんにちは、お忙しい中このメールをお読みいただきありがとうございます。
+102,business,メールの書き出し・結び,5,如有任何问题，请随时与我联系。,"Rú yǒu rènhé wèntí, qǐng suíshí yǔ wǒ liánxì.",もし何かご不明な点があれば、いつでもご連絡ください。
+103,business,メールの書き出し・結び,5,首先，请允许我做一下自我介绍。,"Shǒuxiān, qǐng yǔnxǔ wǒ zuò yíxià zìwǒ jièshào.",まず、自己紹介をさせていただきます。
+104,business,メールの書き出し・結び,5,由于事情紧急，特此以邮件形式通知。,"Yóuyú shìqing jǐnjí, tècǐ yǐ yóujiàn xíngshì tōngzhī.",緊急の件のため、メールにてご連絡差し上げます。
+105,business,メールの書き出し・結び,5,附件为相关资料，请查收。,"Fùjiàn wéi xiāngguān zīliào, qǐng cháshōu.",添付にて関連資料をお送りしますので、ご確認ください。
+106,business,メールの書き出し・結び,5,期待您的回复。,Qīdài nín de huífù.,ご返信をお待ちしております。
+107,business,メールの書き出し・結び,5,顺祝商祺。,Shùn zhù shāngqí.,貴社のご発展をお祈り申し上げます。
+108,business,メールの書き出し・結び,5,冒昧打扰，还请见谅。,"Màomèi dǎrǎo, hái qǐng jiànliàng.",突然のご連絡失礼いたします、ご容赦ください。
+109,business,メールの書き出し・結び,5,现将本周工作进度汇报如下。,Xiàn jiāng běn zhōu gōngzuò jìndù huìbào rúxià.,今週の業務進捗を以下の通りご報告いたします。
+110,business,メールの書き出し・結び,5,若有不便之处，敬请谅解。,"Ruò yǒu búbiàn zhī chù, jìngqǐng liàngjiě.",ご不便な点がございましたら、ご了承いただけますと幸いです。
+111,business,メールの書き出し・結び,5,以上内容，烦请确认。,"Yǐshàng nèiróng, fánqǐng quèrèn.",以上の内容につきまして、ご確認をお願いいたします。
+112,business,メールの書き出し・結び,5,十分感谢您一直以来的支持。,Shífēn gǎnxiè nín yìzhí yǐlái de zhīchí.,これまでのご支援に心より感謝申し上げます。
+113,business,メールの書き出し・結び,5,由于时间仓促，如有疏漏之处，请多包涵。,"Yóuyú shíjiān cāngcù, rú yǒu shūlòu zhī chù, qǐng duō bāohan.",時間が限られていたため、不備がございましたらご容赦ください。
+114,business,メールの書き出し・結び,5,再次确认一下会议时间和地点。,Zàicì quèrèn yíxià huìyì shíjiān hé dìdiǎn.,会議の日時と場所を改めて確認させてください。
+115,business,メールの書き出し・結び,5,若无其他问题，本次沟通就到这里。,"Ruò wú qítā wèntí, běn cì gōutōng jiù dào zhèlǐ.",他にご質問がなければ、本件はこれで失礼いたします。
+116,business,メールの書き出し・結び,5,此致，敬礼。,"Cǐzhì, jìnglǐ.",敬具。
+117,business,メールの書き出し・結び,5,请问是否已经收到我之前发送的文件？,Qǐngwèn shìfǒu yǐjīng shōudào wǒ zhīqián fāsòng de wénjiàn?,以前送付した資料はお受け取りいただけましたでしょうか。
+118,business,会議での発言,5,关于这个方案，我有一点补充意见。,"Guānyú zhège fāng'àn, wǒ yǒu yìdiǎn bǔchōng yìjiàn.",この案について、少し補足意見があります。
+119,business,会議での発言,5,我们是不是可以再讨论一下时间安排？,Wǒmen shì bu shì kěyǐ zài tǎolùn yíxià shíjiān ānpái?,スケジュールについてもう少し話し合ってもよろしいでしょうか？
+120,business,会議での発言,5,我想就这个问题谈谈自己的看法。,Wǒ xiǎng jiù zhège wèntí tántan zìjǐ de kànfǎ.,この問題について自分の意見を述べたいと思います。
+121,business,会議での発言,5,请大家先看一下这份数据报告。,Qǐng dàjiā xiān kàn yíxià zhè fèn shùjù bàogào.,まずこちらのデータ報告書をご覧ください。
+122,business,会議での発言,5,我同意刚才那位同事的意见。,Wǒ tóngyì gāngcái nà wèi tóngshì de yìjiàn.,先ほどの同僚の意見に賛成です。
+123,business,会議での発言,5,关于预算方面，我有一些担忧。,"Guānyú yùsuàn fāngmiàn, wǒ yǒu yìxiē dānyōu.",予算面について、いくつか懸念があります。
+124,business,会議での発言,5,我们是否可以把这个问题留到下次会议再讨论？,Wǒmen shìfǒu kěyǐ bǎ zhège wèntí liú dào xià cì huìyì zài tǎolùn?,この問題は次回の会議に持ち越してもよろしいでしょうか。
+125,business,会議での発言,5,请问这个项目的负责人是谁？,Qǐngwèn zhège xiàngmù de fùzérén shì shéi?,このプロジェクトの担当者はどなたですか。
+126,business,会議での発言,5,我建议我们先明确一下目标。,Wǒ jiànyì wǒmen xiān míngquè yíxià mùbiāo.,まず目標を明確にすることを提案します。
+127,business,会議での発言,5,这个方案的优点在于成本比较低。,Zhège fāng'àn de yōudiǎn zàiyú chéngběn bǐjiào dī.,この案の利点はコストが比較的低い点にあります。
+128,business,会議での発言,5,请问还有没有其他补充意见？,Qǐngwèn hái yǒu méiyǒu qítā bǔchōng yìjiàn?,他に補足のご意見はございますか。
+129,business,会議での発言,5,我们需要在下周之前拿出一个初步方案。,Wǒmen xūyào zài xià zhōu zhīqián náchū yí ge chūbù fāng'àn.,来週までに初期案をまとめる必要があります。
+130,business,会議での発言,5,时间关系，我们直接进入下一个议题吧。,"Shíjiān guānxi, wǒmen zhíjiē jìnrù xià yí ge yìtí ba.",時間の都合上、次の議題に移りましょう。
+131,business,会議での発言,5,这一点我们还需要再核实一下。,Zhè yìdiǎn wǒmen hái xūyào zài héshí yíxià.,この点についてはまだ確認が必要です。
+132,business,会議での発言,5,我个人认为这个风险是可以接受的。,Wǒ gèrén rènwéi zhège fēngxiǎn shì kěyǐ jiēshòu de.,個人的には、このリスクは許容範囲だと考えます。
+133,business,会議での発言,5,请各部门负责人分别汇报一下进度。,Qǐng gè bùmén fùzérén fēnbié huìbào yíxià jìndù.,各部門の責任者は進捗をそれぞれご報告ください。
+134,business,会議での発言,5,那我们就按这个方向继续推进吧。,Nà wǒmen jiù àn zhège fāngxiàng jìxù tuījìn ba.,それではこの方向で進めていきましょう。
+135,business,依頼・お願い,5,能不能麻烦您尽快把资料发给我？,Néng bu néng máfan nín jǐnkuài bǎ zīliào fā gěi wǒ?,お手数ですが、できるだけ早く資料を送っていただけますか？
+136,business,依頼・お願い,5,这件事想请您帮忙确认一下。,Zhè jiàn shì xiǎng qǐng nín bāngmáng quèrèn yíxià.,この件について確認をお願いしたいのですが。
+137,business,依頼・お願い,5,麻烦您在明天下班前给我一个答复。,Máfan nín zài míngtiān xiàbān qián gěi wǒ yí ge dáfù.,明日の終業前までにご回答いただけますと幸いです。
+138,business,依頼・お願い,5,能否请您帮忙审核一下这份合同？,Néng fǒu qǐng nín bāngmáng shěnhé yíxià zhè fèn hétong?,こちらの契約書をご確認いただけますでしょうか。
+139,business,依頼・お願い,5,冒昧请教一下，这个流程应该怎么走？,"Màomèi qǐngjiào yíxià, zhège liúchéng yīnggāi zěnme zǒu?",恐れ入りますが、この手続きはどのように進めればよろしいでしょうか。
+140,business,依頼・お願い,5,希望贵公司能够考虑一下我们的方案。,Xīwàng guì gōngsī nénggòu kǎolǜ yíxià wǒmen de fāng'àn.,貴社にて弊社の提案をご検討いただければ幸いです。
+141,business,依頼・お願い,5,能不能请您协调一下双方的时间？,Néng bu néng qǐng nín xiétiáo yíxià shuāngfāng de shíjiān?,双方の都合を調整していただけますでしょうか。
+142,business,依頼・お願い,5,这份文件需要您签字确认。,Zhè fèn wénjiàn xūyào nín qiānzì quèrèn.,こちらの書類にご署名いただく必要がございます。
+143,business,依頼・お願い,5,恳请您予以理解和支持。,Kěnqǐng nín yǔyǐ lǐjiě hé zhīchí.,ご理解とご支援を賜りますようお願い申し上げます。
+144,business,依頼・お願い,5,如果可以的话，希望能提前一天交付。,"Rúguǒ kěyǐ dehuà, xīwàng néng tíqián yì tiān jiāofù.",可能であれば、1日前倒しでの納品をお願いしたいです。
+145,business,依頼・お願い,5,麻烦转达一下我的意思给王经理。,Máfan zhuǎndá yíxià wǒ de yìsi gěi Wáng jīnglǐ.,王部長に私の意向をお伝えいただけますでしょうか。
+146,business,依頼・お願い,5,能否请您提供更详细的数据？,Néng fǒu qǐng nín tígōng gèng xiángxì de shùjù?,より詳細なデータをご提供いただけますでしょうか。
+147,business,依頼・お願い,5,希望能尽快安排一次面谈。,Xīwàng néng jǐnkuài ānpái yí cì miàntán.,できるだけ早く面談の機会を設けていただければと思います。
+148,business,依頼・お願い,5,这次合作还请多多关照。,Zhè cì hézuò hái qǐng duōduō guānzhào.,今回のご協力、何卒よろしくお願い申し上げます。
+149,business,依頼・お願い,5,麻烦您抽空回复一下我上周发的邮件。,Máfan nín chōu kòng huífù yíxià wǒ shàng zhōu fā de yóujiàn.,お手すきの際に先週送りましたメールにご返信いただけますと幸いです。
+150,business,依頼・お願い,5,能不能请贵部门再核对一遍数据？,Néng bu néng qǐng guì bùmén zài héduì yí biàn shùjù?,貴部門にてもう一度データをご確認いただけますでしょうか。
+151,business,依頼・お願い,5,希望这个问题能够尽快得到解决。,Xīwàng zhège wèntí nénggòu jǐnkuài dédào jiějué.,この問題が早急に解決されることを願っております。
+152,business,謝罪・お詫び,5,非常抱歉，给您带来了不便。,"Fēicháng bàoqiàn, gěi nín dàilái le búbiàn.",ご不便をおかけして大変申し訳ございません。
+153,business,謝罪・お詫び,5,由于我们的疏忽，导致了这次失误，深感抱歉。,"Yóuyú wǒmen de shūhu, dǎozhì le zhè cì shīwù, shēn gǎn bàoqiàn.",私どもの不手際によりこのようなミスが生じ、深くお詫び申し上げます。
+154,business,謝罪・お詫び,5,对于此次延误，我们深表歉意。,"Duìyú cǐ cì yánwù, wǒmen shēn biǎo qiànyì.",今回の遅延につきまして、深くお詫び申し上げます。
+155,business,謝罪・お詫び,5,我们会尽快采取补救措施。,Wǒmen huì jǐnkuài cǎiqǔ bǔjiù cuòshī.,できるだけ早く改善策を講じます。
+156,business,謝罪・お詫び,5,这次的失误完全是我们的责任。,Zhè cì de shīwù wánquán shì wǒmen de zérèn.,今回のミスは全て弊社の責任です。
+157,business,謝罪・お詫び,5,对给贵公司造成的损失，我们深感抱歉。,"Duì gěi guì gōngsī zàochéng de sǔnshī, wǒmen shēn gǎn bàoqiàn.",貴社にご迷惑をおかけしましたこと、深くお詫び申し上げます。
+158,business,謝罪・お詫び,5,我们已经对相关问题进行了调查。,Wǒmen yǐjīng duì xiāngguān wèntí jìnxíng le diàochá.,関連する問題については既に調査を行いました。
+159,business,謝罪・お詫び,5,请您放心，我们会尽全力弥补这次失误。,"Qǐng nín fàngxīn, wǒmen huì jìn quánlì míbǔ zhè cì shīwù.",ご安心ください、今回のミスを取り戻すべく全力を尽くします。
+160,business,謝罪・お詫び,5,对此次沟通不畅，我表示歉意。,"Duì cǐ cì gōutōng bù chàng, wǒ biǎoshì qiànyì.",今回の連携不足について、お詫び申し上げます。
+161,business,謝罪・お詫び,5,我们会重新核实所有数据，避免再次出错。,"Wǒmen huì chóngxīn héshí suǒyǒu shùjù, bìmiǎn zàicì chūcuò.",再発防止のため、全てのデータを改めて確認いたします。
+162,business,謝罪・お詫び,5,非常抱歉，这次没能达到您的期望。,"Fēicháng bàoqiàn, zhè cì méi néng dádào nín de qīwàng.",ご期待に沿えず、大変申し訳ございませんでした。
+163,business,謝罪・お詫び,5,我们已经安排专人跟进此事。,Wǒmen yǐjīng ānpái zhuānrén gēnjìn cǐ shì.,本件につきましては専任の担当者を配置いたしました。
+164,business,謝罪・お詫び,5,对由此带来的不便，敬请谅解。,"Duì yóucǐ dàilái de búbiàn, jìngqǐng liàngjiě.",これによりご不便をおかけしましたこと、ご了承ください。
+165,business,謝罪・お詫び,5,我们承诺以后不会再发生类似情况。,Wǒmen chéngnuò yǐhòu bú huì zài fāshēng lèisì qíngkuàng.,今後同様の事態が発生しないことをお約束いたします。
+166,business,謝罪・お詫び,5,关于赔偿方案，我们会尽快给您答复。,"Guānyú péicháng fāng'àn, wǒmen huì jǐnkuài gěi nín dáfù.",補償案につきましては早急にご回答いたします。
+167,business,謝罪・お詫び,5,这次的问题让您费心了，实在抱歉。,"Zhè cì de wèntí ràng nín fèixīn le, shízài bàoqiàn.",今回の件でご心配をおかけし、誠に申し訳ございません。
+168,business,謝罪・お詫び,5,感谢您的包涵，我们会认真改进。,"Gǎnxiè nín de bāohan, wǒmen huì rènzhēn gǎijìn.",ご寛容いただきありがとうございます、真摯に改善いたします。
+169,business,自己紹介・名刺交換,5,您好，我是负责这个项目的田中，请多关照。,"Nín hǎo, wǒ shì fùzé zhège xiàngmù de Tiánzhōng, qǐng duō guānzhào.",こんにちは、このプロジェクトを担当している田中です、よろしくお願いします。
+170,business,自己紹介・名刺交換,5,这是我的名片，以后请多联系。,"Zhè shì wǒ de míngpiàn, yǐhòu qǐng duō liánxì.",こちらが私の名刺です、今後ともよろしくお願いします。
+171,business,自己紹介・名刺交換,5,久仰大名，今天终于有机会见面了。,"Jiǔyǎng dàmíng, jīntiān zhōngyú yǒu jīhuì jiànmiàn le.",お噂はかねがね伺っております、本日ようやくお会いできました。
+172,business,自己紹介・名刺交換,5,我是这次项目的对接人，有事请随时联系我。,"Wǒ shì zhè cì xiàngmù de duìjiē rén, yǒu shì qǐng suíshí liánxì wǒ.",今回のプロジェクトの窓口を務めております、何かございましたらいつでもご連絡ください。
+173,business,自己紹介・名刺交換,5,我在公司主要负责海外市场的业务。,Wǒ zài gōngsī zhǔyào fùzé hǎiwài shìchǎng de yèwù.,社内では主に海外市場の業務を担当しております。
+174,business,自己紹介・名刺交換,5,很高兴认识您，希望以后多多合作。,"Hěn gāoxìng rènshi nín, xīwàng yǐhòu duōduō hézuò.",お会いできて光栄です、今後ともよろしくお願いいたします。
+175,business,自己紹介・名刺交換,5,我叫林小华，是负责这次合作的项目经理。,"Wǒ jiào Lín Xiǎohuá, shì fùzé zhè cì hézuò de xiàngmù jīnglǐ.",林小華と申します、今回の提携を担当するプロジェクトマネージャーです。
+176,business,自己紹介・名刺交換,5,这是我的联系方式，方便的时候可以加一下微信。,"Zhè shì wǒ de liánxì fāngshì, fāngbiàn de shíhou kěyǐ jiā yíxià wēixìn.",こちらが私の連絡先です、よろしければWeChatを交換させてください。
+177,business,自己紹介・名刺交換,5,我们公司主要从事软件开发相关业务。,Wǒmen gōngsī zhǔyào cóngshì ruǎnjiàn kāifā xiāngguān yèwù.,弊社は主にソフトウェア開発関連の事業を行っております。
+178,business,自己紹介・名刺交換,5,之后有什么需要，随时可以来找我。,"Zhīhòu yǒu shénme xūyào, suíshí kěyǐ lái zhǎo wǒ.",今後何か必要なことがございましたら、いつでもお声がけください。
+179,business,自己紹介・名刺交換,5,我是第一次参加这样的交流会，请多指教。,"Wǒ shì dì-yī cì cānjiā zhèyàng de jiāoliú huì, qǐng duō zhǐjiào.",このような交流会への参加は初めてです、ご指導のほどよろしくお願いいたします。
+180,business,自己紹介・名刺交換,5,我们之前通过邮件联系过，很高兴终于见面了。,"Wǒmen zhīqián tōngguò yóujiàn liánxì guo, hěn gāoxìng zhōngyú jiànmiàn le.",以前メールでやり取りさせていただきました、ようやくお会いできて嬉しいです。
+181,business,自己紹介・名刺交換,5,请问怎么称呼您比较合适？,Qǐngwèn zěnme chēnghu nín bǐjiào héshì?,何とお呼びすればよろしいでしょうか。
+182,business,自己紹介・名刺交換,5,我是负责财务方面的，具体技术问题可能要请教其他同事。,"Wǒ shì fùzé cáiwù fāngmiàn de, jùtǐ jìshù wèntí kěnéng yào qǐngjiào qítā tóngshì.",私は財務担当ですので、具体的な技術的な質問は他の同僚にお尋ねください。
+183,business,自己紹介・名刺交換,5,今天能有机会跟您交流，非常荣幸。,"Jīntiān néng yǒu jīhuì gēn nín jiāoliú, fēicháng róngxìng.",本日は貴重な意見交換の機会をいただき、大変光栄です。
+184,business,自己紹介・名刺交換,5,我们公司在这个行业已经有十年的经验了。,Wǒmen gōngsī zài zhège hángyè yǐjīng yǒu shí nián de jīngyàn le.,弊社はこの業界で既に10年の実績がございます。
+185,business,電話応対,5,您好，请问您找哪位？,"Nín hǎo, qǐngwèn nín zhǎo nǎ wèi?",もしもし、どちら様をお呼びでしょうか？
+186,business,電話応対,5,不好意思，他现在不在，需要我转告吗？,"Bù hǎoyìsi, tā xiànzài bú zài, xūyào wǒ zhuǎngào ma?",申し訳ございません、彼は今席を外しております、伝言承りましょうか？
+187,business,電話応対,5,喂，您好，这里是市场部。,"Wéi, nín hǎo, zhèlǐ shì shìchǎngbù.",もしもし、マーケティング部でございます。
+188,business,電話応対,5,请稍等，我帮您转接一下。,"Qǐng shāo děng, wǒ bāng nín zhuǎnjiē yíxià.",少々お待ちください、おつなぎいたします。
+189,business,電話応対,5,不好意思，刚才信号不太好，能再说一遍吗？,"Bù hǎoyìsi, gāngcái xìnhào bú tài hǎo, néng zài shuō yí biàn ma?",申し訳ございません、先ほど電波が悪くて、もう一度お願いできますか。
+190,business,電話応対,5,请问您方便留一下电话号码吗？,Qǐngwèn nín fāngbiàn liú yíxià diànhuà hàomǎ ma?,お電話番号を伺ってもよろしいでしょうか。
+191,business,電話応対,5,他现在正在开会，不方便接电话。,"Tā xiànzài zhèngzài kāihuì, bù fāngbiàn jiē diànhuà.",ただいま会議中のため、電話に出られません。
+192,business,電話応対,5,我稍后再给您回电话，可以吗？,"Wǒ shāohòu zài gěi nín huí diànhuà, kěyǐ ma?",のちほど折り返しお電話させていただいてもよろしいでしょうか。
+193,business,電話応対,5,麻烦您把详细情况再跟我说一下。,Máfan nín bǎ xiángxì qíngkuàng zài gēn wǒ shuō yíxià.,詳しい状況をもう一度お聞かせいただけますでしょうか。
+194,business,電話応対,5,感谢您的来电，再见。,"Gǎnxiè nín de láidiàn, zàijiàn.",お電話ありがとうございました、失礼いたします。
+195,business,電話応対,5,请问贵姓，我方便记录一下吗？,"Qǐngwèn guìxìng, wǒ fāngbiàn jìlù yíxià ma?",恐れ入りますがお名前を伺ってもよろしいでしょうか。
+196,business,電話応対,5,我把您的诉求记下来了，会尽快处理。,"Wǒ bǎ nín de sùqiú jì xiàlái le, huì jǐnkuài chǔlǐ.",ご要望を承りました、早急に対応いたします。
+197,business,電話応対,5,打错了，不好意思。,"Dǎ cuò le, bù hǎoyìsi.",電話番号をお間違えのようです、失礼いたしました。
+198,business,電話応対,5,这个问题我不太清楚，帮您转接给相关负责人。,"Zhège wèntí wǒ bú tài qīngchu, bāng nín zhuǎnjiē gěi xiāngguān fùzérén.",こちらの件は私では分かりかねますので、担当者におつなぎいたします。
+199,business,電話応対,5,电话里说不太清楚，我们见面谈吧。,"Diànhuà lǐ shuō bú tài qīngchu, wǒmen jiànmiàn tán ba.",電話ではうまく説明しづらいので、直接お会いして話しましょう。
+200,business,電話応対,5,谢谢您的耐心等待。,Xièxie nín de nàixīn děngdài.,お待たせいたしまして申し訳ございませんでした。

@@ -1,0 +1,800 @@
+[
+  {
+    "hsk_level": 1,
+    "label": "叫（名前の言い方）",
+    "explanation": "「叫」は「〜という名前です」と名乗るときに使う動詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "是／也／都／是吧",
+    "explanation": "「也」は「〜も」という意味で、前の内容と同じであることを表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "几／了（変化）／多大",
+    "explanation": "文末の「了」は状態の変化を表し、「多大」は年齢を尋ねる言い方です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "会／怎么",
+    "explanation": "「怎么＋動詞」で「どのように〜するか」という方法を尋ねます。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "曜日・日付／去+場所+做什么",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "想／多少／个",
+    "explanation": "「想＋動詞」は「〜したい」、「个」はものを数える基本の量詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "在／有／呢",
+    "explanation": "「在」は存在（〜にいる）を表し、「呢」は軽い確認・強調のニュアンスを添えます。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "和／能／请",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "～点～分／前／什么时候",
+    "explanation": "「什么时候」は「いつ」と時を尋ねる疑問詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "怎么样／太～了／会（可能性）",
+    "explanation": "文末の「了」は状態の変化を表し、「多大」は年齢を尋ねる言い方です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "在～呢／喜欢做～／喂／吧",
+    "explanation": "「在」は存在（〜にいる）を表し、「呢」は軽い確認・強調のニュアンスを添えます。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "可以／了／一点儿＋名詞／～后",
+    "explanation": "「可以」は「〜してよい」という許可を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "是～的／这些那些／听～说／○○年",
+    "explanation": "「也」は「〜も」という意味で、前の内容と同じであることを表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "要／觉得／最／几と多",
+    "explanation": "「觉得」は「〜と思う」という主観的な意見、「最」は「最も」を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "是不是／每／多",
+    "explanation": "「是不是」は確認を求める疑問文の形、「每」は「毎〜」という意味です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "的（名詞化）／一下／真",
+    "explanation": "「〜的时候」は「〜のとき」、「给＋人」は「〜に（対して）」を表す前置詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "给／帮／～的时候／已经",
+    "explanation": "「〜的时候」は「〜のとき」、「给＋人」は「〜に（対して）」を表す前置詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "就／对～／还／有点儿",
+    "explanation": "「有点儿＋形容詞」は「少し〜」とやや好ましくないニュアンスを添えます。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "怎么と为什么／什么意思／因为～所以～",
+    "explanation": "「因为〜所以〜」は「〜なので〜だ」という因果関係を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "还（継続）／時間＋就／离",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "……好吗／再／让请叫（使役）",
+    "explanation": "「让＋人＋動詞」は「（人）に〜させる／〜するよう言う」という使役表現です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "動詞の重ね型／結果補語 懂好完见错／从～",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "需要／不要不用别",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "比較構文(1) 比",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "可能／得（様態補語）／比較構文(2)",
+    "explanation": "「動詞＋得＋形容詞」で動作の様子・程度を表す様態補語です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "～着／不是～吗／往",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "～过／虽然～但是～",
+    "explanation": "「動詞＋过」は経験（〜したことがある）、「虽然〜但是〜」は逆接を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "要～了／都～了",
+    "explanation": "「要〜了」は「もうすぐ〜する」と近い未来を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "一点都～／打算～",
+    "explanation": "「打算」は「〜するつもりだ」と予定・計画を表す動詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "補語 来去／就（連続動作）",
+    "explanation": "「只要A就B」は「Aさえすれば、Bだ」という必要十分条件を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "还是と或者／又～又～／越来越～",
+    "explanation": "「越来越＋形容詞」は「だんだん〜になる」という変化を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "可能補語 得／刚才／刚刚",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "継続時間の表現／疑問詞+就+疑問詞",
+    "explanation": "動詞の後に期間（两年）を置いて、動作の継続時間を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "越A越B／A跟B一样",
+    "explanation": "「越A越B」は「AすればするほどBだ」という比例関係を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "比較 A比B多一些／才と就",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "把構文",
+    "explanation": "「把＋目的語＋動詞」で、その対象をどう処置するかを強調する構文です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "一边～一边～／除了～以外～",
+    "explanation": "「一边A一边B」は「Aしながら（同時に）Bする」という動作の並行を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "如果～的话／原因の得",
+    "explanation": "「如果〜的话，就〜」は「もし〜なら、〜だ」という仮定を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "只要～就～／只有～才～",
+    "explanation": "「只要A就B」は「Aさえすれば、Bだ」という必要十分条件を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "受身形 被叫给让",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "不仅～也～／从来",
+    "explanation": "「不仅A也B」は「AだけでなくBも」という累加の関係を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "应该／得(děi)",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "就是",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "只是～而已／即使～也",
+    "explanation": "「只是〜而已」は「ただ〜にすぎない」と程度を控えめに限定します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "在～上",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "正好／差不多",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "～不了／无法",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "尽管／不管",
+    "explanation": "「不管〜都〜」は「〜であろうと、〜だ」と条件に関係なく成立することを表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "却／而",
+    "explanation": "「只是〜而已」は「ただ〜にすぎない」と程度を控えめに限定します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "另外",
+    "explanation": "「另外」は文頭で「それと／別に」と話題を追加するときに使います。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "根据／按照",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "连～也都／甚至",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "并／估计",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "首先～其次／再说",
+    "explanation": "「首先〜其次〜」は物事を順序立てて説明するときの接続表現です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "竟然／果然",
+    "explanation": "「竟然」は「思いがけず〜だ」という客観的な驚きを表す副詞です。「果然」は「思った通り、案の定」と予想が的中したことを表し、驚きの方向が逆です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "要是／值得",
+    "explanation": "「要是」は「如果」と同じく「もし〜なら」という仮定を表す口語的な表現です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "以为／认为",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "既～又也还／可不是／往往",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "由于／因此／难道",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "否则／无论",
+    "explanation": "「无论〜都〜」は「不管」と同様、どんな条件でも結果が変わらないことを表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "同时／并且",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "然而／再～也～",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "以",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "由／既然",
+    "explanation": "「既然〜（那）就〜」は「〜である以上は、〜だ」とすでに確定した前提に基づく結論を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "于是／可",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "恐怕／敢",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "到底／叫做",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "为了／在于",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "仍然／究竟",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "V着V着／一～就～",
+    "explanation": "「一A就B」は「AするとすぐにBする」という動作の連続を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "正在（進行形）",
+    "explanation": "「正在＋動詞」で「〜している最中だ」という進行中の動作を表します。文末に「呢」を伴うこともあります。",
+    "source_site": "HSKsentences"
+  },
+  {
+    "hsk_level": 5,
+    "label": "以……为……",
+    "explanation": "「AをBとする／AをBとみなす」という書き言葉の構文で、基本方針や捉え方を述べる際に用います。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "好（hǎo）",
+    "explanation": "動詞の後に置き、「〜しやすいように／〜できるように」と後ろの動作の目的や便宜を示す用法です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "免得 / 省得",
+    "explanation": "前の行動によって「〜しないように／〜を免れる（省く）ために」と、望ましくない事態を回避する目的を表します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "何必",
+    "explanation": "「なにも〜する必要はない」という反語の表現で、相手の過度な言動をなだめたり制止したりする際に使います。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "未免",
+    "explanation": "「いくらなんでも〜と言わざるを得ない／いささか〜すぎる」と、相手の言動や状況に対して消極的な評価を下す表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "不亚于",
+    "explanation": "「〜に劣らない／〜に負けない」という意味で、比較対象と同等以上にすぐれていることを表します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "不比",
+    "explanation": "「AはBほど〜ではない」という比較の否定を表します（例：今天不比昨天冷＝今日は昨日ほど寒くない）。「不亚于」（劣らない）とは意味が異なるので注意してください。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "哪怕……也……",
+    "explanation": "「仮に／たとえ〜であっても」という譲歩仮定の文で、どんな極端な条件下でも結論が変わらないことを強調します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "固然……，但是……",
+    "explanation": "「確かに〜ではあるが（しかし…）」と、一旦前件を認めた上で、より重要な後件の主張を展開する構文です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "唯有……，才……",
+    "explanation": "「唯一〜であってこそ、初めて…できる」と、特定の唯一絶対の条件を強調して述べる表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "从而",
+    "explanation": "前件の行動や変化を受けて「それによって／その結果」と、論理的・自然に生じる後件の結果・展開をつなぐ書面語です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "进而",
+    "explanation": "「さらに進んで／進んで〜する」という意味で、前の段階の行動からさらに一段階進んだ動作・発展を示す接続詞です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "凡是……都……",
+    "explanation": "「〜なものはすべて／およそ〜はみな」と、一定の範囲内にある対象全体に例外なく当てはまることを表します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "尚且……，何况……",
+    "explanation": "「〜でさえ（そうなの）だから、増して〜はなおさらだ」と、極端な例を出して後件を強調する累進構文です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "宁可……，也不……",
+    "explanation": "「たとえ〜してでも（〜する方をえらぶ）、決して〜しない」と、苦しい選択肢を選んででも悪い事態を拒絶する強い決意を表します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "-化 / -性",
+    "explanation": "「现代化（近代化する）」「可能性（可能性）」のように、語尾に付いて抽象的な状態や性質を派生させる接尾辞です（-化＝〜化する、-性＝〜性）。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "幸亏 / 多亏",
+    "explanation": "「幸いにも／おかげで」と悪結果を免れた安堵を表します。「多亏」は直後に人を置けますが、「幸亏」は文を接続します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "忽然 vs 突然",
+    "explanation": "どちらも「急に」を意味しますが、「突然」は形容詞として名詞を修飾でき、「忽然」は副詞限定で名詞修飾はできません。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "居然（竟然との違い）",
+    "explanation": "「思いがけず〜だ」という驚きを表す点は「竟然」と同じですが、「居然」には話し手の不満や「あってはならない」という主観が含まれやすい表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "一旦……就……",
+    "explanation": "「ひとたび〜すれば（すぐに…となる）」という意味で、ある条件が一度満たされた場合に生じる結果を論理的に提示します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "不由得",
+    "explanation": "話し手の意志とは無関係に「思わず〜してしまう／禁じ得ない」と、感情や生理現象が自然に生じる様子を表します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "难免",
+    "explanation": "条件や事態の性質上「〜を避けがたい／どうしても〜しがちだ」と、客観的に起こりやすい不都合な結果を表します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "归根到底 / 归根结底",
+    "explanation": "「結局のところ／突き詰めれば」という意味で、複雑な事象の最終的な根拠や本質をまとめる談話標識です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "综上所述",
+    "explanation": "「以上の内容を総合すると」という意味で、文章や演説の最後に論点をまとめて結論を導く定型句です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "换言之 / 换句话说",
+    "explanation": "「言い換えれば／換言すれば」と、前述の内容をより平易に、あるいは明確に再定義する際に用いる接続表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "视……而定",
+    "explanation": "「〜によって決まる／〜次第である」と、条件や対象の変化に応じて結果が変動することを客観的に示す構文です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "至于",
+    "explanation": "「〜に至っては／〜については」と、話題を別の新しい対象や側面に切り替える際に文頭で用いる接続表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "基于",
+    "explanation": "「〜に基づいて／〜に鑑みて」と、判断や行動の根拠・前提となる客観的な事実やデータを示す書面語です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "伴随着",
+    "explanation": "「〜に伴って／〜とともに」と、ある出来事や時代の変化と同時に別の事象が進行・生起することを示します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 5,
+    "label": "极其 / 相当",
+    "explanation": "「極めて／相当に」と程度が高いことを表す副詞です。「极其」は非常に強い程度、「相当」はそれよりやや控えめな「かなり」程度を表します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "乃",
+    "explanation": "「～こそが～である／～はすなわち～だ」という意味で、強い判断や強調を格調高く示す古典由来の書面語です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "矣",
+    "explanation": "文末に置かれ、「～した／～なのだ」と事態の完了や確信、感嘆を古風に示す助詞です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "兹",
+    "explanation": "動詞の前に置き、「ここに～する／今ここに」と公文書や公式な公告で現在の行為や通知を提示する表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "乎",
+    "explanation": "文末に置き、「～だろうか」と疑問や反語、あるいは推測を格調高く表現する文末助詞です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "焉",
+    "explanation": "文末に置かれ、断定や状態の維持、または「その中に／そこに」という場所代名詞的機能を持つ古典助詞です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "及其",
+    "explanation": "「AおよびそのB」という意味で、主要な対象Aと、それに属する・関連する要素Bを連結する正式な表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "连同",
+    "explanation": "「AをBと共に」という意味で、主要な物事Aに付随するBを一括して処理・提出することを示します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "倘若",
+    "explanation": "「もしも～ならば」と、事実とは異なる仮定や将来の予測を重々しく提示する書面語表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "倘使",
+    "explanation": "「仮に～とすれば」という意味で、極めて改まった文脈で論理的な前提条件を提示する接続表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "假使",
+    "explanation": "「たとえ～であっても」と、事実ではない状況を仮定し、結論が揺るがないことを示す書面語です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "纵使",
+    "explanation": "「たとえ～としても」と非常に強い譲歩を仮定し、不変の意志や事実を強調する表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "势必",
+    "explanation": "「勢い（情勢）からして、必然的に～となる」と、事態の推移から論理的不可避性を予測する副詞です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "反之",
+    "explanation": "「これとは反対に／逆に言えば」と、前述の状況と正反対のケースを提示して論理を補強します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "毋庸置疑",
+    "explanation": "「疑いの余地がない」と、ある事実が明白であり議論の余地がないことを強く断定する成語表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "更有甚者",
+    "explanation": "「さらには／それどころか」と、前述の極端な状況を上回るさらに極端な例を提示する標識です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "继而",
+    "explanation": "「続いて／その後すぐに」と、一つの動作や事象の直後に次の段階へ移行することを示す接続詞です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "且不说",
+    "explanation": "「Aはさておき」と、大きな問題は一旦脇に置き特定点に焦点を当てて議論を展開する表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "岂",
+    "explanation": "「どうして～であろうか（いや、～ない）」と、強い反語のトーンを用い当然の理を強調する副詞です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "值此……之际",
+    "explanation": "「～にあたって／～という重要な瞬間に」と、重大な行事や節目を記念する格調高い時間表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "Adj＋于/过",
+    "explanation": "比較対象の前に「于」や「过」を置き、「～より～だ」と性質や程度の差を学術的に記述する構文です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "罢了",
+    "explanation": "文末に置き、「～に過ぎない／～だけだ」と事態を過小評価したり限定的な範囲に止めたりする助詞です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "乃至",
+    "explanation": "「さらには～までも」と、前件を基礎としてより極端または広範囲な後件を提示する接続詞です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "除非……，才/否则……",
+    "explanation": "「～でない限り／～という唯一の条件があって初めて」と、必須条件を厳格に示す構文です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "与其说……，不如说……",
+    "explanation": "「～と言うよりは、むしろ～と言うべきだ」と、ある事態の本質として適切な解釈を強調します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "毫无疑问",
+    "explanation": "「疑いの余地なく」と、ある事実が絶対的に確実であることを論理の前提として提示する標識です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "众所周知",
+    "explanation": "「周知の通り」と、一般常識や広く認められた事実を引き合いに出して議論を導入する成語表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "致力于",
+    "explanation": "「～に力を注ぐ」と、特定の活動や事業に全力を尽くしていることを示す高度にフォーマルな表現です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "旨在",
+    "explanation": "「～を目的とする」と、計画や政策・組織の根本的な目的を格調高く明示する書面語です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "鉴于",
+    "explanation": "「～に鑑みて／～を考慮して」と、判断や決定を下す際の客観的・公的な根拠を提示する接続語です。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "与此同时",
+    "explanation": "「それと同時に」と、前述の事象と並行して起こっている別の重要な事象を導入する論理マーカーです。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "从……角度看",
+    "explanation": "「～の視点（角度）から見れば」と、特定の専門的切り口から事象を分析・評価することを明示します。",
+    "source_site": "user_hsk5_6_grammar"
+  },
+  {
+    "hsk_level": 6,
+    "label": "综合来看",
+    "explanation": "「総合的に見ると」と、複数の要因を多角的に検討した結果導き出される最終結論を提示します。",
+    "source_site": "user_hsk5_6_grammar"
+  }
+]

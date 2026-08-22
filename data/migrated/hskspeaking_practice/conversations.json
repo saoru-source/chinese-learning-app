@@ -1,0 +1,771 @@
+[
+  {
+    "source_id": 1,
+    "hsk_level": 1,
+    "title": "自己紹介",
+    "characters": [
+      "小明",
+      "丽丽"
+    ],
+    "grammar_label_raw": "叫／是／也／吗／喜欢",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 2,
+    "hsk_level": 1,
+    "title": "お店で買い物",
+    "characters": [
+      "小红",
+      "售货员",
+      "小李"
+    ],
+    "grammar_label_raw": "想／多少钱／和／能／请",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 3,
+    "hsk_level": 1,
+    "title": "友達との約束",
+    "characters": [
+      "王芳",
+      "张伟"
+    ],
+    "grammar_label_raw": "喂／有时间／几点／怎么样",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 4,
+    "hsk_level": 2,
+    "title": "レストランで注文",
+    "characters": [
+      "服务员",
+      "李明",
+      "小美"
+    ],
+    "grammar_label_raw": "因为／所以／得／而且／一样",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 5,
+    "hsk_level": 2,
+    "title": "道を尋ねる",
+    "characters": [
+      "Tom",
+      "阿姨"
+    ],
+    "grammar_label_raw": "怎么走／从…到…／着／就",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 6,
+    "hsk_level": 2,
+    "title": "週末の予定と天気",
+    "characters": [
+      "小刚",
+      "丹丹",
+      "小华"
+    ],
+    "grammar_label_raw": "打算／听说／一边…一边…／应该／挺…的",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 7,
+    "hsk_level": 3,
+    "title": "旅行の計画",
+    "characters": [
+      "陈杰",
+      "王丽",
+      "刘涛"
+    ],
+    "grammar_label_raw": "虽然…但是…／越…越…／把／除了…以外／只要…就…",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 8,
+    "hsk_level": 3,
+    "title": "体調不良と病院",
+    "characters": [
+      "阿强",
+      "小林"
+    ],
+    "grammar_label_raw": "让／顺便／说不定／着",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 9,
+    "hsk_level": 3,
+    "title": "誕生日パーティーの準備",
+    "characters": [
+      "美美",
+      "小杰",
+      "婷婷"
+    ],
+    "grammar_label_raw": "得／由…来／一直／别让／会",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 10,
+    "hsk_level": 4,
+    "title": "転職についての相談",
+    "characters": [
+      "小周",
+      "大伟",
+      "玲玲"
+    ],
+    "grammar_label_raw": "不但…而且…／与其…不如…／无论…都…／尽管…但是…／至于",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 11,
+    "hsk_level": 4,
+    "title": "部屋探し",
+    "characters": [
+      "阿杰",
+      "王阿姨",
+      "小敏"
+    ],
+    "grammar_label_raw": "除了…以外／由于／把／得（義務）",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 12,
+    "hsk_level": 4,
+    "title": "環境保護についての議論",
+    "characters": [
+      "陈老师",
+      "小雨",
+      "阿凯"
+    ],
+    "grammar_label_raw": "越来越／不但…而且…／只要…就…／与其…不如…",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 13,
+    "hsk_level": 1,
+    "title": "家族紹介",
+    "characters": [
+      "小美",
+      "阿伟"
+    ],
+    "grammar_label_raw": "有／吗／都",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 14,
+    "hsk_level": 1,
+    "title": "好きな食べ物・飲み物",
+    "characters": [
+      "丁丁",
+      "小雪"
+    ],
+    "grammar_label_raw": "也／都／太…了",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 15,
+    "hsk_level": 1,
+    "title": "曜日と一週間の予定",
+    "characters": [
+      "阳阳",
+      "田田"
+    ],
+    "grammar_label_raw": "呢／啊／在",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 16,
+    "hsk_level": 1,
+    "title": "今何時？（時間を尋ねる）",
+    "characters": [
+      "小龙",
+      "阿丽"
+    ],
+    "grammar_label_raw": "就／得／还",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 17,
+    "hsk_level": 2,
+    "title": "病院の受付で",
+    "characters": [
+      "小刘",
+      "护士"
+    ],
+    "grammar_label_raw": "了／先／一下／还",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 18,
+    "hsk_level": 2,
+    "title": "郵便局で荷物を送る",
+    "characters": [
+      "小林",
+      "工作人员"
+    ],
+    "grammar_label_raw": "还是／更",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 19,
+    "hsk_level": 2,
+    "title": "美容院で髪型を相談",
+    "characters": [
+      "小雨",
+      "理发师"
+    ],
+    "grammar_label_raw": "想／可以／先",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 20,
+    "hsk_level": 2,
+    "title": "携帯電話を修理に出す",
+    "characters": [
+      "阿强",
+      "店员"
+    ],
+    "grammar_label_raw": "了／就／可以",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 21,
+    "hsk_level": 3,
+    "title": "就職活動の相談",
+    "characters": [
+      "小雅",
+      "阿哲"
+    ],
+    "grammar_label_raw": "已经／但是／可以／才",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 22,
+    "hsk_level": 3,
+    "title": "引っ越しの手続き",
+    "characters": [
+      "小周",
+      "老张"
+    ],
+    "grammar_label_raw": "应该／只要／就",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 23,
+    "hsk_level": 3,
+    "title": "大学の授業選び",
+    "characters": [
+      "小艺",
+      "阿飞"
+    ],
+    "grammar_label_raw": "可是／对／才",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 24,
+    "hsk_level": 3,
+    "title": "アルバイト先でのトラブル",
+    "characters": [
+      "阿宁",
+      "店长"
+    ],
+    "grammar_label_raw": "应该／如果／就",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 25,
+    "hsk_level": 4,
+    "title": "経済ニュースについての議論",
+    "characters": [
+      "主持人",
+      "王教授",
+      "林方"
+    ],
+    "grammar_label_raw": "由于／除了…以外／与其…不如…",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 26,
+    "hsk_level": 4,
+    "title": "少子高齢化についての意見交換",
+    "characters": [
+      "陈老师",
+      "小雯",
+      "大明"
+    ],
+    "grammar_label_raw": "不但…而且…／至于／无论…都…／尽管…但是…",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 27,
+    "hsk_level": 4,
+    "title": "AI技術の発展について",
+    "characters": [
+      "主持人",
+      "阿凯",
+      "李博士"
+    ],
+    "grammar_label_raw": "与其…不如…／无论…都…",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 28,
+    "hsk_level": 4,
+    "title": "働き方改革についての議論",
+    "characters": [
+      "张部长",
+      "小陈",
+      "阿美"
+    ],
+    "grammar_label_raw": "只要…就…／除了…以外",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 29,
+    "hsk_level": 1,
+    "title": "天気の話（今日の天気）",
+    "characters": [
+      "小林",
+      "阿明"
+    ],
+    "grammar_label_raw": "也／可能",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 30,
+    "hsk_level": 1,
+    "title": "誕生日はいつ？",
+    "characters": [
+      "娜娜",
+      "小刚"
+    ],
+    "grammar_label_raw": "呢／呀",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 31,
+    "hsk_level": 1,
+    "title": "好きな色は？",
+    "characters": [
+      "小方",
+      "阿雪"
+    ],
+    "grammar_label_raw": "也／不",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 32,
+    "hsk_level": 1,
+    "title": "ペットの紹介",
+    "characters": [
+      "小艾",
+      "阿龙"
+    ],
+    "grammar_label_raw": "因为",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 33,
+    "hsk_level": 1,
+    "title": "兄弟姉妹について",
+    "characters": [
+      "阿俊",
+      "小娟"
+    ],
+    "grammar_label_raw": "比",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 34,
+    "hsk_level": 2,
+    "title": "引っ越しの準備",
+    "characters": [
+      "小婷",
+      "阿超"
+    ],
+    "grammar_label_raw": "还／在",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 35,
+    "hsk_level": 2,
+    "title": "アルバイトの面接",
+    "characters": [
+      "面试官",
+      "阿泽"
+    ],
+    "grammar_label_raw": "过／为什么",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 36,
+    "hsk_level": 2,
+    "title": "図書館で本を借りる・返す",
+    "characters": [
+      "图书馆员",
+      "小茜"
+    ],
+    "grammar_label_raw": "先／可以",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 37,
+    "hsk_level": 2,
+    "title": "スポーツジムに入会",
+    "characters": [
+      "工作人员",
+      "阿伦"
+    ],
+    "grammar_label_raw": "有／可以",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 38,
+    "hsk_level": 2,
+    "title": "友達と映画の感想を話す",
+    "characters": [
+      "小蕾",
+      "阿泰"
+    ],
+    "grammar_label_raw": "想／差点儿",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 39,
+    "hsk_level": 3,
+    "title": "恋愛相談",
+    "characters": [
+      "小柔",
+      "阿静"
+    ],
+    "grammar_label_raw": "与其…不如…／只要…才…",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 40,
+    "hsk_level": 3,
+    "title": "結婚式の準備",
+    "characters": [
+      "小茹",
+      "阿玲"
+    ],
+    "grammar_label_raw": "得",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 41,
+    "hsk_level": 3,
+    "title": "出産祝いの相談",
+    "characters": [
+      "小媛",
+      "阿豪"
+    ],
+    "grammar_label_raw": "应该／可以",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 42,
+    "hsk_level": 3,
+    "title": "家族旅行の計画",
+    "characters": [
+      "陈姐",
+      "小凯"
+    ],
+    "grammar_label_raw": "除了…以外／还",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 43,
+    "hsk_level": 3,
+    "title": "留学の準備",
+    "characters": [
+      "小萌",
+      "王老师"
+    ],
+    "grammar_label_raw": "除了…以外",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 44,
+    "hsk_level": 4,
+    "title": "男女平等についての議論",
+    "characters": [
+      "主持人",
+      "刘教授",
+      "小芳"
+    ],
+    "grammar_label_raw": "虽然…但是…／除了…以外／只有…才…",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 45,
+    "hsk_level": 4,
+    "title": "教育制度についての意見",
+    "characters": [
+      "李女士",
+      "张老师",
+      "记者"
+    ],
+    "grammar_label_raw": "除了…以外／与其…不如…",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 46,
+    "hsk_level": 4,
+    "title": "子育てと仕事の両立",
+    "characters": [
+      "小茵",
+      "阿泓"
+    ],
+    "grammar_label_raw": "尽管…但是…／与其…不如…",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 47,
+    "hsk_level": 4,
+    "title": "メディアリテラシーについて",
+    "characters": [
+      "周老师",
+      "小蓓",
+      "大卫"
+    ],
+    "grammar_label_raw": "除了…以外／所以",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 48,
+    "hsk_level": 4,
+    "title": "SNSの功罪について",
+    "characters": [
+      "主持人",
+      "吴博士",
+      "小凡"
+    ],
+    "grammar_label_raw": "一方面",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 49,
+    "hsk_level": 1,
+    "title": "クラスメートに挨拶",
+    "characters": [
+      "小龙",
+      "小红"
+    ],
+    "grammar_label_raw": "叫／吧／都",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 50,
+    "hsk_level": 1,
+    "title": "教室の物を借りる",
+    "characters": [
+      "小雨",
+      "阿凯"
+    ],
+    "grammar_label_raw": "还／就",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 51,
+    "hsk_level": 1,
+    "title": "好きな科目",
+    "characters": [
+      "小艺",
+      "阿飞"
+    ],
+    "grammar_label_raw": "因为／会／但是／可以",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 52,
+    "hsk_level": 1,
+    "title": "朝ごはんは何を食べる？",
+    "characters": [
+      "小陈",
+      "阿美"
+    ],
+    "grammar_label_raw": "了／没／有点儿／吧",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 53,
+    "hsk_level": 1,
+    "title": "週末は何をする？",
+    "characters": [
+      "田田",
+      "阿丽"
+    ],
+    "grammar_label_raw": "打算／可以／别",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 54,
+    "hsk_level": 2,
+    "title": "カラオケに行く",
+    "characters": [
+      "小雯",
+      "大明"
+    ],
+    "grammar_label_raw": "已经／吧／可以／还",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 55,
+    "hsk_level": 2,
+    "title": "誕生日プレゼントを選ぶ",
+    "characters": [
+      "小敏",
+      "阿强"
+    ],
+    "grammar_label_raw": "还／没／会／吧",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 56,
+    "hsk_level": 2,
+    "title": "ホテルの予約",
+    "characters": [
+      "服务员",
+      "小周"
+    ],
+    "grammar_label_raw": "还是／可以／从／到",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 57,
+    "hsk_level": 2,
+    "title": "空港でチェックイン",
+    "characters": [
+      "工作人员",
+      "阿伟"
+    ],
+    "grammar_label_raw": "把／可以／还",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 58,
+    "hsk_level": 2,
+    "title": "電車の切符を買う",
+    "characters": [
+      "小华",
+      "阿宁"
+    ],
+    "grammar_label_raw": "吧／还是／就／一些",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 59,
+    "hsk_level": 3,
+    "title": "語学交換パートナーとの会話",
+    "characters": [
+      "小陈",
+      "Tom"
+    ],
+    "grammar_label_raw": "越来越／因为／可以／就／别",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 60,
+    "hsk_level": 3,
+    "title": "インターンシップの面接",
+    "characters": [
+      "面试官",
+      "小艺"
+    ],
+    "grammar_label_raw": "为什么／因为／有没有／可以／会",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 61,
+    "hsk_level": 3,
+    "title": "会社のプロジェクト会議",
+    "characters": [
+      "张部长",
+      "小陈",
+      "阿美"
+    ],
+    "grammar_label_raw": "已经／还／如果／不过／会",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 62,
+    "hsk_level": 3,
+    "title": "同僚との意見の相違",
+    "characters": [
+      "小雯",
+      "阿飞"
+    ],
+    "grammar_label_raw": "但是／如果／可以／应该",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 63,
+    "hsk_level": 3,
+    "title": "上司からのフィードバック",
+    "characters": [
+      "张部长",
+      "小陈"
+    ],
+    "grammar_label_raw": "但是／可以／而且／会",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 64,
+    "hsk_level": 4,
+    "title": "都市と地方の格差について",
+    "characters": [
+      "主持人",
+      "王教授",
+      "记者"
+    ],
+    "grammar_label_raw": "虽然／但是／除了／以外／与其／不如／只有／才",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 65,
+    "hsk_level": 4,
+    "title": "起業のリスクと魅力",
+    "characters": [
+      "主持人",
+      "刘教授",
+      "小凡"
+    ],
+    "grammar_label_raw": "不过／应该／与其／不如／只要／会",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 66,
+    "hsk_level": 4,
+    "title": "投資と資産形成の相談",
+    "characters": [
+      "李女士",
+      "张老师"
+    ],
+    "grammar_label_raw": "但／可以／应该",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 67,
+    "hsk_level": 4,
+    "title": "老後の資金計画",
+    "characters": [
+      "主持人",
+      "吴博士",
+      "小茵"
+    ],
+    "grammar_label_raw": "越／可是／应该／除了／以外／可以",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "source_id": 68,
+    "hsk_level": 4,
+    "title": "医療制度についての議論",
+    "characters": [
+      "主持人",
+      "刘教授",
+      "张老师"
+    ],
+    "grammar_label_raw": "越来越／不过／应该／除了／以外／与其／不如／只要",
+    "source_site": "HSKspeaking_practice"
+  }
+]

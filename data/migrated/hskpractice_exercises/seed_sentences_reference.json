@@ -1,0 +1,362 @@
+[
+  {
+    "hsk_level": 1,
+    "grammar_label_raw": "叫",
+    "hanzi": "我叫王芳。",
+    "pinyin": "Wǒ jiào Wáng Fāng.",
+    "meaning_ja": "私は王芳と申します。",
+    "explanation_ja": "「叫」は「〜という名前です」と名乗るときに使う動詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "grammar_label_raw": "是／也／都",
+    "hanzi": "我是学生，他也是学生。",
+    "pinyin": "Wǒ shì xuéshēng, tā yě shì xuéshēng.",
+    "meaning_ja": "私は学生で、彼も学生です。",
+    "explanation_ja": "「也」は「〜も」という意味で、前の内容と同じであることを表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "grammar_label_raw": "了（変化）／多大",
+    "hanzi": "你今年多大了？",
+    "pinyin": "Nǐ jīnnián duō dà le?",
+    "meaning_ja": "今年おいくつになりましたか。",
+    "explanation_ja": "文末の「了」は状態の変化を表し、「多大」は年齢を尋ねる言い方です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "grammar_label_raw": "怎么",
+    "hanzi": "这个字怎么读？",
+    "pinyin": "Zhège zì zěnme dú?",
+    "meaning_ja": "この字はどう読みますか。",
+    "explanation_ja": "「怎么＋動詞」で「どのように〜するか」という方法を尋ねます。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "grammar_label_raw": "想／个",
+    "hanzi": "我想买一个书包。",
+    "pinyin": "Wǒ xiǎng mǎi yí ge shūbāo.",
+    "meaning_ja": "私はかばんを一つ買いたいです。",
+    "explanation_ja": "「想＋動詞」は「〜したい」、「个」はものを数える基本の量詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "grammar_label_raw": "在／有／呢",
+    "hanzi": "妈妈在家呢。",
+    "pinyin": "Māma zài jiā ne.",
+    "meaning_ja": "お母さんは家にいますよ。",
+    "explanation_ja": "「在」は存在（〜にいる）を表し、「呢」は軽い確認・強調のニュアンスを添えます。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "grammar_label_raw": "什么时候",
+    "hanzi": "你什么时候回家？",
+    "pinyin": "Nǐ shénme shíhou huí jiā?",
+    "meaning_ja": "いつ家に帰りますか。",
+    "explanation_ja": "「什么时候」は「いつ」と時を尋ねる疑問詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "grammar_label_raw": "太～了",
+    "hanzi": "今天太热了。",
+    "pinyin": "Jīntiān tài rè le.",
+    "meaning_ja": "今日は暑すぎます。",
+    "explanation_ja": "「太＋形容詞＋了」で「〜すぎる」という程度の強調を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "grammar_label_raw": "可以／了",
+    "hanzi": "你可以进来了。",
+    "pinyin": "Nǐ kěyǐ jìnlái le.",
+    "meaning_ja": "もう入ってきていいですよ。",
+    "explanation_ja": "「可以」は「〜してよい」という許可を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "grammar_label_raw": "这些",
+    "hanzi": "这些是我的书。",
+    "pinyin": "Zhèxiē shì wǒ de shū.",
+    "meaning_ja": "これらは私の本です。",
+    "explanation_ja": "「这些」は「これら」と複数のものを指す指示代名詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "grammar_label_raw": "觉得／最",
+    "hanzi": "我觉得这个最好吃。",
+    "pinyin": "Wǒ juéde zhège zuì hǎochī.",
+    "meaning_ja": "私はこれが一番おいしいと思います。",
+    "explanation_ja": "「觉得」は「〜と思う」という主観的な意見、「最」は「最も」を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "grammar_label_raw": "是不是／每",
+    "hanzi": "你是不是每天运动？",
+    "pinyin": "Nǐ shì bu shì měitiān yùndòng?",
+    "meaning_ja": "あなたは毎日運動していますか。",
+    "explanation_ja": "「是不是」は確認を求める疑問文の形、「每」は「毎〜」という意味です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "grammar_label_raw": "给／的时候",
+    "hanzi": "我有空的时候给你打电话。",
+    "pinyin": "Wǒ yǒu kòng de shíhou gěi nǐ dǎ diànhuà.",
+    "meaning_ja": "暇なときあなたに電話します。",
+    "explanation_ja": "「〜的时候」は「〜のとき」、「给＋人」は「〜に（対して）」を表す前置詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "grammar_label_raw": "有点儿",
+    "hanzi": "这个电影有点儿长。",
+    "pinyin": "Zhège diànyǐng yǒudiǎnr cháng.",
+    "meaning_ja": "この映画は少し長いです。",
+    "explanation_ja": "「有点儿＋形容詞」は「少し〜」とやや好ましくないニュアンスを添えます。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "grammar_label_raw": "因为～所以～",
+    "hanzi": "因为下雨，所以我没去。",
+    "pinyin": "Yīnwèi xiàyǔ, suǒyǐ wǒ méi qù.",
+    "meaning_ja": "雨が降ったので、私は行きませんでした。",
+    "explanation_ja": "「因为〜所以〜」は「〜なので〜だ」という因果関係を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "grammar_label_raw": "让",
+    "hanzi": "妈妈让我早点儿回家。",
+    "pinyin": "Māma ràng wǒ zǎodiǎnr huí jiā.",
+    "meaning_ja": "お母さんは私に早く帰るよう言いました。",
+    "explanation_ja": "「让＋人＋動詞」は「（人）に〜させる／〜するよう言う」という使役表現です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "grammar_label_raw": "比較文“比”",
+    "hanzi": "他比我高。",
+    "pinyin": "Tā bǐ wǒ gāo.",
+    "meaning_ja": "彼は私より背が高いです。",
+    "explanation_ja": "「A比B＋形容詞」で「AはBより〜だ」という比較を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "grammar_label_raw": "得（様態補語）",
+    "hanzi": "他跑得很快。",
+    "pinyin": "Tā pǎo de hěn kuài.",
+    "meaning_ja": "彼は走るのが速いです。",
+    "explanation_ja": "「動詞＋得＋形容詞」で動作の様子・程度を表す様態補語です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "grammar_label_raw": "过／虽然～但是～",
+    "hanzi": "我去过北京，但是没去过上海。",
+    "pinyin": "Wǒ qùguo Běijīng, dànshì méi qùguo Shànghǎi.",
+    "meaning_ja": "私は北京に行ったことがありますが、上海には行ったことがありません。",
+    "explanation_ja": "「動詞＋过」は経験（〜したことがある）、「虽然〜但是〜」は逆接を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "grammar_label_raw": "要～了",
+    "hanzi": "要下雨了。",
+    "pinyin": "Yào xiàyǔ le.",
+    "meaning_ja": "もうすぐ雨が降りそうです。",
+    "explanation_ja": "「要〜了」は「もうすぐ〜する」と近い未来を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "grammar_label_raw": "打算",
+    "hanzi": "你周末打算做什么？",
+    "pinyin": "Nǐ zhōumò dǎsuàn zuò shénme?",
+    "meaning_ja": "週末は何をするつもりですか。",
+    "explanation_ja": "「打算」は「〜するつもりだ」と予定・計画を表す動詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "grammar_label_raw": "补语“来/去”",
+    "hanzi": "快下来吃饭吧。",
+    "pinyin": "Kuài xiàlái chīfàn ba.",
+    "meaning_ja": "早く降りてきてご飯を食べよう。",
+    "explanation_ja": "「下＋来」は「降りてくる」のように、動詞に方向補語をつけて動きの方向を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "grammar_label_raw": "越来越～",
+    "hanzi": "天气越来越冷了。",
+    "pinyin": "Tiānqì yuè lái yuè lěng le.",
+    "meaning_ja": "天気がだんだん寒くなってきました。",
+    "explanation_ja": "「越来越＋形容詞」は「だんだん〜になる」という変化を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "grammar_label_raw": "継続時間の表現",
+    "hanzi": "我学了两年中文。",
+    "pinyin": "Wǒ xuéle liǎng nián Zhōngwén.",
+    "meaning_ja": "私は中国語を２年間勉強しました。",
+    "explanation_ja": "動詞の後に期間（两年）を置いて、動作の継続時間を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "grammar_label_raw": "越A越B",
+    "hanzi": "中文越学越有意思。",
+    "pinyin": "Zhōngwén yuè xué yuè yǒu yìsi.",
+    "meaning_ja": "中国語は勉強すればするほど面白いです。",
+    "explanation_ja": "「越A越B」は「AすればするほどBだ」という比例関係を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "grammar_label_raw": "把構文",
+    "hanzi": "请把窗户关上。",
+    "pinyin": "Qǐng bǎ chuānghu guān shàng.",
+    "meaning_ja": "窓を閉めてください。",
+    "explanation_ja": "「把＋目的語＋動詞」で、その対象をどう処置するかを強調する構文です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "grammar_label_raw": "一边～一边～",
+    "hanzi": "他一边走一边说话。",
+    "pinyin": "Tā yìbiān zǒu yìbiān shuōhuà.",
+    "meaning_ja": "彼は歩きながら話しています。",
+    "explanation_ja": "「一边A一边B」は「Aしながら（同時に）Bする」という動作の並行を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "grammar_label_raw": "如果～的话",
+    "hanzi": "如果明天下雨，我们就不去了。",
+    "pinyin": "Rúguǒ míngtiān xiàyǔ, wǒmen jiù bú qù le.",
+    "meaning_ja": "もし明日雨が降ったら、私たちは行きません。",
+    "explanation_ja": "「如果〜的话，就〜」は「もし〜なら、〜だ」という仮定を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "grammar_label_raw": "只要～就～",
+    "hanzi": "只要努力，就能成功。",
+    "pinyin": "Zhǐyào nǔlì, jiù néng chénggōng.",
+    "meaning_ja": "努力しさえすれば、成功できます。",
+    "explanation_ja": "「只要A就B」は「Aさえすれば、Bだ」という必要十分条件を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "grammar_label_raw": "被構文",
+    "hanzi": "我的手机被弟弟拿走了。",
+    "pinyin": "Wǒ de shǒujī bèi dìdi ná zǒu le.",
+    "meaning_ja": "私の携帯は弟に持って行かれました。",
+    "explanation_ja": "「被」を使った受身文で、「〜される」という被害・受動の意味を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "grammar_label_raw": "不仅～也～",
+    "hanzi": "他不仅会说英文，也会说中文。",
+    "pinyin": "Tā bùjǐn huì shuō Yīngwén, yě huì shuō Zhōngwén.",
+    "meaning_ja": "彼は英語だけでなく中国語も話せます。",
+    "explanation_ja": "「不仅A也B」は「AだけでなくBも」という累加の関係を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "grammar_label_raw": "只是～而已",
+    "hanzi": "这只是开玩笑而已。",
+    "pinyin": "Zhè zhǐshì kāiwánxiào éryǐ.",
+    "meaning_ja": "これはただの冗談です。",
+    "explanation_ja": "「只是〜而已」は「ただ〜にすぎない」と程度を控えめに限定します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "grammar_label_raw": "不管",
+    "hanzi": "不管多累，他都坚持运动。",
+    "pinyin": "Bùguǎn duō lèi, tā dōu jiānchí yùndòng.",
+    "meaning_ja": "どんなに疲れていても、彼は運動を続けます。",
+    "explanation_ja": "「不管〜都〜」は「〜であろうと、〜だ」と条件に関係なく成立することを表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "grammar_label_raw": "另外",
+    "hanzi": "另外，我还想问一个问题。",
+    "pinyin": "Lìngwài, wǒ hái xiǎng wèn yí ge wèntí.",
+    "meaning_ja": "それと、もう一つ質問したいことがあります。",
+    "explanation_ja": "「另外」は文頭で「それと／別に」と話題を追加するときに使います。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "grammar_label_raw": "首先～其次",
+    "hanzi": "首先介绍一下，其次开始讨论。",
+    "pinyin": "Shǒuxiān jièshào yíxià, qící kāishǐ tǎolùn.",
+    "meaning_ja": "まず紹介して、次に議論を始めましょう。",
+    "explanation_ja": "「首先〜其次〜」は物事を順序立てて説明するときの接続表現です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "grammar_label_raw": "要是",
+    "hanzi": "要是有时间，我们一起去吧。",
+    "pinyin": "Yàoshi yǒu shíjiān, wǒmen yìqǐ qù ba.",
+    "meaning_ja": "もし時間があれば、一緒に行きましょう。",
+    "explanation_ja": "「要是」は「如果」と同じく「もし〜なら」という仮定を表す口語的な表現です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "grammar_label_raw": "既～又～",
+    "hanzi": "这个房间既干净又安静。",
+    "pinyin": "Zhège fángjiān jì gānjìng yòu ānjìng.",
+    "meaning_ja": "この部屋は清潔で静かです。",
+    "explanation_ja": "「既A又B」は「AでありながらBでもある」と二つの性質を並べて述べます。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "grammar_label_raw": "无论",
+    "hanzi": "无论多忙，他都会给妈妈打电话。",
+    "pinyin": "Wúlùn duō máng, tā dōu huì gěi māma dǎ diànhuà.",
+    "meaning_ja": "どんなに忙しくても、彼はお母さんに電話をかけます。",
+    "explanation_ja": "「无论〜都〜」は「不管」と同様、どんな条件でも結果が変わらないことを表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "grammar_label_raw": "既然",
+    "hanzi": "既然你不同意，那就算了。",
+    "pinyin": "Jìrán nǐ bù tóngyì, nà jiù suàn le.",
+    "meaning_ja": "あなたが同意しないなら、もういいです。",
+    "explanation_ja": "「既然〜（那）就〜」は「〜である以上は、〜だ」とすでに確定した前提に基づく結論を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "grammar_label_raw": "一～就～",
+    "hanzi": "他一到家就睡觉了。",
+    "pinyin": "Tā yí dào jiā jiù shuìjiào le.",
+    "meaning_ja": "彼は家に着くとすぐ寝ました。",
+    "explanation_ja": "「一A就B」は「AするとすぐにBする」という動作の連続を表します。",
+    "source_site": "HSKpractice_exercises"
+  }
+]

@@ -1,0 +1,6872 @@
+[
+ {
+  "word": "你好",
+  "pinyin": "nǐhǎo",
+  "meaning_ja": "こんにちは"
+ },
+ {
+  "word": "我",
+  "pinyin": "wǒ",
+  "meaning_ja": "私"
+ },
+ {
+  "word": "小明",
+  "pinyin": "xiǎomíng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "你",
+  "pinyin": "nǐ",
+  "meaning_ja": "あなた"
+ },
+ {
+  "word": "丽丽",
+  "pinyin": "lìlì",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "认识",
+  "pinyin": "rènshí",
+  "meaning_ja": "知り合う、知っている"
+ },
+ {
+  "word": "高兴",
+  "pinyin": "gāoxìng",
+  "meaning_ja": "うれしい"
+ },
+ {
+  "word": "学生",
+  "pinyin": "xuéshēng",
+  "meaning_ja": "学生"
+ },
+ {
+  "word": "今年",
+  "pinyin": "jīnnián",
+  "meaning_ja": "今年"
+ },
+ {
+  "word": "二十岁",
+  "pinyin": "èrshísuì",
+  "meaning_ja": "20歳"
+ },
+ {
+  "word": "十九岁",
+  "pinyin": "shíjiǔsuì",
+  "meaning_ja": "19歳"
+ },
+ {
+  "word": "你家",
+  "pinyin": "nǐjiā",
+  "meaning_ja": "あなたの家"
+ },
+ {
+  "word": "几口",
+  "pinyin": "jǐkǒu",
+  "meaning_ja": "何人（家族を数える）"
+ },
+ {
+  "word": "人",
+  "pinyin": "rén",
+  "meaning_ja": "人"
+ },
+ {
+  "word": "我家",
+  "pinyin": "wǒjiā",
+  "meaning_ja": "私の家"
+ },
+ {
+  "word": "四口",
+  "pinyin": "sìkǒu",
+  "meaning_ja": "4人（家族）"
+ },
+ {
+  "word": "爸爸",
+  "pinyin": "bàbà",
+  "meaning_ja": "お父さん"
+ },
+ {
+  "word": "妈妈",
+  "pinyin": "māmā",
+  "meaning_ja": "お母さん"
+ },
+ {
+  "word": "姐姐",
+  "pinyin": "jiějiě",
+  "meaning_ja": "お姉さん"
+ },
+ {
+  "word": "喜欢",
+  "pinyin": "xǐhuān",
+  "meaning_ja": "好きだ、気に入る"
+ },
+ {
+  "word": "什么",
+  "pinyin": "shénme",
+  "meaning_ja": "何"
+ },
+ {
+  "word": "运动",
+  "pinyin": "yùndòng",
+  "meaning_ja": "運動、スポーツ"
+ },
+ {
+  "word": "打篮球",
+  "pinyin": "dǎlánqiú",
+  "meaning_ja": "バスケットボールをする"
+ },
+ {
+  "word": "游泳",
+  "pinyin": "yóuyǒng",
+  "meaning_ja": "泳ぐ"
+ },
+ {
+  "word": "我们",
+  "pinyin": "wǒmen",
+  "meaning_ja": "私たち"
+ },
+ {
+  "word": "做",
+  "pinyin": "zuò",
+  "meaning_ja": "する、作る"
+ },
+ {
+  "word": "朋友",
+  "pinyin": "péngyǒu",
+  "meaning_ja": "友達"
+ },
+ {
+  "word": "好",
+  "pinyin": "hǎo",
+  "meaning_ja": "良い、元気だ"
+ },
+ {
+  "word": "谢谢",
+  "pinyin": "xièxiè",
+  "meaning_ja": "ありがとう"
+ },
+ {
+  "word": "买",
+  "pinyin": "mǎi",
+  "meaning_ja": "買う"
+ },
+ {
+  "word": "一件",
+  "pinyin": "yījiàn",
+  "meaning_ja": "一着（服の量詞）"
+ },
+ {
+  "word": "衣服",
+  "pinyin": "yīfú",
+  "meaning_ja": "服"
+ },
+ {
+  "word": "颜色",
+  "pinyin": "yánsè",
+  "meaning_ja": "色"
+ },
+ {
+  "word": "红色",
+  "pinyin": "hóngsè",
+  "meaning_ja": "赤色"
+ },
+ {
+  "word": "这件",
+  "pinyin": "zhèjiàn",
+  "meaning_ja": "これ（この一着）"
+ },
+ {
+  "word": "多少钱",
+  "pinyin": "duōshǎoqián",
+  "meaning_ja": "いくらですか"
+ },
+ {
+  "word": "一百二十块",
+  "pinyin": "yìbǎièrshíkuài",
+  "meaning_ja": "120元"
+ },
+ {
+  "word": "钱",
+  "pinyin": "qián",
+  "meaning_ja": "お金"
+ },
+ {
+  "word": "小红",
+  "pinyin": "xiǎohóng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "很漂亮",
+  "pinyin": "hěnpiàoliàng",
+  "meaning_ja": "とても綺麗だ"
+ },
+ {
+  "word": "看看",
+  "pinyin": "kànkàn",
+  "meaning_ja": "ちょっと見る"
+ },
+ {
+  "word": "不错",
+  "pinyin": "bùcuò",
+  "meaning_ja": "なかなか良い"
+ },
+ {
+  "word": "八十块",
+  "pinyin": "bāshíkuài",
+  "meaning_ja": "80元"
+ },
+ {
+  "word": "便宜",
+  "pinyin": "piányi",
+  "meaning_ja": "安い"
+ },
+ {
+  "word": "白色",
+  "pinyin": "báisè",
+  "meaning_ja": "白色"
+ },
+ {
+  "word": "去",
+  "pinyin": "qù",
+  "meaning_ja": "行く"
+ },
+ {
+  "word": "买点儿",
+  "pinyin": "mǎidiǎnér",
+  "meaning_ja": "少し買う"
+ },
+ {
+  "word": "水果",
+  "pinyin": "shuǐguǒ",
+  "meaning_ja": "果物"
+ },
+ {
+  "word": "苹果",
+  "pinyin": "píngguǒ",
+  "meaning_ja": "りんご"
+ },
+ {
+  "word": "喂",
+  "pinyin": "wèi",
+  "meaning_ja": "もしもし"
+ },
+ {
+  "word": "张伟",
+  "pinyin": "zhāngwěi",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "王芳",
+  "pinyin": "wángfāng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "有事吗",
+  "pinyin": "yǒushìma",
+  "meaning_ja": "何かあるの？"
+ },
+ {
+  "word": "明天",
+  "pinyin": "míngtiān",
+  "meaning_ja": "明日"
+ },
+ {
+  "word": "时间",
+  "pinyin": "shíjiān",
+  "meaning_ja": "時間"
+ },
+ {
+  "word": "一起",
+  "pinyin": "yìqǐ",
+  "meaning_ja": "一緒に"
+ },
+ {
+  "word": "吃饭",
+  "pinyin": "chīfàn",
+  "meaning_ja": "ご飯を食べる"
+ },
+ {
+  "word": "几点",
+  "pinyin": "jǐdiǎn",
+  "meaning_ja": "何時"
+ },
+ {
+  "word": "中午",
+  "pinyin": "zhōngwǔ",
+  "meaning_ja": "昼、正午"
+ },
+ {
+  "word": "十二点",
+  "pinyin": "shíèrdiǎn",
+  "meaning_ja": "12時"
+ },
+ {
+  "word": "哪儿",
+  "pinyin": "nǎér",
+  "meaning_ja": "どこ"
+ },
+ {
+  "word": "吃",
+  "pinyin": "chī",
+  "meaning_ja": "食べる"
+ },
+ {
+  "word": "学校",
+  "pinyin": "xuéxiào",
+  "meaning_ja": "学校"
+ },
+ {
+  "word": "前边",
+  "pinyin": "qiánbiān",
+  "meaning_ja": "前、前方"
+ },
+ {
+  "word": "一个",
+  "pinyin": "yígè",
+  "meaning_ja": "一つ"
+ },
+ {
+  "word": "饭馆",
+  "pinyin": "fànguǎn",
+  "meaning_ja": "レストラン"
+ },
+ {
+  "word": "好吃",
+  "pinyin": "hǎochī",
+  "meaning_ja": "おいしい"
+ },
+ {
+  "word": "那儿",
+  "pinyin": "nàér",
+  "meaning_ja": "そこ、あそこ"
+ },
+ {
+  "word": "见",
+  "pinyin": "jiàn",
+  "meaning_ja": "会う"
+ },
+ {
+  "word": "欢迎光临",
+  "pinyin": "huānyíngguānglín",
+  "meaning_ja": "いらっしゃいませ"
+ },
+ {
+  "word": "你们",
+  "pinyin": "nǐmen",
+  "meaning_ja": "あなたたち"
+ },
+ {
+  "word": "几位",
+  "pinyin": "jǐwèi",
+  "meaning_ja": "何名様"
+ },
+ {
+  "word": "两个",
+  "pinyin": "liǎnggè",
+  "meaning_ja": "二つ"
+ },
+ {
+  "word": "位子",
+  "pinyin": "wèizi",
+  "meaning_ja": "席"
+ },
+ {
+  "word": "这边",
+  "pinyin": "zhèbiān",
+  "meaning_ja": "こちら"
+ },
+ {
+  "word": "请",
+  "pinyin": "qǐng",
+  "meaning_ja": "どうぞ〜してください"
+ },
+ {
+  "word": "点儿",
+  "pinyin": "diǎnér",
+  "meaning_ja": "少し（量を表す）"
+ },
+ {
+  "word": "决定",
+  "pinyin": "juédìng",
+  "meaning_ja": "決める、決定"
+ },
+ {
+  "word": "菜单",
+  "pinyin": "càidān",
+  "meaning_ja": "メニュー"
+ },
+ {
+  "word": "我要",
+  "pinyin": "wǒyào",
+  "meaning_ja": "私は〜が欲しい"
+ },
+ {
+  "word": "宫保鸡",
+  "pinyin": "gōngbǎojī",
+  "meaning_ja": "宮保鶏丁（料理名の一部）"
+ },
+ {
+  "word": "丁",
+  "pinyin": "dīng",
+  "meaning_ja": "角切り（料理名の一部）"
+ },
+ {
+  "word": "一碗",
+  "pinyin": "yīwǎn",
+  "meaning_ja": "お椀一杯"
+ },
+ {
+  "word": "米饭",
+  "pinyin": "mǐfàn",
+  "meaning_ja": "ご飯"
+ },
+ {
+  "word": "一样",
+  "pinyin": "yīyàng",
+  "meaning_ja": "同じ"
+ },
+ {
+  "word": "今天",
+  "pinyin": "jīntiān",
+  "meaning_ja": "今日"
+ },
+ {
+  "word": "不太饿",
+  "pinyin": "bùtàiè",
+  "meaning_ja": "あまりお腹が空いていない"
+ },
+ {
+  "word": "点得少",
+  "pinyin": "diǎndéshǎo",
+  "meaning_ja": "少なめに注文する"
+ },
+ {
+  "word": "一点儿",
+  "pinyin": "yìdiǎnér",
+  "meaning_ja": "少し"
+ },
+ {
+  "word": "还要",
+  "pinyin": "háiyào",
+  "meaning_ja": "まだ〜が必要、さらに〜したい"
+ },
+ {
+  "word": "喝",
+  "pinyin": "hē",
+  "meaning_ja": "飲む"
+ },
+ {
+  "word": "来",
+  "pinyin": "lái",
+  "meaning_ja": "来る"
+ },
+ {
+  "word": "两杯",
+  "pinyin": "liǎngbēi",
+  "meaning_ja": "2杯"
+ },
+ {
+  "word": "茶",
+  "pinyin": "chá",
+  "meaning_ja": "お茶"
+ },
+ {
+  "word": "这家",
+  "pinyin": "zhèjiā",
+  "meaning_ja": "この店"
+ },
+ {
+  "word": "菜",
+  "pinyin": "cài",
+  "meaning_ja": "料理"
+ },
+ {
+  "word": "听说",
+  "pinyin": "tīngshuō",
+  "meaning_ja": "〜と聞いている"
+ },
+ {
+  "word": "服务",
+  "pinyin": "fúwù",
+  "meaning_ja": "サービス"
+ },
+ {
+  "word": "马上",
+  "pinyin": "mǎshàng",
+  "meaning_ja": "すぐに"
+ },
+ {
+  "word": "请稍等",
+  "pinyin": "qǐngshāoděng",
+  "meaning_ja": "少々お待ちください"
+ },
+ {
+  "word": "阿姨",
+  "pinyin": "āyí",
+  "meaning_ja": "おばさん"
+ },
+ {
+  "word": "请问",
+  "pinyin": "qǐngwèn",
+  "meaning_ja": "お尋ねします"
+ },
+ {
+  "word": "火车站",
+  "pinyin": "huǒchēzhàn",
+  "meaning_ja": "駅（鉄道駅）"
+ },
+ {
+  "word": "走",
+  "pinyin": "zǒu",
+  "meaning_ja": "歩く、行く、離れる"
+ },
+ {
+  "word": "往前走",
+  "pinyin": "wǎngqiánzǒu",
+  "meaning_ja": "前へ進む"
+ },
+ {
+  "word": "红绿灯",
+  "pinyin": "hónglǜdēng",
+  "meaning_ja": "信号機"
+ },
+ {
+  "word": "往右",
+  "pinyin": "wǎngyòu",
+  "meaning_ja": "右へ"
+ },
+ {
+  "word": "拐",
+  "pinyin": "guǎi",
+  "meaning_ja": "曲がる"
+ },
+ {
+  "word": "以后",
+  "pinyin": "yǐhòu",
+  "meaning_ja": "〜以後、これから"
+ },
+ {
+  "word": "五分钟",
+  "pinyin": "wǔfēnzhōng",
+  "meaning_ja": "5分間"
+ },
+ {
+  "word": "这儿",
+  "pinyin": "zhèér",
+  "meaning_ja": "ここ"
+ },
+ {
+  "word": "远",
+  "pinyin": "yuǎn",
+  "meaning_ja": "遠い"
+ },
+ {
+  "word": "不远",
+  "pinyin": "bùyuǎn",
+  "meaning_ja": "遠くない"
+ },
+ {
+  "word": "不太远",
+  "pinyin": "bùtàiyuǎn",
+  "meaning_ja": "あまり遠くない"
+ },
+ {
+  "word": "太好了",
+  "pinyin": "tàihǎole",
+  "meaning_ja": "よかった！"
+ },
+ {
+  "word": "谢谢您",
+  "pinyin": "xièxiènín",
+  "meaning_ja": "ありがとうございます"
+ },
+ {
+  "word": "客气",
+  "pinyin": "kèqì",
+  "meaning_ja": "遠慮する、礼儀正しい"
+ },
+ {
+  "word": "祝",
+  "pinyin": "zhù",
+  "meaning_ja": "〜を祈る、願う"
+ },
+ {
+  "word": "旅行愉快",
+  "pinyin": "lǚxíngyúkuài",
+  "meaning_ja": "良い旅を"
+ },
+ {
+  "word": "再见",
+  "pinyin": "zàijiàn",
+  "meaning_ja": "さようなら"
+ },
+ {
+  "word": "这个",
+  "pinyin": "zhège",
+  "meaning_ja": "これ"
+ },
+ {
+  "word": "周末",
+  "pinyin": "zhōumò",
+  "meaning_ja": "週末"
+ },
+ {
+  "word": "公园",
+  "pinyin": "gōngyuán",
+  "meaning_ja": "公園"
+ },
+ {
+  "word": "骑",
+  "pinyin": "qí",
+  "meaning_ja": "（自転車などに）乗る"
+ },
+ {
+  "word": "自行车",
+  "pinyin": "zìxíngchē",
+  "meaning_ja": "自転車"
+ },
+ {
+  "word": "没想",
+  "pinyin": "méixiǎng",
+  "meaning_ja": "まだ考えていない"
+ },
+ {
+  "word": "天气",
+  "pinyin": "tiānqì",
+  "meaning_ja": "天気"
+ },
+ {
+  "word": "不太好",
+  "pinyin": "bùtàihǎo",
+  "meaning_ja": "あまり良くない"
+ },
+ {
+  "word": "天气预报",
+  "pinyin": "tiānqìyùbào",
+  "meaning_ja": "天気予報"
+ },
+ {
+  "word": "说",
+  "pinyin": "shuō",
+  "meaning_ja": "話す、言う"
+ },
+ {
+  "word": "星期六",
+  "pinyin": "xīngqīliù",
+  "meaning_ja": "土曜日"
+ },
+ {
+  "word": "下雨",
+  "pinyin": "xiàyǔ",
+  "meaning_ja": "雨が降る"
+ },
+ {
+  "word": "那",
+  "pinyin": "nà",
+  "meaning_ja": "あれ、それ／それなら"
+ },
+ {
+  "word": "星期天",
+  "pinyin": "xīngqītiān",
+  "meaning_ja": "日曜日"
+ },
+ {
+  "word": "主意",
+  "pinyin": "zhǔyì",
+  "meaning_ja": "考え、アイデア"
+ },
+ {
+  "word": "骑车",
+  "pinyin": "qíchē",
+  "meaning_ja": "自転車に乗る"
+ },
+ {
+  "word": "聊天",
+  "pinyin": "liáotiān",
+  "meaning_ja": "おしゃべりする"
+ },
+ {
+  "word": "最近",
+  "pinyin": "zuìjìn",
+  "meaning_ja": "最近"
+ },
+ {
+  "word": "工作",
+  "pinyin": "gōngzuò",
+  "meaning_ja": "仕事、働く"
+ },
+ {
+  "word": "忙",
+  "pinyin": "máng",
+  "meaning_ja": "忙しい"
+ },
+ {
+  "word": "这么",
+  "pinyin": "zhème",
+  "meaning_ja": "こんなに、このように"
+ },
+ {
+  "word": "上午",
+  "pinyin": "shàngwǔ",
+  "meaning_ja": "午前"
+ },
+ {
+  "word": "十点",
+  "pinyin": "shídiǎn",
+  "meaning_ja": "10時"
+ },
+ {
+  "word": "门口",
+  "pinyin": "ménkǒu",
+  "meaning_ja": "入り口"
+ },
+ {
+  "word": "不见不散",
+  "pinyin": "bújiànbúsàn",
+  "meaning_ja": "会うまで帰らない（必ず会おうという決まり文句）"
+ },
+ {
+  "word": "五一",
+  "pinyin": "wǔyī",
+  "meaning_ja": "メーデー（5月1日、連休）"
+ },
+ {
+  "word": "假期",
+  "pinyin": "jiàqī",
+  "meaning_ja": "休暇、連休"
+ },
+ {
+  "word": "云南",
+  "pinyin": "yúnnán",
+  "meaning_ja": "雲南（地名）"
+ },
+ {
+  "word": "旅行",
+  "pinyin": "lǚxíng",
+  "meaning_ja": "旅行"
+ },
+ {
+  "word": "那里",
+  "pinyin": "nàlǐ",
+  "meaning_ja": "そこ、あそこ"
+ },
+ {
+  "word": "风景",
+  "pinyin": "fēngjǐng",
+  "meaning_ja": "景色"
+ },
+ {
+  "word": "特别",
+  "pinyin": "tèbié",
+  "meaning_ja": "特に、特別"
+ },
+ {
+  "word": "美",
+  "pinyin": "měi",
+  "meaning_ja": "美しい"
+ },
+ {
+  "word": "上次",
+  "pinyin": "shàngcì",
+  "meaning_ja": "前回"
+ },
+ {
+  "word": "去过",
+  "pinyin": "qùguò",
+  "meaning_ja": "行ったことがある"
+ },
+ {
+  "word": "一次",
+  "pinyin": "yīcì",
+  "meaning_ja": "一回"
+ },
+ {
+  "word": "看",
+  "pinyin": "kàn",
+  "meaning_ja": "見る"
+ },
+ {
+  "word": "那个",
+  "pinyin": "nàge",
+  "meaning_ja": "あれ、その"
+ },
+ {
+  "word": "地方",
+  "pinyin": "dìfāng",
+  "meaning_ja": "場所"
+ },
+ {
+  "word": "提前",
+  "pinyin": "tíqián",
+  "meaning_ja": "前もって、早めに"
+ },
+ {
+  "word": "机票",
+  "pinyin": "jīpiào",
+  "meaning_ja": "航空券"
+ },
+ {
+  "word": "订好",
+  "pinyin": "dìnghǎo",
+  "meaning_ja": "予約しておく"
+ },
+ {
+  "word": "不然",
+  "pinyin": "bùrán",
+  "meaning_ja": "そうでなければ"
+ },
+ {
+  "word": "票会",
+  "pinyin": "piàohuì",
+  "meaning_ja": "チケットは（〜になるだろう）"
+ },
+ {
+  "word": "很贵",
+  "pinyin": "hěnguì",
+  "meaning_ja": "とても高い"
+ },
+ {
+  "word": "负责",
+  "pinyin": "fùzé",
+  "meaning_ja": "担当する、責任を持つ"
+ },
+ {
+  "word": "订",
+  "pinyin": "dìng",
+  "meaning_ja": "予約する"
+ },
+ {
+  "word": "酒店",
+  "pinyin": "jiǔdiàn",
+  "meaning_ja": "ホテル"
+ },
+ {
+  "word": "订机票",
+  "pinyin": "dìngjīpiào",
+  "meaning_ja": "航空券を予約する"
+ },
+ {
+  "word": "问题",
+  "pinyin": "wèntí",
+  "meaning_ja": "問題"
+ },
+ {
+  "word": "大理",
+  "pinyin": "dàlǐ",
+  "meaning_ja": "大理（地名）"
+ },
+ {
+  "word": "丽江",
+  "pinyin": "lìjiāng",
+  "meaning_ja": "麗江（地名）"
+ },
+ {
+  "word": "够",
+  "pinyin": "gòu",
+  "meaning_ja": "十分だ、足りる"
+ },
+ {
+  "word": "多",
+  "pinyin": "duō",
+  "meaning_ja": "多い"
+ },
+ {
+  "word": "几个",
+  "pinyin": "jǐgè",
+  "meaning_ja": "いくつか"
+ },
+ {
+  "word": "别忘了",
+  "pinyin": "biéwàngle",
+  "meaning_ja": "忘れないで"
+ },
+ {
+  "word": "带",
+  "pinyin": "dài",
+  "meaning_ja": "持って行く"
+ },
+ {
+  "word": "相机",
+  "pinyin": "xiàngjī",
+  "meaning_ja": "カメラ"
+ },
+ {
+  "word": "一定",
+  "pinyin": "yídìng",
+  "meaning_ja": "必ず、きっと"
+ },
+ {
+  "word": "拍照",
+  "pinyin": "pāizhào",
+  "meaning_ja": "写真を撮る"
+ },
+ {
+  "word": "留念",
+  "pinyin": "liúniàn",
+  "meaning_ja": "記念に残す"
+ },
+ {
+  "word": "放心",
+  "pinyin": "fàngxīn",
+  "meaning_ja": "安心する"
+ },
+ {
+  "word": "行李",
+  "pinyin": "xínglǐ",
+  "meaning_ja": "荷物"
+ },
+ {
+  "word": "准备",
+  "pinyin": "zhǔnbèi",
+  "meaning_ja": "準備する"
+ },
+ {
+  "word": "出发",
+  "pinyin": "chūfā",
+  "meaning_ja": "出発する"
+ },
+ {
+  "word": "前一天",
+  "pinyin": "qiányītiān",
+  "meaning_ja": "前日"
+ },
+ {
+  "word": "联系",
+  "pinyin": "liánxì",
+  "meaning_ja": "連絡する"
+ },
+ {
+  "word": "确认",
+  "pinyin": "quèrèn",
+  "meaning_ja": "確認する"
+ },
+ {
+  "word": "真",
+  "pinyin": "zhēn",
+  "meaning_ja": "本当に"
+ },
+ {
+  "word": "期待",
+  "pinyin": "qīdài",
+  "meaning_ja": "楽しみにする、期待する"
+ },
+ {
+  "word": "这次",
+  "pinyin": "zhècì",
+  "meaning_ja": "今回"
+ },
+ {
+  "word": "小林",
+  "pinyin": "xiǎolín",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "脸色",
+  "pinyin": "liǎnsè",
+  "meaning_ja": "顔色"
+ },
+ {
+  "word": "看起来",
+  "pinyin": "kànqǐlái",
+  "meaning_ja": "見たところ〜だ"
+ },
+ {
+  "word": "昨天晚上",
+  "pinyin": "zuótiānwǎnshàng",
+  "meaning_ja": "昨夜"
+ },
+ {
+  "word": "开始",
+  "pinyin": "kāishǐ",
+  "meaning_ja": "始まる、始める"
+ },
+ {
+  "word": "头疼",
+  "pinyin": "tóuténg",
+  "meaning_ja": "頭が痛い"
+ },
+ {
+  "word": "发烧",
+  "pinyin": "fāshāo",
+  "meaning_ja": "熱が出る"
+ },
+ {
+  "word": "医院",
+  "pinyin": "yīyuàn",
+  "meaning_ja": "病院"
+ },
+ {
+  "word": "硬撑",
+  "pinyin": "yìngchēng",
+  "meaning_ja": "無理して我慢する"
+ },
+ {
+  "word": "会议",
+  "pinyin": "huìyì",
+  "meaning_ja": "会議"
+ },
+ {
+  "word": "重要",
+  "pinyin": "zhòngyào",
+  "meaning_ja": "重要だ"
+ },
+ {
+  "word": "身体",
+  "pinyin": "shēntǐ",
+  "meaning_ja": "体、身体"
+ },
+ {
+  "word": "别人",
+  "pinyin": "biérén",
+  "meaning_ja": "他の人"
+ },
+ {
+  "word": "先帮",
+  "pinyin": "xiānbāng",
+  "meaning_ja": "先に手伝う"
+ },
+ {
+  "word": "处理",
+  "pinyin": "chǔlǐ",
+  "meaning_ja": "処理する"
+ },
+ {
+  "word": "个",
+  "pinyin": "gè",
+  "meaning_ja": "〜個（量詞）"
+ },
+ {
+  "word": "假",
+  "pinyin": "jiǎ",
+  "meaning_ja": "休み、休暇"
+ },
+ {
+  "word": "检查一下",
+  "pinyin": "jiǎncháyīxià",
+  "meaning_ja": "ちょっと検査する"
+ },
+ {
+  "word": "陪",
+  "pinyin": "péi",
+  "meaning_ja": "付き添う"
+ },
+ {
+  "word": "顺便",
+  "pinyin": "shùnbiàn",
+  "meaning_ja": "ついでに"
+ },
+ {
+  "word": "帮",
+  "pinyin": "bāng",
+  "meaning_ja": "手伝う"
+ },
+ {
+  "word": "拿药",
+  "pinyin": "náyào",
+  "meaning_ja": "薬を受け取る"
+ },
+ {
+  "word": "真是",
+  "pinyin": "zhēnshì",
+  "meaning_ja": "本当に〜だ"
+ },
+ {
+  "word": "医生",
+  "pinyin": "yīshēng",
+  "meaning_ja": "医者"
+ },
+ {
+  "word": "说不定",
+  "pinyin": "shuōbùdìng",
+  "meaning_ja": "もしかしたら〜かもしれない"
+ },
+ {
+  "word": "排队",
+  "pinyin": "páiduì",
+  "meaning_ja": "並ぶ、列に並ぶ"
+ },
+ {
+  "word": "快点儿",
+  "pinyin": "kuàidiǎnér",
+  "meaning_ja": "早く"
+ },
+ {
+  "word": "后天",
+  "pinyin": "hòutiān",
+  "meaning_ja": "明後日"
+ },
+ {
+  "word": "安娜",
+  "pinyin": "ānnà",
+  "meaning_ja": "アンナ（人名）"
+ },
+ {
+  "word": "生日",
+  "pinyin": "shēngrì",
+  "meaning_ja": "誕生日"
+ },
+ {
+  "word": "她",
+  "pinyin": "tā",
+  "meaning_ja": "彼女"
+ },
+ {
+  "word": "惊喜",
+  "pinyin": "jīngxǐ",
+  "meaning_ja": "サプライズ、驚きと喜び"
+ },
+ {
+  "word": "聚会",
+  "pinyin": "jùhuì",
+  "meaning_ja": "パーティー、集まり"
+ },
+ {
+  "word": "办",
+  "pinyin": "bàn",
+  "meaning_ja": "（催しなどを）行う、開く"
+ },
+ {
+  "word": "大",
+  "pinyin": "dà",
+  "meaning_ja": "大きい"
+ },
+ {
+  "word": "公司",
+  "pinyin": "gōngsī",
+  "meaning_ja": "会社"
+ },
+ {
+  "word": "近",
+  "pinyin": "jìn",
+  "meaning_ja": "近い"
+ },
+ {
+  "word": "蛋糕",
+  "pinyin": "dàngāo",
+  "meaning_ja": "ケーキ"
+ },
+ {
+  "word": "气球",
+  "pinyin": "qìqiú",
+  "meaning_ja": "風船"
+ },
+ {
+  "word": "由",
+  "pinyin": "yóu",
+  "meaning_ja": "〜が（〜する）、〜によって"
+ },
+ {
+  "word": "音乐",
+  "pinyin": "yīnyuè",
+  "meaning_ja": "音楽"
+ },
+ {
+  "word": "刚买",
+  "pinyin": "gāngmǎi",
+  "meaning_ja": "買ったばかり"
+ },
+ {
+  "word": "新",
+  "pinyin": "xīn",
+  "meaning_ja": "新しい"
+ },
+ {
+  "word": "礼物",
+  "pinyin": "lǐwù",
+  "meaning_ja": "プレゼント"
+ },
+ {
+  "word": "不要",
+  "pinyin": "búyào",
+  "meaning_ja": "〜しないで"
+ },
+ {
+  "word": "大家",
+  "pinyin": "dàjiā",
+  "meaning_ja": "みんな"
+ },
+ {
+  "word": "想要",
+  "pinyin": "xiǎngyào",
+  "meaning_ja": "〜が欲しい、〜したい"
+ },
+ {
+  "word": "一条",
+  "pinyin": "yītiáo",
+  "meaning_ja": "一本（細長い物の量詞）"
+ },
+ {
+  "word": "围巾",
+  "pinyin": "wéijīn",
+  "meaning_ja": "マフラー"
+ },
+ {
+  "word": "发现",
+  "pinyin": "fāxiàn",
+  "meaning_ja": "気づく、発見する"
+ },
+ {
+  "word": "前",
+  "pinyin": "qián",
+  "meaning_ja": "前"
+ },
+ {
+  "word": "保密",
+  "pinyin": "bǎomì",
+  "meaning_ja": "秘密にする"
+ },
+ {
+  "word": "不会",
+  "pinyin": "búhuì",
+  "meaning_ja": "〜しないだろう"
+ },
+ {
+  "word": "告诉",
+  "pinyin": "gàosù",
+  "meaning_ja": "伝える、教える"
+ },
+ {
+  "word": "到时候",
+  "pinyin": "dàoshíhòu",
+  "meaning_ja": "その時になったら"
+ },
+ {
+  "word": "感动",
+  "pinyin": "gǎndòng",
+  "meaning_ja": "感動する"
+ },
+ {
+  "word": "这样",
+  "pinyin": "zhèyàng",
+  "meaning_ja": "このように"
+ },
+ {
+  "word": "说定了",
+  "pinyin": "shuōdìngle",
+  "meaning_ja": "そう決まった"
+ },
+ {
+  "word": "晚上",
+  "pinyin": "wǎnshàng",
+  "meaning_ja": "夜"
+ },
+ {
+  "word": "七点",
+  "pinyin": "qīdiǎn",
+  "meaning_ja": "7時"
+ },
+ {
+  "word": "婷婷",
+  "pinyin": "tíngtíng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "家",
+  "pinyin": "jiā",
+  "meaning_ja": "家"
+ },
+ {
+  "word": "集合",
+  "pinyin": "jíhé",
+  "meaning_ja": "集合する"
+ },
+ {
+  "word": "考虑",
+  "pinyin": "kǎolǜ",
+  "meaning_ja": "考える、検討する"
+ },
+ {
+  "word": "跳槽",
+  "pinyin": "tiàocáo",
+  "meaning_ja": "転職する"
+ },
+ {
+  "word": "压力",
+  "pinyin": "yālì",
+  "meaning_ja": "プレッシャー、ストレス"
+ },
+ {
+  "word": "太大",
+  "pinyin": "tàidà",
+  "meaning_ja": "大きすぎる"
+ },
+ {
+  "word": "是因为",
+  "pinyin": "shìyīnwèi",
+  "meaning_ja": "〜だからだ"
+ },
+ {
+  "word": "太累",
+  "pinyin": "tàilèi",
+  "meaning_ja": "疲れすぎる"
+ },
+ {
+  "word": "同事",
+  "pinyin": "tóngshì",
+  "meaning_ja": "同僚"
+ },
+ {
+  "word": "相处",
+  "pinyin": "xiāngchǔ",
+  "meaning_ja": "付き合う、共に過ごす"
+ },
+ {
+  "word": "不好",
+  "pinyin": "bùhǎo",
+  "meaning_ja": "良くない"
+ },
+ {
+  "word": "主要",
+  "pinyin": "zhǔyào",
+  "meaning_ja": "主に"
+ },
+ {
+  "word": "工作量",
+  "pinyin": "gōngzuòliàng",
+  "meaning_ja": "仕事量"
+ },
+ {
+  "word": "每天",
+  "pinyin": "měitiān",
+  "meaning_ja": "毎日"
+ },
+ {
+  "word": "加班",
+  "pinyin": "jiābān",
+  "meaning_ja": "残業する"
+ },
+ {
+  "word": "被叫",
+  "pinyin": "bèijiào",
+  "meaning_ja": "呼ばれる（受身）"
+ },
+ {
+  "word": "回去",
+  "pinyin": "huíqù",
+  "meaning_ja": "戻る、帰る"
+ },
+ {
+  "word": "开会",
+  "pinyin": "kāihuì",
+  "meaning_ja": "会議をする"
+ },
+ {
+  "word": "确实",
+  "pinyin": "quèshí",
+  "meaning_ja": "確かに"
+ },
+ {
+  "word": "辛苦",
+  "pinyin": "xīnkǔ",
+  "meaning_ja": "大変だ、苦労する"
+ },
+ {
+  "word": "换",
+  "pinyin": "huàn",
+  "meaning_ja": "変える、交換する"
+ },
+ {
+  "word": "轻松",
+  "pinyin": "qīngsōng",
+  "meaning_ja": "気楽だ、楽だ"
+ },
+ {
+  "word": "冲动",
+  "pinyin": "chōngdòng",
+  "meaning_ja": "衝動的だ"
+ },
+ {
+  "word": "辞职",
+  "pinyin": "cízhí",
+  "meaning_ja": "辞職する"
+ },
+ {
+  "word": "先想",
+  "pinyin": "xiānxiǎng",
+  "meaning_ja": "まず考える"
+ },
+ {
+  "word": "清楚",
+  "pinyin": "qīngchǔ",
+  "meaning_ja": "はっきりしている"
+ },
+ {
+  "word": "自己",
+  "pinyin": "zìjǐ",
+  "meaning_ja": "自分自身"
+ },
+ {
+  "word": "真正",
+  "pinyin": "zhēnzhèng",
+  "meaning_ja": "本当の、真の"
+ },
+ {
+  "word": "说得对",
+  "pinyin": "shuōdéduì",
+  "meaning_ja": "言う通りだ"
+ },
+ {
+  "word": "哪家",
+  "pinyin": "nǎjiā",
+  "meaning_ja": "どの会社・店"
+ },
+ {
+  "word": "存在",
+  "pinyin": "cúnzài",
+  "meaning_ja": "存在する"
+ },
+ {
+  "word": "现在",
+  "pinyin": "xiànzài",
+  "meaning_ja": "今、現在"
+ },
+ {
+  "word": "竞争",
+  "pinyin": "jìngzhēng",
+  "meaning_ja": "競争"
+ },
+ {
+  "word": "激烈",
+  "pinyin": "jīliè",
+  "meaning_ja": "激しい"
+ },
+ {
+  "word": "找",
+  "pinyin": "zhǎo",
+  "meaning_ja": "探す、訪ねる"
+ },
+ {
+  "word": "一份",
+  "pinyin": "yīfèn",
+  "meaning_ja": "一つの（仕事などの量詞）"
+ },
+ {
+  "word": "适合",
+  "pinyin": "shìhé",
+  "meaning_ja": "適合する、合う"
+ },
+ {
+  "word": "事",
+  "pinyin": "shì",
+  "meaning_ja": "こと、用事"
+ },
+ {
+  "word": "领导",
+  "pinyin": "lǐngdǎo",
+  "meaning_ja": "上司、リーダー"
+ },
+ {
+  "word": "谈谈",
+  "pinyin": "tántán",
+  "meaning_ja": "ちょっと話す"
+ },
+ {
+  "word": "看能",
+  "pinyin": "kànnéng",
+  "meaning_ja": "〜できるか見てみる"
+ },
+ {
+  "word": "不能",
+  "pinyin": "bùnéng",
+  "meaning_ja": "〜できない"
+ },
+ {
+  "word": "调整",
+  "pinyin": "tiáozhěng",
+  "meaning_ja": "調整する"
+ },
+ {
+  "word": "安排",
+  "pinyin": "ānpái",
+  "meaning_ja": "手配、スケジュール"
+ },
+ {
+  "word": "下周",
+  "pinyin": "xiàzhōu",
+  "meaning_ja": "来週"
+ },
+ {
+  "word": "他",
+  "pinyin": "tā",
+  "meaning_ja": "彼"
+ },
+ {
+  "word": "谈",
+  "pinyin": "tán",
+  "meaning_ja": "話し合う"
+ },
+ {
+  "word": "找到",
+  "pinyin": "zhǎodào",
+  "meaning_ja": "見つける"
+ },
+ {
+  "word": "解决办法",
+  "pinyin": "jiějuébànfǎ",
+  "meaning_ja": "解決方法"
+ },
+ {
+  "word": "结果",
+  "pinyin": "jiéguǒ",
+  "meaning_ja": "結果"
+ },
+ {
+  "word": "照顾",
+  "pinyin": "zhàogù",
+  "meaning_ja": "世話をする、大事にする"
+ },
+ {
+  "word": "谢谢你们",
+  "pinyin": "xièxiènǐmen",
+  "meaning_ja": "みんなありがとう"
+ },
+ {
+  "word": "聊完",
+  "pinyin": "liáowán",
+  "meaning_ja": "話し終わる"
+ },
+ {
+  "word": "感觉",
+  "pinyin": "gǎnjué",
+  "meaning_ja": "感じる"
+ },
+ {
+  "word": "王阿姨",
+  "pinyin": "wángāyí",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "您好",
+  "pinyin": "nínhǎo",
+  "meaning_ja": "こんにちは（丁寧）"
+ },
+ {
+  "word": "来看",
+  "pinyin": "láikàn",
+  "meaning_ja": "見に来る"
+ },
+ {
+  "word": "房子",
+  "pinyin": "fángzi",
+  "meaning_ja": "家、部屋"
+ },
+ {
+  "word": "这套",
+  "pinyin": "zhètào",
+  "meaning_ja": "この（一戸の）"
+ },
+ {
+  "word": "出租",
+  "pinyin": "chūzū",
+  "meaning_ja": "賃貸に出す"
+ },
+ {
+  "word": "快",
+  "pinyin": "kuài",
+  "meaning_ja": "速い、はやく"
+ },
+ {
+  "word": "进",
+  "pinyin": "jìn",
+  "meaning_ja": "入る"
+ },
+ {
+  "word": "刚",
+  "pinyin": "gāng",
+  "meaning_ja": "〜したばかり"
+ },
+ {
+  "word": "装修",
+  "pinyin": "zhuāngxiū",
+  "meaning_ja": "内装工事、リフォーム"
+ },
+ {
+  "word": "完",
+  "pinyin": "wán",
+  "meaning_ja": "終わる"
+ },
+ {
+  "word": "采光",
+  "pinyin": "cǎiguāng",
+  "meaning_ja": "採光"
+ },
+ {
+  "word": "阿杰",
+  "pinyin": "ājié",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "客厅",
+  "pinyin": "kètīng",
+  "meaning_ja": "リビング"
+ },
+ {
+  "word": "挺大",
+  "pinyin": "tǐngdà",
+  "meaning_ja": "かなり大きい"
+ },
+ {
+  "word": "地铁站",
+  "pinyin": "dìtiězhàn",
+  "meaning_ja": "地下鉄の駅"
+ },
+ {
+  "word": "房租",
+  "pinyin": "fángzū",
+  "meaning_ja": "家賃"
+ },
+ {
+  "word": "一个月",
+  "pinyin": "yígèyuè",
+  "meaning_ja": "1ヶ月"
+ },
+ {
+  "word": "三千五",
+  "pinyin": "sānqiānwǔ",
+  "meaning_ja": "3500（元）"
+ },
+ {
+  "word": "押",
+  "pinyin": "yā",
+  "meaning_ja": "敷金として預ける"
+ },
+ {
+  "word": "一付",
+  "pinyin": "yīfù",
+  "meaning_ja": "1ヶ月分（押一付三＝敷金1ヶ月・家賃3ヶ月分の前払い）"
+ },
+ {
+  "word": "三",
+  "pinyin": "sān",
+  "meaning_ja": "3"
+ },
+ {
+  "word": "包",
+  "pinyin": "bāo",
+  "meaning_ja": "含む"
+ },
+ {
+  "word": "物业费",
+  "pinyin": "wùyèfèi",
+  "meaning_ja": "管理費"
+ },
+ {
+  "word": "水电费",
+  "pinyin": "shuǐdiànfèi",
+  "meaning_ja": "水道光熱費"
+ },
+ {
+  "word": "包括",
+  "pinyin": "bāokuò",
+  "meaning_ja": "含む"
+ },
+ {
+  "word": "里面",
+  "pinyin": "lǐmiàn",
+  "meaning_ja": "中に"
+ },
+ {
+  "word": "另",
+  "pinyin": "lìng",
+  "meaning_ja": "別に"
+ },
+ {
+  "word": "外交",
+  "pinyin": "wàijiāo",
+  "meaning_ja": "（另外交＝別途支払う、の一部）"
+ },
+ {
+  "word": "费用",
+  "pinyin": "fèiyòng",
+  "meaning_ja": "費用"
+ },
+ {
+  "word": "不算",
+  "pinyin": "bùsuàn",
+  "meaning_ja": "〜というほどではない"
+ },
+ {
+  "word": "高",
+  "pinyin": "gāo",
+  "meaning_ja": "高い"
+ },
+ {
+  "word": "小区",
+  "pinyin": "xiǎoqū",
+  "meaning_ja": "団地、住宅街"
+ },
+ {
+  "word": "很近",
+  "pinyin": "hěnjìn",
+  "meaning_ja": "とても近い"
+ },
+ {
+  "word": "合适",
+  "pinyin": "héshì",
+  "meaning_ja": "ふさわしい、ぴったりだ"
+ },
+ {
+  "word": "合同",
+  "pinyin": "hétóng",
+  "meaning_ja": "契約書"
+ },
+ {
+  "word": "签",
+  "pinyin": "qiān",
+  "meaning_ja": "サインする"
+ },
+ {
+  "word": "拿给",
+  "pinyin": "nágěi",
+  "meaning_ja": "持って行ってあげる"
+ },
+ {
+  "word": "顺利",
+  "pinyin": "shùnlì",
+  "meaning_ja": "順調だ"
+ },
+ {
+  "word": "地住",
+  "pinyin": "dìzhù",
+  "meaning_ja": "（順調に）住む"
+ },
+ {
+  "word": "这里",
+  "pinyin": "zhèlǐ",
+  "meaning_ja": "ここ"
+ },
+ {
+  "word": "讨论一下",
+  "pinyin": "tǎolùnyīxià",
+  "meaning_ja": "ちょっと議論する"
+ },
+ {
+  "word": "环境保护",
+  "pinyin": "huánjìngbǎohù",
+  "meaning_ja": "環境保護"
+ },
+ {
+  "word": "看法",
+  "pinyin": "kànfǎ",
+  "meaning_ja": "意見、見方"
+ },
+ {
+  "word": "环境污染问题",
+  "pinyin": "huánjìngwūrǎnwèntí",
+  "meaning_ja": "環境汚染問題"
+ },
+ {
+  "word": "严重",
+  "pinyin": "yánzhòng",
+  "meaning_ja": "深刻だ、重大だ"
+ },
+ {
+  "word": "尤其",
+  "pinyin": "yóuqí",
+  "meaning_ja": "特に"
+ },
+ {
+  "word": "空气污染",
+  "pinyin": "kōngqìwūrǎn",
+  "meaning_ja": "大気汚染"
+ },
+ {
+  "word": "水污染",
+  "pinyin": "shuǐwūrǎn",
+  "meaning_ja": "水質汚染"
+ },
+ {
+  "word": "垃圾",
+  "pinyin": "lājī",
+  "meaning_ja": "ゴミ"
+ },
+ {
+  "word": "不容忽视",
+  "pinyin": "bùrónghūshì",
+  "meaning_ja": "見過ごせない"
+ },
+ {
+  "word": "说得好",
+  "pinyin": "shuōdéhǎo",
+  "meaning_ja": "よく言った"
+ },
+ {
+  "word": "那么",
+  "pinyin": "nàme",
+  "meaning_ja": "それでは、それなら"
+ },
+ {
+  "word": "个人",
+  "pinyin": "gèrén",
+  "meaning_ja": "個人"
+ },
+ {
+  "word": "做些",
+  "pinyin": "zuòxiē",
+  "meaning_ja": "いくつかする"
+ },
+ {
+  "word": "保护环境",
+  "pinyin": "bǎohùhuánjìng",
+  "meaning_ja": "環境を守る"
+ },
+ {
+  "word": "首先",
+  "pinyin": "shǒuxiān",
+  "meaning_ja": "まず、最初に"
+ },
+ {
+  "word": "尽量",
+  "pinyin": "jǐnliàng",
+  "meaning_ja": "できるだけ"
+ },
+ {
+  "word": "节约用水",
+  "pinyin": "jiéyuēyòngshuǐ",
+  "meaning_ja": "水を節約する"
+ },
+ {
+  "word": "用电",
+  "pinyin": "yòngdiàn",
+  "meaning_ja": "電気を使う"
+ },
+ {
+  "word": "减少",
+  "pinyin": "jiǎnshǎo",
+  "meaning_ja": "減らす"
+ },
+ {
+  "word": "浪费",
+  "pinyin": "làngfèi",
+  "meaning_ja": "浪費する"
+ },
+ {
+  "word": "出门",
+  "pinyin": "chūmén",
+  "meaning_ja": "外出する"
+ },
+ {
+  "word": "坐",
+  "pinyin": "zuò",
+  "meaning_ja": "乗る、座る"
+ },
+ {
+  "word": "公交车",
+  "pinyin": "gōngjiāochē",
+  "meaning_ja": "バス"
+ },
+ {
+  "word": "少",
+  "pinyin": "shǎo",
+  "meaning_ja": "少ない"
+ },
+ {
+  "word": "开车",
+  "pinyin": "kāichē",
+  "meaning_ja": "車を運転する"
+ },
+ {
+  "word": "每个",
+  "pinyin": "měigè",
+  "meaning_ja": "それぞれの"
+ },
+ {
+  "word": "小事",
+  "pinyin": "xiǎoshì",
+  "meaning_ja": "小さなこと"
+ },
+ {
+  "word": "做起",
+  "pinyin": "zuòqǐ",
+  "meaning_ja": "〜し始める"
+ },
+ {
+  "word": "环境",
+  "pinyin": "huánjìng",
+  "meaning_ja": "環境"
+ },
+ {
+  "word": "一点一点",
+  "pinyin": "yìdiǎnyìdiǎn",
+  "meaning_ja": "少しずつ"
+ },
+ {
+  "word": "变",
+  "pinyin": "biàn",
+  "meaning_ja": "変わる"
+ },
+ {
+  "word": "抱怨",
+  "pinyin": "bàoyuàn",
+  "meaning_ja": "不平を言う"
+ },
+ {
+  "word": "身边",
+  "pinyin": "shēnbiān",
+  "meaning_ja": "身の回り"
+ },
+ {
+  "word": "比如",
+  "pinyin": "bǐrú",
+  "meaning_ja": "例えば"
+ },
+ {
+  "word": "用",
+  "pinyin": "yòng",
+  "meaning_ja": "使う"
+ },
+ {
+  "word": "塑料袋",
+  "pinyin": "sùliàodài",
+  "meaning_ja": "レジ袋、ビニール袋"
+ },
+ {
+  "word": "组织",
+  "pinyin": "zǔzhī",
+  "meaning_ja": "組織する、企画する"
+ },
+ {
+  "word": "环保",
+  "pinyin": "huánbǎo",
+  "meaning_ja": "環境保護（の）"
+ },
+ {
+  "word": "活动",
+  "pinyin": "huódòng",
+  "meaning_ja": "活動"
+ },
+ {
+  "word": "植树",
+  "pinyin": "zhíshù",
+  "meaning_ja": "植樹する"
+ },
+ {
+  "word": "分类",
+  "pinyin": "fēnlèi",
+  "meaning_ja": "分類する"
+ },
+ {
+  "word": "宣传",
+  "pinyin": "xuānchuán",
+  "meaning_ja": "啓発する、宣伝する"
+ },
+ {
+  "word": "建议",
+  "pinyin": "jiànyì",
+  "meaning_ja": "提案する、提案"
+ },
+ {
+  "word": "我会",
+  "pinyin": "wǒhuì",
+  "meaning_ja": "私は〜します"
+ },
+ {
+  "word": "它",
+  "pinyin": "tā",
+  "meaning_ja": "それ"
+ },
+ {
+  "word": "反映",
+  "pinyin": "fǎnyìng",
+  "meaning_ja": "反映する"
+ },
+ {
+  "word": "尽快",
+  "pinyin": "jǐnkuài",
+  "meaning_ja": "できるだけ早く"
+ },
+ {
+  "word": "实施",
+  "pinyin": "shíshī",
+  "meaning_ja": "実施する"
+ },
+ {
+  "word": "努力",
+  "pinyin": "nǔlì",
+  "meaning_ja": "努力"
+ },
+ {
+  "word": "真的",
+  "pinyin": "zhēnde",
+  "meaning_ja": "本当に"
+ },
+ {
+  "word": "变得",
+  "pinyin": "biàndé",
+  "meaning_ja": "〜になる"
+ },
+ {
+  "word": "更好",
+  "pinyin": "gènghǎo",
+  "meaning_ja": "もっと良い"
+ },
+ {
+  "word": "阿伟",
+  "pinyin": "āwěi",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "这是",
+  "pinyin": "zhèshì",
+  "meaning_ja": "これは〜です"
+ },
+ {
+  "word": "照片",
+  "pinyin": "zhàopiān",
+  "meaning_ja": "写真"
+ },
+ {
+  "word": "好看",
+  "pinyin": "hǎokàn",
+  "meaning_ja": "綺麗だ、見栄えがいい"
+ },
+ {
+  "word": "谁",
+  "pinyin": "shuí",
+  "meaning_ja": "誰"
+ },
+ {
+  "word": "这",
+  "pinyin": "zhè",
+  "meaning_ja": "これ"
+ },
+ {
+  "word": "兄弟姐妹",
+  "pinyin": "xiōngdìjiěmèi",
+  "meaning_ja": "兄弟姉妹"
+ },
+ {
+  "word": "哥哥",
+  "pinyin": "gēgē",
+  "meaning_ja": "お兄さん"
+ },
+ {
+  "word": "妹妹",
+  "pinyin": "mèimèi",
+  "meaning_ja": "妹"
+ },
+ {
+  "word": "十五岁",
+  "pinyin": "shíwǔsuì",
+  "meaning_ja": "15歳"
+ },
+ {
+  "word": "中学生",
+  "pinyin": "zhōngxuéshēng",
+  "meaning_ja": "中学生"
+ },
+ {
+  "word": "一家人",
+  "pinyin": "yījiārén",
+  "meaning_ja": "一家、家族全員"
+ },
+ {
+  "word": "可爱",
+  "pinyin": "kěài",
+  "meaning_ja": "可愛い"
+ },
+ {
+  "word": "改天",
+  "pinyin": "gǎitiān",
+  "meaning_ja": "日を改めて、また今度"
+ },
+ {
+  "word": "玩儿",
+  "pinyin": "wánér",
+  "meaning_ja": "遊ぶ"
+ },
+ {
+  "word": "小雪",
+  "pinyin": "xiǎoxuě",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "吃饺子",
+  "pinyin": "chījiǎozi",
+  "meaning_ja": "餃子を食べる"
+ },
+ {
+  "word": "面条",
+  "pinyin": "miàntiáo",
+  "meaning_ja": "麺"
+ },
+ {
+  "word": "喝茶",
+  "pinyin": "hēchá",
+  "meaning_ja": "お茶を飲む"
+ },
+ {
+  "word": "喝咖啡",
+  "pinyin": "hēkāfēi",
+  "meaning_ja": "コーヒーを飲む"
+ },
+ {
+  "word": "太苦",
+  "pinyin": "tàikǔ",
+  "meaning_ja": "苦すぎる"
+ },
+ {
+  "word": "早上",
+  "pinyin": "zǎoshàng",
+  "meaning_ja": "朝"
+ },
+ {
+  "word": "田田",
+  "pinyin": "tiántián",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "星期",
+  "pinyin": "xīngqī",
+  "meaning_ja": "曜日、週"
+ },
+ {
+  "word": "几",
+  "pinyin": "jǐ",
+  "meaning_ja": "いくつ"
+ },
+ {
+  "word": "星期三",
+  "pinyin": "xīngqīsān",
+  "meaning_ja": "水曜日"
+ },
+ {
+  "word": "星期四",
+  "pinyin": "xīngqīsì",
+  "meaning_ja": "木曜日"
+ },
+ {
+  "word": "汉语",
+  "pinyin": "hànyǔ",
+  "meaning_ja": "中国語"
+ },
+ {
+  "word": "课",
+  "pinyin": "kè",
+  "meaning_ja": "授業"
+ },
+ {
+  "word": "图书馆",
+  "pinyin": "túshūguǎn",
+  "meaning_ja": "図書館"
+ },
+ {
+  "word": "看书",
+  "pinyin": "kànshū",
+  "meaning_ja": "本を読む"
+ },
+ {
+  "word": "在家",
+  "pinyin": "zàijiā",
+  "meaning_ja": "家にいる"
+ },
+ {
+  "word": "休息",
+  "pinyin": "xiūxī",
+  "meaning_ja": "休む、休憩する"
+ },
+ {
+  "word": "下个星期",
+  "pinyin": "xiàgèxīngqī",
+  "meaning_ja": "来週"
+ },
+ {
+  "word": "几天",
+  "pinyin": "jǐtiān",
+  "meaning_ja": "何日か"
+ },
+ {
+  "word": "阿丽",
+  "pinyin": "ālì",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "八点半",
+  "pinyin": "bādiǎnbàn",
+  "meaning_ja": "8時半"
+ },
+ {
+  "word": "糟糕",
+  "pinyin": "zāogāo",
+  "meaning_ja": "まずい、しまった"
+ },
+ {
+  "word": "九点",
+  "pinyin": "jiǔdiǎn",
+  "meaning_ja": "9時"
+ },
+ {
+  "word": "有课",
+  "pinyin": "yǒukè",
+  "meaning_ja": "授業がある"
+ },
+ {
+  "word": "别着急",
+  "pinyin": "biézháojí",
+  "meaning_ja": "焦らないで"
+ },
+ {
+  "word": "还有",
+  "pinyin": "háiyǒu",
+  "meaning_ja": "まだ〜がある、それから"
+ },
+ {
+  "word": "半个",
+  "pinyin": "bàngè",
+  "meaning_ja": "半分の"
+ },
+ {
+  "word": "小时",
+  "pinyin": "xiǎoshí",
+  "meaning_ja": "〜時間"
+ },
+ {
+  "word": "多长时间",
+  "pinyin": "duōzhǎngshíjiān",
+  "meaning_ja": "どのくらいの時間"
+ },
+ {
+  "word": "大概",
+  "pinyin": "dàgài",
+  "meaning_ja": "だいたい、おそらく"
+ },
+ {
+  "word": "二十分钟",
+  "pinyin": "èrshífēnzhōng",
+  "meaning_ja": "20分間"
+ },
+ {
+  "word": "路上",
+  "pinyin": "lùshàng",
+  "meaning_ja": "道中"
+ },
+ {
+  "word": "小心",
+  "pinyin": "xiǎoxīn",
+  "meaning_ja": "気をつける"
+ },
+ {
+  "word": "下课后",
+  "pinyin": "xiàkèhòu",
+  "meaning_ja": "授業の後"
+ },
+ {
+  "word": "哪里",
+  "pinyin": "nǎlǐ",
+  "meaning_ja": "どこ"
+ },
+ {
+  "word": "舒服",
+  "pinyin": "shūfú",
+  "meaning_ja": "気分がいい、快適だ"
+ },
+ {
+  "word": "肚子疼",
+  "pinyin": "dǔziténg",
+  "meaning_ja": "お腹が痛い"
+ },
+ {
+  "word": "恶心",
+  "pinyin": "ěxīn",
+  "meaning_ja": "吐き気がする"
+ },
+ {
+  "word": "疼",
+  "pinyin": "téng",
+  "meaning_ja": "痛い"
+ },
+ {
+  "word": "填",
+  "pinyin": "tián",
+  "meaning_ja": "記入する"
+ },
+ {
+  "word": "这张",
+  "pinyin": "zhèzhāng",
+  "meaning_ja": "この一枚の"
+ },
+ {
+  "word": "表格",
+  "pinyin": "biǎogé",
+  "meaning_ja": "用紙、フォーム"
+ },
+ {
+  "word": "等",
+  "pinyin": "děng",
+  "meaning_ja": "待つ"
+ },
+ {
+  "word": "多久",
+  "pinyin": "duōjiǔ",
+  "meaning_ja": "どのくらいの間"
+ },
+ {
+  "word": "前面",
+  "pinyin": "qiánmiàn",
+  "meaning_ja": "前"
+ },
+ {
+  "word": "名字",
+  "pinyin": "míngzì",
+  "meaning_ja": "名前"
+ },
+ {
+  "word": "时候",
+  "pinyin": "shíhòu",
+  "meaning_ja": "時、頃"
+ },
+ {
+  "word": "请进去",
+  "pinyin": "qǐngjìnqù",
+  "meaning_ja": "どうぞお入りください"
+ },
+ {
+  "word": "明白",
+  "pinyin": "míngbái",
+  "meaning_ja": "分かる"
+ },
+ {
+  "word": "寄",
+  "pinyin": "jì",
+  "meaning_ja": "郵送する"
+ },
+ {
+  "word": "包裹",
+  "pinyin": "bāoguǒ",
+  "meaning_ja": "荷物、小包"
+ },
+ {
+  "word": "日本",
+  "pinyin": "rìběn",
+  "meaning_ja": "日本"
+ },
+ {
+  "word": "放在",
+  "pinyin": "fàngzài",
+  "meaning_ja": "〜に置く"
+ },
+ {
+  "word": "几本书",
+  "pinyin": "jǐběnshū",
+  "meaning_ja": "何冊かの本"
+ },
+ {
+  "word": "飞机",
+  "pinyin": "fēijī",
+  "meaning_ja": "飛行機"
+ },
+ {
+  "word": "船运",
+  "pinyin": "chuányùn",
+  "meaning_ja": "船便"
+ },
+ {
+  "word": "哪个",
+  "pinyin": "nǎge",
+  "meaning_ja": "どちら、どれ"
+ },
+ {
+  "word": "一个多月",
+  "pinyin": "yígèduōyuè",
+  "meaning_ja": "1ヶ月あまり"
+ },
+ {
+  "word": "贵",
+  "pinyin": "guì",
+  "meaning_ja": "（値段が）高い"
+ },
+ {
+  "word": "没关系",
+  "pinyin": "méiguānxì",
+  "meaning_ja": "大丈夫、構いません"
+ },
+ {
+  "word": "一共",
+  "pinyin": "yīgòng",
+  "meaning_ja": "全部で"
+ },
+ {
+  "word": "八十五",
+  "pinyin": "bāshíwǔ",
+  "meaning_ja": "85"
+ },
+ {
+  "word": "块钱",
+  "pinyin": "kuàiqián",
+  "meaning_ja": "元（お金の単位）"
+ },
+ {
+  "word": "左右",
+  "pinyin": "zuǒyòu",
+  "meaning_ja": "〜くらい、前後"
+ },
+ {
+  "word": "剪",
+  "pinyin": "jiǎn",
+  "meaning_ja": "切る（髪などを）"
+ },
+ {
+  "word": "发型",
+  "pinyin": "fàxíng",
+  "meaning_ja": "髪型"
+ },
+ {
+  "word": "剪短",
+  "pinyin": "jiǎnduǎn",
+  "meaning_ja": "短く切る"
+ },
+ {
+  "word": "太热",
+  "pinyin": "tàirè",
+  "meaning_ja": "暑すぎる"
+ },
+ {
+  "word": "剪到",
+  "pinyin": "jiǎndào",
+  "meaning_ja": "〜まで切る"
+ },
+ {
+  "word": "肩膀",
+  "pinyin": "jiānbǎng",
+  "meaning_ja": "肩"
+ },
+ {
+  "word": "上边",
+  "pinyin": "shàngbiān",
+  "meaning_ja": "上のほう"
+ },
+ {
+  "word": "样子",
+  "pinyin": "yàngzi",
+  "meaning_ja": "様子、感じ"
+ },
+ {
+  "word": "这种",
+  "pinyin": "zhèzhǒng",
+  "meaning_ja": "この種の"
+ },
+ {
+  "word": "脸型",
+  "pinyin": "liǎnxíng",
+  "meaning_ja": "顔の形"
+ },
+ {
+  "word": "照",
+  "pinyin": "zhào",
+  "meaning_ja": "〜に沿って、〜通りに"
+ },
+ {
+  "word": "染",
+  "pinyin": "rǎn",
+  "meaning_ja": "染める"
+ },
+ {
+  "word": "先不染",
+  "pinyin": "xiānbùrǎn",
+  "meaning_ja": "今は染めない"
+ },
+ {
+  "word": "下次",
+  "pinyin": "xiàcì",
+  "meaning_ja": "次回"
+ },
+ {
+  "word": "再说",
+  "pinyin": "zàishuō",
+  "meaning_ja": "また今度言う、それに"
+ },
+ {
+  "word": "洗头",
+  "pinyin": "xǐtóu",
+  "meaning_ja": "髪を洗う"
+ },
+ {
+  "word": "麻烦",
+  "pinyin": "máfán",
+  "meaning_ja": "面倒をかける、お手数をかける"
+ },
+ {
+  "word": "手机",
+  "pinyin": "shǒujī",
+  "meaning_ja": "携帯電話"
+ },
+ {
+  "word": "屏幕",
+  "pinyin": "píngmù",
+  "meaning_ja": "画面"
+ },
+ {
+  "word": "坏",
+  "pinyin": "huài",
+  "meaning_ja": "壊れる"
+ },
+ {
+  "word": "摔坏",
+  "pinyin": "shuāihuài",
+  "meaning_ja": "落として壊す"
+ },
+ {
+  "word": "昨天",
+  "pinyin": "zuótiān",
+  "meaning_ja": "昨日"
+ },
+ {
+  "word": "摔",
+  "pinyin": "shuāi",
+  "meaning_ja": "落とす、転ぶ"
+ },
+ {
+  "word": "修",
+  "pinyin": "xiū",
+  "meaning_ja": "修理する"
+ },
+ {
+  "word": "需要",
+  "pinyin": "xūyào",
+  "meaning_ja": "必要とする"
+ },
+ {
+  "word": "三百块",
+  "pinyin": "sānbǎikuài",
+  "meaning_ja": "300元"
+ },
+ {
+  "word": "今天下午",
+  "pinyin": "jīntiānxiàwǔ",
+  "meaning_ja": "今日の午後"
+ },
+ {
+  "word": "修好",
+  "pinyin": "xiūhǎo",
+  "meaning_ja": "修理し終える"
+ },
+ {
+  "word": "就行",
+  "pinyin": "jiùxíng",
+  "meaning_ja": "〜でよい、大丈夫"
+ },
+ {
+  "word": "附近",
+  "pinyin": "fùjìn",
+  "meaning_ja": "近く"
+ },
+ {
+  "word": "打电话",
+  "pinyin": "dǎdiànhuà",
+  "meaning_ja": "電話をかける"
+ },
+ {
+  "word": "阿哲",
+  "pinyin": "āzhé",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "学长",
+  "pinyin": "xuézhǎng",
+  "meaning_ja": "先輩（学校の）"
+ },
+ {
+  "word": "毕业",
+  "pinyin": "bìyè",
+  "meaning_ja": "卒業する"
+ },
+ {
+  "word": "着急",
+  "pinyin": "zháojí",
+  "meaning_ja": "焦る"
+ },
+ {
+  "word": "先说",
+  "pinyin": "xiānshuō",
+  "meaning_ja": "まず話す"
+ },
+ {
+  "word": "我学",
+  "pinyin": "wǒxué",
+  "meaning_ja": "私が学ぶ"
+ },
+ {
+  "word": "市场营销",
+  "pinyin": "shìchǎngyíngxiāo",
+  "meaning_ja": "マーケティング"
+ },
+ {
+  "word": "一家",
+  "pinyin": "yījiā",
+  "meaning_ja": "1社、一軒"
+ },
+ {
+  "word": "投",
+  "pinyin": "tóu",
+  "meaning_ja": "投げる、（履歴書を）送る"
+ },
+ {
+  "word": "份",
+  "pinyin": "fèn",
+  "meaning_ja": "〜通、〜部（書類の量詞）"
+ },
+ {
+  "word": "简历",
+  "pinyin": "jiǎnlì",
+  "meaning_ja": "履歴書"
+ },
+ {
+  "word": "投了",
+  "pinyin": "tóule",
+  "meaning_ja": "送った"
+ },
+ {
+  "word": "二十多",
+  "pinyin": "èrshíduō",
+  "meaning_ja": "20あまり"
+ },
+ {
+  "word": "三家",
+  "pinyin": "sānjiā",
+  "meaning_ja": "3社"
+ },
+ {
+  "word": "回复",
+  "pinyin": "huífù",
+  "meaning_ja": "返信する"
+ },
+ {
+  "word": "面试",
+  "pinyin": "miànshì",
+  "meaning_ja": "面接"
+ },
+ {
+  "word": "一般",
+  "pinyin": "yìbān",
+  "meaning_ja": "普段、一般的に"
+ },
+ {
+  "word": "自我介绍",
+  "pinyin": "zìwǒjièshào",
+  "meaning_ja": "自己紹介"
+ },
+ {
+  "word": "遇到",
+  "pinyin": "yùdào",
+  "meaning_ja": "出会う、遭遇する"
+ },
+ {
+  "word": "难题",
+  "pinyin": "nántí",
+  "meaning_ja": "難問"
+ },
+ {
+  "word": "紧张",
+  "pinyin": "jǐnzhāng",
+  "meaning_ja": "緊張する"
+ },
+ {
+  "word": "练习",
+  "pinyin": "liànxí",
+  "meaning_ja": "練習する"
+ },
+ {
+  "word": "几次",
+  "pinyin": "jǐcì",
+  "meaning_ja": "何回か"
+ },
+ {
+  "word": "模拟",
+  "pinyin": "mónǐ",
+  "meaning_ja": "模擬、シミュレーション"
+ },
+ {
+  "word": "那太",
+  "pinyin": "nàtài",
+  "meaning_ja": "それは〜すぎる"
+ },
+ {
+  "word": "感谢",
+  "pinyin": "gǎnxiè",
+  "meaning_ja": "感謝する"
+ },
+ {
+  "word": "改改",
+  "pinyin": "gǎigǎi",
+  "meaning_ja": "少し直す"
+ },
+ {
+  "word": "见面",
+  "pinyin": "jiànmiàn",
+  "meaning_ja": "会う"
+ },
+ {
+  "word": "聊聊吧",
+  "pinyin": "liáoliáoba",
+  "meaning_ja": "話しましょう"
+ },
+ {
+  "word": "张叔",
+  "pinyin": "zhāngshū",
+  "meaning_ja": "張さん（張おじさん）"
+ },
+ {
+  "word": "下个月",
+  "pinyin": "xiàgèyuè",
+  "meaning_ja": "来月"
+ },
+ {
+  "word": "搬家",
+  "pinyin": "bānjiā",
+  "meaning_ja": "引っ越す"
+ },
+ {
+  "word": "您",
+  "pinyin": "nín",
+  "meaning_ja": "あなた（敬称）"
+ },
+ {
+  "word": "一声",
+  "pinyin": "yīshēng",
+  "meaning_ja": "一言、ひとこと"
+ },
+ {
+  "word": "变动",
+  "pinyin": "biàndòng",
+  "meaning_ja": "変動、異動"
+ },
+ {
+  "word": "搬到",
+  "pinyin": "bāndào",
+  "meaning_ja": "〜へ移転する"
+ },
+ {
+  "word": "押金",
+  "pinyin": "yājīn",
+  "meaning_ja": "敷金"
+ },
+ {
+  "word": "算",
+  "pinyin": "suàn",
+  "meaning_ja": "計算する"
+ },
+ {
+  "word": "退",
+  "pinyin": "tuì",
+  "meaning_ja": "返す、返却する"
+ },
+ {
+  "word": "打扫",
+  "pinyin": "dǎsǎo",
+  "meaning_ja": "掃除する"
+ },
+ {
+  "word": "干净",
+  "pinyin": "gānjìng",
+  "meaning_ja": "きれいだ"
+ },
+ {
+  "word": "没有",
+  "pinyin": "méiyǒu",
+  "meaning_ja": "ない"
+ },
+ {
+  "word": "损坏",
+  "pinyin": "sǔnhuài",
+  "meaning_ja": "損壊する、壊れる"
+ },
+ {
+  "word": "全部",
+  "pinyin": "quánbù",
+  "meaning_ja": "全部"
+ },
+ {
+  "word": "另外",
+  "pinyin": "lìngwài",
+  "meaning_ja": "そのほか、別に"
+ },
+ {
+  "word": "月",
+  "pinyin": "yuè",
+  "meaning_ja": "月"
+ },
+ {
+  "word": "交了",
+  "pinyin": "jiāole",
+  "meaning_ja": "支払った"
+ },
+ {
+  "word": "约个",
+  "pinyin": "yuēgè",
+  "meaning_ja": "〜を約束する、決める"
+ },
+ {
+  "word": "下",
+  "pinyin": "xià",
+  "meaning_ja": "下、次"
+ },
+ {
+  "word": "周六",
+  "pinyin": "zhōuliù",
+  "meaning_ja": "土曜日"
+ },
+ {
+  "word": "下午",
+  "pinyin": "xiàwǔ",
+  "meaning_ja": "午後"
+ },
+ {
+  "word": "方便",
+  "pinyin": "fāngbiàn",
+  "meaning_ja": "都合がいい"
+ },
+ {
+  "word": "过来",
+  "pinyin": "guòlái",
+  "meaning_ja": "こちらに来る"
+ },
+ {
+  "word": "感谢您",
+  "pinyin": "gǎnxiènín",
+  "meaning_ja": "あなたに感謝します"
+ },
+ {
+  "word": "段时间",
+  "pinyin": "duànshíjiān",
+  "meaning_ja": "一定の期間"
+ },
+ {
+  "word": "阿飞",
+  "pinyin": "āfēi",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "学期",
+  "pinyin": "xuéqī",
+  "meaning_ja": "学期"
+ },
+ {
+  "word": "选",
+  "pinyin": "xuǎn",
+  "meaning_ja": "選ぶ"
+ },
+ {
+  "word": "我选",
+  "pinyin": "wǒxuǎn",
+  "meaning_ja": "私は選ぶ"
+ },
+ {
+  "word": "经济学",
+  "pinyin": "jīngjìxué",
+  "meaning_ja": "経済学"
+ },
+ {
+  "word": "一门",
+  "pinyin": "yīmén",
+  "meaning_ja": "一科目"
+ },
+ {
+  "word": "历史课",
+  "pinyin": "lìshǐkè",
+  "meaning_ja": "歴史の授業"
+ },
+ {
+  "word": "作业",
+  "pinyin": "zuòyè",
+  "meaning_ja": "宿題、課題"
+ },
+ {
+  "word": "老师",
+  "pinyin": "lǎoshī",
+  "meaning_ja": "先生"
+ },
+ {
+  "word": "讲得",
+  "pinyin": "jiǎngdé",
+  "meaning_ja": "話すのが（〜だ）"
+ },
+ {
+  "word": "有意思",
+  "pinyin": "yǒuyìsi",
+  "meaning_ja": "面白い"
+ },
+ {
+  "word": "本来",
+  "pinyin": "běnlái",
+  "meaning_ja": "もともと"
+ },
+ {
+  "word": "想选",
+  "pinyin": "xiǎngxuǎn",
+  "meaning_ja": "選びたい"
+ },
+ {
+  "word": "那门",
+  "pinyin": "nàmén",
+  "meaning_ja": "あの科目"
+ },
+ {
+  "word": "英语课",
+  "pinyin": "yīngyǔkè",
+  "meaning_ja": "英語の授業"
+ },
+ {
+  "word": "冲突",
+  "pinyin": "chōngtū",
+  "meaning_ja": "衝突する、かち合う"
+ },
+ {
+  "word": "最后",
+  "pinyin": "zuìhòu",
+  "meaning_ja": "最後に"
+ },
+ {
+  "word": "心理学",
+  "pinyin": "xīnlǐxué",
+  "meaning_ja": "心理学"
+ },
+ {
+  "word": "这门",
+  "pinyin": "zhèmén",
+  "meaning_ja": "この科目"
+ },
+ {
+  "word": "受欢迎",
+  "pinyin": "shòuhuānyíng",
+  "meaning_ja": "人気がある"
+ },
+ {
+  "word": "要求",
+  "pinyin": "yāoqiú",
+  "meaning_ja": "要求する"
+ },
+ {
+  "word": "写",
+  "pinyin": "xiě",
+  "meaning_ja": "書く"
+ },
+ {
+  "word": "很多",
+  "pinyin": "hěnduō",
+  "meaning_ja": "多くの"
+ },
+ {
+  "word": "报告",
+  "pinyin": "bàogào",
+  "meaning_ja": "レポート"
+ },
+ {
+  "word": "内容",
+  "pinyin": "nèiróng",
+  "meaning_ja": "内容"
+ },
+ {
+  "word": "很感兴趣",
+  "pinyin": "hěngǎnxìngqù",
+  "meaning_ja": "とても興味がある"
+ },
+ {
+  "word": "学习",
+  "pinyin": "xuéxí",
+  "meaning_ja": "勉強する"
+ },
+ {
+  "word": "互相监督",
+  "pinyin": "hùxiāngjiāndū",
+  "meaning_ja": "お互いに監視し合う"
+ },
+ {
+  "word": "才能",
+  "pinyin": "cáinéng",
+  "meaning_ja": "〜してこそ〜できる（才+能の組み合わせ、名詞の「才能」とは別）"
+ },
+ {
+  "word": "坚持下去",
+  "pinyin": "jiānchíxiàqù",
+  "meaning_ja": "続けていく"
+ },
+ {
+  "word": "店长",
+  "pinyin": "diànzhǎng",
+  "meaning_ja": "店長"
+ },
+ {
+  "word": "事情",
+  "pinyin": "shìqíng",
+  "meaning_ja": "出来事、事柄"
+ },
+ {
+  "word": "顾客",
+  "pinyin": "gùkè",
+  "meaning_ja": "お客様"
+ },
+ {
+  "word": "误会",
+  "pinyin": "wùhuì",
+  "meaning_ja": "誤解"
+ },
+ {
+  "word": "那位",
+  "pinyin": "nàwèi",
+  "meaning_ja": "あの方"
+ },
+ {
+  "word": "态度",
+  "pinyin": "tàidù",
+  "meaning_ja": "態度"
+ },
+ {
+  "word": "其实",
+  "pinyin": "qíshí",
+  "meaning_ja": "実は"
+ },
+ {
+  "word": "只是",
+  "pinyin": "zhǐshì",
+  "meaning_ja": "ただ〜なだけ"
+ },
+ {
+  "word": "累",
+  "pinyin": "lèi",
+  "meaning_ja": "疲れる"
+ },
+ {
+  "word": "理解",
+  "pinyin": "lǐjiě",
+  "meaning_ja": "理解する"
+ },
+ {
+  "word": "保持",
+  "pinyin": "bǎochí",
+  "meaning_ja": "保つ"
+ },
+ {
+  "word": "礼貌",
+  "pinyin": "lǐmào",
+  "meaning_ja": "礼儀"
+ },
+ {
+  "word": "注意",
+  "pinyin": "zhùyì",
+  "meaning_ja": "注意する"
+ },
+ {
+  "word": "实在太",
+  "pinyin": "shízàitài",
+  "meaning_ja": "本当に〜すぎる"
+ },
+ {
+  "word": "休息时间",
+  "pinyin": "xiūxīshíjiān",
+  "meaning_ja": "休憩時間"
+ },
+ {
+  "word": "店里",
+  "pinyin": "diànlǐ",
+  "meaning_ja": "店の中"
+ },
+ {
+  "word": "比较忙",
+  "pinyin": "bǐjiàománg",
+  "meaning_ja": "わりと忙しい"
+ },
+ {
+  "word": "我能",
+  "pinyin": "wǒnéng",
+  "meaning_ja": "私は〜できる"
+ },
+ {
+  "word": "坚持",
+  "pinyin": "jiānchí",
+  "meaning_ja": "頑張り続ける、堅持する"
+ },
+ {
+  "word": "改善",
+  "pinyin": "gǎishàn",
+  "meaning_ja": "改善する"
+ },
+ {
+  "word": "排班",
+  "pinyin": "páibān",
+  "meaning_ja": "シフト、勤務割り当て"
+ },
+ {
+  "word": "重新安排",
+  "pinyin": "chóngxīnānpái",
+  "meaning_ja": "改めて手配する"
+ },
+ {
+  "word": "班表",
+  "pinyin": "bānbiǎo",
+  "meaning_ja": "シフト表"
+ },
+ {
+  "word": "继续",
+  "pinyin": "jìxù",
+  "meaning_ja": "続ける"
+ },
+ {
+  "word": "教授",
+  "pinyin": "jiàoshòu",
+  "meaning_ja": "教授"
+ },
+ {
+  "word": "王先生",
+  "pinyin": "wángxiānshēng",
+  "meaning_ja": "王さん"
+ },
+ {
+  "word": "聊聊",
+  "pinyin": "liáoliáo",
+  "meaning_ja": "ちょっと話す"
+ },
+ {
+  "word": "经济",
+  "pinyin": "jīngjì",
+  "meaning_ja": "経済"
+ },
+ {
+  "word": "形势",
+  "pinyin": "xíngshì",
+  "meaning_ja": "情勢、状況"
+ },
+ {
+  "word": "王教授",
+  "pinyin": "wángjiàoshòu",
+  "meaning_ja": "王教授（人名）"
+ },
+ {
+  "word": "目前",
+  "pinyin": "mùqián",
+  "meaning_ja": "現在、目下"
+ },
+ {
+  "word": "通货膨胀",
+  "pinyin": "tōnghuòpéngzhàng",
+  "meaning_ja": "インフレ"
+ },
+ {
+  "word": "认为",
+  "pinyin": "rènwéi",
+  "meaning_ja": "〜と考える、思う"
+ },
+ {
+  "word": "全球",
+  "pinyin": "quánqiú",
+  "meaning_ja": "グローバル、全世界"
+ },
+ {
+  "word": "供应链",
+  "pinyin": "gōngyìngliàn",
+  "meaning_ja": "サプライチェーン"
+ },
+ {
+  "word": "造成",
+  "pinyin": "zàochéng",
+  "meaning_ja": "引き起こす"
+ },
+ {
+  "word": "短期内",
+  "pinyin": "duǎnqīnèi",
+  "meaning_ja": "短期間内に"
+ },
+ {
+  "word": "很难",
+  "pinyin": "hěnnán",
+  "meaning_ja": "〜するのが難しい"
+ },
+ {
+  "word": "完全",
+  "pinyin": "wánquán",
+  "meaning_ja": "完全に"
+ },
+ {
+  "word": "解决",
+  "pinyin": "jiějué",
+  "meaning_ja": "解決する"
+ },
+ {
+  "word": "普通",
+  "pinyin": "pǔtōng",
+  "meaning_ja": "普通の"
+ },
+ {
+  "word": "老百姓",
+  "pinyin": "lǎobǎixìng",
+  "meaning_ja": "一般庶民"
+ },
+ {
+  "word": "应对",
+  "pinyin": "yìngduì",
+  "meaning_ja": "対応する"
+ },
+ {
+  "word": "情况",
+  "pinyin": "qíngkuàng",
+  "meaning_ja": "状況"
+ },
+ {
+  "word": "控制",
+  "pinyin": "kòngzhì",
+  "meaning_ja": "コントロールする"
+ },
+ {
+  "word": "不必要",
+  "pinyin": "bùbìyào",
+  "meaning_ja": "不必要な"
+ },
+ {
+  "word": "开支",
+  "pinyin": "kāizhī",
+  "meaning_ja": "支出"
+ },
+ {
+  "word": "适当",
+  "pinyin": "shìdàng",
+  "meaning_ja": "適当な、適切な"
+ },
+ {
+  "word": "进行",
+  "pinyin": "jìnxíng",
+  "meaning_ja": "行う"
+ },
+ {
+  "word": "投资",
+  "pinyin": "tóuzī",
+  "meaning_ja": "投資する"
+ },
+ {
+  "word": "风险",
+  "pinyin": "fēngxiǎn",
+  "meaning_ja": "リスク"
+ },
+ {
+  "word": "这方面",
+  "pinyin": "zhèfāngmiàn",
+  "meaning_ja": "この方面、この点"
+ },
+ {
+  "word": "所有",
+  "pinyin": "suǒyǒu",
+  "meaning_ja": "すべての"
+ },
+ {
+  "word": "投到",
+  "pinyin": "tóudào",
+  "meaning_ja": "〜に投資する"
+ },
+ {
+  "word": "分散",
+  "pinyin": "fēnsàn",
+  "meaning_ja": "分散する"
+ },
+ {
+  "word": "降低",
+  "pinyin": "jiàngdī",
+  "meaning_ja": "下げる"
+ },
+ {
+  "word": "对于",
+  "pinyin": "duìyú",
+  "meaning_ja": "〜に対して、〜について"
+ },
+ {
+  "word": "年轻人",
+  "pinyin": "niánqīngrén",
+  "meaning_ja": "若者"
+ },
+ {
+  "word": "来说",
+  "pinyin": "láishuō",
+  "meaning_ja": "（〜にとって）言えば"
+ },
+ {
+  "word": "买房",
+  "pinyin": "mǎifáng",
+  "meaning_ja": "家を買う"
+ },
+ {
+  "word": "好时机",
+  "pinyin": "hǎoshíjī",
+  "meaning_ja": "良いタイミング"
+ },
+ {
+  "word": "比较复杂",
+  "pinyin": "bǐjiàofùzá",
+  "meaning_ja": "わりと複雑だ"
+ },
+ {
+  "word": "状况",
+  "pinyin": "zhuàngkuàng",
+  "meaning_ja": "状況"
+ },
+ {
+  "word": "所在城市",
+  "pinyin": "suǒzàichéngshì",
+  "meaning_ja": "所在する都市"
+ },
+ {
+  "word": "房价",
+  "pinyin": "fángjià",
+  "meaning_ja": "不動産価格"
+ },
+ {
+  "word": "走势",
+  "pinyin": "zǒushì",
+  "meaning_ja": "動向、トレンド"
+ },
+ {
+  "word": "未来",
+  "pinyin": "wèilái",
+  "meaning_ja": "未来"
+ },
+ {
+  "word": "一年",
+  "pinyin": "yīnián",
+  "meaning_ja": "1年"
+ },
+ {
+  "word": "预测",
+  "pinyin": "yùcè",
+  "meaning_ja": "予測する"
+ },
+ {
+  "word": "逐渐",
+  "pinyin": "zhújiàn",
+  "meaning_ja": "徐々に"
+ },
+ {
+  "word": "恢复",
+  "pinyin": "huīfù",
+  "meaning_ja": "回復する"
+ },
+ {
+  "word": "过程",
+  "pinyin": "guòchéng",
+  "meaning_ja": "プロセス、過程"
+ },
+ {
+  "word": "缓慢",
+  "pinyin": "huǎnmàn",
+  "meaning_ja": "緩やかだ"
+ },
+ {
+  "word": "非常感谢",
+  "pinyin": "fēichánggǎnxiè",
+  "meaning_ja": "非常に感謝する"
+ },
+ {
+  "word": "精彩",
+  "pinyin": "jīngcǎi",
+  "meaning_ja": "素晴らしい"
+ },
+ {
+  "word": "分享",
+  "pinyin": "fēnxiǎng",
+  "meaning_ja": "シェアする、分かち合う"
+ },
+ {
+  "word": "讨论",
+  "pinyin": "tǎolùn",
+  "meaning_ja": "討論する"
+ },
+ {
+  "word": "社会",
+  "pinyin": "shèhuì",
+  "meaning_ja": "社会"
+ },
+ {
+  "word": "少子",
+  "pinyin": "shǎozǐ",
+  "meaning_ja": "少子"
+ },
+ {
+  "word": "化",
+  "pinyin": "huà",
+  "meaning_ja": "〜化"
+ },
+ {
+  "word": "老龄化",
+  "pinyin": "lǎolínghuà",
+  "meaning_ja": "高齢化"
+ },
+ {
+  "word": "愿意",
+  "pinyin": "yuànyì",
+  "meaning_ja": "〜したいと思う、望む"
+ },
+ {
+  "word": "生",
+  "pinyin": "shēng",
+  "meaning_ja": "産む"
+ },
+ {
+  "word": "孩子",
+  "pinyin": "háizi",
+  "meaning_ja": "子供"
+ },
+ {
+  "word": "养",
+  "pinyin": "yǎng",
+  "meaning_ja": "育てる"
+ },
+ {
+  "word": "影响",
+  "pinyin": "yǐngxiǎng",
+  "meaning_ja": "影響する"
+ },
+ {
+  "word": "事业",
+  "pinyin": "shìyè",
+  "meaning_ja": "キャリア、事業"
+ },
+ {
+  "word": "发展",
+  "pinyin": "fāzhǎn",
+  "meaning_ja": "発展する"
+ },
+ {
+  "word": "道理",
+  "pinyin": "dàolǐ",
+  "meaning_ja": "道理、理屈"
+ },
+ {
+  "word": "政府",
+  "pinyin": "zhèngfǔ",
+  "meaning_ja": "政府"
+ },
+ {
+  "word": "采取",
+  "pinyin": "cǎiqǔ",
+  "meaning_ja": "採る、講じる"
+ },
+ {
+  "word": "措施",
+  "pinyin": "cuòshī",
+  "meaning_ja": "措置"
+ },
+ {
+  "word": "提供",
+  "pinyin": "tígōng",
+  "meaning_ja": "提供する"
+ },
+ {
+  "word": "育儿",
+  "pinyin": "yùér",
+  "meaning_ja": "育児"
+ },
+ {
+  "word": "补贴",
+  "pinyin": "bǔtiē",
+  "meaning_ja": "補助金、手当"
+ },
+ {
+  "word": "托儿",
+  "pinyin": "tuōér",
+  "meaning_ja": "保育"
+ },
+ {
+  "word": "延长",
+  "pinyin": "yáncháng",
+  "meaning_ja": "延長する"
+ },
+ {
+  "word": "产假",
+  "pinyin": "chǎnjià",
+  "meaning_ja": "産休"
+ },
+ {
+  "word": "鼓励",
+  "pinyin": "gǔlì",
+  "meaning_ja": "奨励する"
+ },
+ {
+  "word": "企业",
+  "pinyin": "qǐyè",
+  "meaning_ja": "企業"
+ },
+ {
+  "word": "弹性",
+  "pinyin": "tánxìng",
+  "meaning_ja": "弾力的な、フレキシブルな"
+ },
+ {
+  "word": "无论如何",
+  "pinyin": "wúlùnrúhé",
+  "meaning_ja": "いずれにせよ"
+ },
+ {
+  "word": "完善",
+  "pinyin": "wánshàn",
+  "meaning_ja": "整備する、完全にする"
+ },
+ {
+  "word": "养老保险",
+  "pinyin": "yǎnglǎobǎoxiǎn",
+  "meaning_ja": "年金保険"
+ },
+ {
+  "word": "制度",
+  "pinyin": "zhìdù",
+  "meaning_ja": "制度"
+ },
+ {
+  "word": "基本",
+  "pinyin": "jīběn",
+  "meaning_ja": "基本的な"
+ },
+ {
+  "word": "一步",
+  "pinyin": "yībù",
+  "meaning_ja": "一歩"
+ },
+ {
+  "word": "这些",
+  "pinyin": "zhèxiē",
+  "meaning_ja": "これらの"
+ },
+ {
+  "word": "长远",
+  "pinyin": "chángyuǎn",
+  "meaning_ja": "長期的な"
+ },
+ {
+  "word": "值得",
+  "pinyin": "zhíde",
+  "meaning_ja": "〜する価値がある"
+ },
+ {
+  "word": "投入",
+  "pinyin": "tóurù",
+  "meaning_ja": "投入する"
+ },
+ {
+  "word": "关注",
+  "pinyin": "guānzhù",
+  "meaning_ja": "関心を持つ、注目する"
+ },
+ {
+  "word": "话题",
+  "pinyin": "huàtí",
+  "meaning_ja": "話題"
+ },
+ {
+  "word": "人工智能",
+  "pinyin": "réngōngzhìnéng",
+  "meaning_ja": "人工知能"
+ },
+ {
+  "word": "技术",
+  "pinyin": "jìshù",
+  "meaning_ja": "技術"
+ },
+ {
+  "word": "李博士",
+  "pinyin": "lǐbóshì",
+  "meaning_ja": "李博士（人名）"
+ },
+ {
+  "word": "AI",
+  "pinyin": "AI",
+  "meaning_ja": "AI（人工知能）"
+ },
+ {
+  "word": "渗透到",
+  "pinyin": "shèntòudào",
+  "meaning_ja": "〜に浸透する"
+ },
+ {
+  "word": "生活",
+  "pinyin": "shēnghuó",
+  "meaning_ja": "生活"
+ },
+ {
+  "word": "方方面面",
+  "pinyin": "fāngfāngmiànmiàn",
+  "meaning_ja": "あらゆる方面"
+ },
+ {
+  "word": "改变",
+  "pinyin": "gǎibiàn",
+  "meaning_ja": "変える"
+ },
+ {
+  "word": "方式",
+  "pinyin": "fāngshì",
+  "meaning_ja": "方式、やり方"
+ },
+ {
+  "word": "担心",
+  "pinyin": "dānxīn",
+  "meaning_ja": "心配する"
+ },
+ {
+  "word": "取代",
+  "pinyin": "qǔdài",
+  "meaning_ja": "取って代わる"
+ },
+ {
+  "word": "人类",
+  "pinyin": "rénlèi",
+  "meaning_ja": "人類"
+ },
+ {
+  "word": "如何",
+  "pinyin": "rúhé",
+  "meaning_ja": "どのように"
+ },
+ {
+  "word": "合作",
+  "pinyin": "hézuò",
+  "meaning_ja": "協力する"
+ },
+ {
+  "word": "提高",
+  "pinyin": "tígāo",
+  "meaning_ja": "高める、向上させる"
+ },
+ {
+  "word": "竞争力",
+  "pinyin": "jìngzhēnglì",
+  "meaning_ja": "競争力"
+ },
+ {
+  "word": "阿凯",
+  "pinyin": "ākǎi",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "作为",
+  "pinyin": "zuòwéi",
+  "meaning_ja": "〜として"
+ },
+ {
+  "word": "工程师",
+  "pinyin": "gōngchéngshī",
+  "meaning_ja": "エンジニア"
+ },
+ {
+  "word": "实际",
+  "pinyin": "shíjì",
+  "meaning_ja": "実際の"
+ },
+ {
+  "word": "中",
+  "pinyin": "zhōng",
+  "meaning_ja": "〜の中で"
+ },
+ {
+  "word": "挑战",
+  "pinyin": "tiǎozhàn",
+  "meaning_ja": "挑戦、チャレンジ"
+ },
+ {
+  "word": "最大",
+  "pinyin": "zuìdà",
+  "meaning_ja": "最大の"
+ },
+ {
+  "word": "数据",
+  "pinyin": "shùjù",
+  "meaning_ja": "データ"
+ },
+ {
+  "word": "隐私",
+  "pinyin": "yǐnsī",
+  "meaning_ja": "プライバシー"
+ },
+ {
+  "word": "安全",
+  "pinyin": "ānquán",
+  "meaning_ja": "安全"
+ },
+ {
+  "word": "必须",
+  "pinyin": "bìxū",
+  "meaning_ja": "〜しなければならない"
+ },
+ {
+  "word": "非常",
+  "pinyin": "fēicháng",
+  "meaning_ja": "非常に"
+ },
+ {
+  "word": "谨慎",
+  "pinyin": "jǐnshèn",
+  "meaning_ja": "慎重だ"
+ },
+ {
+  "word": "先进",
+  "pinyin": "xiānjìn",
+  "meaning_ja": "先進的な"
+ },
+ {
+  "word": "伦理",
+  "pinyin": "lúnlǐ",
+  "meaning_ja": "倫理"
+ },
+ {
+  "word": "法律",
+  "pinyin": "fǎlǜ",
+  "meaning_ja": "法律"
+ },
+ {
+  "word": "规范",
+  "pinyin": "guīfàn",
+  "meaning_ja": "規範"
+ },
+ {
+  "word": "忽视",
+  "pinyin": "hūshì",
+  "meaning_ja": "無視する"
+ },
+ {
+  "word": "普通人",
+  "pinyin": "pǔtōngrén",
+  "meaning_ja": "一般人"
+ },
+ {
+  "word": "面对",
+  "pinyin": "miànduì",
+  "meaning_ja": "向き合う"
+ },
+ {
+  "word": "变革",
+  "pinyin": "biàngé",
+  "meaning_ja": "変革"
+ },
+ {
+  "word": "开放",
+  "pinyin": "kāifàng",
+  "meaning_ja": "オープンな"
+ },
+ {
+  "word": "心态",
+  "pinyin": "xīntài",
+  "meaning_ja": "心理状態、マインド"
+ },
+ {
+  "word": "尽早",
+  "pinyin": "jǐnzǎo",
+  "meaning_ja": "できるだけ早く"
+ },
+ {
+  "word": "了解",
+  "pinyin": "liǎojiě",
+  "meaning_ja": "理解する、把握する"
+ },
+ {
+  "word": "相关",
+  "pinyin": "xiāngguān",
+  "meaning_ja": "関連する"
+ },
+ {
+  "word": "知识",
+  "pinyin": "zhīshí",
+  "meaning_ja": "知識"
+ },
+ {
+  "word": "两位",
+  "pinyin": "liǎngwèi",
+  "meaning_ja": "お二方"
+ },
+ {
+  "word": "更深",
+  "pinyin": "gēngshēn",
+  "meaning_ja": "より深く"
+ },
+ {
+  "word": "改革",
+  "pinyin": "gǎigé",
+  "meaning_ja": "改革する"
+ },
+ {
+  "word": "想法",
+  "pinyin": "xiǎngfǎ",
+  "meaning_ja": "考え"
+ },
+ {
+  "word": "灵活",
+  "pinyin": "línghuó",
+  "meaning_ja": "柔軟な"
+ },
+ {
+  "word": "上下班",
+  "pinyin": "shàngxiàbān",
+  "meaning_ja": "出退勤"
+ },
+ {
+  "word": "同意",
+  "pinyin": "tóngyì",
+  "meaning_ja": "同意する"
+ },
+ {
+  "word": "远程",
+  "pinyin": "yuǎnchéng",
+  "meaning_ja": "リモート、遠隔"
+ },
+ {
+  "word": "办公",
+  "pinyin": "bàngōng",
+  "meaning_ja": "仕事をする、執務する"
+ },
+ {
+  "word": "比例",
+  "pinyin": "bǐlì",
+  "meaning_ja": "割合"
+ },
+ {
+  "word": "增加",
+  "pinyin": "zēngjiā",
+  "meaning_ja": "増やす"
+ },
+ {
+  "word": "一部分",
+  "pinyin": "yībùfèn",
+  "meaning_ja": "一部分"
+ },
+ {
+  "word": "员工",
+  "pinyin": "yuángōng",
+  "meaning_ja": "社員、従業員"
+ },
+ {
+  "word": "效率",
+  "pinyin": "xiàolǜ",
+  "meaning_ja": "効率"
+ },
+ {
+  "word": "管理",
+  "pinyin": "guǎnlǐ",
+  "meaning_ja": "管理する"
+ },
+ {
+  "word": "上",
+  "pinyin": "shàng",
+  "meaning_ja": "上、〜において"
+ },
+ {
+  "word": "困难",
+  "pinyin": "kùnnán",
+  "meaning_ja": "困難"
+ },
+ {
+  "word": "设立",
+  "pinyin": "shèlì",
+  "meaning_ja": "設立する、設定する"
+ },
+ {
+  "word": "目标",
+  "pinyin": "mùbiāo",
+  "meaning_ja": "目標"
+ },
+ {
+  "word": "考核",
+  "pinyin": "kǎohé",
+  "meaning_ja": "評価、査定"
+ },
+ {
+  "word": "标准",
+  "pinyin": "biāozhǔn",
+  "meaning_ja": "基準"
+ },
+ {
+  "word": "不是",
+  "pinyin": "búshì",
+  "meaning_ja": "〜ではない"
+ },
+ {
+  "word": "各",
+  "pinyin": "gè",
+  "meaning_ja": "それぞれの"
+ },
+ {
+  "word": "部门",
+  "pinyin": "bùmén",
+  "meaning_ja": "部署"
+ },
+ {
+  "word": "沟通",
+  "pinyin": "gōutōng",
+  "meaning_ja": "コミュニケーションを取る"
+ },
+ {
+  "word": "精简",
+  "pinyin": "jīngjiǎn",
+  "meaning_ja": "簡素化する"
+ },
+ {
+  "word": "流程",
+  "pinyin": "liúchéng",
+  "meaning_ja": "プロセス、流れ"
+ },
+ {
+  "word": "部长",
+  "pinyin": "bùzhǎng",
+  "meaning_ja": "部長"
+ },
+ {
+  "word": "工作效率",
+  "pinyin": "gōngzuòxiàolǜ",
+  "meaning_ja": "仕事の効率"
+ },
+ {
+  "word": "不少",
+  "pinyin": "bùshǎo",
+  "meaning_ja": "少なくない"
+ },
+ {
+  "word": "试行",
+  "pinyin": "shìxíng",
+  "meaning_ja": "試行する"
+ },
+ {
+  "word": "然后",
+  "pinyin": "ránhòu",
+  "meaning_ja": "それから"
+ },
+ {
+  "word": "根据",
+  "pinyin": "gēnjù",
+  "meaning_ja": "〜に基づいて"
+ },
+ {
+  "word": "反馈",
+  "pinyin": "fǎnkuì",
+  "meaning_ja": "フィードバック"
+ },
+ {
+  "word": "平衡",
+  "pinyin": "pínghéng",
+  "meaning_ja": "バランス"
+ },
+ {
+  "word": "阿明",
+  "pinyin": "āmíng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "今天天气",
+  "pinyin": "jīntiāntiānqì",
+  "meaning_ja": "今日の天気"
+ },
+ {
+  "word": "晴朗",
+  "pinyin": "qínglǎng",
+  "meaning_ja": "晴れ渡っている"
+ },
+ {
+  "word": "一会儿",
+  "pinyin": "yīhuìer",
+  "meaning_ja": "しばらく、少しの間"
+ },
+ {
+  "word": "不冷",
+  "pinyin": "bùlěng",
+  "meaning_ja": "寒くない（不＋冷）"
+ },
+ {
+  "word": "热",
+  "pinyin": "rè",
+  "meaning_ja": "暑い"
+ },
+ {
+  "word": "散步",
+  "pinyin": "sànbù",
+  "meaning_ja": "散歩する"
+ },
+ {
+  "word": "带上",
+  "pinyin": "dàishàng",
+  "meaning_ja": "持っていく"
+ },
+ {
+  "word": "水",
+  "pinyin": "shuǐ",
+  "meaning_ja": "水"
+ },
+ {
+  "word": "帽子",
+  "pinyin": "màozi",
+  "meaning_ja": "帽子"
+ },
+ {
+  "word": "小刚",
+  "pinyin": "xiǎogāng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "几月",
+  "pinyin": "jǐyuè",
+  "meaning_ja": "何月"
+ },
+ {
+  "word": "几号",
+  "pinyin": "jǐhào",
+  "meaning_ja": "何日"
+ },
+ {
+  "word": "五月",
+  "pinyin": "wǔyuè",
+  "meaning_ja": "5月"
+ },
+ {
+  "word": "十号",
+  "pinyin": "shíhào",
+  "meaning_ja": "10日"
+ },
+ {
+  "word": "十二月",
+  "pinyin": "shíèryuè",
+  "meaning_ja": "12月"
+ },
+ {
+  "word": "二十",
+  "pinyin": "èrshí",
+  "meaning_ja": "20"
+ },
+ {
+  "word": "号",
+  "pinyin": "hào",
+  "meaning_ja": "〜日"
+ },
+ {
+  "word": "冬天",
+  "pinyin": "dōngtiān",
+  "meaning_ja": "冬"
+ },
+ {
+  "word": "冷",
+  "pinyin": "lěng",
+  "meaning_ja": "寒い"
+ },
+ {
+  "word": "有空",
+  "pinyin": "yǒukòng",
+  "meaning_ja": "暇がある、時間がある"
+ },
+ {
+  "word": "生日快乐",
+  "pinyin": "shēngrìkuàilè",
+  "meaning_ja": "誕生日おめでとう"
+ },
+ {
+  "word": "阿雪",
+  "pinyin": "āxuě",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "蓝色",
+  "pinyin": "lánsè",
+  "meaning_ja": "青色"
+ },
+ {
+  "word": "绿色",
+  "pinyin": "lǜsè",
+  "meaning_ja": "緑色"
+ },
+ {
+  "word": "黄色",
+  "pinyin": "huángsè",
+  "meaning_ja": "黄色"
+ },
+ {
+  "word": "太亮",
+  "pinyin": "tàiliàng",
+  "meaning_ja": "明るすぎる（太＋亮）"
+ },
+ {
+  "word": "东西",
+  "pinyin": "dōngxī",
+  "meaning_ja": "もの"
+ },
+ {
+  "word": "阿龙",
+  "pinyin": "ālóng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "小",
+  "pinyin": "xiǎo",
+  "meaning_ja": "小さい"
+ },
+ {
+  "word": "动物",
+  "pinyin": "dòngwù",
+  "meaning_ja": "動物"
+ },
+ {
+  "word": "一只",
+  "pinyin": "yīzhī",
+  "meaning_ja": "一匹（量詞）"
+ },
+ {
+  "word": "猫",
+  "pinyin": "māo",
+  "meaning_ja": "猫"
+ },
+ {
+  "word": "小白",
+  "pinyin": "xiǎobái",
+  "meaning_ja": "小白（ペットの名前）"
+ },
+ {
+  "word": "狗",
+  "pinyin": "gǒu",
+  "meaning_ja": "犬"
+ },
+ {
+  "word": "狗叫",
+  "pinyin": "gǒujiào",
+  "meaning_ja": "犬は〜という名前（狗＋叫、叫＝〜と呼ばれる）"
+ },
+ {
+  "word": "豆豆",
+  "pinyin": "dòudòu",
+  "meaning_ja": "豆豆（ペットの名前）"
+ },
+ {
+  "word": "跑步",
+  "pinyin": "pǎobù",
+  "meaning_ja": "走る、ランニングする"
+ },
+ {
+  "word": "我带",
+  "pinyin": "wǒdài",
+  "meaning_ja": "私が連れていく（我＋带）"
+ },
+ {
+  "word": "它们",
+  "pinyin": "tāmen",
+  "meaning_ja": "それら（動物などを指す）"
+ },
+ {
+  "word": "成为",
+  "pinyin": "chéngwéi",
+  "meaning_ja": "〜になる"
+ },
+ {
+  "word": "小娟",
+  "pinyin": "xiǎojuān",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "弟弟",
+  "pinyin": "dìdi",
+  "meaning_ja": "弟"
+ },
+ {
+  "word": "几岁",
+  "pinyin": "jǐsuì",
+  "meaning_ja": "何歳"
+ },
+ {
+  "word": "三岁",
+  "pinyin": "sānsuì",
+  "meaning_ja": "3歳"
+ },
+ {
+  "word": "二十五岁",
+  "pinyin": "èrshíwǔsuì",
+  "meaning_ja": "25歳"
+ },
+ {
+  "word": "感情",
+  "pinyin": "gǎnqíng",
+  "meaning_ja": "感情"
+ },
+ {
+  "word": "经常",
+  "pinyin": "jīngcháng",
+  "meaning_ja": "よく、しょっちゅう"
+ },
+ {
+  "word": "逛街",
+  "pinyin": "guàngjiē",
+  "meaning_ja": "街をぶらぶらする、ショッピングする"
+ },
+ {
+  "word": "家里",
+  "pinyin": "jiālǐ",
+  "meaning_ja": "家、家の中"
+ },
+ {
+  "word": "最小",
+  "pinyin": "zuìxiǎo",
+  "meaning_ja": "一番下、最年少"
+ },
+ {
+  "word": "他们",
+  "pinyin": "tāmen",
+  "meaning_ja": "彼ら"
+ },
+ {
+  "word": "阿超",
+  "pinyin": "āchāo",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "收拾",
+  "pinyin": "shōushí",
+  "meaning_ja": "片付ける"
+ },
+ {
+  "word": "打包",
+  "pinyin": "dǎbāo",
+  "meaning_ja": "荷造りする、パッキングする"
+ },
+ {
+  "word": "书",
+  "pinyin": "shū",
+  "meaning_ja": "本"
+ },
+ {
+  "word": "占",
+  "pinyin": "zhàn",
+  "meaning_ja": "占める、場所を取る"
+ },
+ {
+  "word": "新家离",
+  "pinyin": "xīnjiālí",
+  "meaning_ja": "新しい家は〜（から/まで）（新家＋离）"
+ },
+ {
+  "word": "坐地铁",
+  "pinyin": "zuòdìtiě",
+  "meaning_ja": "地下鉄に乗る"
+ },
+ {
+  "word": "三十分钟",
+  "pinyin": "sānshífēnzhōng",
+  "meaning_ja": "30分間"
+ },
+ {
+  "word": "欢迎",
+  "pinyin": "huānyíng",
+  "meaning_ja": "歓迎する"
+ },
+ {
+  "word": "常",
+  "pinyin": "cháng",
+  "meaning_ja": "よく、しょっちゅう"
+ },
+ {
+  "word": "以前",
+  "pinyin": "yǐqián",
+  "meaning_ja": "以前"
+ },
+ {
+  "word": "做过",
+  "pinyin": "zuòguò",
+  "meaning_ja": "したことがある（做＋过）"
+ },
+ {
+  "word": "服务员",
+  "pinyin": "fúwùyuán",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "咖啡店",
+  "pinyin": "kāfēidiàn",
+  "meaning_ja": "コーヒー店、カフェ"
+ },
+ {
+  "word": "打",
+  "pinyin": "dǎ",
+  "meaning_ja": "（アルバイトを）する"
+ },
+ {
+  "word": "半年",
+  "pinyin": "bànnián",
+  "meaning_ja": "半年"
+ },
+ {
+  "word": "工",
+  "pinyin": "gōng",
+  "meaning_ja": "（打工の一部）アルバイト"
+ },
+ {
+  "word": "客人",
+  "pinyin": "kèrén",
+  "meaning_ja": "お客さん"
+ },
+ {
+  "word": "四天",
+  "pinyin": "sìtiān",
+  "meaning_ja": "4日間"
+ },
+ {
+  "word": "优点",
+  "pinyin": "yōudiǎn",
+  "meaning_ja": "長所"
+ },
+ {
+  "word": "做事",
+  "pinyin": "zuòshì",
+  "meaning_ja": "仕事をする、物事を行う"
+ },
+ {
+  "word": "认真",
+  "pinyin": "rènzhēn",
+  "meaning_ja": "真面目に"
+ },
+ {
+  "word": "耐心",
+  "pinyin": "nàixīn",
+  "meaning_ja": "忍耐強い、根気"
+ },
+ {
+  "word": "内会",
+  "pinyin": "nèihuì",
+  "meaning_ja": "〜以内に〜するだろう（内＝以内、会＝〜だろう）"
+ },
+ {
+  "word": "通知",
+  "pinyin": "tōngzhī",
+  "meaning_ja": "知らせる、通知する"
+ },
+ {
+  "word": "机会",
+  "pinyin": "jīhuì",
+  "meaning_ja": "機会"
+ },
+ {
+  "word": "借书",
+  "pinyin": "jièshū",
+  "meaning_ja": "本を借りる"
+ },
+ {
+  "word": "还书",
+  "pinyin": "huánshū",
+  "meaning_ja": "本を返す"
+ },
+ {
+  "word": "两本",
+  "pinyin": "liǎngběn",
+  "meaning_ja": "2冊"
+ },
+ {
+  "word": "借",
+  "pinyin": "jiè",
+  "meaning_ja": "借りる"
+ },
+ {
+  "word": "一本",
+  "pinyin": "yīběn",
+  "meaning_ja": "1冊"
+ },
+ {
+  "word": "超期",
+  "pinyin": "chāoqī",
+  "meaning_ja": "期限を過ぎる"
+ },
+ {
+  "word": "学生证",
+  "pinyin": "xuéshēngzhèng",
+  "meaning_ja": "学生証"
+ },
+ {
+  "word": "五本",
+  "pinyin": "wǔběn",
+  "meaning_ja": "5冊"
+ },
+ {
+  "word": "借期",
+  "pinyin": "jièqī",
+  "meaning_ja": "貸出期間"
+ },
+ {
+  "word": "这本",
+  "pinyin": "zhèběn",
+  "meaning_ja": "この本"
+ },
+ {
+  "word": "关于",
+  "pinyin": "guānyú",
+  "meaning_ja": "〜について"
+ },
+ {
+  "word": "中国",
+  "pinyin": "zhōngguó",
+  "meaning_ja": "中国"
+ },
+ {
+  "word": "历史",
+  "pinyin": "lìshǐ",
+  "meaning_ja": "歴史"
+ },
+ {
+  "word": "之前",
+  "pinyin": "zhīqián",
+  "meaning_ja": "以前、〜前に"
+ },
+ {
+  "word": "健身房",
+  "pinyin": "jiànshēnfáng",
+  "meaning_ja": "ジム"
+ },
+ {
+  "word": "会员卡",
+  "pinyin": "huìyuánkǎ",
+  "meaning_ja": "会員カード"
+ },
+ {
+  "word": "卡",
+  "pinyin": "kǎ",
+  "meaning_ja": "カード"
+ },
+ {
+  "word": "季卡",
+  "pinyin": "jìkǎ",
+  "meaning_ja": "季刊会員カード（3か月分）"
+ },
+ {
+  "word": "年",
+  "pinyin": "nián",
+  "meaning_ja": "年"
+ },
+ {
+  "word": "年卡",
+  "pinyin": "niánkǎ",
+  "meaning_ja": "年間会員カード"
+ },
+ {
+  "word": "两千块",
+  "pinyin": "liǎngqiānkuài",
+  "meaning_ja": "2000元"
+ },
+ {
+  "word": "单独",
+  "pinyin": "dāndú",
+  "meaning_ja": "単独で、別々に"
+ },
+ {
+  "word": "交",
+  "pinyin": "jiāo",
+  "meaning_ja": "払う、渡す"
+ },
+ {
+  "word": "开门",
+  "pinyin": "kāimén",
+  "meaning_ja": "開店する、ドアを開ける"
+ },
+ {
+  "word": "六点",
+  "pinyin": "liùdiǎn",
+  "meaning_ja": "6時"
+ },
+ {
+  "word": "十一点",
+  "pinyin": "shíyìdiǎn",
+  "meaning_ja": "11時"
+ },
+ {
+  "word": "天天",
+  "pinyin": "tiāntiān",
+  "meaning_ja": "毎日"
+ },
+ {
+  "word": "营业",
+  "pinyin": "yíngyè",
+  "meaning_ja": "営業する"
+ },
+ {
+  "word": "有没有",
+  "pinyin": "yǒuméiyǒu",
+  "meaning_ja": "〜がありますか"
+ },
+ {
+  "word": "教练",
+  "pinyin": "jiàoliàn",
+  "meaning_ja": "コーチ、トレーナー"
+ },
+ {
+  "word": "教",
+  "pinyin": "jiào",
+  "meaning_ja": "教える"
+ },
+ {
+  "word": "器材",
+  "pinyin": "qìcái",
+  "meaning_ja": "器具、器材"
+ },
+ {
+  "word": "第一次",
+  "pinyin": "dìyīcì",
+  "meaning_ja": "初めて"
+ },
+ {
+  "word": "免费",
+  "pinyin": "miǎnfèi",
+  "meaning_ja": "無料"
+ },
+ {
+  "word": "体验",
+  "pinyin": "tǐyàn",
+  "meaning_ja": "体験する"
+ },
+ {
+  "word": "办年",
+  "pinyin": "bànnián",
+  "meaning_ja": "年間契約を申し込む（办＋年）"
+ },
+ {
+  "word": "申请表",
+  "pinyin": "shēnqǐngbiǎo",
+  "meaning_ja": "申込書"
+ },
+ {
+  "word": "阿泰",
+  "pinyin": "ātài",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "电影",
+  "pinyin": "diànyǐng",
+  "meaning_ja": "映画"
+ },
+ {
+  "word": "故事",
+  "pinyin": "gùshì",
+  "meaning_ja": "物語、ストーリー"
+ },
+ {
+  "word": "感人",
+  "pinyin": "gǎnrén",
+  "meaning_ja": "感動的だ"
+ },
+ {
+  "word": "那段",
+  "pinyin": "nàduàn",
+  "meaning_ja": "あのシーン、あの部分"
+ },
+ {
+  "word": "哭",
+  "pinyin": "kū",
+  "meaning_ja": "泣く"
+ },
+ {
+  "word": "演员",
+  "pinyin": "yǎnyuán",
+  "meaning_ja": "俳優"
+ },
+ {
+  "word": "演得",
+  "pinyin": "yǎndé",
+  "meaning_ja": "演技が〜（演＋得）"
+ },
+ {
+  "word": "主角",
+  "pinyin": "zhǔjué",
+  "meaning_ja": "主役"
+ },
+ {
+  "word": "为了",
+  "pinyin": "wèile",
+  "meaning_ja": "〜のために"
+ },
+ {
+  "word": "角色",
+  "pinyin": "juésè",
+  "meaning_ja": "役、キャラクター"
+ },
+ {
+  "word": "练",
+  "pinyin": "liàn",
+  "meaning_ja": "練習する"
+ },
+ {
+  "word": "难怪",
+  "pinyin": "nánguài",
+  "meaning_ja": "どうりで"
+ },
+ {
+  "word": "真实",
+  "pinyin": "zhēnshí",
+  "meaning_ja": "リアルな、本物っぽい"
+ },
+ {
+  "word": "不想",
+  "pinyin": "bùxiǎng",
+  "meaning_ja": "〜したくない"
+ },
+ {
+  "word": "看一遍",
+  "pinyin": "kànyībiàn",
+  "meaning_ja": "一回見る"
+ },
+ {
+  "word": "看吧",
+  "pinyin": "kànba",
+  "meaning_ja": "見よう（看＋吧）"
+ },
+ {
+  "word": "阿静",
+  "pinyin": "ājìng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "知道",
+  "pinyin": "zhīdào",
+  "meaning_ja": "知っている、わかる"
+ },
+ {
+  "word": "该",
+  "pinyin": "gāi",
+  "meaning_ja": "〜すべきだ"
+ },
+ {
+  "word": "怎么办",
+  "pinyin": "zěnmebàn",
+  "meaning_ja": "どうしよう"
+ },
+ {
+  "word": "新来",
+  "pinyin": "xīnlái",
+  "meaning_ja": "新しく来た"
+ },
+ {
+  "word": "幽默",
+  "pinyin": "yōumò",
+  "meaning_ja": "ユーモアがある"
+ },
+ {
+  "word": "表达",
+  "pinyin": "biǎodá",
+  "meaning_ja": "表現する"
+ },
+ {
+  "word": "心意",
+  "pinyin": "xīnyì",
+  "meaning_ja": "気持ち"
+ },
+ {
+  "word": "怕",
+  "pinyin": "pà",
+  "meaning_ja": "恐れる、心配する"
+ },
+ {
+  "word": "表白",
+  "pinyin": "biǎobái",
+  "meaning_ja": "告白する"
+ },
+ {
+  "word": "连",
+  "pinyin": "lián",
+  "meaning_ja": "〜さえ"
+ },
+ {
+  "word": "不成",
+  "pinyin": "bùchéng",
+  "meaning_ja": "うまくいかない、だめになる"
+ },
+ {
+  "word": "先多花",
+  "pinyin": "xiānduōhuā",
+  "meaning_ja": "まず多めに（時間を）かける（先＋多＋花）"
+ },
+ {
+  "word": "饭",
+  "pinyin": "fàn",
+  "meaning_ja": "ご飯"
+ },
+ {
+  "word": "顺其自然",
+  "pinyin": "shùnqízìrán",
+  "meaning_ja": "成り行きに任せる"
+ },
+ {
+  "word": "心里",
+  "pinyin": "xīnlǐ",
+  "meaning_ja": "心の中"
+ },
+ {
+  "word": "踏实",
+  "pinyin": "tàshí",
+  "meaning_ja": "落ち着いている、安心だ"
+ },
+ {
+  "word": "进展",
+  "pinyin": "jìnzhǎn",
+  "meaning_ja": "進展"
+ },
+ {
+  "word": "阿玲",
+  "pinyin": "ālíng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "婚礼",
+  "pinyin": "hūnlǐ",
+  "meaning_ja": "結婚式"
+ },
+ {
+  "word": "日子",
+  "pinyin": "rìzi",
+  "meaning_ja": "日にち"
+ },
+ {
+  "word": "定",
+  "pinyin": "dìng",
+  "meaning_ja": "決める"
+ },
+ {
+  "word": "下来",
+  "pinyin": "xiàlái",
+  "meaning_ja": "〜し終える、〜してくる（方向補語）"
+ },
+ {
+  "word": "市中心",
+  "pinyin": "shìzhōngxīn",
+  "meaning_ja": "市の中心部"
+ },
+ {
+  "word": "婚纱",
+  "pinyin": "hūnshā",
+  "meaning_ja": "ウェディングドレス"
+ },
+ {
+  "word": "好了吗",
+  "pinyin": "hǎolema",
+  "meaning_ja": "終わりましたか（好＋了＋吗）"
+ },
+ {
+  "word": "选好",
+  "pinyin": "xuǎnhǎo",
+  "meaning_ja": "選び終える"
+ },
+ {
+  "word": "尺寸",
+  "pinyin": "chǐcùn",
+  "meaning_ja": "サイズ"
+ },
+ {
+  "word": "名单",
+  "pinyin": "míngdān",
+  "meaning_ja": "名簿、リスト"
+ },
+ {
+  "word": "差不多",
+  "pinyin": "chàbuduō",
+  "meaning_ja": "だいたい、ほぼ"
+ },
+ {
+  "word": "一百多位",
+  "pinyin": "yìbǎiduōwèi",
+  "meaning_ja": "100人あまり"
+ },
+ {
+  "word": "热闹",
+  "pinyin": "rènào",
+  "meaning_ja": "にぎやかだ"
+ },
+ {
+  "word": "那天",
+  "pinyin": "nàtiān",
+  "meaning_ja": "あの日"
+ },
+ {
+  "word": "配合",
+  "pinyin": "pèihé",
+  "meaning_ja": "息を合わせる、共演する"
+ },
+ {
+  "word": "早点儿",
+  "pinyin": "zǎodiǎnér",
+  "meaning_ja": "早めに"
+ },
+ {
+  "word": "阿豪",
+  "pinyin": "āháo",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "太太",
+  "pinyin": "tàitài",
+  "meaning_ja": "奥さん、夫人"
+ },
+ {
+  "word": "送",
+  "pinyin": "sòng",
+  "meaning_ja": "贈る"
+ },
+ {
+  "word": "婴儿用品",
+  "pinyin": "yīngéryòngpǐn",
+  "meaning_ja": "赤ちゃん用品"
+ },
+ {
+  "word": "玩具",
+  "pinyin": "wánjù",
+  "meaning_ja": "おもちゃ"
+ },
+ {
+  "word": "一辆",
+  "pinyin": "yīliàng",
+  "meaning_ja": "1台（車の量詞）"
+ },
+ {
+  "word": "婴儿车",
+  "pinyin": "yīngérchē",
+  "meaning_ja": "ベビーカー"
+ },
+ {
+  "word": "凑钱",
+  "pinyin": "còuqián",
+  "meaning_ja": "お金を出し合う"
+ },
+ {
+  "word": "问问",
+  "pinyin": "wènwèn",
+  "meaning_ja": "ちょっと聞いてみる"
+ },
+ {
+  "word": "其他人",
+  "pinyin": "qítārén",
+  "meaning_ja": "他の人"
+ },
+ {
+  "word": "愿不愿意",
+  "pinyin": "yuànbùyuànyì",
+  "meaning_ja": "〜する気があるかどうか"
+ },
+ {
+  "word": "问",
+  "pinyin": "wèn",
+  "meaning_ja": "尋ねる、聞く"
+ },
+ {
+  "word": "健健康康",
+  "pinyin": "jiànjiànkāngkāng",
+  "meaning_ja": "健康であるように（健康の重ね型）"
+ },
+ {
+  "word": "妈",
+  "pinyin": "mā",
+  "meaning_ja": "お母さん"
+ },
+ {
+  "word": "暑假",
+  "pinyin": "shǔjià",
+  "meaning_ja": "夏休み"
+ },
+ {
+  "word": "海边",
+  "pinyin": "hǎibiān",
+  "meaning_ja": "海辺"
+ },
+ {
+  "word": "学",
+  "pinyin": "xué",
+  "meaning_ja": "習う、学ぶ"
+ },
+ {
+  "word": "冲浪",
+  "pinyin": "chōnglàng",
+  "meaning_ja": "サーフィン"
+ },
+ {
+  "word": "三亚",
+  "pinyin": "sānyà",
+  "meaning_ja": "三亜（サンヤ、海南島のリゾート地）"
+ },
+ {
+  "word": "海",
+  "pinyin": "hǎi",
+  "meaning_ja": "海"
+ },
+ {
+  "word": "初学者",
+  "pinyin": "chūxuézhě",
+  "meaning_ja": "初心者"
+ },
+ {
+  "word": "五天",
+  "pinyin": "wǔtiān",
+  "meaning_ja": "5日間"
+ },
+ {
+  "word": "四夜",
+  "pinyin": "sìyè",
+  "meaning_ja": "4泊"
+ },
+ {
+  "word": "好玩儿",
+  "pinyin": "hǎowánér",
+  "meaning_ja": "面白い、楽しい"
+ },
+ {
+  "word": "潜水",
+  "pinyin": "qiánshuǐ",
+  "meaning_ja": "ダイビング"
+ },
+ {
+  "word": "尝尝",
+  "pinyin": "chángcháng",
+  "meaning_ja": "味わってみる"
+ },
+ {
+  "word": "当地",
+  "pinyin": "dāngdì",
+  "meaning_ja": "現地"
+ },
+ {
+  "word": "海鲜",
+  "pinyin": "hǎixiān",
+  "meaning_ja": "海鮮"
+ },
+ {
+  "word": "慢慢",
+  "pinyin": "mànmàn",
+  "meaning_ja": "ゆっくりと"
+ },
+ {
+  "word": "王老师",
+  "pinyin": "wánglǎoshī",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "申请",
+  "pinyin": "shēnqǐng",
+  "meaning_ja": "申請する"
+ },
+ {
+  "word": "留学",
+  "pinyin": "liúxué",
+  "meaning_ja": "留学する"
+ },
+ {
+  "word": "通过",
+  "pinyin": "tōngguò",
+  "meaning_ja": "〜を通して"
+ },
+ {
+  "word": "语言",
+  "pinyin": "yǔyán",
+  "meaning_ja": "言語"
+ },
+ {
+  "word": "考试",
+  "pinyin": "kǎoshì",
+  "meaning_ja": "試験"
+ },
+ {
+  "word": "日语",
+  "pinyin": "rìyǔ",
+  "meaning_ja": "日本語"
+ },
+ {
+  "word": "水平",
+  "pinyin": "shuǐpíng",
+  "meaning_ja": "レベル"
+ },
+ {
+  "word": "两年",
+  "pinyin": "liǎngnián",
+  "meaning_ja": "2年"
+ },
+ {
+  "word": "听力",
+  "pinyin": "tīnglì",
+  "meaning_ja": "リスニング（力）"
+ },
+ {
+  "word": "听",
+  "pinyin": "tīng",
+  "meaning_ja": "聞く"
+ },
+ {
+  "word": "材料",
+  "pinyin": "cáiliào",
+  "meaning_ja": "資料、材料"
+ },
+ {
+  "word": "成绩单",
+  "pinyin": "chéngjìdān",
+  "meaning_ja": "成績表"
+ },
+ {
+  "word": "推荐信",
+  "pinyin": "tuījiànxìn",
+  "meaning_ja": "推薦状"
+ },
+ {
+  "word": "计划书",
+  "pinyin": "jìhuàshū",
+  "meaning_ja": "計画書"
+ },
+ {
+  "word": "选择",
+  "pinyin": "xuǎnzé",
+  "meaning_ja": "選ぶ、選択"
+ },
+ {
+  "word": "专业",
+  "pinyin": "zhuānyè",
+  "meaning_ja": "専攻"
+ },
+ {
+  "word": "季",
+  "pinyin": "jì",
+  "meaning_ja": "季節"
+ },
+ {
+  "word": "秋天",
+  "pinyin": "qiūtiān",
+  "meaning_ja": "秋"
+ },
+ {
+  "word": "职场",
+  "pinyin": "zhíchǎng",
+  "meaning_ja": "職場"
+ },
+ {
+  "word": "男女平等",
+  "pinyin": "nánnǚpíngděng",
+  "meaning_ja": "男女平等"
+ },
+ {
+  "word": "刘教授",
+  "pinyin": "liújiàoshòu",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "近年来",
+  "pinyin": "jìnniánlái",
+  "meaning_ja": "近年"
+ },
+ {
+  "word": "有所改善",
+  "pinyin": "yǒusuǒgǎishàn",
+  "meaning_ja": "ある程度改善された"
+ },
+ {
+  "word": "薪酬",
+  "pinyin": "xīnchóu",
+  "meaning_ja": "給与、報酬"
+ },
+ {
+  "word": "差距",
+  "pinyin": "chājù",
+  "meaning_ja": "格差"
+ },
+ {
+  "word": "依然",
+  "pinyin": "yīrán",
+  "meaning_ja": "依然として"
+ },
+ {
+  "word": "晋升",
+  "pinyin": "jìnshēng",
+  "meaning_ja": "昇進"
+ },
+ {
+  "word": "平等",
+  "pinyin": "píngděng",
+  "meaning_ja": "平等"
+ },
+ {
+  "word": "普遍",
+  "pinyin": "pǔbiàn",
+  "meaning_ja": "普遍的、一般的"
+ },
+ {
+  "word": "管理层",
+  "pinyin": "guǎnlǐcéng",
+  "meaning_ja": "管理職層、経営陣"
+ },
+ {
+  "word": "明显",
+  "pinyin": "míngxiǎn",
+  "meaning_ja": "明らかだ"
+ },
+ {
+  "word": "制定",
+  "pinyin": "zhìdìng",
+  "meaning_ja": "制定する"
+ },
+ {
+  "word": "明确",
+  "pinyin": "míngquè",
+  "meaning_ja": "明確にする"
+ },
+ {
+  "word": "培训",
+  "pinyin": "péixùn",
+  "meaning_ja": "研修、トレーニング"
+ },
+ {
+  "word": "观念",
+  "pinyin": "guānniàn",
+  "meaning_ja": "考え方、観念"
+ },
+ {
+  "word": "同样",
+  "pinyin": "tóngyàng",
+  "meaning_ja": "同様に"
+ },
+ {
+  "word": "转变",
+  "pinyin": "zhuǎnbiàn",
+  "meaning_ja": "転換する、変わる"
+ },
+ {
+  "word": "见效",
+  "pinyin": "jiànxiào",
+  "meaning_ja": "効果が出る"
+ },
+ {
+  "word": "引起",
+  "pinyin": "yǐnqǐ",
+  "meaning_ja": "引き起こす"
+ },
+ {
+  "word": "张老师",
+  "pinyin": "zhānglǎoshī",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "应试教育",
+  "pinyin": "yìngshìjiàoyù",
+  "meaning_ja": "受験教育、詰め込み教育"
+ },
+ {
+  "word": "公平",
+  "pinyin": "gōngpíng",
+  "meaning_ja": "公平だ"
+ },
+ {
+  "word": "选拔",
+  "pinyin": "xuǎnbá",
+  "meaning_ja": "選抜する"
+ },
+ {
+  "word": "人才",
+  "pinyin": "réncái",
+  "meaning_ja": "人材"
+ },
+ {
+  "word": "容易",
+  "pinyin": "róngyì",
+  "meaning_ja": "簡単だ、〜しやすい"
+ },
+ {
+  "word": "个性",
+  "pinyin": "gèxìng",
+  "meaning_ja": "個性"
+ },
+ {
+  "word": "创造力",
+  "pinyin": "chuàngzàolì",
+  "meaning_ja": "創造力"
+ },
+ {
+  "word": "家长",
+  "pinyin": "jiāzhǎng",
+  "meaning_ja": "保護者"
+ },
+ {
+  "word": "改进",
+  "pinyin": "gǎijìn",
+  "meaning_ja": "改善する"
+ },
+ {
+  "word": "考试成绩",
+  "pinyin": "kǎoshìchéngjì",
+  "meaning_ja": "試験の成績"
+ },
+ {
+  "word": "重视",
+  "pinyin": "zhòngshì",
+  "meaning_ja": "重視する"
+ },
+ {
+  "word": "综合",
+  "pinyin": "zōnghé",
+  "meaning_ja": "総合的な"
+ },
+ {
+  "word": "能力",
+  "pinyin": "nénglì",
+  "meaning_ja": "能力"
+ },
+ {
+  "word": "刷题",
+  "pinyin": "shuātí",
+  "meaning_ja": "問題を大量に解く"
+ },
+ {
+  "word": "参加",
+  "pinyin": "cānjiā",
+  "meaning_ja": "参加する"
+ },
+ {
+  "word": "课外活动",
+  "pinyin": "kèwàihuódòng",
+  "meaning_ja": "課外活動"
+ },
+ {
+  "word": "没错",
+  "pinyin": "méicuò",
+  "meaning_ja": "その通りだ"
+ },
+ {
+  "word": "全面",
+  "pinyin": "quánmiàn",
+  "meaning_ja": "全面的な"
+ },
+ {
+  "word": "帮助",
+  "pinyin": "bāngzhù",
+  "meaning_ja": "助ける、助け"
+ },
+ {
+  "word": "心理健康",
+  "pinyin": "xīnlǐjiànkāng",
+  "meaning_ja": "心の健康、メンタルヘルス"
+ },
+ {
+  "word": "教育",
+  "pinyin": "jiàoyù",
+  "meaning_ja": "教育"
+ },
+ {
+  "word": "责任",
+  "pinyin": "zérèn",
+  "meaning_ja": "責任"
+ },
+ {
+  "word": "全",
+  "pinyin": "quán",
+  "meaning_ja": "すべて"
+ },
+ {
+  "word": "阿泓",
+  "pinyin": "āhóng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "生完",
+  "pinyin": "shēngwán",
+  "meaning_ja": "産み終える"
+ },
+ {
+  "word": "后",
+  "pinyin": "hòu",
+  "meaning_ja": "〜の後"
+ },
+ {
+  "word": "办法",
+  "pinyin": "bànfǎ",
+  "meaning_ja": "方法"
+ },
+ {
+  "word": "家庭",
+  "pinyin": "jiātíng",
+  "meaning_ja": "家庭"
+ },
+ {
+  "word": "面临",
+  "pinyin": "miànlín",
+  "meaning_ja": "直面する"
+ },
+ {
+  "word": "休",
+  "pinyin": "xiū",
+  "meaning_ja": "休む"
+ },
+ {
+  "word": "完假",
+  "pinyin": "wánjiǎ",
+  "meaning_ja": "休暇が終わる"
+ },
+ {
+  "word": "回来",
+  "pinyin": "huílái",
+  "meaning_ja": "戻ってくる"
+ },
+ {
+  "word": "很大",
+  "pinyin": "hěndà",
+  "meaning_ja": "とても大きい"
+ },
+ {
+  "word": "人硬",
+  "pinyin": "rényìng",
+  "meaning_ja": "一人で無理に（人＋硬、扛＝耐える・担う）"
+ },
+ {
+  "word": "扛",
+  "pinyin": "káng",
+  "meaning_ja": "一人で耐える、担う"
+ },
+ {
+  "word": "家里人",
+  "pinyin": "jiālǐrén",
+  "meaning_ja": "家族"
+ },
+ {
+  "word": "支持",
+  "pinyin": "zhīchí",
+  "meaning_ja": "支持する、支える"
+ },
+ {
+  "word": "分担",
+  "pinyin": "fēndān",
+  "meaning_ja": "分担する"
+ },
+ {
+  "word": "家务",
+  "pinyin": "jiāwù",
+  "meaning_ja": "家事"
+ },
+ {
+  "word": "如此",
+  "pinyin": "rúcǐ",
+  "meaning_ja": "このように、そのように"
+ },
+ {
+  "word": "缺一不可",
+  "pinyin": "quēyībùkě",
+  "meaning_ja": "一つも欠かせない"
+ },
+ {
+  "word": "媒体",
+  "pinyin": "méitǐ",
+  "meaning_ja": "メディア"
+ },
+ {
+  "word": "素养",
+  "pinyin": "sùyǎng",
+  "meaning_ja": "素養、リテラシー"
+ },
+ {
+  "word": "平时",
+  "pinyin": "píngshí",
+  "meaning_ja": "普段"
+ },
+ {
+  "word": "获取",
+  "pinyin": "huòqǔ",
+  "meaning_ja": "取得する"
+ },
+ {
+  "word": "新闻",
+  "pinyin": "xīnwén",
+  "meaning_ja": "ニュース"
+ },
+ {
+  "word": "社交",
+  "pinyin": "shèjiāo",
+  "meaning_ja": "ソーシャル、交際"
+ },
+ {
+  "word": "方便快捷",
+  "pinyin": "fāngbiànkuàijié",
+  "meaning_ja": "便利で手早い"
+ },
+ {
+  "word": "信息",
+  "pinyin": "xìnxī",
+  "meaning_ja": "情報"
+ },
+ {
+  "word": "真假难辨",
+  "pinyin": "zhēnjiǎnánbiàn",
+  "meaning_ja": "真偽の区別がつきにくい"
+ },
+ {
+  "word": "判断",
+  "pinyin": "pànduàn",
+  "meaning_ja": "判断する"
+ },
+ {
+  "word": "可靠性",
+  "pinyin": "kěkàoxìng",
+  "meaning_ja": "信頼性"
+ },
+ {
+  "word": "条",
+  "pinyin": "tiáo",
+  "meaning_ja": "〜件（量詞）"
+ },
+ {
+  "word": "正规",
+  "pinyin": "zhèngguī",
+  "meaning_ja": "正規の、正式な"
+ },
+ {
+  "word": "报道",
+  "pinyin": "bàodào",
+  "meaning_ja": "報道"
+ },
+ {
+  "word": "会查",
+  "pinyin": "huìchá",
+  "meaning_ja": "調べるだろう（会＋查）"
+ },
+ {
+  "word": "发布者",
+  "pinyin": "fābùzhě",
+  "meaning_ja": "発信者"
+ },
+ {
+  "word": "背景",
+  "pinyin": "bèijǐng",
+  "meaning_ja": "背景"
+ },
+ {
+  "word": "是否",
+  "pinyin": "shìfǒu",
+  "meaning_ja": "〜かどうか"
+ },
+ {
+  "word": "可信",
+  "pinyin": "kěxìn",
+  "meaning_ja": "信頼できる"
+ },
+ {
+  "word": "方法",
+  "pinyin": "fāngfǎ",
+  "meaning_ja": "方法"
+ },
+ {
+  "word": "标题",
+  "pinyin": "biāotí",
+  "meaning_ja": "見出し、タイトル"
+ },
+ {
+  "word": "党",
+  "pinyin": "dǎng",
+  "meaning_ja": "〜党（ここでは『标题党』＝扇情的な見出しを使う人、の意）"
+ },
+ {
+  "word": "误导",
+  "pinyin": "wùdǎo",
+  "meaning_ja": "誤解させる、ミスリードする"
+ },
+ {
+  "word": "只",
+  "pinyin": "zhǐ",
+  "meaning_ja": "ただ〜だけ"
+ },
+ {
+  "word": "转发",
+  "pinyin": "zhuǎnfā",
+  "meaning_ja": "転送する、シェアする"
+ },
+ {
+  "word": "根本",
+  "pinyin": "gēnběn",
+  "meaning_ja": "そもそも、根本的に"
+ },
+ {
+  "word": "不看",
+  "pinyin": "bùkàn",
+  "meaning_ja": "見ない"
+ },
+ {
+  "word": "培养",
+  "pinyin": "péiyǎng",
+  "meaning_ja": "養う、育てる"
+ },
+ {
+  "word": "独立思考",
+  "pinyin": "dúlìsīkǎo",
+  "meaning_ja": "独立した思考"
+ },
+ {
+  "word": "批判",
+  "pinyin": "pīpàn",
+  "meaning_ja": "批判する"
+ },
+ {
+  "word": "吴博士",
+  "pinyin": "wúbóshì",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "拉近",
+  "pinyin": "lājìn",
+  "meaning_ja": "縮める、近づける"
+ },
+ {
+  "word": "与",
+  "pinyin": "yǔ",
+  "meaning_ja": "〜と"
+ },
+ {
+  "word": "距离",
+  "pinyin": "jùlí",
+  "meaning_ja": "距離"
+ },
+ {
+  "word": "另一方面",
+  "pinyin": "lìngyìfāngmiàn",
+  "meaning_ja": "他方では（「一方面…另一方面…」の形で対比を表す）"
+ },
+ {
+  "word": "带来",
+  "pinyin": "dàilái",
+  "meaning_ja": "もたらす"
+ },
+ {
+  "word": "心理压力",
+  "pinyin": "xīnlǐyālì",
+  "meaning_ja": "心理的プレッシャー"
+ },
+ {
+  "word": "而",
+  "pinyin": "ér",
+  "meaning_ja": "そして、しかし"
+ },
+ {
+  "word": "感到",
+  "pinyin": "gǎndào",
+  "meaning_ja": "感じる"
+ },
+ {
+  "word": "焦虑",
+  "pinyin": "jiāolǜ",
+  "meaning_ja": "不安、焦り"
+ },
+ {
+  "word": "现象",
+  "pinyin": "xiànxiàng",
+  "meaning_ja": "現象"
+ },
+ {
+  "word": "常见",
+  "pinyin": "chángjiàn",
+  "meaning_ja": "よくある"
+ },
+ {
+  "word": "叫做",
+  "pinyin": "jiàozuò",
+  "meaning_ja": "〜と呼ばれる"
+ },
+ {
+  "word": "自我",
+  "pinyin": "zìwǒ",
+  "meaning_ja": "自己"
+ },
+ {
+  "word": "认同",
+  "pinyin": "rèntóng",
+  "meaning_ja": "アイデンティティ、認同"
+ },
+ {
+  "word": "健康",
+  "pinyin": "jiànkāng",
+  "meaning_ja": "健康"
+ },
+ {
+  "word": "使用",
+  "pinyin": "shǐyòng",
+  "meaning_ja": "使用する"
+ },
+ {
+  "word": "意识",
+  "pinyin": "yìshí",
+  "meaning_ja": "意識"
+ },
+ {
+  "word": "网上",
+  "pinyin": "wǎngshàng",
+  "meaning_ja": "ネット上"
+ },
+ {
+  "word": "呈现",
+  "pinyin": "chéngxiàn",
+  "meaning_ja": "呈する、示す"
+ },
+ {
+  "word": "往往",
+  "pinyin": "wǎngwǎng",
+  "meaning_ja": "往々にして"
+ },
+ {
+  "word": "好的开始",
+  "pinyin": "hǎodekāishǐ",
+  "meaning_ja": "良いスタート"
+ },
+ {
+  "word": "线下",
+  "pinyin": "xiànxià",
+  "meaning_ja": "オフライン"
+ },
+ {
+  "word": "社交活动",
+  "pinyin": "shèjiāohuódòng",
+  "meaning_ja": "社交活動"
+ },
+ {
+  "word": "分析",
+  "pinyin": "fēnxī",
+  "meaning_ja": "分析する"
+ },
+ {
+  "word": "平衡点",
+  "pinyin": "pínghéngdiǎn",
+  "meaning_ja": "バランスの取れる点"
+ },
+ {
+  "word": "小龙",
+  "pinyin": "xiǎolóng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "同班同学",
+  "pinyin": "tóngbāntóngxué",
+  "meaning_ja": "同じクラスの同級生"
+ },
+ {
+  "word": "一班",
+  "pinyin": "yībān",
+  "meaning_ja": "1組"
+ },
+ {
+  "word": "请多关照",
+  "pinyin": "qǐngduōguānzhào",
+  "meaning_ja": "よろしくお願いします"
+ },
+ {
+  "word": "数学课",
+  "pinyin": "shùxuékè",
+  "meaning_ja": "数学の授業"
+ },
+ {
+  "word": "笔",
+  "pinyin": "bǐ",
+  "meaning_ja": "ペン"
+ },
+ {
+  "word": "忘",
+  "pinyin": "wàng",
+  "meaning_ja": "忘れる"
+ },
+ {
+  "word": "带笔",
+  "pinyin": "dàibǐ",
+  "meaning_ja": "ペンを持ってくる（带＋笔）"
+ },
+ {
+  "word": "一支",
+  "pinyin": "yīzhī",
+  "meaning_ja": "1本（ペンの量詞）"
+ },
+ {
+  "word": "一块",
+  "pinyin": "yīkuài",
+  "meaning_ja": "1個（消しゴムなどの量詞）"
+ },
+ {
+  "word": "橡皮",
+  "pinyin": "xiàngpí",
+  "meaning_ja": "消しゴム"
+ },
+ {
+  "word": "尺子",
+  "pinyin": "chǐzi",
+  "meaning_ja": "定規"
+ },
+ {
+  "word": "不用",
+  "pinyin": "bùyòng",
+  "meaning_ja": "〜する必要がない"
+ },
+ {
+  "word": "就够",
+  "pinyin": "jiùgòu",
+  "meaning_ja": "それで十分だ（就＋够）"
+ },
+ {
+  "word": "上课",
+  "pinyin": "shàngkè",
+  "meaning_ja": "授業が始まる、授業をする"
+ },
+ {
+  "word": "回",
+  "pinyin": "huí",
+  "meaning_ja": "戻る"
+ },
+ {
+  "word": "座位",
+  "pinyin": "zuòwèi",
+  "meaning_ja": "座席"
+ },
+ {
+  "word": "科目",
+  "pinyin": "kēmù",
+  "meaning_ja": "科目"
+ },
+ {
+  "word": "体育课",
+  "pinyin": "tǐyùkè",
+  "meaning_ja": "体育の授業"
+ },
+ {
+  "word": "体育",
+  "pinyin": "tǐyù",
+  "meaning_ja": "体育"
+ },
+ {
+  "word": "音乐课",
+  "pinyin": "yīnyuèkè",
+  "meaning_ja": "音楽の授業"
+ },
+ {
+  "word": "唱歌",
+  "pinyin": "chànggē",
+  "meaning_ja": "歌を歌う"
+ },
+ {
+  "word": "弹钢琴",
+  "pinyin": "tángāngqín",
+  "meaning_ja": "ピアノを弾く"
+ },
+ {
+  "word": "厉害",
+  "pinyin": "lìhài",
+  "meaning_ja": "すごい"
+ },
+ {
+  "word": "数学",
+  "pinyin": "shùxué",
+  "meaning_ja": "数学"
+ },
+ {
+  "word": "加油",
+  "pinyin": "jiāyóu",
+  "meaning_ja": "頑張る"
+ },
+ {
+  "word": "阿美",
+  "pinyin": "āměi",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "早饭",
+  "pinyin": "zǎofàn",
+  "meaning_ja": "朝ごはん"
+ },
+ {
+  "word": "面包",
+  "pinyin": "miànbāo",
+  "meaning_ja": "パン"
+ },
+ {
+  "word": "牛奶",
+  "pinyin": "niúnǎi",
+  "meaning_ja": "牛乳"
+ },
+ {
+  "word": "起晚",
+  "pinyin": "qǐwǎn",
+  "meaning_ja": "起きるのが遅くなる（起＋晚）"
+ },
+ {
+  "word": "饿",
+  "pinyin": "è",
+  "meaning_ja": "お腹がすいている"
+ },
+ {
+  "word": "卖",
+  "pinyin": "mài",
+  "meaning_ja": "売る"
+ },
+ {
+  "word": "包子",
+  "pinyin": "bāozi",
+  "meaning_ja": "肉まん"
+ },
+ {
+  "word": "起来",
+  "pinyin": "qǐlái",
+  "meaning_ja": "〜し始める、起き上がる（方向補語）"
+ },
+ {
+  "word": "当然",
+  "pinyin": "dāngrán",
+  "meaning_ja": "もちろん"
+ },
+ {
+  "word": "带水",
+  "pinyin": "dàishuǐ",
+  "meaning_ja": "水を持っていく（带＋水）"
+ },
+ {
+  "word": "大明",
+  "pinyin": "dàmíng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "今晚",
+  "pinyin": "jīnwǎn",
+  "meaning_ja": "今晩"
+ },
+ {
+  "word": "好久没",
+  "pinyin": "hǎojiǔméi",
+  "meaning_ja": "長い間〜していない（好久＋没）"
+ },
+ {
+  "word": "小陈",
+  "pinyin": "xiǎochén",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "房间",
+  "pinyin": "fángjiān",
+  "meaning_ja": "部屋"
+ },
+ {
+  "word": "唱",
+  "pinyin": "chàng",
+  "meaning_ja": "歌う"
+ },
+ {
+  "word": "三个",
+  "pinyin": "sāngè",
+  "meaning_ja": "3つ"
+ },
+ {
+  "word": "点些",
+  "pinyin": "diǎnxiē",
+  "meaning_ja": "いくつか注文する（点＋些）"
+ },
+ {
+  "word": "零食",
+  "pinyin": "língshí",
+  "meaning_ja": "おやつ"
+ },
+ {
+  "word": "阿强",
+  "pinyin": "āqiáng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "小雨",
+  "pinyin": "xiǎoyǔ",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "画画",
+  "pinyin": "huàhuà",
+  "meaning_ja": "絵を描く"
+ },
+ {
+  "word": "画笔",
+  "pinyin": "huàbǐ",
+  "meaning_ja": "絵筆"
+ },
+ {
+  "word": "商场",
+  "pinyin": "shāngchǎng",
+  "meaning_ja": "デパート、ショッピングモール"
+ },
+ {
+  "word": "三楼",
+  "pinyin": "sānlóu",
+  "meaning_ja": "3階"
+ },
+ {
+  "word": "文具店",
+  "pinyin": "wénjùdiàn",
+  "meaning_ja": "文房具店"
+ },
+ {
+  "word": "买张",
+  "pinyin": "mǎizhāng",
+  "meaning_ja": "1枚買う（买＋张）"
+ },
+ {
+  "word": "卡片",
+  "pinyin": "kǎpiàn",
+  "meaning_ja": "カード"
+ },
+ {
+  "word": "开心",
+  "pinyin": "kāixīn",
+  "meaning_ja": "嬉しい"
+ },
+ {
+  "word": "预订",
+  "pinyin": "yùdìng",
+  "meaning_ja": "予約する"
+ },
+ {
+  "word": "住",
+  "pinyin": "zhù",
+  "meaning_ja": "泊まる、住む"
+ },
+ {
+  "word": "两天",
+  "pinyin": "liǎngtiān",
+  "meaning_ja": "2日間"
+ },
+ {
+  "word": "周五",
+  "pinyin": "zhōuwǔ",
+  "meaning_ja": "金曜日"
+ },
+ {
+  "word": "周日",
+  "pinyin": "zhōurì",
+  "meaning_ja": "日曜日"
+ },
+ {
+  "word": "单人间",
+  "pinyin": "dānrénjiān",
+  "meaning_ja": "シングルルーム"
+ },
+ {
+  "word": "双人间",
+  "pinyin": "shuāngrénjiān",
+  "meaning_ja": "ツインルーム"
+ },
+ {
+  "word": "一",
+  "pinyin": "yī",
+  "meaning_ja": "1"
+ },
+ {
+  "word": "晚",
+  "pinyin": "wǎn",
+  "meaning_ja": "泊、夜"
+ },
+ {
+  "word": "三百五十",
+  "pinyin": "sānbǎiwǔshí",
+  "meaning_ja": "350"
+ },
+ {
+  "word": "元",
+  "pinyin": "yuán",
+  "meaning_ja": "元（通貨単位）"
+ },
+ {
+  "word": "刷卡",
+  "pinyin": "shuākǎ",
+  "meaning_ja": "カードで支払う"
+ },
+ {
+  "word": "付款",
+  "pinyin": "fùkuǎn",
+  "meaning_ja": "支払う"
+ },
+ {
+  "word": "出示",
+  "pinyin": "chūshì",
+  "meaning_ja": "提示する"
+ },
+ {
+  "word": "身份证",
+  "pinyin": "shēnfènzhèng",
+  "meaning_ja": "身分証"
+ },
+ {
+  "word": "办理",
+  "pinyin": "bànlǐ",
+  "meaning_ja": "手続きする"
+ },
+ {
+  "word": "登机",
+  "pinyin": "dēngjī",
+  "meaning_ja": "搭乗する"
+ },
+ {
+  "word": "手续",
+  "pinyin": "shǒuxù",
+  "meaning_ja": "手続き"
+ },
+ {
+  "word": "护照",
+  "pinyin": "hùzhào",
+  "meaning_ja": "パスポート"
+ },
+ {
+  "word": "托运",
+  "pinyin": "tuōyùn",
+  "meaning_ja": "（荷物を）預ける"
+ },
+ {
+  "word": "靠窗",
+  "pinyin": "kàochuāng",
+  "meaning_ja": "窓側"
+ },
+ {
+  "word": "十二",
+  "pinyin": "shíèr",
+  "meaning_ja": "12"
+ },
+ {
+  "word": "排",
+  "pinyin": "pái",
+  "meaning_ja": "列"
+ },
+ {
+  "word": "登机口",
+  "pinyin": "dēngjīkǒu",
+  "meaning_ja": "搭乗口"
+ },
+ {
+  "word": "半小时",
+  "pinyin": "bànxiǎoshí",
+  "meaning_ja": "30分間"
+ },
+ {
+  "word": "阿宁",
+  "pinyin": "āníng",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "上海",
+  "pinyin": "shànghǎi",
+  "meaning_ja": "上海（地名）"
+ },
+ {
+  "word": "火车票",
+  "pinyin": "huǒchēpiào",
+  "meaning_ja": "電車の切符"
+ },
+ {
+  "word": "车",
+  "pinyin": "chē",
+  "meaning_ja": "電車、車"
+ },
+ {
+  "word": "起太早",
+  "pinyin": "qǐtàizǎo",
+  "meaning_ja": "あまりに早く起きる（起＋太＋早）"
+ },
+ {
+  "word": "二等",
+  "pinyin": "èrděng",
+  "meaning_ja": "2等"
+ },
+ {
+  "word": "座",
+  "pinyin": "zuò",
+  "meaning_ja": "席"
+ },
+ {
+  "word": "一等",
+  "pinyin": "yīděng",
+  "meaning_ja": "1等"
+ },
+ {
+  "word": "两张",
+  "pinyin": "liǎngzhāng",
+  "meaning_ja": "2枚"
+ },
+ {
+  "word": "票",
+  "pinyin": "piào",
+  "meaning_ja": "チケット"
+ },
+ {
+  "word": "记得",
+  "pinyin": "jìde",
+  "meaning_ja": "覚えている"
+ },
+ {
+  "word": "位置",
+  "pinyin": "wèizhì",
+  "meaning_ja": "位置、席"
+ },
+ {
+  "word": "买好",
+  "pinyin": "mǎihǎo",
+  "meaning_ja": "買い終わる"
+ },
+ {
+  "word": "Tom",
+  "pinyin": "Tom",
+  "meaning_ja": "（人名）"
+ },
+ {
+  "word": "中文",
+  "pinyin": "zhōngwén",
+  "meaning_ja": "中国語"
+ },
+ {
+  "word": "流利",
+  "pinyin": "liúlì",
+  "meaning_ja": "流暢だ"
+ },
+ {
+  "word": "英语",
+  "pinyin": "yīngyǔ",
+  "meaning_ja": "英語"
+ },
+ {
+  "word": "一半",
+  "pinyin": "yíbàn",
+  "meaning_ja": "半分"
+ },
+ {
+  "word": "最难",
+  "pinyin": "zuìnán",
+  "meaning_ja": "一番難しい"
+ },
+ {
+  "word": "声调",
+  "pinyin": "shēngdiào",
+  "meaning_ja": "声調"
+ },
+ {
+  "word": "难",
+  "pinyin": "nán",
+  "meaning_ja": "難しい"
+ },
+ {
+  "word": "说错",
+  "pinyin": "shuōcuò",
+  "meaning_ja": "言い間違える"
+ },
+ {
+  "word": "介绍",
+  "pinyin": "jièshào",
+  "meaning_ja": "紹介する"
+ },
+ {
+  "word": "大三",
+  "pinyin": "dàsān",
+  "meaning_ja": "大学3年生"
+ },
+ {
+  "word": "想来",
+  "pinyin": "xiǎnglái",
+  "meaning_ja": "来たいと思う（想＋来）"
+ },
+ {
+  "word": "实习",
+  "pinyin": "shíxí",
+  "meaning_ja": "インターンをする、実習"
+ },
+ {
+  "word": "行业",
+  "pinyin": "hángyè",
+  "meaning_ja": "業界"
+ },
+ {
+  "word": "里",
+  "pinyin": "lǐ",
+  "meaning_ja": "〜の中"
+ },
+ {
+  "word": "有名",
+  "pinyin": "yǒumíng",
+  "meaning_ja": "有名だ"
+ },
+ {
+  "word": "学到",
+  "pinyin": "xuédào",
+  "meaning_ja": "学んで身につける（学＋到）"
+ },
+ {
+  "word": "经验",
+  "pinyin": "jīngyàn",
+  "meaning_ja": "経験"
+ },
+ {
+  "word": "经历",
+  "pinyin": "jīnglì",
+  "meaning_ja": "経歴、経験"
+ },
+ {
+  "word": "去年",
+  "pinyin": "qùnián",
+  "meaning_ja": "去年"
+ },
+ {
+  "word": "广告公司",
+  "pinyin": "guǎnggàogōngsī",
+  "meaning_ja": "広告会社"
+ },
+ {
+  "word": "上班",
+  "pinyin": "shàngbān",
+  "meaning_ja": "出勤する"
+ },
+ {
+  "word": "下周一",
+  "pinyin": "xiàzhōuyī",
+  "meaning_ja": "来週月曜日"
+ },
+ {
+  "word": "随时",
+  "pinyin": "suíshí",
+  "meaning_ja": "いつでも"
+ },
+ {
+  "word": "项目",
+  "pinyin": "xiàngmù",
+  "meaning_ja": "プロジェクト"
+ },
+ {
+  "word": "进度",
+  "pinyin": "jìndù",
+  "meaning_ja": "進捗"
+ },
+ {
+  "word": "设计",
+  "pinyin": "shèjì",
+  "meaning_ja": "デザイン、設計"
+ },
+ {
+  "word": "部分",
+  "pinyin": "bùfèn",
+  "meaning_ja": "部分"
+ },
+ {
+  "word": "完成",
+  "pinyin": "wánchéng",
+  "meaning_ja": "完成する"
+ },
+ {
+  "word": "百分之八十",
+  "pinyin": "bǎifēnzhībāshí",
+  "meaning_ja": "80パーセント"
+ },
+ {
+  "word": "细节",
+  "pinyin": "xìjié",
+  "meaning_ja": "細部"
+ },
+ {
+  "word": "的话",
+  "pinyin": "dehuà",
+  "meaning_ja": "〜ならば（もし〜の話）"
+ },
+ {
+  "word": "一周",
+  "pinyin": "yīzhōu",
+  "meaning_ja": "1週間"
+ },
+ {
+  "word": "之内",
+  "pinyin": "zhīnèi",
+  "meaning_ja": "〜以内"
+ },
+ {
+  "word": "那边",
+  "pinyin": "nàbiān",
+  "meaning_ja": "そちら"
+ },
+ {
+  "word": "暂时",
+  "pinyin": "zànshí",
+  "meaning_ja": "一時的に、今のところ"
+ },
+ {
+  "word": "人手",
+  "pinyin": "rénshǒu",
+  "meaning_ja": "人手"
+ },
+ {
+  "word": "人事部门",
+  "pinyin": "rénshìbùmén",
+  "meaning_ja": "人事部"
+ },
+ {
+  "word": "方案",
+  "pinyin": "fāngàn",
+  "meaning_ja": "案、プラン"
+ },
+ {
+  "word": "不同",
+  "pinyin": "bùtóng",
+  "meaning_ja": "異なる"
+ },
+ {
+  "word": "说说看",
+  "pinyin": "shuōshuōkàn",
+  "meaning_ja": "ちょっと話してみて（说说＋看）"
+ },
+ {
+  "word": "计划",
+  "pinyin": "jìhuà",
+  "meaning_ja": "計画"
+ },
+ {
+  "word": "太紧张",
+  "pinyin": "tàijǐnzhāng",
+  "meaning_ja": "タイトすぎる（太＋紧张）"
+ },
+ {
+  "word": "不快",
+  "pinyin": "bùkuài",
+  "meaning_ja": "速くない（不＋快）"
+ },
+ {
+  "word": "一点",
+  "pinyin": "yìdiǎn",
+  "meaning_ja": "少し"
+ },
+ {
+  "word": "赶不上",
+  "pinyin": "gǎnbùshàng",
+  "meaning_ja": "間に合わない"
+ },
+ {
+  "word": "截止",
+  "pinyin": "jiézhǐ",
+  "meaning_ja": "締め切る"
+ },
+ {
+  "word": "日期",
+  "pinyin": "rìqī",
+  "meaning_ja": "日付"
+ },
+ {
+  "word": "可不可以",
+  "pinyin": "kěbùkěyǐ",
+  "meaning_ja": "〜してもいいですか"
+ },
+ {
+  "word": "客户",
+  "pinyin": "kèhù",
+  "meaning_ja": "顧客"
+ },
+ {
+  "word": "商量一下",
+  "pinyin": "shāngliángyīxià",
+  "meaning_ja": "ちょっと相談する"
+ },
+ {
+  "word": "延期",
+  "pinyin": "yánqī",
+  "meaning_ja": "延期する"
+ },
+ {
+  "word": "试试",
+  "pinyin": "shìshì",
+  "meaning_ja": "試してみる"
+ },
+ {
+  "word": "意见",
+  "pinyin": "yìjiàn",
+  "meaning_ja": "意見"
+ },
+ {
+  "word": "团队",
+  "pinyin": "tuánduì",
+  "meaning_ja": "チーム"
+ },
+ {
+  "word": "互相理解",
+  "pinyin": "hùxiānglǐjiě",
+  "meaning_ja": "お互いに理解し合う"
+ },
+ {
+  "word": "整体",
+  "pinyin": "zhěngtǐ",
+  "meaning_ja": "全体"
+ },
+ {
+  "word": "数据分析",
+  "pinyin": "shùjùfēnxī",
+  "meaning_ja": "データ分析"
+ },
+ {
+  "word": "详细",
+  "pinyin": "xiángxì",
+  "meaning_ja": "詳しい"
+ },
+ {
+  "word": "补充",
+  "pinyin": "bǔchōng",
+  "meaning_ja": "補足する"
+ },
+ {
+  "word": "试着",
+  "pinyin": "shìzhe",
+  "meaning_ja": "試しに〜してみる"
+ },
+ {
+  "word": "提出",
+  "pinyin": "tíchū",
+  "meaning_ja": "提出する、提案する"
+ },
+ {
+  "word": "主动",
+  "pinyin": "zhǔdòng",
+  "meaning_ja": "積極的な"
+ },
+ {
+  "word": "总的来说",
+  "pinyin": "zǒngdeláishuō",
+  "meaning_ja": "全体的に言うと"
+ },
+ {
+  "word": "进步",
+  "pinyin": "jìnbù",
+  "meaning_ja": "進歩する"
+ },
+ {
+  "word": "很快",
+  "pinyin": "hěnkuài",
+  "meaning_ja": "速い"
+ },
+ {
+  "word": "城市",
+  "pinyin": "chéngshì",
+  "meaning_ja": "都市"
+ },
+ {
+  "word": "农村",
+  "pinyin": "nóngcūn",
+  "meaning_ja": "農村"
+ },
+ {
+  "word": "城乡",
+  "pinyin": "chéngxiāng",
+  "meaning_ja": "都市と農村"
+ },
+ {
+  "word": "有所",
+  "pinyin": "yǒusuǒ",
+  "meaning_ja": "いくらか（〜がある）"
+ },
+ {
+  "word": "缩小",
+  "pinyin": "suōxiǎo",
+  "meaning_ja": "縮小する"
+ },
+ {
+  "word": "原因",
+  "pinyin": "yuányīn",
+  "meaning_ja": "原因"
+ },
+ {
+  "word": "医疗",
+  "pinyin": "yīliáo",
+  "meaning_ja": "医療"
+ },
+ {
+  "word": "资源分配",
+  "pinyin": "zīyuánfēnpèi",
+  "meaning_ja": "資源の分配"
+ },
+ {
+  "word": "不均",
+  "pinyin": "bùjūn",
+  "meaning_ja": "不均衡だ"
+ },
+ {
+  "word": "回流",
+  "pinyin": "huíliú",
+  "meaning_ja": "還流する、戻る"
+ },
+ {
+  "word": "单纯",
+  "pinyin": "dānchún",
+  "meaning_ja": "単純に"
+ },
+ {
+  "word": "资金",
+  "pinyin": "zījīn",
+  "meaning_ja": "資金"
+ },
+ {
+  "word": "建立",
+  "pinyin": "jiànlì",
+  "meaning_ja": "構築する、設立する"
+ },
+ {
+  "word": "产业",
+  "pinyin": "chǎnyè",
+  "meaning_ja": "産業"
+ },
+ {
+  "word": "留下来",
+  "pinyin": "liúxiàlái",
+  "meaning_ja": "残る"
+ },
+ {
+  "word": "创业",
+  "pinyin": "chuàngyè",
+  "meaning_ja": "起業する"
+ },
+ {
+  "word": "魅力",
+  "pinyin": "mèilì",
+  "meaning_ja": "魅力"
+ },
+ {
+  "word": "实现",
+  "pinyin": "shíxiàn",
+  "meaning_ja": "実現する"
+ },
+ {
+  "word": "失败率",
+  "pinyin": "shībàilǜ",
+  "meaning_ja": "失敗率"
+ },
+ {
+  "word": "创业者",
+  "pinyin": "chuàngyèzhě",
+  "meaning_ja": "起業家"
+ },
+ {
+  "word": "做好",
+  "pinyin": "zuòhǎo",
+  "meaning_ja": "しっかりやる、準備する"
+ },
+ {
+  "word": "哪些",
+  "pinyin": "nǎxiē",
+  "meaning_ja": "どれら"
+ },
+ {
+  "word": "心理准备",
+  "pinyin": "xīnlǐzhǔnbèi",
+  "meaning_ja": "心の準備"
+ },
+ {
+  "word": "接受",
+  "pinyin": "jiēshòu",
+  "meaning_ja": "受け入れる"
+ },
+ {
+  "word": "失败",
+  "pinyin": "shībài",
+  "meaning_ja": "失敗"
+ },
+ {
+  "word": "其次",
+  "pinyin": "qícì",
+  "meaning_ja": "次に"
+ },
+ {
+  "word": "不断",
+  "pinyin": "bùduàn",
+  "meaning_ja": "絶えず"
+ },
+ {
+  "word": "盲目",
+  "pinyin": "mángmù",
+  "meaning_ja": "盲目的に、無闇に"
+ },
+ {
+  "word": "扩张",
+  "pinyin": "kuòzhāng",
+  "meaning_ja": "拡張する"
+ },
+ {
+  "word": "产品",
+  "pinyin": "chǎnpǐn",
+  "meaning_ja": "製品"
+ },
+ {
+  "word": "用户",
+  "pinyin": "yònghù",
+  "meaning_ja": "ユーザー"
+ },
+ {
+  "word": "自然",
+  "pinyin": "zìrán",
+  "meaning_ja": "自然に"
+ },
+ {
+  "word": "入手",
+  "pinyin": "rùshǒu",
+  "meaning_ja": "着手する"
+ },
+ {
+  "word": "承受",
+  "pinyin": "chéngshòu",
+  "meaning_ja": "耐える、受け止める"
+ },
+ {
+  "word": "多大",
+  "pinyin": "duōdà",
+  "meaning_ja": "どのくらい大きい"
+ },
+ {
+  "word": "保守",
+  "pinyin": "bǎoshǒu",
+  "meaning_ja": "保守的"
+ },
+ {
+  "word": "不太能",
+  "pinyin": "bùtàinéng",
+  "meaning_ja": "あまり〜できない"
+ },
+ {
+  "word": "亏损",
+  "pinyin": "kuīsǔn",
+  "meaning_ja": "損失"
+ },
+ {
+  "word": "基金",
+  "pinyin": "jījīn",
+  "meaning_ja": "投資信託、ファンド"
+ },
+ {
+  "word": "债券",
+  "pinyin": "zhàiquàn",
+  "meaning_ja": "債券"
+ },
+ {
+  "word": "相对",
+  "pinyin": "xiāngduì",
+  "meaning_ja": "相対的に"
+ },
+ {
+  "word": "较",
+  "pinyin": "jiào",
+  "meaning_ja": "比較的"
+ },
+ {
+  "word": "股票",
+  "pinyin": "gǔpiào",
+  "meaning_ja": "株"
+ },
+ {
+  "word": "长期投资",
+  "pinyin": "chángqītóuzī",
+  "meaning_ja": "長期投資"
+ },
+ {
+  "word": "收益",
+  "pinyin": "shōuyì",
+  "meaning_ja": "収益"
+ },
+ {
+  "word": "更高",
+  "pinyin": "gènggāo",
+  "meaning_ja": "より高い"
+ },
+ {
+  "word": "分配",
+  "pinyin": "fēnpèi",
+  "meaning_ja": "分配する"
+ },
+ {
+  "word": "超过",
+  "pinyin": "chāoguò",
+  "meaning_ja": "超える"
+ },
+ {
+  "word": "总资产",
+  "pinyin": "zǒngzīchǎn",
+  "meaning_ja": "総資産"
+ },
+ {
+  "word": "三成",
+  "pinyin": "sānchéng",
+  "meaning_ja": "3割"
+ },
+ {
+  "word": "讲解",
+  "pinyin": "jiǎngjiě",
+  "meaning_ja": "説明する"
+ },
+ {
+  "word": "养老",
+  "pinyin": "yǎnglǎo",
+  "meaning_ja": "老後の生活を養う"
+ },
+ {
+  "word": "规划",
+  "pinyin": "guīhuà",
+  "meaning_ja": "計画する"
+ },
+ {
+  "word": "越早",
+  "pinyin": "yuèzǎo",
+  "meaning_ja": "早ければ早いほど（越＋早）"
+ },
+ {
+  "word": "养老金",
+  "pinyin": "yǎnglǎojīn",
+  "meaning_ja": "年金"
+ },
+ {
+  "word": "收入",
+  "pinyin": "shōurù",
+  "meaning_ja": "収入"
+ },
+ {
+  "word": "不高",
+  "pinyin": "bùgāo",
+  "meaning_ja": "高くない"
+ },
+ {
+  "word": "存钱",
+  "pinyin": "cúnqián",
+  "meaning_ja": "貯金する"
+ },
+ {
+  "word": "即使",
+  "pinyin": "jíshǐ",
+  "meaning_ja": "たとえ〜でも"
+ },
+ {
+  "word": "金额",
+  "pinyin": "jīné",
+  "meaning_ja": "金額"
+ },
+ {
+  "word": "不大",
+  "pinyin": "bùdà",
+  "meaning_ja": "大きくない"
+ },
+ {
+  "word": "养成",
+  "pinyin": "yǎngchéng",
+  "meaning_ja": "身につける、養成する"
+ },
+ {
+  "word": "定期",
+  "pinyin": "dìngqī",
+  "meaning_ja": "定期的な"
+ },
+ {
+  "word": "储蓄",
+  "pinyin": "chǔxù",
+  "meaning_ja": "貯蓄"
+ },
+ {
+  "word": "习惯",
+  "pinyin": "xíguàn",
+  "meaning_ja": "習慣"
+ },
+ {
+  "word": "其他",
+  "pinyin": "qítā",
+  "meaning_ja": "その他"
+ },
+ {
+  "word": "购买",
+  "pinyin": "gòumǎi",
+  "meaning_ja": "購入する"
+ },
+ {
+  "word": "用来",
+  "pinyin": "yònglái",
+  "meaning_ja": "〜に使う"
+ },
+ {
+  "word": "至少",
+  "pinyin": "zhìshǎo",
+  "meaning_ja": "少なくとも"
+ },
+ {
+  "word": "百分之十五",
+  "pinyin": "bǎifēnzhīshíwǔ",
+  "meaning_ja": "15パーセント"
+ },
+ {
+  "word": "越多越好",
+  "pinyin": "yuèduōyuèhǎo",
+  "meaning_ja": "多ければ多いほど良い"
+ },
+ {
+  "word": "早",
+  "pinyin": "zǎo",
+  "meaning_ja": "早い"
+ },
+ {
+  "word": "医疗保险",
+  "pinyin": "yīliáobǎoxiǎn",
+  "meaning_ja": "医療保険"
+ },
+ {
+  "word": "覆盖范围",
+  "pinyin": "fùgàifànwéi",
+  "meaning_ja": "カバー範囲"
+ },
+ {
+  "word": "广",
+  "pinyin": "guǎng",
+  "meaning_ja": "広い"
+ },
+ {
+  "word": "看病",
+  "pinyin": "kànbìng",
+  "meaning_ja": "診察を受ける"
+ },
+ {
+  "word": "很长",
+  "pinyin": "hěnzhǎng",
+  "meaning_ja": "とても長い"
+ },
+ {
+  "word": "怎样",
+  "pinyin": "zěnyàng",
+  "meaning_ja": "どのように"
+ },
+ {
+  "word": "看病难",
+  "pinyin": "kànbìngnán",
+  "meaning_ja": "受診の難しさ（看病＋难）"
+ },
+ {
+  "word": "数量",
+  "pinyin": "shùliàng",
+  "meaning_ja": "数量"
+ },
+ {
+  "word": "推广",
+  "pinyin": "tuīguǎng",
+  "meaning_ja": "普及させる"
+ },
+ {
+  "word": "社区",
+  "pinyin": "shèqū",
+  "meaning_ja": "地域、コミュニティ"
+ },
+ {
+  "word": "往",
+  "pinyin": "wǎng",
+  "meaning_ja": "〜へ向かって"
+ },
+ {
+  "word": "跑",
+  "pinyin": "pǎo",
+  "meaning_ja": "走る、駆けつける"
+ },
+ {
+  "word": "缓解",
+  "pinyin": "huǎnjiě",
+  "meaning_ja": "緩和する"
+ },
+ {
+  "word": "网络",
+  "pinyin": "wǎngluò",
+  "meaning_ja": "ネットワーク"
+ },
+ {
+  "word": "条件",
+  "pinyin": "tiáojiàn",
+  "meaning_ja": "条件"
+ },
+ {
+  "word": "小病",
+  "pinyin": "xiǎobìng",
+  "meaning_ja": "軽い病気"
+ },
+ {
+  "word": "在线",
+  "pinyin": "zàixiàn",
+  "meaning_ja": "オンラインの"
+ },
+ {
+  "word": "咨询",
+  "pinyin": "zīxún",
+  "meaning_ja": "相談する"
+ },
+ {
+  "word": "资源",
+  "pinyin": "zīyuán",
+  "meaning_ja": "資源"
+ },
+ {
+  "word": "更加",
+  "pinyin": "gèngjiā",
+  "meaning_ja": "一層"
+ },
+ {
+  "word": "合理",
+  "pinyin": "hélǐ",
+  "meaning_ja": "合理的"
+ }
+]

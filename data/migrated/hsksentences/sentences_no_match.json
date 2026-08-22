@@ -1,0 +1,7418 @@
+[
+  {
+    "source_id": 3,
+    "hanzi": "这是我的爱好。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 4,
+    "hanzi": "我们八点吃饭吧。",
+    "hsk_level": 1,
+    "original_label": "叫"
+  },
+  {
+    "source_id": 5,
+    "hanzi": "爸爸的生日是白天。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 6,
+    "hanzi": "这是一百块钱。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 7,
+    "hanzi": "半年后我去北京。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 8,
+    "hanzi": "他们班半天没上课。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 11,
+    "hanzi": "北京在中国的北边。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 14,
+    "hanzi": "别的人不是病人。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 15,
+    "hanzi": "这个不大，不贵。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 16,
+    "hanzi": "不对，不客气。",
+    "hsk_level": 1,
+    "original_label": "和／能／请"
+  },
+  {
+    "source_id": 19,
+    "hanzi": "她常常唱歌。",
+    "hsk_level": 1,
+    "original_label": "在／有／呢"
+  },
+  {
+    "source_id": 21,
+    "hanzi": "我要一张车票。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 22,
+    "hanzi": "车上有很多人在吃饭。",
+    "hsk_level": 1,
+    "original_label": "叫"
+  },
+  {
+    "source_id": 24,
+    "hanzi": "我想穿新衣服。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 25,
+    "hanzi": "床上有一次错。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 27,
+    "hanzi": "大学生打车去打球。",
+    "hsk_level": 1,
+    "original_label": "和／能／请"
+  },
+  {
+    "source_id": 28,
+    "hanzi": "到了，打开门吧。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 30,
+    "hanzi": "地上有一个本子。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 31,
+    "hanzi": "我在这里等你。",
+    "hsk_level": 1,
+    "original_label": "和／能／请"
+  },
+  {
+    "source_id": 32,
+    "hanzi": "这是第一次。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 34,
+    "hanzi": "电视机和电视都在这儿。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 36,
+    "hanzi": "这个地点是好地方。",
+    "hsk_level": 1,
+    "original_label": "叫"
+  },
+  {
+    "source_id": 38,
+    "hanzi": "他的动作不动。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 39,
+    "hanzi": "东边和东西都好。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 41,
+    "hanzi": "对不起，我不对。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 44,
+    "hanzi": "儿子在饭店吃饭。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 45,
+    "hanzi": "放假了，放学早。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 46,
+    "hanzi": "房子里有一个房间。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 47,
+    "hanzi": "飞机非常快。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 48,
+    "hanzi": "我飞去北京，用两分钟。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 49,
+    "hanzi": "外面风很大。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 50,
+    "hanzi": "你干什么？衣服很干净。",
+    "hsk_level": 1,
+    "original_label": "和／能／请"
+  },
+  {
+    "source_id": 51,
+    "hanzi": "这栋楼很高。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 53,
+    "hanzi": "给我一个歌本。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 55,
+    "hanzi": "我跟哥哥去工作。",
+    "hsk_level": 1,
+    "original_label": "和／能／请"
+  },
+  {
+    "source_id": 57,
+    "hanzi": "这个国家很贵。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 59,
+    "hanzi": "别人不是我孩子。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 60,
+    "hanzi": "我有二个孩子。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 62,
+    "hanzi": "这里还有汉字。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 63,
+    "hanzi": "孩子在学汉语。",
+    "hsk_level": 1,
+    "original_label": "和／能／请"
+  },
+  {
+    "source_id": 64,
+    "hanzi": "这是几号？",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 65,
+    "hanzi": "这个电影好看，那个好听。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 67,
+    "hanzi": "后天是后边那天。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 68,
+    "hanzi": "这朵花不坏。",
+    "hsk_level": 1,
+    "original_label": "和／能／请"
+  },
+  {
+    "source_id": 71,
+    "hanzi": "回到家，坐火车来。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 72,
+    "hanzi": "我记住了他的名字。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 73,
+    "hanzi": "你有几张机票？",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 74,
+    "hanzi": "家里有家人。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 75,
+    "hanzi": "我们明天见面。",
+    "hsk_level": 1,
+    "original_label": "和／能／请"
+  },
+  {
+    "source_id": 76,
+    "hanzi": "老师教我们汉字。",
+    "hsk_level": 1,
+    "original_label": "和／能／请"
+  },
+  {
+    "source_id": 77,
+    "hanzi": "教学楼在机场旁边。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 78,
+    "hanzi": "早饭有鸡蛋。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 79,
+    "hanzi": "我还记得姐姐。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 82,
+    "hanzi": "今年，今天都很忙。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 85,
+    "hanzi": "开车去开会。",
+    "hsk_level": 1,
+    "original_label": "和／能／请"
+  },
+  {
+    "source_id": 87,
+    "hanzi": "他生病了，去看病。",
+    "hsk_level": 1,
+    "original_label": "和／能／请"
+  },
+  {
+    "source_id": 89,
+    "hanzi": "明天考试，先考课本。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 91,
+    "hanzi": "口渴了，进门口。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 92,
+    "hanzi": "老人来到火车站。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 94,
+    "hanzi": "楼上楼下都零度。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 95,
+    "hanzi": "路口有六路车。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 96,
+    "hanzi": "路上，马路上有车。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 97,
+    "hanzi": "吗？马上就到。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 98,
+    "hanzi": "车开得很慢。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 99,
+    "hanzi": "一毛钱不多。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 100,
+    "hanzi": "妹妹没有面包。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 101,
+    "hanzi": "没什么，没事儿。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 102,
+    "hanzi": "没关系，没有问题。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 103,
+    "hanzi": "门票在门口。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 105,
+    "hanzi": "明年、明天都明白。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 106,
+    "hanzi": "你的名字是什么？",
+    "hsk_level": 1,
+    "original_label": "叫"
+  },
+  {
+    "source_id": 107,
+    "hanzi": "哪个是你的？那边那里。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 110,
+    "hanzi": "南边有个男孩儿。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 111,
+    "hanzi": "这道题很难，男生难做。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 112,
+    "hanzi": "男朋友是男人。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 113,
+    "hanzi": "那儿、哪儿都行。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 114,
+    "hanzi": "你呢？你能来吗？",
+    "hsk_level": 1,
+    "original_label": "在／有／呢"
+  },
+  {
+    "source_id": 115,
+    "hanzi": "你们和您都好。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 116,
+    "hanzi": "女儿喝牛奶。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 117,
+    "hanzi": "女孩儿是女生，不是女人。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 118,
+    "hanzi": "女朋友在旁边。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 121,
+    "hanzi": "我七点起床。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 122,
+    "hanzi": "汽车在前边。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 123,
+    "hanzi": "前天我丢了钱包。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 127,
+    "hanzi": "今天很热，我认识她。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 129,
+    "hanzi": "三座山都很高。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 131,
+    "hanzi": "商场上次上课去了。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 132,
+    "hanzi": "上学、上班都要早起。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 133,
+    "hanzi": "里边有商店。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 134,
+    "hanzi": "我上网，上午在家。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 135,
+    "hanzi": "谁身上没有手机？",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 136,
+    "hanzi": "他生气了，身体不好。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 138,
+    "hanzi": "时间到了，手机响了。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 139,
+    "hanzi": "树下有书包和书。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 140,
+    "hanzi": "书店有水果吗？",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 141,
+    "hanzi": "我睡了，快睡觉。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 142,
+    "hanzi": "她说，说话很快。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 143,
+    "hanzi": "四点送她回家。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 145,
+    "hanzi": "天气好，听到了鸟叫。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 147,
+    "hanzi": "同学在图书馆看书。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 148,
+    "hanzi": "外边有外国人说外语。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 149,
+    "hanzi": "晚上吃晚饭。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 150,
+    "hanzi": "我忘了，忘记网友的名字。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 151,
+    "hanzi": "网上有五个午饭。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 152,
+    "hanzi": "洗手，去西边。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 154,
+    "hanzi": "下边，下次再来。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 155,
+    "hanzi": "先生现在在下午上课。",
+    "hsk_level": 1,
+    "original_label": "叫"
+  },
+  {
+    "source_id": 156,
+    "hanzi": "小孩儿很小。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 157,
+    "hanzi": "小朋友是小学生。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 158,
+    "hanzi": "小学在小姐家附近。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 159,
+    "hanzi": "半个小时，下午下雨了。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 163,
+    "hanzi": "洗手间在学院旁边。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 164,
+    "hanzi": "学校有一页字。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 169,
+    "hanzi": "医院和学校一样大。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 170,
+    "hanzi": "用右手写字。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 171,
+    "hanzi": "有些人有的没来。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 172,
+    "hanzi": "有时候用，很有用。",
+    "hsk_level": 1,
+    "original_label": "想／多少／个"
+  },
+  {
+    "source_id": 173,
+    "hanzi": "右边有个有名的人。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 174,
+    "hanzi": "下雨了，一元一把。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 175,
+    "hanzi": "那儿很远，月月都去。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 176,
+    "hanzi": "再见，再来找我。",
+    "hsk_level": 1,
+    "original_label": "叫"
+  },
+  {
+    "source_id": 178,
+    "hanzi": "早上找到了。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 182,
+    "hanzi": "我知道这个知识。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 183,
+    "hanzi": "这本书很重，很重要。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 184,
+    "hanzi": "中学生学中文，中午上课。",
+    "hsk_level": 1,
+    "original_label": "是／也／都"
+  },
+  {
+    "source_id": 188,
+    "hanzi": "昨天在左边。",
+    "hsk_level": 1,
+    "original_label": "曜日・日付"
+  },
+  {
+    "source_id": 191,
+    "hanzi": "班长的衣服是白色。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 192,
+    "hanzi": "办公室要办法子。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 194,
+    "hanzi": "我吃饱了，报名了考试。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 195,
+    "hanzi": "报纸说北方安全。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 196,
+    "hanzi": "比如说，他背着笔记本。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 198,
+    "hanzi": "必须在边上等。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 199,
+    "hanzi": "天气变了，变成了雨。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 200,
+    "hanzi": "这遍表示不错。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 201,
+    "hanzi": "这个表不但便宜，还不够准。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 206,
+    "hanzi": "这样不行，不一定对。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 207,
+    "hanzi": "不一会儿，部分人来了。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 209,
+    "hanzi": "我参加了，草地很大。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 212,
+    "hanzi": "这场超过超市那场。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 213,
+    "hanzi": "车辆称重了。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 215,
+    "hanzi": "重复重新做。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 216,
+    "hanzi": "出发去出国。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 218,
+    "hanzi": "他出生后出现了。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 219,
+    "hanzi": "出院后坐出租车。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 220,
+    "hanzi": "船在吹风的地方。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 221,
+    "hanzi": "春节和春天都好。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 222,
+    "hanzi": "这个词，词典有词语。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 225,
+    "hanzi": "大部分人大多数不知道。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 226,
+    "hanzi": "大海边有大家。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 227,
+    "hanzi": "大量的大门大声开了。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 228,
+    "hanzi": "大人的大小很好。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 229,
+    "hanzi": "大衣在大自然里。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 232,
+    "hanzi": "倒了，到处都是。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 233,
+    "hanzi": "这道道理，道路很清楚。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 235,
+    "hanzi": "灯等到等于天亮。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 236,
+    "hanzi": "地铁站离得不低。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 237,
+    "hanzi": "地球点头，掉进店里。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 238,
+    "hanzi": "东北东方东南冬天冷。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 240,
+    "hanzi": "读音的度，短信短。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 241,
+    "hanzi": "这段队，队长对了。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 242,
+    "hanzi": "对话对面多久了？",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 243,
+    "hanzi": "多么多数多云的天气。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 244,
+    "hanzi": "而且发发现了。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 246,
+    "hanzi": "这个方法，方面方向都对。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 247,
+    "hanzi": "放下东西，放心了。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 248,
+    "hanzi": "这分分开了，分数分钟一份。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 249,
+    "hanzi": "一封信要服务复习。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 250,
+    "hanzi": "该改改变了。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 251,
+    "hanzi": "干杯，感到很感动。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 252,
+    "hanzi": "感觉感谢干活儿。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 254,
+    "hanzi": "个子更高了。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 255,
+    "hanzi": "公共汽车、公交车公斤都不同。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 256,
+    "hanzi": "公里公路公平。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 257,
+    "hanzi": "公司公园有狗。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 258,
+    "hanzi": "够了，故事故意讲。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 259,
+    "hanzi": "顾客关机了，关心。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 263,
+    "hanzi": "喊了一声，好处好多。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 265,
+    "hanzi": "好像合适的河。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 266,
+    "hanzi": "黑板是黑色，不是黑。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 268,
+    "hanzi": "后来忽然去了湖边。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 269,
+    "hanzi": "护照和花园的画。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 270,
+    "hanzi": "画家画儿坏处坏人。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 271,
+    "hanzi": "欢迎换黄色的黄衣服。",
+    "hsk_level": 2,
+    "original_label": "就／对～／還／有点儿"
+  },
+  {
+    "source_id": 273,
+    "hanzi": "他的理想是成为医生。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 274,
+    "hanzi": "他的水平大大提高了。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 275,
+    "hanzi": "机会来了，要努力。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 276,
+    "hanzi": "妈妈买了一只鸡。",
+    "hsk_level": 2,
+    "original_label": "给／帮／～的时候／已经"
+  },
+  {
+    "source_id": 278,
+    "hanzi": "我们要实现这个计划。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 279,
+    "hanzi": "他在使用计算机。",
+    "hsk_level": 2,
+    "original_label": "还（継続）／時間＋就／离"
+  },
+  {
+    "source_id": 281,
+    "hanzi": "家长很关心家庭。",
+    "hsk_level": 2,
+    "original_label": "動詞の重ね型／結果補語 懂好完见错／从～"
+  },
+  {
+    "source_id": 282,
+    "hanzi": "放假了，假期很长。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 283,
+    "hanzi": "老师检查了作业。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 286,
+    "hanzi": "他在台上讲话。",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 289,
+    "hanzi": "这里交通很方便。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 291,
+    "hanzi": "妈妈包饺子。",
+    "hsk_level": 2,
+    "original_label": "给／帮／～的时候／已经"
+  },
+  {
+    "source_id": 292,
+    "hanzi": "他的脚很疼。",
+    "hsk_level": 2,
+    "original_label": "就／对～／还／有点儿"
+  },
+  {
+    "source_id": 293,
+    "hanzi": "它的名称叫作电脑。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 294,
+    "hanzi": "教师在教室里教学，重视教育。",
+    "hsk_level": 2,
+    "original_label": "还（継続）／時間＋就／离"
+  },
+  {
+    "source_id": 295,
+    "hanzi": "我接到了电话，接受了邀请。",
+    "hsk_level": 2,
+    "original_label": "……好吗／再／让请叫（使役）"
+  },
+  {
+    "source_id": 297,
+    "hanzi": "他去车站接朋友。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 298,
+    "hanzi": "街上人很多。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 301,
+    "hanzi": "我想借一本书。",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 302,
+    "hanzi": "今后他要进入大学。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 303,
+    "hanzi": "近处，会议正在进行。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 304,
+    "hanzi": "经理经常经过这里。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 305,
+    "hanzi": "他在酒店喝酒。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 307,
+    "hanzi": "同学们举手，学校举行运动会。",
+    "hsk_level": 2,
+    "original_label": "就／对～／还／有点儿"
+  },
+  {
+    "source_id": 308,
+    "hanzi": "这个句子很长。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 310,
+    "hanzi": "开学那天，大家都很开心。",
+    "hsk_level": 2,
+    "original_label": "……好吗／再／让请叫（使役）"
+  },
+  {
+    "source_id": 311,
+    "hanzi": "你的看法很对。",
+    "hsk_level": 2,
+    "original_label": "動詞の重ね型／結果補語 懂好完见错／从～"
+  },
+  {
+    "source_id": 314,
+    "hanzi": "科学很有意思。",
+    "hsk_level": 2,
+    "original_label": "可能／得（様態補語）／比較構文(2)"
+  },
+  {
+    "source_id": 315,
+    "hanzi": "这只猫很可爱。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 316,
+    "hanzi": "明天可能下雨。",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 317,
+    "hanzi": "那部电影很可怕。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 320,
+    "hanzi": "这块肉三百克，等了一刻钟。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 321,
+    "hanzi": "客人来了。",
+    "hsk_level": 2,
+    "original_label": "给／帮／～的时候／已经"
+  },
+  {
+    "source_id": 322,
+    "hanzi": "课堂上很安静。",
+    "hsk_level": 2,
+    "original_label": "就／对～／还／有点儿"
+  },
+  {
+    "source_id": 323,
+    "hanzi": "这里空气很好。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 324,
+    "hanzi": "小孩哭了。",
+    "hsk_level": 2,
+    "original_label": "还（継続）／時間＋就／离"
+  },
+  {
+    "source_id": 325,
+    "hanzi": "我们吃快餐吧。",
+    "hsk_level": 2,
+    "original_label": "……好吗／再／让请叫（使役）"
+  },
+  {
+    "source_id": 327,
+    "hanzi": "祝你生日快乐。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 328,
+    "hanzi": "用筷子吃饭。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 329,
+    "hanzi": "他拉着我的手。",
+    "hsk_level": 2,
+    "original_label": "可能／得（様態補語）／比較構文(2)"
+  },
+  {
+    "source_id": 330,
+    "hanzi": "他来自北京。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 331,
+    "hanzi": "他穿蓝色衣服打篮球。",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 332,
+    "hanzi": "老年人老是忘事。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 333,
+    "hanzi": "他离开了家。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 334,
+    "hanzi": "这是给你的礼物。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 335,
+    "hanzi": "东西在里头。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 336,
+    "hanzi": "例如这个例子。",
+    "hsk_level": 2,
+    "original_label": "给／帮／～的时候／已经"
+  },
+  {
+    "source_id": 337,
+    "hanzi": "她的脸红了。",
+    "hsk_level": 2,
+    "original_label": "就／对～／还／有点儿"
+  },
+  {
+    "source_id": 339,
+    "hanzi": "今天很凉快，风很凉。",
+    "hsk_level": 2,
+    "original_label": "还（継続）／時間＋就／离"
+  },
+  {
+    "source_id": 340,
+    "hanzi": "我有两本书。",
+    "hsk_level": 2,
+    "original_label": "……好吗／再／让请叫（使役）"
+  },
+  {
+    "source_id": 341,
+    "hanzi": "今天零下五度。",
+    "hsk_level": 2,
+    "original_label": "動詞の重ね型／結果補語 懂好完见错／从～"
+  },
+  {
+    "source_id": 342,
+    "hanzi": "留学生留下了东西。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 343,
+    "hanzi": "他说汉语很流利，这首歌很流行。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 344,
+    "hanzi": "路边有花。",
+    "hsk_level": 2,
+    "original_label": "可能／得（様態補語）／比較構文(2)"
+  },
+  {
+    "source_id": 347,
+    "hanzi": "他在卖水果。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 348,
+    "hanzi": "老师对我很满意。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 349,
+    "hanzi": "这条鱼一米长。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 350,
+    "hanzi": "他站在我面前。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 351,
+    "hanzi": "名单上有你的名字。",
+    "hsk_level": 2,
+    "original_label": "给／帮／～的时候／已经"
+  },
+  {
+    "source_id": 352,
+    "hanzi": "她是有名的明星。",
+    "hsk_level": 2,
+    "original_label": "就／对～／还／有点儿"
+  },
+  {
+    "source_id": 353,
+    "hanzi": "你的目的是什么？",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 354,
+    "hanzi": "他拿出钱包，拿到了钱。",
+    "hsk_level": 2,
+    "original_label": "还（継続）／時間＋就／离"
+  },
+  {
+    "source_id": 356,
+    "hanzi": "那时候我还小。",
+    "hsk_level": 2,
+    "original_label": "動詞の重ね型／結果補語 懂好完见错／从～"
+  },
+  {
+    "source_id": 357,
+    "hanzi": "他是南方人。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 360,
+    "hanzi": "他能够做到这件事。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 361,
+    "hanzi": "他上三年级。",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 362,
+    "hanzi": "她很年轻。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 363,
+    "hanzi": "树上有一只鸟。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 365,
+    "hanzi": "周末我们去爬山。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 368,
+    "hanzi": "我在路上碰见了他，差点儿碰到车。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 369,
+    "hanzi": "吃一片药。",
+    "hsk_level": 2,
+    "original_label": "还（継続）／時間＋就／离"
+  },
+  {
+    "source_id": 370,
+    "hanzi": "这件衣服很漂亮。",
+    "hsk_level": 2,
+    "original_label": "……好吗／再／让请叫（使役）"
+  },
+  {
+    "source_id": 371,
+    "hanzi": "平常大家都很平等，祝你一路平安！",
+    "hsk_level": 2,
+    "original_label": "動詞の重ね型／結果補語 懂好完见错／从～"
+  },
+  {
+    "source_id": 372,
+    "hanzi": "平时他很忙。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 373,
+    "hanzi": "这个瓶子很大。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 375,
+    "hanzi": "其中有其他人。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 378,
+    "hanzi": "今天气温很低。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 379,
+    "hanzi": "这箱苹果一千克。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 380,
+    "hanzi": "前年我去了北京。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 382,
+    "hanzi": "这个包很轻。",
+    "hsk_level": 2,
+    "original_label": "就／对～／还／有点儿"
+  },
+  {
+    "source_id": 383,
+    "hanzi": "今天是晴天。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 385,
+    "hanzi": "秋天的树叶很美。",
+    "hsk_level": 2,
+    "original_label": "……好吗／再／让请叫（使役）"
+  },
+  {
+    "source_id": 390,
+    "hanzi": "全国全体人民都支持。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 392,
+    "hanzi": "先吃饭，然后睡觉。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 393,
+    "hanzi": "妈妈让我早点回家。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 394,
+    "hanzi": "服务员很热情。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 395,
+    "hanzi": "这个城市人口很多，人数不少。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 398,
+    "hanzi": "他早上看日报，晚上看晚报。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 402,
+    "hanzi": "商人们在商量生意。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 403,
+    "hanzi": "上周他来了，下周我要走。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 405,
+    "hanzi": "朋友在我身边。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 406,
+    "hanzi": "你想要什么样的？",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 407,
+    "hanzi": "这课有很多生词。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 408,
+    "hanzi": "他的生活很简单。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 409,
+    "hanzi": "她的声音很好听。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 410,
+    "hanzi": "他来自四川省。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 411,
+    "hanzi": "他十分高兴。",
+    "hsk_level": 2,
+    "original_label": "给／帮／～的时候／已经"
+  },
+  {
+    "source_id": 412,
+    "hanzi": "他实际上在实习，实在很累。",
+    "hsk_level": 2,
+    "original_label": "就／对～／还／有点儿"
+  },
+  {
+    "source_id": 413,
+    "hanzi": "这种食物很好吃。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 414,
+    "hanzi": "他是这个城市的市长。",
+    "hsk_level": 2,
+    "original_label": "还（継続）／時間＋就／离"
+  },
+  {
+    "source_id": 415,
+    "hanzi": "这件事情很重要。",
+    "hsk_level": 2,
+    "original_label": "……好吗／再／让请叫（使役）"
+  },
+  {
+    "source_id": 416,
+    "hanzi": "他收到了礼物，工资收入很高。",
+    "hsk_level": 2,
+    "original_label": "動詞の重ね型／結果補語 懂好完见错／从～"
+  },
+  {
+    "source_id": 417,
+    "hanzi": "这块手表很贵。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 418,
+    "hanzi": "他受到了表扬。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 419,
+    "hanzi": "今天不舒服。",
+    "hsk_level": 2,
+    "original_label": "可能／得（様態補語）／比較構文(2)"
+  },
+  {
+    "source_id": 420,
+    "hanzi": "苹果熟了。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 421,
+    "hanzi": "这个数字很大。",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 422,
+    "hanzi": "祝你一路顺风，一切顺利！",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 424,
+    "hanzi": "出租车司机开车很快。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 429,
+    "hanzi": "所有人都同意。",
+    "hsk_level": 2,
+    "original_label": "还（継続）／時間＋就／离"
+  },
+  {
+    "source_id": 431,
+    "hanzi": "这是我太太。",
+    "hsk_level": 2,
+    "original_label": "動詞の重ね型／結果補語 懂好完见错／从～"
+  },
+  {
+    "source_id": 433,
+    "hanzi": "他的态度很好。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 434,
+    "hanzi": "我们在讨论问题。",
+    "hsk_level": 2,
+    "original_label": "可能／得（様態補語）／比較構文(2)"
+  },
+  {
+    "source_id": 435,
+    "hanzi": "买一套衣服。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 436,
+    "hanzi": "这个特点很特别。",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 437,
+    "hanzi": "老师提出问题，学生提到这道题。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 438,
+    "hanzi": "体育课在体育馆，比赛在体育场。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 439,
+    "hanzi": "天上有很多星星。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 440,
+    "hanzi": "这个条件不错。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 442,
+    "hanzi": "车停在停车场。",
+    "hsk_level": 2,
+    "original_label": "就／对～／还／有点儿"
+  },
+  {
+    "source_id": 443,
+    "hanzi": "这个挺好的。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 444,
+    "hanzi": "他通过考试，收到了通知。",
+    "hsk_level": 2,
+    "original_label": "还（継続）／時間＋就／离"
+  },
+  {
+    "source_id": 446,
+    "hanzi": "她的头发很长。",
+    "hsk_level": 2,
+    "original_label": "動詞の重ね型／結果補語 懂好完见错／从～"
+  },
+  {
+    "source_id": 447,
+    "hanzi": "这张图片很美。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 449,
+    "hanzi": "他的腿受伤了。",
+    "hsk_level": 2,
+    "original_label": "可能／得（様態補語）／比較構文(2)"
+  },
+  {
+    "source_id": 452,
+    "hanzi": "晚会后吃晚餐，然后说晚安。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 453,
+    "hanzi": "洗碗很累。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 454,
+    "hanzi": "这个东西一万元。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 458,
+    "hanzi": "这道菜味道很好。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 460,
+    "hanzi": "今天温度很高。",
+    "hsk_level": 2,
+    "original_label": "……好吗／再／让请叫（使役）"
+  },
+  {
+    "source_id": 461,
+    "hanzi": "我闻到了香味。",
+    "hsk_level": 2,
+    "original_label": "動詞の重ね型／結果補語 懂好完见错／从～"
+  },
+  {
+    "source_id": 462,
+    "hanzi": "他向路人问路。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 463,
+    "hanzi": "吃完午餐，我要午睡。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 466,
+    "hanzi": "他现在看西医。",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 467,
+    "hanzi": "早睡是好习惯。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 468,
+    "hanzi": "先用洗衣机洗衣服，再洗澡。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 469,
+    "hanzi": "冬天下雪了。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 470,
+    "hanzi": "夏天很热。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 471,
+    "hanzi": "两个答案相同。",
+    "hsk_level": 2,
+    "original_label": "给／帮／～的时候／已经"
+  },
+  {
+    "source_id": 472,
+    "hanzi": "我相信你。",
+    "hsk_level": 2,
+    "original_label": "就／对～／还／有点儿"
+  },
+  {
+    "source_id": 473,
+    "hanzi": "电话响了。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 475,
+    "hanzi": "他带了相机。",
+    "hsk_level": 2,
+    "original_label": "……好吗／再／让请叫（使役）"
+  },
+  {
+    "source_id": 477,
+    "hanzi": "小组要小声讨论，还要小心。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 478,
+    "hanzi": "校长走在校园里。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 479,
+    "hanzi": "他讲了一个笑话。",
+    "hsk_level": 2,
+    "original_label": "可能／得（様態補語）／比較構文(2)"
+  },
+  {
+    "source_id": 480,
+    "hanzi": "这双鞋很漂亮。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 481,
+    "hanzi": "他心里很高兴。",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 485,
+    "hanzi": "他很有信心，用信用卡付钱。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 488,
+    "hanzi": "他在休假。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 489,
+    "hanzi": "这里有许多花。",
+    "hsk_level": 2,
+    "original_label": "还（継続）／時間＋就／离"
+  },
+  {
+    "source_id": 490,
+    "hanzi": "你选哪个？",
+    "hsk_level": 2,
+    "original_label": "……好吗／再／让请叫（使役）"
+  },
+  {
+    "source_id": 491,
+    "hanzi": "这个学期很忙。",
+    "hsk_level": 2,
+    "original_label": "動詞の重ね型／結果補語 懂好完见错／从～"
+  },
+  {
+    "source_id": 492,
+    "hanzi": "这是什么颜色？",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 493,
+    "hanzi": "她的眼睛很大。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 494,
+    "hanzi": "他家养了一只狗。",
+    "hsk_level": 2,
+    "original_label": "可能／得（様態補語）／比較構文(2)"
+  },
+  {
+    "source_id": 495,
+    "hanzi": "他的样子很奇怪。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 496,
+    "hanzi": "老师的要求很高。",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 499,
+    "hanzi": "夜里很安静。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 500,
+    "hanzi": "一部分人同意了。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 503,
+    "hanzi": "以后我们再见。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 507,
+    "hanzi": "价格在百元以下。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 509,
+    "hanzi": "他一般七点起床。",
+    "hsk_level": 2,
+    "original_label": "可能／得（様態補語）／比較構文(2)"
+  },
+  {
+    "source_id": 510,
+    "hanzi": "我懂一点点。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 511,
+    "hanzi": "这是他的一生。",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 512,
+    "hanzi": "他一直在等。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 513,
+    "hanzi": "这个国家有十亿人。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 514,
+    "hanzi": "你有什么意见？",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 515,
+    "hanzi": "今天是阴天。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 516,
+    "hanzi": "这个字有几个音节？",
+    "hsk_level": 2,
+    "original_label": "给／帮／～的时候／已经"
+  },
+  {
+    "source_id": 518,
+    "hanzi": "他的银行卡丢了。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 521,
+    "hanzi": "这部影片影响很大。",
+    "hsk_level": 2,
+    "original_label": "動詞の重ね型／結果補語 懂好完见错／从～"
+  },
+  {
+    "source_id": 522,
+    "hanzi": "我永远记得你。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 523,
+    "hanzi": "菜里有很多油。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 524,
+    "hanzi": "这里游客很多。",
+    "hsk_level": 2,
+    "original_label": "可能／得（様態補語）／比較構文(2)"
+  },
+  {
+    "source_id": 525,
+    "hanzi": "他对人很友好。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 526,
+    "hanzi": "你有空儿吗？",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 527,
+    "hanzi": "门外有人。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 528,
+    "hanzi": "他又来了。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 529,
+    "hanzi": "汉语是一种语言。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 530,
+    "hanzi": "原来是这样啊。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 531,
+    "hanzi": "院长家有个大院子。",
+    "hsk_level": 2,
+    "original_label": "给／帮／～的时候／已经"
+  },
+  {
+    "source_id": 535,
+    "hanzi": "这件衣服很脏。",
+    "hsk_level": 2,
+    "original_label": "……好吗／再／让请叫（使役）"
+  },
+  {
+    "source_id": 538,
+    "hanzi": "他占了一个座位。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 539,
+    "hanzi": "他站住不动。",
+    "hsk_level": 2,
+    "original_label": "可能／得（様態補語）／比較構文(2)"
+  },
+  {
+    "source_id": 540,
+    "hanzi": "孩子长大了。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 541,
+    "hanzi": "他找出了答案。",
+    "hsk_level": 2,
+    "original_label": "～过／虽然～但是～"
+  },
+  {
+    "source_id": 542,
+    "hanzi": "他照顾孩子，还给孩子照相，照片很好看。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 543,
+    "hanzi": "这么多人啊！",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 544,
+    "hanzi": "这时候他来了。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 547,
+    "hanzi": "你直接说吧。",
+    "hsk_level": 2,
+    "original_label": "就／对～／还／有点儿"
+  },
+  {
+    "source_id": 548,
+    "hanzi": "只要你要，我只能给你这一个。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 550,
+    "hanzi": "这是中级水平。",
+    "hsk_level": 2,
+    "original_label": "……好吗／再／让请叫（使役）"
+  },
+  {
+    "source_id": 552,
+    "hanzi": "市中心有一家中医诊所。",
+    "hsk_level": 2,
+    "original_label": "需要／不要不用别"
+  },
+  {
+    "source_id": 553,
+    "hanzi": "这是学习的重点。",
+    "hsk_level": 2,
+    "original_label": "比較構文(1) 比"
+  },
+  {
+    "source_id": 554,
+    "hanzi": "这周周末是结婚十周年。",
+    "hsk_level": 2,
+    "original_label": "可能／得（様態補語）／比較構文(2)"
+  },
+  {
+    "source_id": 555,
+    "hanzi": "主人说这是主要原因。",
+    "hsk_level": 2,
+    "original_label": "～着／不是～吗／往"
+  },
+  {
+    "source_id": 557,
+    "hanzi": "箱子里装了书。",
+    "hsk_level": 2,
+    "original_label": "要～了／都～了"
+  },
+  {
+    "source_id": 558,
+    "hanzi": "这个答案很准确。",
+    "hsk_level": 2,
+    "original_label": "要／觉得／最／几と多"
+  },
+  {
+    "source_id": 559,
+    "hanzi": "他自己骑自行车，很自由。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 560,
+    "hanzi": "查字典吧。",
+    "hsk_level": 2,
+    "original_label": "的（名詞化）／一下／真"
+  },
+  {
+    "source_id": 561,
+    "hanzi": "他走过教室，走进办公室，然后走开了。",
+    "hsk_level": 2,
+    "original_label": "给／帮／～的时候／已经"
+  },
+  {
+    "source_id": 562,
+    "hanzi": "小组组长，组成了一个组。",
+    "hsk_level": 2,
+    "original_label": "就／对～／还／有点儿"
+  },
+  {
+    "source_id": 563,
+    "hanzi": "他张开了嘴。",
+    "hsk_level": 2,
+    "original_label": "怎么と为什么／什么意思／因为～所以～"
+  },
+  {
+    "source_id": 565,
+    "hanzi": "这位作家写的作文很有作用。",
+    "hsk_level": 2,
+    "original_label": "……好吗／再／让请叫（使役）"
+  },
+  {
+    "source_id": 567,
+    "hanzi": "这篇文章很短。",
+    "hsk_level": 2,
+    "original_label": "是不是／每／多"
+  },
+  {
+    "source_id": 568,
+    "hanzi": "他讲的笑话儿很有意思。",
+    "hsk_level": 2,
+    "original_label": "就／对～／还／有点儿"
+  },
+  {
+    "source_id": 569,
+    "hanzi": "她安排了献爱心的活动。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 572,
+    "hanzi": "白菜的颜色很白。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 573,
+    "hanzi": "他上个月搬家，换了一个班级。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 576,
+    "hanzi": "黑板上写着字，用的是这块板。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 577,
+    "hanzi": "保安负责保护大楼的安全。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 578,
+    "hanzi": "我们要保持环境整洁。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 580,
+    "hanzi": "他决定保留这份保险。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 581,
+    "hanzi": "新学生今天去学校报到。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 582,
+    "hanzi": "记者报道了这条新闻。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 583,
+    "hanzi": "他写了一份报告。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 584,
+    "hanzi": "他报了一个学习班。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 585,
+    "hanzi": "他的背很疼，背后还背着包。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 589,
+    "hanzi": "他本来就很有本领和本事。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 593,
+    "hanzi": "这篇文章的标题不符合标准。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 594,
+    "hanzi": "他用表格表达了自己的想法。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 595,
+    "hanzi": "这只是表面现象，不能表明什么。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 596,
+    "hanzi": "他的表演表现得很精彩。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 600,
+    "hanzi": "不论发生什么，你都不必担心，我们会不断努力。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 601,
+    "hanzi": "他补充说明，还补了一句话。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 602,
+    "hanzi": "他心里不安，不得不重新考虑。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 603,
+    "hanzi": "这不光是钱的问题，他不仅聪明，还很努力。",
+    "hsk_level": 3,
+    "original_label": "只要～就～／只有～才～"
+  },
+  {
+    "source_id": 604,
+    "hanzi": "这块布是用来做窗帘的一部分。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 605,
+    "hanzi": "部长走了几步，去了另一个部门。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 608,
+    "hanzi": "长城的历史产生了很大的影响。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 609,
+    "hanzi": "长期合作能发现彼此的长处。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 611,
+    "hanzi": "这是一家超级市场，朝东开门。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 617,
+    "hanzi": "这座城市在某种程度上像一座古城。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 618,
+    "hanzi": "比赛持续了很久，全场充满了热情。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 619,
+    "hanzi": "这本书很重。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 620,
+    "hanzi": "他初来这里时很紧张。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 621,
+    "hanzi": "他刚上初中，学的都是初步和初级的内容。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 623,
+    "hanzi": "远处传来消息，古老的传说正在传播。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 624,
+    "hanzi": "这个故事一直传到现在。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 625,
+    "hanzi": "他靠创新和创业创造了新的创作。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 627,
+    "hanzi": "这个问题确实存在。",
+    "hsk_level": 3,
+    "original_label": "只要～就～／只有～才～"
+  },
+  {
+    "source_id": 629,
+    "hanzi": "他达到了目标，改正了错误。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 630,
+    "hanzi": "他打破了纪录，大家都来打听消息。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 631,
+    "hanzi": "大使馆大概十点开门，他大约十点到。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 632,
+    "hanzi": "这位大夫代表代表团发言。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 633,
+    "hanzi": "这是上一代人的记忆。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 634,
+    "hanzi": "老师带领大家学习，带动了大家的积极性。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 635,
+    "hanzi": "这是这本书的第一单元。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 636,
+    "hanzi": "当初我们没想到会来这里。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 637,
+    "hanzi": "当地人当然了解当地文化。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 640,
+    "hanzi": "厨房里有一把刀。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 641,
+    "hanzi": "大家都在等待球队得分。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 642,
+    "hanzi": "桌子底下有一张地区地图。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 647,
+    "hanzi": "公司做了市场调查。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 649,
+    "hanzi": "大家欢乐地参加了环保活动。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 650,
+    "hanzi": "保护环境是重要的一环。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 651,
+    "hanzi": "会议上，新会员做了自我介绍。",
+    "hsk_level": 3,
+    "original_label": "只要～就～／只有～才～"
+  },
+  {
+    "source_id": 652,
+    "hanzi": "他一直活到九十岁。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 653,
+    "hanzi": "厨房里有火。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 654,
+    "hanzi": "这台机器坏了。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 655,
+    "hanzi": "他基本上很积极，打好了基础。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 658,
+    "hanzi": "记者记录了这项新纪录，作为纪念。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 659,
+    "hanzi": "这项技术会继续发展。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 662,
+    "hanzi": "这件东西的价格和价钱都不便宜，但很有价值。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 666,
+    "hanzi": "将来，人口将近会增长一倍。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 667,
+    "hanzi": "去银行交费很方便。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 668,
+    "hanzi": "交警在路口指挥交通。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 670,
+    "hanzi": "这笔交易很成功。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 672,
+    "hanzi": "接待员的身体很结实，接近下班时间了。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 674,
+    "hanzi": "问题结束前，他先解开了误会，解决了矛盾。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 675,
+    "hanzi": "他拿到了金牌。",
+    "hsk_level": 3,
+    "original_label": "只要～就～／只有～才～"
+  },
+  {
+    "source_id": 677,
+    "hanzi": "情况很紧急，大家都很紧张，抓得很紧。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 679,
+    "hanzi": "近期他在学京剧。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 680,
+    "hanzi": "他有丰富的经济经营经验，经历了很多事。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 681,
+    "hanzi": "表演很精彩，大家精神振奋，欣赏着美丽的景色。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 682,
+    "hanzi": "警察让大家安静，等了很久。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 684,
+    "hanzi": "学校举办了就业讲座。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 685,
+    "hanzi": "这个计划具有具体的目标。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 686,
+    "hanzi": "据说这个剧场很有名。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 687,
+    "hanzi": "他决定参加决赛，下定了决心。",
+    "hsk_level": 3,
+    "original_label": "只要～就～／只有～才～"
+  },
+  {
+    "source_id": 688,
+    "hanzi": "这杯咖啡绝对好喝。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 689,
+    "hanzi": "公司正在开发新产品。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 693,
+    "hanzi": "这是对科技的一次考验。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 694,
+    "hanzi": "这个消息来源很可靠，他还买了一瓶可乐。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 695,
+    "hanzi": "他客观地分析问题，努力克服困难。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 696,
+    "hanzi": "教室里的空调坏了，课程只能在空教室继续。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 698,
+    "hanzi": "他快速换了一条裤子。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 699,
+    "hanzi": "遇到困难时，人容易感到困。",
+    "hsk_level": 3,
+    "original_label": "只要～就～／只有～才～"
+  },
+  {
+    "source_id": 700,
+    "hanzi": "浪费粮食对老百姓不好。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 701,
+    "hanzi": "老板是一位老太太，她丈夫是老头儿。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 702,
+    "hanzi": "他很乐观，总是很快乐。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 703,
+    "hanzi": "这类问题和那个类似。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 705,
+    "hanzi": "他理解这个理论，但不理解朋友去理发的理由。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 707,
+    "hanzi": "他连忙看了连续剧，连续看了好几集。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 709,
+    "hanzi": "他喝了一杯凉水。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 710,
+    "hanzi": "领导带领大家一直领先。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 715,
+    "hanzi": "他心里很乱，喝了一杯绿茶。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 716,
+    "hanzi": "落后就会带来麻烦。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 717,
+    "hanzi": "骑马让他感到满足。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 718,
+    "hanzi": "他慢慢改掉了这个毛病。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 719,
+    "hanzi": "在媒体面前解释没用。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 720,
+    "hanzi": "这里的风景很美丽。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 723,
+    "hanzi": "这个包花了两百美元。",
+    "hsk_level": 3,
+    "original_label": "只要～就～／只有～才～"
+  },
+  {
+    "source_id": 725,
+    "hanzi": "面对这么大面积的土地，他很兴奋。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 726,
+    "hanzi": "这是民间流传的民族故事。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 727,
+    "hanzi": "他明确表示，进步很明显。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 728,
+    "hanzi": "某个人的命运常常难以预测。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 729,
+    "hanzi": "母亲用木头做家具，目前的目标是完成它。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 730,
+    "hanzi": "南部有个男子在卖奶茶。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 734,
+    "hanzi": "年初到年底，他年纪虽大，仍在这个年代努力工作。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 735,
+    "hanzi": "他念了一篇关于牛的故事。",
+    "hsk_level": 3,
+    "original_label": "只要～就～／只有～才～"
+  },
+  {
+    "source_id": 738,
+    "hanzi": "他不怕困难，拍了照，排名第一。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 743,
+    "hanzi": "他提着皮包，喝了一杯啤酒。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 744,
+    "hanzi": "大家对这个票价的评价不高。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 749,
+    "hanzi": "这里的气候很奇怪。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 750,
+    "hanzi": "千万要记得，会议前后都要准备。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 752,
+    "hanzi": "老师强调国家要强大，态度很强烈很强。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 753,
+    "hanzi": "这座桥的设计很巧。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 754,
+    "hanzi": "他亲自照顾亲人，态度很亲切。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 755,
+    "hanzi": "他的情感和情况都很复杂。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 757,
+    "hanzi": "这个区的球迷和那个区有区别。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 759,
+    "hanzi": "全场观众来自全球，反应全面很热烈。",
+    "hsk_level": 3,
+    "original_label": "只要～就～／只有～才～"
+  },
+  {
+    "source_id": 760,
+    "hanzi": "他缺少经验，这是一个缺点，缺了信心。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 761,
+    "hanzi": "他确实确定要确保安全。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 763,
+    "hanzi": "大家热爱运动，反应很热烈。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 765,
+    "hanzi": "工作人员在人群中数着人民币，这是他人生的经历。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 775,
+    "hanzi": "这次讨论很深入，给他留下了深刻的印象。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 776,
+    "hanzi": "工厂的生产线升级了。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 777,
+    "hanzi": "在困难中生存不容易，这是生的机会。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 778,
+    "hanzi": "他讲得很生动。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 779,
+    "hanzi": "生命很宝贵。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 781,
+    "hanzi": "植物在阳光下生长。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 782,
+    "hanzi": "公司发表声明，庆祝这次胜利，我们胜了。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 784,
+    "hanzi": "这个国家出产石油。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 786,
+    "hanzi": "他在实验室做实验。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 787,
+    "hanzi": "实际上，这个团队很有实力。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 791,
+    "hanzi": "市场上发生了一起事故事件。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 793,
+    "hanzi": "这次试题是一次新的试验。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 796,
+    "hanzi": "他用手指办理了手续。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 798,
+    "hanzi": "他把书架搬倒，手受伤了。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 800,
+    "hanzi": "这束花属于她。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 801,
+    "hanzi": "双方讨论了产品的数量，各买了一双鞋。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 803,
+    "hanzi": "他差点儿累死了。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 804,
+    "hanzi": "研究所所长站在讲台上发言。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 805,
+    "hanzi": "他们进行了一次谈判，谈了很久，这次谈话很重要。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 806,
+    "hanzi": "这碗汤里放了糖。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 807,
+    "hanzi": "这道菜很有特色，他提前提问了做法。",
+    "hsk_level": 3,
+    "original_label": "只要～就～／只有～才～"
+  },
+  {
+    "source_id": 808,
+    "hanzi": "这道题目让他体会到了体验的乐趣，体现了努力。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 809,
+    "hanzi": "天空很蓝，糖果很甜。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 810,
+    "hanzi": "他调整了动作，练习跳高、跳远和跳舞。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 812,
+    "hanzi": "听众们在练习听力。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 815,
+    "hanzi": "他头脑很聪明。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 816,
+    "hanzi": "他突然表现得很突出。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 817,
+    "hanzi": "这幅图画在土地上画着地图。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 818,
+    "hanzi": "这个团体很团结。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 821,
+    "hanzi": "外面有位外交官在讲外文。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 824,
+    "hanzi": "这个行为很危险，会带来危害。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 826,
+    "hanzi": "卫生间要保持卫生。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 827,
+    "hanzi": "这里的文化让人感到温暖。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 828,
+    "hanzi": "这份文件是一篇讲文明与文学的文章，用文字记录着。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 829,
+    "hanzi": "他们在屋子里握手道别。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 830,
+    "hanzi": "他在舞台上表演武术，没有用武器。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 833,
+    "hanzi": "这项先进技术显示出显然的效果，公司显得很自信。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 835,
+    "hanzi": "和以前相比，这条线路变了。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 836,
+    "hanzi": "这两个相关的问题相当相似，相互影响。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 837,
+    "hanzi": "这个香蕉很香。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 839,
+    "hanzi": "写作练习的效果很好。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 840,
+    "hanzi": "他的心很痛，流了血。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 841,
+    "hanzi": "他把信放进信封，表示对朋友的信任。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 842,
+    "hanzi": "他的行李形成了一个特殊的形状，展现了他的形象。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 848,
+    "hanzi": "眼前这位演员正在演唱，这是他的演唱会。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 849,
+    "hanzi": "这位演员的演出很精彩。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 850,
+    "hanzi": "阳光下，一群羊在吃草。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 856,
+    "hanzi": "我们应当去机场迎接客人。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 859,
+    "hanzi": "他的优点是很有优势的沟通能力。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 864,
+    "hanzi": "天气预报说要预防感冒，他预计提前预习。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 865,
+    "hanzi": "公司员工都希望实现自己的愿望。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 866,
+    "hanzi": "乐队约好一起坐运输车出发。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 867,
+    "hanzi": "这本杂志早已卖完了。",
+    "hsk_level": 3,
+    "original_label": "只要～就～／只有～才～"
+  },
+  {
+    "source_id": 869,
+    "hanzi": "人口增长带来了收入的增加。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 870,
+    "hanzi": "他展开了一张照片。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 872,
+    "hanzi": "他争取了整个团队的支持。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 875,
+    "hanzi": "他正式拿到了证件。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 877,
+    "hanzi": "他用行动证明了自己，大家都支持他支付这笔钱。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 878,
+    "hanzi": "他直到直播结束，只坐直了身子。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 880,
+    "hanzi": "只有努力，只是不够，他只好继续。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 881,
+    "hanzi": "老师指出问题，给了他指导。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 882,
+    "hanzi": "至今为止，他至少来了三次。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 883,
+    "hanzi": "他自愿当志愿者，这是他的志愿。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 884,
+    "hanzi": "公司制定了新制度，用来制造和制作产品。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 885,
+    "hanzi": "中部地区是中华民族的重要发源地。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 886,
+    "hanzi": "钟响了，他终于到了。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 887,
+    "hanzi": "农民种下了种子。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 888,
+    "hanzi": "这是一个重大的决定，周围的人都很关心。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 889,
+    "hanzi": "主任主持会议，主动介绍了这只猪的项目。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 890,
+    "hanzi": "他的主意和主张都很有道理。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 892,
+    "hanzi": "他抓住了机会，紧紧抓着不放。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 893,
+    "hanzi": "这位专家专门研究这个专题，他的专业很强。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 895,
+    "hanzi": "他的身体状况和精神状态都不错。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 896,
+    "hanzi": "他准时出发，去追那辆车。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 897,
+    "hanzi": "这个项目有资格获得资金支持。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 899,
+    "hanzi": "他自觉地自动完成了自身的任务，这是很自然、很自主的事。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 900,
+    "hanzi": "他总是做总结，总的来说很不错。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 901,
+    "hanzi": "他有足够的时间练习足球。",
+    "hsk_level": 3,
+    "original_label": "一边～一边～／除了～以外～"
+  },
+  {
+    "source_id": 902,
+    "hanzi": "这个组合大约左右各占一半。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 904,
+    "hanzi": "他定期订阅这本杂志。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 905,
+    "hanzi": "东部地区发展的动力来自这个动人的故事。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 906,
+    "hanzi": "读者们指出，这份短期计划有一些短处。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 907,
+    "hanzi": "他穿了一条短裤。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 909,
+    "hanzi": "他把她当作结婚对象。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 910,
+    "hanzi": "他顿时发出了一声惊呼。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 911,
+    "hanzi": "这个国家很发达，发明了新的发动方式。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 916,
+    "hanzi": "这次飞行的费用不便宜。",
+    "hsk_level": 3,
+    "original_label": "受身形 被叫给让"
+  },
+  {
+    "source_id": 918,
+    "hanzi": "这项投资有风险，他否认了这一点，完全否定。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 920,
+    "hanzi": "他去复印店复印文件。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 921,
+    "hanzi": "他改进了这个概念，改造了整个系统。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 922,
+    "hanzi": "他赶紧赶快跑去，终于赶到了车站。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 924,
+    "hanzi": "你干吗开车走高速公路？",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 927,
+    "hanzi": "他根本不知道，情况变得更加复杂。",
+    "hsk_level": 3,
+    "original_label": "只要～就～／只有～才～"
+  },
+  {
+    "source_id": 929,
+    "hanzi": "政府公开公布了这项政策，公务员和公民都在公共场所讨论。",
+    "hsk_level": 3,
+    "original_label": "一点都～／打算～"
+  },
+  {
+    "source_id": 931,
+    "hanzi": "大家共同努力，共有了这个成果。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 932,
+    "hanzi": "这位姑娘讲述了古代的故乡故事。",
+    "hsk_level": 3,
+    "original_label": "可能補語 得／刚才／刚刚"
+  },
+  {
+    "source_id": 933,
+    "hanzi": "他仔细观察，改变了观看这件事的观念，两人关系变好了。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 934,
+    "hanzi": "未来充满光明，广大群众都很期待。",
+    "hsk_level": 3,
+    "original_label": "越A越B／A跟B一样"
+  },
+  {
+    "source_id": 935,
+    "hanzi": "公司的规定符合行业规范。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 936,
+    "hanzi": "国庆节，国内到处都很热闹。",
+    "hsk_level": 3,
+    "original_label": "把構文"
+  },
+  {
+    "source_id": 938,
+    "hanzi": "学习是一个漫长的过程。",
+    "hsk_level": 3,
+    "original_label": "如果～的话／原因の得"
+  },
+  {
+    "source_id": 939,
+    "hanzi": "他哈哈大笑，顺利通过了海关。",
+    "hsk_level": 3,
+    "original_label": "只要～就～／只有～才～"
+  },
+  {
+    "source_id": 942,
+    "hanzi": "他们喝着红茶和红酒，聊着和平的话题。",
+    "hsk_level": 3,
+    "original_label": "補語 来去／就（連続動作）"
+  },
+  {
+    "source_id": 943,
+    "hanzi": "不注意会有严重的后果。",
+    "hsk_level": 3,
+    "original_label": "还是と或者／又～又～／越来越～"
+  },
+  {
+    "source_id": 945,
+    "hanzi": "互联网让大家互相联系更方便。",
+    "hsk_level": 3,
+    "original_label": "継続時間の表現／疑問詞+就+疑問詞"
+  },
+  {
+    "source_id": 947,
+    "hanzi": "他开心得…极了。",
+    "hsk_level": 3,
+    "original_label": "比較 A比B多一些／才と就"
+  },
+  {
+    "source_id": 949,
+    "hanzi": "啊，原来是你！",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 950,
+    "hanzi": "他们之间有美好的爱情。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 951,
+    "hanzi": "她是一个充满爱心的老师",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 953,
+    "hanzi": "老师安排了明天的活动。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 955,
+    "hanzi": "我们要按时完成作业。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 958,
+    "hanzi": "他在办公室办公。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 959,
+    "hanzi": "我想办理一张银行卡。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 960,
+    "hanzi": "他办事很认真。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 962,
+    "hanzi": "我们要保护环境。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 964,
+    "hanzi": "妈妈抱着孩子走了。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 967,
+    "hanzi": "非常抱歉，让你久等了。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 968,
+    "hanzi": "他背着一个大书包。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 969,
+    "hanzi": "她买了一个新背包。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 970,
+    "hanzi": "哈尔滨在中国北部。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 971,
+    "hanzi": "今年的销售量是去年的两倍。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 972,
+    "hanzi": "他正在读本科。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 975,
+    "hanzi": "他的鼻子很高。",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 976,
+    "hanzi": "汉语考试分为笔试和口试。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 977,
+    "hanzi": "她明年六月毕业。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 978,
+    "hanzi": "今年有很多毕业生找工作。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 979,
+    "hanzi": "这种设计便于携带。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 980,
+    "hanzi": "他的发音很标准。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 981,
+    "hanzi": "我的手表停了。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 983,
+    "hanzi": "他表示同意我的看法。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 984,
+    "hanzi": "他今天表现得很好。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 985,
+    "hanzi": "老师表扬了他。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 986,
+    "hanzi": "这种饼干很好吃。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 990,
+    "hanzi": "他是一位经济学博士。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 991,
+    "hanzi": "你不必担心这件事。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 992,
+    "hanzi": "给您带来不便，很抱歉。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 993,
+    "hanzi": "科技在不断发展。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 994,
+    "hanzi": "时间不够用了。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 995,
+    "hanzi": "天气有点冷，不过还能接受。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 998,
+    "hanzi": "这部电影很有意思。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 999,
+    "hanzi": "下雨了，我不得不打车。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1000,
+    "hanzi": "这只是问题的一部分。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1002,
+    "hanzi": "不光是我，大家都这样想。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1003,
+    "hanzi": "他不仅会说中文，还会说日语。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1004,
+    "hanzi": "顾客对服务很不满。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1005,
+    "hanzi": "他在市场部门工作。",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 1006,
+    "hanzi": "坐公交不如坐地铁快。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1008,
+    "hanzi": "你猜我今天遇到谁了？",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1010,
+    "hanzi": "我们参观了故宫博物院。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1011,
+    "hanzi": "共有二十支队伍参赛。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1012,
+    "hanzi": "学校旁边新开了一家餐厅。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1013,
+    "hanzi": "同学们在操场上跑。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1015,
+    "hanzi": "他正在查看邮件。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1016,
+    "hanzi": "这是上好的龙井茶叶。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1018,
+    "hanzi": "我差点儿迟到了。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1019,
+    "hanzi": "这件事产生了很大的影响。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1020,
+    "hanzi": "他在一家汽车厂工作。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1021,
+    "hanzi": "昨天下了一场大雨。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1022,
+    "hanzi": "参加人数超过了一百人。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1024,
+    "hanzi": "这里很难找到车位。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1025,
+    "hanzi": "这座城有悠久的历史。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1027,
+    "hanzi": "他成功通过了面试。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1028,
+    "hanzi": "乘客们正在排队上车。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1029,
+    "hanzi": "做人要诚实。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1032,
+    "hanzi": "听到这个消息，大家都很吃惊。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1033,
+    "hanzi": "对不起，我来迟了。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1034,
+    "hanzi": "我们重新开始吧。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1036,
+    "hanzi": "他下周要去上海出差。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1037,
+    "hanzi": "地铁的出口在那边。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1038,
+    "hanzi": "天空中出现了彩虹。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1039,
+    "hanzi": "雨天出行要注意安全。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1040,
+    "hanzi": "这间房子要出租。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1041,
+    "hanzi": "妈妈在厨房做饭。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1042,
+    "hanzi": "这家饭店的厨师手艺很好。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1044,
+    "hanzi": "窗户上有很多雨水。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1045,
+    "hanzi": "外面的风吹得很大。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1047,
+    "hanzi": "此事非常重要。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1048,
+    "hanzi": "此次活动共有五百人参加。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1055,
+    "hanzi": "他的老家在一个小村里。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1059,
+    "hanzi": "妈妈答应带我去动物园。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1061,
+    "hanzi": "这道题的答案是什么？",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1062,
+    "hanzi": "他的成绩达到了录取标准。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1063,
+    "hanzi": "见面时要打招呼。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1064,
+    "hanzi": "我们的球队打败了对手。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1068,
+    "hanzi": "打印机没有纸了。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1069,
+    "hanzi": "这件衣服打八折。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1070,
+    "hanzi": "小孩子都怕打针。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1071,
+    "hanzi": "我们坐大巴去机场。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1072,
+    "hanzi": "这种方法大大提高了效率。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1074,
+    "hanzi": "网上有大量的学习资源。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1075,
+    "hanzi": "他参加了全国歌唱大赛。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1078,
+    "hanzi": "大自然的风景非常美丽。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1082,
+    "hanzi": "他换了一个新单位。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1083,
+    "hanzi": "她当了三年老师。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1085,
+    "hanzi": "这把刀很锋利。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1086,
+    "hanzi": "导游带我们参观了长城。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1088,
+    "hanzi": "这道菜味道很好。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1090,
+    "hanzi": "春天的到来让人高兴。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1091,
+    "hanzi": "前面的道路很宽。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1093,
+    "hanzi": "考了第一名，他非常得意。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1094,
+    "hanzi": "旅客们正在登机。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1096,
+    "hanzi": "等到他来了我们再走。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1097,
+    "hanzi": "今天的气温很低。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1098,
+    "hanzi": "这家店经常低价促销。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1099,
+    "hanzi": "冬天低温天气要注意保暖。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1100,
+    "hanzi": "实际花费低于预算。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1101,
+    "hanzi": "湖底有很多石头。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1102,
+    "hanzi": "桌子底下有一只猫。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1103,
+    "hanzi": "我们要爱护地球。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1105,
+    "hanzi": "老师正在点名。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1106,
+    "hanzi": "他微笑着点了点头。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1107,
+    "hanzi": "他骑电动车上班。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1108,
+    "hanzi": "这部电视剧很受欢迎。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1109,
+    "hanzi": "他的钱包掉在地上了。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1110,
+    "hanzi": "警察正在调查这件事。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1111,
+    "hanzi": "他在网上订了一张机票。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1112,
+    "hanzi": "会议时间定在周五。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1113,
+    "hanzi": "上海在中国的东部。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1114,
+    "hanzi": "我坐动车去南京。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1115,
+    "hanzi": "太极拳的动作很优美。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1116,
+    "hanzi": "这本书深受读者喜爱。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1117,
+    "hanzi": "北京早上经常堵车。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1119,
+    "hanzi": "我肚子饿了。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1120,
+    "hanzi": "他给我发了一条短信。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1121,
+    "hanzi": "门口排了一条长队。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1122,
+    "hanzi": "对方同意了我们的方案。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1123,
+    "hanzi": "学校就在银行对面。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1124,
+    "hanzi": "对于这个问题，大家看法不同。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1127,
+    "hanzi": "我们一天吃三顿饭。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1128,
+    "hanzi": "这里的风景多么漂亮啊！",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1129,
+    "hanzi": "多数同学赞成这个计划。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1130,
+    "hanzi": "中国的饮食文化非常多样。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1132,
+    "hanzi": "这是一部儿童电影。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1133,
+    "hanzi": "他发出了一声叹息。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1135,
+    "hanzi": "这个方法很有效。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1137,
+    "hanzi": "他是一名专业翻译。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1140,
+    "hanzi": "很多人反对这个计划。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1141,
+    "hanzi": "他在学习方面很优秀。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1143,
+    "hanzi": "房东说下个月要涨房租。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1144,
+    "hanzi": "这里的房租一个月三千块。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1147,
+    "hanzi": "这次旅行的费用不高。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1149,
+    "hanzi": "他这次考试的分数很高。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1150,
+    "hanzi": "一年分为四个季节。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1152,
+    "hanzi": "他的经验很丰富。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1155,
+    "hanzi": "墙上挂着一幅画。",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 1156,
+    "hanzi": "这个方案符合要求。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1158,
+    "hanzi": "父母总是担心孩子的安全。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1159,
+    "hanzi": "他们是一对父女。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1160,
+    "hanzi": "我的父亲是一名工程师。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1163,
+    "hanzi": "他负责公司的市场工作。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1164,
+    "hanzi": "会议的负责人是李老师。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1165,
+    "hanzi": "这对父子长得很像。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1167,
+    "hanzi": "旅行改变了他对世界的看法。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1169,
+    "hanzi": "为我们的友谊干杯！",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1170,
+    "hanzi": "他赶着去上班。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1172,
+    "hanzi": "这首歌给人一种幸福感。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1173,
+    "hanzi": "这个故事让我很感动。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1174,
+    "hanzi": "快下雨了，赶紧回家吧。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1175,
+    "hanzi": "我感觉今天天气会变冷。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1177,
+    "hanzi": "兄弟之间的感情很深。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1178,
+    "hanzi": "这部电影非常感人。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1184,
+    "hanzi": "这套房子以高价卖出了。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1186,
+    "hanzi": "高速公路上车辆很多。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1188,
+    "hanzi": "今年的产量高于去年。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1189,
+    "hanzi": "我的胳膊有点疼。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1190,
+    "hanzi": "远处传来优美的歌声。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1191,
+    "hanzi": "她是一位很有名的歌手。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1192,
+    "hanzi": "各国代表出席了会议。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1194,
+    "hanzi": "各个学校都在准备运动会。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1196,
+    "hanzi": "超市里有各种水果。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1197,
+    "hanzi": "练习让他的中文更加流利了。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1198,
+    "hanzi": "这家工厂生产手机。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1199,
+    "hanzi": "中国功夫在世界上很有名。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1202,
+    "hanzi": "学校离我家五公里。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1203,
+    "hanzi": "这条公路通向海边。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1204,
+    "hanzi": "建筑工人非常辛苦。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1206,
+    "hanzi": "我们班共有三十个学生。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1207,
+    "hanzi": "我们有共同的爱好。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1212,
+    "hanzi": "那个姑娘长得很漂亮。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1213,
+    "hanzi": "老师经常鼓励我们多读书。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1217,
+    "hanzi": "关键是要找到解决办法。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1219,
+    "hanzi": "观众们热烈鼓掌。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1220,
+    "hanzi": "妈妈不管我吃什么零食。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1221,
+    "hanzi": "他管理着一个大团队。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1223,
+    "hanzi": "机场的广播正在通知登机。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1225,
+    "hanzi": "我们去逛商场吧。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1226,
+    "hanzi": "公司规定上班不能迟到。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1228,
+    "hanzi": "这是一次国际会议。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1230,
+    "hanzi": "学习是一个长期的过程。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1231,
+    "hanzi": "海洋里有很多种生物。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1232,
+    "hanzi": "她是一个害羞的女孩。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1234,
+    "hanzi": "冬天北方天气非常寒冷。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1235,
+    "hanzi": "他大声喊了一句：停！",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1236,
+    "hanzi": "跑步后他满头是汗。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1237,
+    "hanzi": "我的航班是晚上八点起飞。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1238,
+    "hanzi": "多运动对身体有好处。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1239,
+    "hanzi": "你要好好学习。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1241,
+    "hanzi": "产品质量检验合格。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1242,
+    "hanzi": "她打开了一个漂亮的盒子。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1244,
+    "hanzi": "冬天要穿厚衣服。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1245,
+    "hanzi": "他非常后悔没有努力学习。",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 1246,
+    "hanzi": "忽然下起了大雨。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1247,
+    "hanzi": "互联网改变了人们的生活。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1248,
+    "hanzi": "护士照顾病人很细心。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1250,
+    "hanzi": "我们明天去看话剧。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1252,
+    "hanzi": "抽烟对身体有很多坏处。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1253,
+    "hanzi": "我们要用环保的购物袋。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1254,
+    "hanzi": "在这一站换乘二号线。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1257,
+    "hanzi": "这张照片让我回忆起了大学时光。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1258,
+    "hanzi": "你是我们的V会员。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1260,
+    "hanzi": "学校组织了很多课外活动。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1261,
+    "hanzi": "这个孩子非常活泼。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1262,
+    "hanzi": "冬天大家围着火取暖。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1263,
+    "hanzi": "这批货明天就能到。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1265,
+    "hanzi": "他的作品获奖了。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1268,
+    "hanzi": "这个项目基本上完成了。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1270,
+    "hanzi": "听到这个好消息，她非常激动。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1271,
+    "hanzi": "他工作态度非常积极。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1273,
+    "hanzi": "多亏你及时赶到了。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1276,
+    "hanzi": "我想寄一个包裹到美国。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1277,
+    "hanzi": "你暑假有什么计划？",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1279,
+    "hanzi": "他的电脑技术很好。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1281,
+    "hanzi": "记者正在现场采访。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1283,
+    "hanzi": "我们买了一套新家具。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1285,
+    "hanzi": "学校加强了安全管理。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1286,
+    "hanzi": "欢迎你加入我们的团队。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1288,
+    "hanzi": "她有一个幸福的家庭。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1289,
+    "hanzi": "他非常想念自己的家乡。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1290,
+    "hanzi": "你一定能成功，加油！",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1291,
+    "hanzi": "前面有一个加油站。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1292,
+    "hanzi": "家长会在周五下午举行。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1294,
+    "hanzi": "这里的水果价格很便宜。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1295,
+    "hanzi": "这件衣服的价钱不贵。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1296,
+    "hanzi": "假日我们去郊外野餐。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1301,
+    "hanzi": "小区里有一个健身房。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1302,
+    "hanzi": "医生建议他多休息。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1304,
+    "hanzi": "比赛将在下周举行。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1306,
+    "hanzi": "飞机将要降落。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1308,
+    "hanzi": "公司发了年终奖金。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1309,
+    "hanzi": "她拿到了大学奖学金。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1310,
+    "hanzi": "明天气温会降五度。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1311,
+    "hanzi": "超市降低了蔬菜的价格。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1312,
+    "hanzi": "这款手机降价了。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1313,
+    "hanzi": "飞机安全降落在机场。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1314,
+    "hanzi": "明天要大幅降温。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1315,
+    "hanzi": "月底要交房租。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1316,
+    "hanzi": "她为自己的成绩感到骄傲。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1317,
+    "hanzi": "交警在指挥交通。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1319,
+    "hanzi": "他搬到了郊区住。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1320,
+    "hanzi": "这里的交通很方便。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1321,
+    "hanzi": "教练教我们打篮球。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1322,
+    "hanzi": "他是一名优秀的教师。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1323,
+    "hanzi": "王教授的课很受欢迎。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1324,
+    "hanzi": "这所学校的教学水平很高。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1325,
+    "hanzi": "教育对一个人的成长很重要。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1326,
+    "hanzi": "这道菜叫作宫保鸡丁。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1327,
+    "hanzi": "这条街道两旁种满了树。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1328,
+    "hanzi": "他接受了这份新工作。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1331,
+    "hanzi": "节假日高速公路免费。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1332,
+    "hanzi": "我们要节约用水。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1335,
+    "hanzi": "今后我会更加努力。",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 1336,
+    "hanzi": "票仅剩五张了。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1339,
+    "hanzi": "考试前她非常紧张。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1341,
+    "hanzi": "会议正在进行中。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1342,
+    "hanzi": "博物馆里禁止拍照。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1343,
+    "hanzi": "今晚的演出非常精彩。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1344,
+    "hanzi": "中国的经济发展很快。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1345,
+    "hanzi": "京剧是中国的国粹。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1346,
+    "hanzi": "这次旅行是一次难忘的经历。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1347,
+    "hanzi": "他有丰富的教学经验。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1351,
+    "hanzi": "山上的景色非常迷人。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1353,
+    "hanzi": "这个行业的竞争非常激烈。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1359,
+    "hanzi": "老师举例说明了这个语法点。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1360,
+    "hanzi": "毕业典礼将在下周举行。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1362,
+    "hanzi": "部门下周五聚餐。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1363,
+    "hanzi": "我们周末开个聚会吧。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1364,
+    "hanzi": "他拒绝了对方的邀请。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1368,
+    "hanzi": "你对这件事有什么看法？",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1369,
+    "hanzi": "我们周末去烤肉吧。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1372,
+    "hanzi": "院子里种了一棵大树。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1373,
+    "hanzi": "科技的发展改变了生活。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1374,
+    "hanzi": "学习科学知识很重要。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1375,
+    "hanzi": "他感冒了，一直在咳。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1378,
+    "hanzi": "这个苹果重三百克。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1379,
+    "hanzi": "这个学期的课程很多。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1385,
+    "hanzi": "山上的空气很新鲜。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1387,
+    "hanzi": "他的中文口语很流利。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1389,
+    "hanzi": "中午我们吃快餐吧。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1390,
+    "hanzi": "我有一个快递要去取。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1391,
+    "hanzi": "高铁是一种快速的交通方式。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1392,
+    "hanzi": "我很困，想睡觉了。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1393,
+    "hanzi": "学中文虽然困难，但很有趣。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1397,
+    "hanzi": "来不及了，我们打车去吧。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1401,
+    "hanzi": "他给女朋友准备了一个浪漫的晚餐。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1402,
+    "hanzi": "老虎是一种很凶猛的动物。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1404,
+    "hanzi": "社区为老年人提供免费体检。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1405,
+    "hanzi": "他老是忘记带钥匙。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1406,
+    "hanzi": "遇到问题要冷静思考。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1407,
+    "hanzi": "我该去理发了。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1408,
+    "hanzi": "谢谢你的理解和支持。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1409,
+    "hanzi": "这个孩子很有礼貌。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1413,
+    "hanzi": "中国有很多节日，例如春节和中秋节。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1415,
+    "hanzi": "他们俩是好朋友。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1417,
+    "hanzi": "我会尽快跟你联系。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1418,
+    "hanzi": "天凉了，多穿点衣服。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1420,
+    "hanzi": "我买了两斤苹果。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1421,
+    "hanzi": "房间里的灯很亮。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1422,
+    "hanzi": "一列火车正在进站。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1425,
+    "hanzi": "你有零钱吗？",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 1426,
+    "hanzi": "小朋友们都爱吃零食。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1429,
+    "hanzi": "他留在北京工作了。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1432,
+    "hanzi": "他在这座城市留下了美好的回忆。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1433,
+    "hanzi": "现在网上购物很流行。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1434,
+    "hanzi": "我路过超市买了些东西。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1435,
+    "hanzi": "我们在旅馆住了两晚。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1437,
+    "hanzi": "今年暑假我们去欧洲旅行。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1438,
+    "hanzi": "他的哥哥是一位律师。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1440,
+    "hanzi": "树上的叶子落了。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1443,
+    "hanzi": "教室里坐满了学生。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1445,
+    "hanzi": "天冷了，穿件毛衣吧。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1446,
+    "hanzi": "他戴了一顶红色的帽子。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1448,
+    "hanzi": "祝你有一个美好的假期。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1449,
+    "hanzi": "旅途中我们看到了许多美景。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1450,
+    "hanzi": "她是一个美丽的姑娘。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1451,
+    "hanzi": "成都有很多美食。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1452,
+    "hanzi": "昨晚我做了一个奇怪的梦。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1453,
+    "hanzi": "她的梦想是成为一名歌手。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1457,
+    "hanzi": "明天我要去参加面试。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1459,
+    "hanzi": "中国有五十六个民族。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1460,
+    "hanzi": "月末我们要交报告。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1461,
+    "hanzi": "那对母女长得很像。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1463,
+    "hanzi": "这对母子关系很好。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1464,
+    "hanzi": "我的目标是考上研究生。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1465,
+    "hanzi": "这次旅行的目的是什么？",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1466,
+    "hanzi": "我们终于到了目的地。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1467,
+    "hanzi": "目前情况还不太清楚。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1469,
+    "hanzi": "广州在中国南部。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1472,
+    "hanzi": "他肚子疼，很难受。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1473,
+    "hanzi": "这是一次难忘的旅行。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1474,
+    "hanzi": "这款手表适合男性佩戴。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1476,
+    "hanzi": "这本书的内容很丰富。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1477,
+    "hanzi": "她内心其实很紧张。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1479,
+    "hanzi": "我相信你能够做到。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1480,
+    "hanzi": "他有很强的学习能力。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1481,
+    "hanzi": "嗯，我同意你的看法。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1482,
+    "hanzi": "年底公司会发奖金。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1488,
+    "hanzi": "我偶尔会去跑步。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1490,
+    "hanzi": "前面排着很多人。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1491,
+    "hanzi": "这个品牌的手机很好用。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1492,
+    "hanzi": "买票要排队。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1493,
+    "hanzi": "她是学校排球队的队员。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1494,
+    "hanzi": "这是什么牌子的衣服？",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1495,
+    "hanzi": "你要自己判断对错。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1496,
+    "hanzi": "妈妈陪我去看医生。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1497,
+    "hanzi": "老师批评了迟到的学生。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1498,
+    "hanzi": "她的皮肤很白。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1499,
+    "hanzi": "他的脾气有时候不太好。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1501,
+    "hanzi": "老师让我们写一篇作文。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1502,
+    "hanzi": "他给我看了几片风景照。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1503,
+    "hanzi": "乒乓球是中国的国球。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1504,
+    "hanzi": "他平常不怎么运动。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1505,
+    "hanzi": "杯子摔破了。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1508,
+    "hanzi": "这种现象在大城市很普遍。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1509,
+    "hanzi": "他是一个普通的上班族。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1511,
+    "hanzi": "这是杂志的第三期。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1512,
+    "hanzi": "期末考试快到了。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1513,
+    "hanzi": "期中考试考得不错。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1515,
+    "hanzi": "十个人报名了，其中三个是女生。",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 1516,
+    "hanzi": "这个方法起到了很好的效果。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1518,
+    "hanzi": "云南的气候四季如春。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1520,
+    "hanzi": "明天气温会上升。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1521,
+    "hanzi": "这个西瓜重五千克。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1524,
+    "hanzi": "前方到站是天安门。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1525,
+    "hanzi": "比赛前后他非常兴奋。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1526,
+    "hanzi": "他的记忆力很强。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1527,
+    "hanzi": "有人在敲门。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1528,
+    "hanzi": "河上有一座很老的石桥。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1532,
+    "hanzi": "她正在弹琴。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1533,
+    "hanzi": "这个箱子很轻。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1534,
+    "hanzi": "他是一位优秀的青年。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1537,
+    "hanzi": "我们一起庆祝他的生日。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1538,
+    "hanzi": "他加入了学校的足球队。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1539,
+    "hanzi": "球迷们在为自己的球队加油。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1540,
+    "hanzi": "我住在朝阳区。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1542,
+    "hanzi": "我去银行取一些钱。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1548,
+    "hanzi": "全球气候变暖是一个严重的问题。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1549,
+    "hanzi": "跑完步后他全身都是汗。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1550,
+    "hanzi": "教室里缺一把椅子。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1552,
+    "hanzi": "这篇文章缺少具体的例子。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1554,
+    "hanzi": "他说的话确实有道理。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1557,
+    "hanzi": "人生就像一次旅行。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1558,
+    "hanzi": "参加活动的人数超过了预期。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1559,
+    "hanzi": "安保人员正在检查行李。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1560,
+    "hanzi": "任何人都不能迟到。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1563,
+    "hanzi": "虽然下雨了，比赛仍在进行。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1565,
+    "hanzi": "运动是他日常生活的一部分。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1568,
+    "hanzi": "在中国的日子过得很开心。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1569,
+    "hanzi": "他入了中国国籍。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1570,
+    "hanzi": "超市的入口在那边。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1571,
+    "hanzi": "九月是入学的季节。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1573,
+    "hanzi": "晚饭后我们去公园散步。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1575,
+    "hanzi": "这片森林里有很多野生动物。",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 1577,
+    "hanzi": "这家商店的商品种类很多。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1578,
+    "hanzi": "听到这个消息，她很伤心。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1579,
+    "hanzi": "我们提供上门服务。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1581,
+    "hanzi": "今天稍微有点冷。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1584,
+    "hanzi": "只有少数人不同意。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1585,
+    "hanzi": "他是一个聪明的少年。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1586,
+    "hanzi": "教育对社会发展很重要。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1588,
+    "hanzi": "她穿了一身新衣服。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1589,
+    "hanzi": "这条河很深，不能游泳。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1593,
+    "hanzi": "姐姐生了一个可爱的宝宝。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1596,
+    "hanzi": "他来自四川省。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1597,
+    "hanzi": "冰箱里还剩一些牛奶。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1598,
+    "hanzi": "失败是成功之母。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1600,
+    "hanzi": "他失去了一个很好的机会。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1601,
+    "hanzi": "师生之间的关系很融洽。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1602,
+    "hanzi": "他对考试结果感到很失望。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1603,
+    "hanzi": "他对这次活动十分满意。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1604,
+    "hanzi": "实际情况和想象的不一样。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1607,
+    "hanzi": "这家超市的食品很新鲜。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1608,
+    "hanzi": "中午我在食堂吃饭。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1611,
+    "hanzi": "到十字路口向左转。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1612,
+    "hanzi": "这件事使他很生气。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1613,
+    "hanzi": "我去美国使馆办签证。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1617,
+    "hanzi": "这份工作很适合你。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1618,
+    "hanzi": "二十一世纪是科技的时代。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1619,
+    "hanzi": "他在网上看了一个有趣的视频。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1620,
+    "hanzi": "他住在市区中心。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1621,
+    "hanzi": "老师正在准备期末试题。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1623,
+    "hanzi": "这个停车场怎么收费？",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1624,
+    "hanzi": "他的月收入不低。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1628,
+    "hanzi": "北京是中国的首都。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1631,
+    "hanzi": "售票员说今天的票卖完了。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1635,
+    "hanzi": "他对北京的路很熟悉。",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 1638,
+    "hanzi": "商品的数量有限。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1639,
+    "hanzi": "我们在树林里散步。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1641,
+    "hanzi": "大家都说他很帅。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1643,
+    "hanzi": "祝你旅途顺利！",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1645,
+    "hanzi": "这件事有好几种说法。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1648,
+    "hanzi": "她正在读硕士研究生。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1653,
+    "hanzi": "早餐我喝了一杯酸奶。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1660,
+    "hanzi": "客厅里放着一台大电视。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1662,
+    "hanzi": "他抬头看了看天空。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1663,
+    "hanzi": "服务员的态度很好。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1664,
+    "hanzi": "她正在弹吉他。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1665,
+    "hanzi": "我们谈一谈工作的事吧。",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 1666,
+    "hanzi": "妈妈做了一碗鸡汤。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1667,
+    "hanzi": "他累了，躺在沙发上休息。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1668,
+    "hanzi": "他去了两趟超市。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1669,
+    "hanzi": "大家一起讨论这个方案。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1671,
+    "hanzi": "这种茶的特点是味道清香。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1673,
+    "hanzi": "他提出了一个好建议。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1674,
+    "hanzi": "老师在课上提到了这本书。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1675,
+    "hanzi": "酒店提供免费早餐。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1677,
+    "hanzi": "谢谢你提醒我。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1679,
+    "hanzi": "护士测量了他的体温。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1682,
+    "hanzi": "这里的学习条件很好。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1683,
+    "hanzi": "考试包括听力和阅读。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1686,
+    "hanzi": "这里不能停车。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1687,
+    "hanzi": "停车场还有空位吗？",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1689,
+    "hanzi": "这条路不通。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1690,
+    "hanzi": "他通过了HSK四级考试。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1691,
+    "hanzi": "学校通知明天放假。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1692,
+    "hanzi": "他在农村度过了快乐的童年。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1694,
+    "hanzi": "我们面对着同样的问题。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1696,
+    "hanzi": "我的头很痛。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1697,
+    "hanzi": "他感冒了，有点头痛。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1699,
+    "hanzi": "这张图片拍得很清楚。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1700,
+    "hanzi": "这里的土很肥沃。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1702,
+    "hanzi": "会议推迟到下周一。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1703,
+    "hanzi": "这家公司推出了一款新产品。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1707,
+    "hanzi": "今天冷，穿件外套吧。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1708,
+    "hanzi": "我完全同意你的看法。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1709,
+    "hanzi": "晚安，明天见。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1710,
+    "hanzi": "今天的晚餐是火锅。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1714,
+    "hanzi": "他在网上认识了很多网友。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1715,
+    "hanzi": "你知道这个网站的网址吗？",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1717,
+    "hanzi": "他为大家做了很多事。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1718,
+    "hanzi": "这道菜有家乡的味儿。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1719,
+    "hanzi": "这个菜的味道很不错。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1722,
+    "hanzi": "你闻一闻这朵花。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1724,
+    "hanzi": "他写了一篇很好的文章。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1726,
+    "hanzi": "工厂排放的废气污染了空气。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1727,
+    "hanzi": "他无话可说。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1729,
+    "hanzi": "周末一个人在家很无聊。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1731,
+    "hanzi": "午餐我吃了一碗面条。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1732,
+    "hanzi": "你误会我了，我不是那个意思。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1733,
+    "hanzi": "深深地吸一口气。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1734,
+    "hanzi": "中国西部有壮丽的自然风光。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1735,
+    "hanzi": "西红柿炒鸡蛋是经典的中国菜。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1736,
+    "hanzi": "这个城市吸引了很多游客。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1737,
+    "hanzi": "她做事很细。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1738,
+    "hanzi": "她是一个非常细心的人。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1741,
+    "hanzi": "他送了一束鲜花给妻子。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1743,
+    "hanzi": "对不起，我们不收现金。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1744,
+    "hanzi": "大家都很羡慕他的工作。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1746,
+    "hanzi": "线下活动在周六举行。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1747,
+    "hanzi": "我们要充分利用现有资源。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1749,
+    "hanzi": "和去年相比，今年暖和多了。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1750,
+    "hanzi": "他的做法和我想的相反。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1751,
+    "hanzi": "朋友之间要相互信任。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1752,
+    "hanzi": "我们的看法基本相同。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1754,
+    "hanzi": "手机突然响了。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1755,
+    "hanzi": "他的想法很有创意。",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 1756,
+    "hanzi": "他一共完成了三项任务。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1757,
+    "hanzi": "你听到那个好消息了吗？",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1758,
+    "hanzi": "北京有很多特色小吃。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1759,
+    "hanzi": "那个小伙子很有礼貌。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1762,
+    "hanzi": "这种药的效果很好。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1763,
+    "hanzi": "他讲了一个很有趣的笑话。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1764,
+    "hanzi": "他的手指流血了。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1765,
+    "hanzi": "她的心里很高兴。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1766,
+    "hanzi": "老师，您辛苦了！",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1767,
+    "hanzi": "今天他的心情很好。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1768,
+    "hanzi": "这里的手机信号不好。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1770,
+    "hanzi": "我对自己很有信心。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1771,
+    "hanzi": "听到这个消息大家都很兴奋。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1774,
+    "hanzi": "这个问题具有普遍性。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1776,
+    "hanzi": "他们一家人生活得很幸福。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1777,
+    "hanzi": "她的性格很开朗。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1778,
+    "hanzi": "他们兄弟的感情很好。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1779,
+    "hanzi": "我们在动物园看到了大熊猫。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1781,
+    "hanzi": "他正在修理自行车。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1782,
+    "hanzi": "许多学生报名了这次活动。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1784,
+    "hanzi": "他在商学院读书。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1786,
+    "hanzi": "现在的年轻人压力很大。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1787,
+    "hanzi": "牙膏用完了，要买新的。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1789,
+    "hanzi": "吸烟有害健康。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1791,
+    "hanzi": "他是一个非常严格的老师。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1792,
+    "hanzi": "她正在研究中国古代文化。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1793,
+    "hanzi": "他今年考上了研究生。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1795,
+    "hanzi": "他在电影里演了一个医生。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1796,
+    "hanzi": "歌手们将演唱几首经典歌曲。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1797,
+    "hanzi": "今晚的演出几点开始？",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1798,
+    "hanzi": "他戴了一副新眼镜。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1799,
+    "hanzi": "眼前的美景让人陶醉。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1800,
+    "hanzi": "她是一名很出色的演员。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1802,
+    "hanzi": "我们要养成良好的学习习惯。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1806,
+    "hanzi": "我忘记带钥匙了。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1808,
+    "hanzi": "他工作了一整夜。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1809,
+    "hanzi": "城市的夜晚灯火辉煌。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1810,
+    "hanzi": "秋天叶子变成了金色。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1812,
+    "hanzi": "他已完成了全部工作。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1818,
+    "hanzi": "这件事引起了大家的注意。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1819,
+    "hanzi": "她给我留下了很好的印象。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1822,
+    "hanzi": "她去公司应聘了一个职位。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1824,
+    "hanzi": "我们永远是好朋友。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1826,
+    "hanzi": "这笔钱将用于学校建设。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1828,
+    "hanzi": "他是一个非常幽默的人。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1829,
+    "hanzi": "她是一名优秀的学生。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1830,
+    "hanzi": "这篇文章由他翻译。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1831,
+    "hanzi": "锅里放一些油。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1835,
+    "hanzi": "中国人对外国人很友好。",
+    "hsk_level": 4,
+    "original_label": "以为／认为"
+  },
+  {
+    "source_id": 1836,
+    "hanzi": "友情是人生中宝贵的财富。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1837,
+    "hanzi": "这本书非常有趣。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1838,
+    "hanzi": "这个办法非常有效。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1839,
+    "hanzi": "我们的友谊地久天长。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1840,
+    "hanzi": "这座城市有着悠久的历史。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1841,
+    "hanzi": "祝你假期愉快！",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1843,
+    "hanzi": "他经常与朋友讨论学术问题。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1844,
+    "hanzi": "中文的语法和英语不一样。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1845,
+    "hanzi": "上课前要预习课文。",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 1848,
+    "hanzi": "迟到的原因是堵车了。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1849,
+    "hanzi": "我们要远离危险。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1850,
+    "hanzi": "医院的院长来看望病人了。",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1851,
+    "hanzi": "他家的院子里种了很多花。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1852,
+    "hanzi": "我们约好明天见面。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1853,
+    "hanzi": "他今天晚上有个约会。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1854,
+    "hanzi": "中秋节要吃月饼。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1855,
+    "hanzi": "阅读是学习语言的好方法。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1856,
+    "hanzi": "你是几月份的生日？",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1857,
+    "hanzi": "天上有很多白云。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1858,
+    "hanzi": "这里不允许拍照。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1859,
+    "hanzi": "她在看一本时尚杂志。",
+    "hsk_level": 4,
+    "original_label": "根据／按照"
+  },
+  {
+    "source_id": 1860,
+    "hanzi": "欢迎你再次来到北京。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1862,
+    "hanzi": "他暂时住在朋友家。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1863,
+    "hanzi": "比赛暂停了五分钟。",
+    "hsk_level": 4,
+    "original_label": "竟然／果然"
+  },
+  {
+    "source_id": 1867,
+    "hanzi": "公司计划增加五十名员工。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1868,
+    "hanzi": "今年的出口额增长了百分之十。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1869,
+    "hanzi": "这家公司正在招聘工程师。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1870,
+    "hanzi": "他着急地跑出了教室。",
+    "hsk_level": 4,
+    "original_label": "然而／再～也～"
+  },
+  {
+    "source_id": 1871,
+    "hanzi": "对面的楼着火了！",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1874,
+    "hanzi": "他等了整整三个小时。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1875,
+    "hanzi": "整个城市都在下雪。",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 1876,
+    "hanzi": "他正在整理房间。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1878,
+    "hanzi": "他的体温恢复正常了。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1881,
+    "hanzi": "他用行动证明了自己的能力。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1883,
+    "hanzi": "他正式开始了新工作。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1885,
+    "hanzi": "谢谢你一直支持我。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1887,
+    "hanzi": "下课之后我们去吃饭。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  },
+  {
+    "source_id": 1888,
+    "hanzi": "北京和上海之间有高铁。",
+    "hsk_level": 4,
+    "original_label": "另外"
+  },
+  {
+    "source_id": 1891,
+    "hanzi": "他在候选人之中排名第一。",
+    "hsk_level": 4,
+    "original_label": "并／估计"
+  },
+  {
+    "source_id": 1892,
+    "hanzi": "这件古董很值钱。",
+    "hsk_level": 4,
+    "original_label": "首先～其次／再说"
+  },
+  {
+    "source_id": 1896,
+    "hanzi": "你的职业是什么？",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1898,
+    "hanzi": "老师指出了我作文中的问题。",
+    "hsk_level": 4,
+    "original_label": "否则／无论"
+  },
+  {
+    "source_id": 1899,
+    "hanzi": "没有公交车了，我只好走路回家。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1901,
+    "hanzi": "这个品牌的质量很好。",
+    "hsk_level": 4,
+    "original_label": "以"
+  },
+  {
+    "source_id": 1903,
+    "hanzi": "今天中午我们吃中餐。",
+    "hsk_level": 4,
+    "original_label": "于是／可"
+  },
+  {
+    "source_id": 1904,
+    "hanzi": "他是一位中年男子。",
+    "hsk_level": 4,
+    "original_label": "恐怕／敢"
+  },
+  {
+    "source_id": 1905,
+    "hanzi": "爷爷在院子里种了很多蔬菜。",
+    "hsk_level": 4,
+    "original_label": "到底／叫做"
+  },
+  {
+    "source_id": 1906,
+    "hanzi": "老师讲了这一课的重点。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1907,
+    "hanzi": "学校非常重视学生的安全。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1908,
+    "hanzi": "他的周围都是朋友。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1909,
+    "hanzi": "这是一个好主意！",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1910,
+    "hanzi": "祝你生日快乐！",
+    "hsk_level": 4,
+    "original_label": "应该／得(děi)"
+  },
+  {
+    "source_id": 1911,
+    "hanzi": "祝贺你考上了大学！",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1912,
+    "hanzi": "长城是中国著名的景点。",
+    "hsk_level": 4,
+    "original_label": "只是～而已／即使～也"
+  },
+  {
+    "source_id": 1913,
+    "hanzi": "这家店专门卖茶叶。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1914,
+    "hanzi": "她的专业是计算机科学。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1915,
+    "hanzi": "到前面的路口向右转。",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1920,
+    "hanzi": "他射箭射得很准。",
+    "hsk_level": 4,
+    "original_label": "连～也都／甚至"
+  },
+  {
+    "source_id": 1924,
+    "hanzi": "做题时要仔细看清楚。",
+    "hsk_level": 4,
+    "original_label": "要是／值得"
+  },
+  {
+    "source_id": 1926,
+    "hanzi": "我们要与自然和谐相处。",
+    "hsk_level": 4,
+    "original_label": "既～又也还／可不是／往往"
+  },
+  {
+    "source_id": 1927,
+    "hanzi": "晚上他在图书馆自习。",
+    "hsk_level": 4,
+    "original_label": "由于／因此／难道"
+  },
+  {
+    "source_id": 1929,
+    "hanzi": "他是自学的编程。",
+    "hsk_level": 4,
+    "original_label": "同时／并且"
+  },
+  {
+    "source_id": 1932,
+    "hanzi": "全班分成了四个小组。",
+    "hsk_level": 4,
+    "original_label": "由／既然"
+  },
+  {
+    "source_id": 1936,
+    "hanzi": "前面有一座大山。",
+    "hsk_level": 4,
+    "original_label": "为了／在于"
+  },
+  {
+    "source_id": 1937,
+    "hanzi": "这道菜的做法很简单。",
+    "hsk_level": 4,
+    "original_label": "仍然／究竟"
+  },
+  {
+    "source_id": 1938,
+    "hanzi": "她是一位很有名的作家。",
+    "hsk_level": 4,
+    "original_label": "V着V着／一～就～"
+  },
+  {
+    "source_id": 1939,
+    "hanzi": "昨晚我做了一个美梦。",
+    "hsk_level": 4,
+    "original_label": "不仅～也～／从来"
+  },
+  {
+    "source_id": 1941,
+    "hanzi": "作为一名老师，他很受欢迎。",
+    "hsk_level": 4,
+    "original_label": "就是"
+  },
+  {
+    "source_id": 1943,
+    "hanzi": "今天老师让我们写一篇作文。",
+    "hsk_level": 4,
+    "original_label": "在～上"
+  },
+  {
+    "source_id": 1944,
+    "hanzi": "运动对健康有很大的作用。",
+    "hsk_level": 4,
+    "original_label": "正好／差不多"
+  },
+  {
+    "source_id": 1945,
+    "hanzi": "这本书的作者是谁？",
+    "hsk_level": 4,
+    "original_label": "～不了／无法"
+  },
+  {
+    "source_id": 1946,
+    "hanzi": "这家商店打折，衣服很便宜。",
+    "hsk_level": 4,
+    "original_label": "尽管／不管"
+  },
+  {
+    "source_id": 1947,
+    "hanzi": "他昨晚做梦梦见了大海。",
+    "hsk_level": 4,
+    "original_label": "却／而"
+  }
+]

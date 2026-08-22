@@ -1,0 +1,1717 @@
+[
+  {
+    "conversation_source_id": 1,
+    "hsk_level": 1,
+    "pattern": "叫",
+    "note": "「（人に）〜させる」使役、または「〜という名前だ」を表す動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 1,
+    "hsk_level": 1,
+    "pattern": "是",
+    "note": "「〜である」を表すbe動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 1,
+    "hsk_level": 1,
+    "pattern": "也",
+    "note": "「〜も」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 1,
+    "hsk_level": 1,
+    "pattern": "吗",
+    "note": "「はい/いいえ」で答える疑問文を作る文末助詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 2,
+    "hsk_level": 1,
+    "pattern": "想",
+    "note": "「〜したい」という願望を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 2,
+    "hsk_level": 1,
+    "pattern": "多少",
+    "note": "10以上の数量を尋ねる疑問詞（いくつ、いくら）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 2,
+    "hsk_level": 1,
+    "pattern": "也",
+    "note": "「〜も」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 3,
+    "hsk_level": 1,
+    "pattern": "吗",
+    "note": "「はい/いいえ」で答える疑問文を作る文末助詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 3,
+    "hsk_level": 1,
+    "pattern": "怎么样",
+    "note": "「どうですか」と相手の意見や様子を尋ねる表現。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 3,
+    "hsk_level": 1,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 4,
+    "hsk_level": 2,
+    "pattern": "因为",
+    "note": "「なぜなら、〜なので」と原因を表す接続詞。「因为…所以…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 4,
+    "hsk_level": 2,
+    "pattern": "所以",
+    "note": "「だから」と結果を表す接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 4,
+    "hsk_level": 2,
+    "pattern": "得",
+    "note": "動詞・形容詞の後について程度や結果を表す補語を導く助詞（〜するのが…だ）。文脈により「〜しなければならない(děi)」の助動詞の場合もある。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 4,
+    "hsk_level": 2,
+    "pattern": "而且",
+    "note": "「その上、しかも」を表す接続詞。「不但…而且…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 5,
+    "hsk_level": 2,
+    "pattern": "从",
+    "note": "「〜から」を表す起点の介詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 5,
+    "hsk_level": 2,
+    "pattern": "到",
+    "note": "「〜まで、〜に着く」を表す介詞・動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 5,
+    "hsk_level": 2,
+    "pattern": "着",
+    "note": "動作や状態の持続を表す助詞（〜している、〜したまま）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 5,
+    "hsk_level": 2,
+    "pattern": "就",
+    "note": "「すぐに、まさに」など、条件の帰結や強調を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 6,
+    "hsk_level": 2,
+    "pattern": "打算",
+    "note": "「〜するつもりだ」という計画を表す動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 6,
+    "hsk_level": 2,
+    "pattern": "一边",
+    "note": "「〜しながら」を表す表現。「一边…一边…」の形で二つの動作を同時に行うことを表す。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 6,
+    "hsk_level": 2,
+    "pattern": "应该",
+    "note": "「〜すべきだ」という当然・義務を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 6,
+    "hsk_level": 2,
+    "pattern": "挺",
+    "note": "「なかなか、けっこう」を表す口語的な程度副詞。「挺…的」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 7,
+    "hsk_level": 3,
+    "pattern": "虽然",
+    "note": "「〜ではあるが」を表す接続詞。「虽然…但是…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 7,
+    "hsk_level": 3,
+    "pattern": "但是",
+    "note": "「しかし」を表す接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 7,
+    "hsk_level": 3,
+    "pattern": "越",
+    "note": "「〜すればするほど」を表す語。「越…越…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 7,
+    "hsk_level": 3,
+    "pattern": "把",
+    "note": "目的語を動詞の前に出し「〜を…する」という処置を表す構文を作る介詞（把構文）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 7,
+    "hsk_level": 3,
+    "pattern": "除了",
+    "note": "「〜を除いて、〜のほかに」を表す介詞。「除了…以外…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 7,
+    "hsk_level": 3,
+    "pattern": "以外",
+    "note": "「〜以外」を表す語。「除了…以外」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 7,
+    "hsk_level": 3,
+    "pattern": "只要",
+    "note": "「〜さえすれば」を表す接続詞。「只要…就…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 8,
+    "hsk_level": 3,
+    "pattern": "让",
+    "note": "「〜させる」使役を表す動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 8,
+    "hsk_level": 3,
+    "pattern": "着",
+    "note": "動作や状態の持続を表す助詞（〜している、〜したまま）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 8,
+    "hsk_level": 3,
+    "pattern": "应该",
+    "note": "「〜すべきだ」という当然・義務を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 8,
+    "hsk_level": 3,
+    "pattern": "别",
+    "note": "「〜するな」と禁止を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 9,
+    "hsk_level": 3,
+    "pattern": "得",
+    "note": "動詞・形容詞の後について程度や結果を表す補語を導く助詞（〜するのが…だ）。文脈により「〜しなければならない(děi)」の助動詞の場合もある。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 9,
+    "hsk_level": 3,
+    "pattern": "一直",
+    "note": "「ずっと、一貫して」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 9,
+    "hsk_level": 3,
+    "pattern": "让",
+    "note": "「〜させる」使役を表す動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 9,
+    "hsk_level": 3,
+    "pattern": "会",
+    "note": "「〜するだろう」「（習得して）〜できる」という可能性・技能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 10,
+    "hsk_level": 4,
+    "pattern": "不但",
+    "note": "「〜だけでなく」を表す接続詞。「不但…而且…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 10,
+    "hsk_level": 4,
+    "pattern": "而且",
+    "note": "「その上、しかも」を表す接続詞。「不但…而且…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 10,
+    "hsk_level": 4,
+    "pattern": "与其",
+    "note": "「〜するくらいなら」を表す接続詞。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 10,
+    "hsk_level": 4,
+    "pattern": "不如",
+    "note": "「〜する方がよい」を表す語。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 10,
+    "hsk_level": 4,
+    "pattern": "无论",
+    "note": "「〜にかかわらず」を表す接続詞。「无论…都…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 10,
+    "hsk_level": 4,
+    "pattern": "尽管",
+    "note": "「〜にもかかわらず」を表す接続詞。「尽管…但是…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 10,
+    "hsk_level": 4,
+    "pattern": "至于",
+    "note": "「〜について言えば」と話題を転換する表現。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 11,
+    "hsk_level": 4,
+    "pattern": "除了",
+    "note": "「〜を除いて、〜のほかに」を表す介詞。「除了…以外…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 11,
+    "hsk_level": 4,
+    "pattern": "以外",
+    "note": "「〜以外」を表す語。「除了…以外」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 11,
+    "hsk_level": 4,
+    "pattern": "由于",
+    "note": "「〜のために、〜が原因で」と理由を表す接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 11,
+    "hsk_level": 4,
+    "pattern": "把",
+    "note": "目的語を動詞の前に出し「〜を…する」という処置を表す構文を作る介詞（把構文）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 11,
+    "hsk_level": 4,
+    "pattern": "得",
+    "note": "動詞・形容詞の後について程度や結果を表す補語を導く助詞（〜するのが…だ）。文脈により「〜しなければならない(děi)」の助動詞の場合もある。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 12,
+    "hsk_level": 4,
+    "pattern": "越来越",
+    "note": "「ますます〜になる」を表す表現。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 12,
+    "hsk_level": 4,
+    "pattern": "不但",
+    "note": "「〜だけでなく」を表す接続詞。「不但…而且…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 12,
+    "hsk_level": 4,
+    "pattern": "而且",
+    "note": "「その上、しかも」を表す接続詞。「不但…而且…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 12,
+    "hsk_level": 4,
+    "pattern": "只要",
+    "note": "「〜さえすれば」を表す接続詞。「只要…就…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 12,
+    "hsk_level": 4,
+    "pattern": "与其",
+    "note": "「〜するくらいなら」を表す接続詞。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 12,
+    "hsk_level": 4,
+    "pattern": "不如",
+    "note": "「〜する方がよい」を表す語。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 13,
+    "hsk_level": 1,
+    "pattern": "有",
+    "note": "「持っている、ある」を表す動詞。否定形は「没有」。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 13,
+    "hsk_level": 1,
+    "pattern": "吗",
+    "note": "「はい/いいえ」で答える疑問文を作る文末助詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 13,
+    "hsk_level": 1,
+    "pattern": "都",
+    "note": "「みな、すべて」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 14,
+    "hsk_level": 1,
+    "pattern": "也",
+    "note": "「〜も」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 14,
+    "hsk_level": 1,
+    "pattern": "都",
+    "note": "「みな、すべて」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 14,
+    "hsk_level": 1,
+    "pattern": "太",
+    "note": "「〜すぎる」を表す程度の副詞。「太…了」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 15,
+    "hsk_level": 1,
+    "pattern": "呢",
+    "note": "疑問文を柔らかくしたり「〜は？」と聞き返すときに使う文末助詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 15,
+    "hsk_level": 1,
+    "pattern": "啊",
+    "note": "感嘆や語気をやわらげる文末助詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 15,
+    "hsk_level": 1,
+    "pattern": "在",
+    "note": "「〜にいる／ある」を表す動詞、または動詞の前について進行「〜している」を表す。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 16,
+    "hsk_level": 1,
+    "pattern": "就",
+    "note": "「すぐに、まさに」など、条件の帰結や強調を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 16,
+    "hsk_level": 1,
+    "pattern": "得",
+    "note": "動詞・形容詞の後について程度や結果を表す補語を導く助詞（〜するのが…だ）。文脈により「〜しなければならない(děi)」の助動詞の場合もある。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 16,
+    "hsk_level": 1,
+    "pattern": "还",
+    "note": "「まだ、さらに」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 17,
+    "hsk_level": 2,
+    "pattern": "了",
+    "note": "動作の完了や状態の変化を表す助詞（文末や動詞の直後に置く）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 17,
+    "hsk_level": 2,
+    "pattern": "先",
+    "note": "「まず、先に」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 17,
+    "hsk_level": 2,
+    "pattern": "一下",
+    "note": "動詞の後について「ちょっと〜する」と動作の軽さ・短さを表す表現。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 17,
+    "hsk_level": 2,
+    "pattern": "还",
+    "note": "「まだ、さらに」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 18,
+    "hsk_level": 2,
+    "pattern": "还是",
+    "note": "「それとも」（疑問文の選択）、または「やはり」を表す。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 18,
+    "hsk_level": 2,
+    "pattern": "更",
+    "note": "「さらに、もっと」を表す程度の副詞（比較を強める）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 19,
+    "hsk_level": 2,
+    "pattern": "想",
+    "note": "「〜したい」という願望を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 19,
+    "hsk_level": 2,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 19,
+    "hsk_level": 2,
+    "pattern": "先",
+    "note": "「まず、先に」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 20,
+    "hsk_level": 2,
+    "pattern": "了",
+    "note": "動作の完了や状態の変化を表す助詞（文末や動詞の直後に置く）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 20,
+    "hsk_level": 2,
+    "pattern": "就",
+    "note": "「すぐに、まさに」など、条件の帰結や強調を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 20,
+    "hsk_level": 2,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 21,
+    "hsk_level": 3,
+    "pattern": "已经",
+    "note": "「すでに」を表す副詞。多くの場合、文末の「了」とセットで使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 21,
+    "hsk_level": 3,
+    "pattern": "但是",
+    "note": "「しかし」を表す接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 21,
+    "hsk_level": 3,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 21,
+    "hsk_level": 3,
+    "pattern": "才",
+    "note": "「やっと、〜してはじめて」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 22,
+    "hsk_level": 3,
+    "pattern": "应该",
+    "note": "「〜すべきだ」という当然・義務を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 22,
+    "hsk_level": 3,
+    "pattern": "只要",
+    "note": "「〜さえすれば」を表す接続詞。「只要…就…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 22,
+    "hsk_level": 3,
+    "pattern": "就",
+    "note": "「すぐに、まさに」など、条件の帰結や強調を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 23,
+    "hsk_level": 3,
+    "pattern": "可是",
+    "note": "「しかし」を表す口語的な接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 23,
+    "hsk_level": 3,
+    "pattern": "对",
+    "note": "「〜に対して」を表す介詞、または「正しい」という意味の形容詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 23,
+    "hsk_level": 3,
+    "pattern": "才",
+    "note": "「やっと、〜してはじめて」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 24,
+    "hsk_level": 3,
+    "pattern": "应该",
+    "note": "「〜すべきだ」という当然・義務を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 24,
+    "hsk_level": 3,
+    "pattern": "如果",
+    "note": "「もし〜なら」仮定を表す接続詞。「如果…就…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 24,
+    "hsk_level": 3,
+    "pattern": "就",
+    "note": "「すぐに、まさに」など、条件の帰結や強調を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 25,
+    "hsk_level": 4,
+    "pattern": "由于",
+    "note": "「〜のために、〜が原因で」と理由を表す接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 25,
+    "hsk_level": 4,
+    "pattern": "除了",
+    "note": "「〜を除いて、〜のほかに」を表す介詞。「除了…以外…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 25,
+    "hsk_level": 4,
+    "pattern": "以外",
+    "note": "「〜以外」を表す語。「除了…以外」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 25,
+    "hsk_level": 4,
+    "pattern": "与其",
+    "note": "「〜するくらいなら」を表す接続詞。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 25,
+    "hsk_level": 4,
+    "pattern": "不如",
+    "note": "「〜する方がよい」を表す語。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 26,
+    "hsk_level": 4,
+    "pattern": "不但",
+    "note": "「〜だけでなく」を表す接続詞。「不但…而且…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 26,
+    "hsk_level": 4,
+    "pattern": "而且",
+    "note": "「その上、しかも」を表す接続詞。「不但…而且…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 26,
+    "hsk_level": 4,
+    "pattern": "至于",
+    "note": "「〜について言えば」と話題を転換する表現。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 26,
+    "hsk_level": 4,
+    "pattern": "无论",
+    "note": "「〜にかかわらず」を表す接続詞。「无论…都…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 26,
+    "hsk_level": 4,
+    "pattern": "尽管",
+    "note": "「〜にもかかわらず」を表す接続詞。「尽管…但是…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 26,
+    "hsk_level": 4,
+    "pattern": "但是",
+    "note": "「しかし」を表す接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 27,
+    "hsk_level": 4,
+    "pattern": "与其",
+    "note": "「〜するくらいなら」を表す接続詞。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 27,
+    "hsk_level": 4,
+    "pattern": "不如",
+    "note": "「〜する方がよい」を表す語。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 27,
+    "hsk_level": 4,
+    "pattern": "无论",
+    "note": "「〜にかかわらず」を表す接続詞。「无论…都…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 28,
+    "hsk_level": 4,
+    "pattern": "只要",
+    "note": "「〜さえすれば」を表す接続詞。「只要…就…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 28,
+    "hsk_level": 4,
+    "pattern": "就",
+    "note": "「すぐに、まさに」など、条件の帰結や強調を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 28,
+    "hsk_level": 4,
+    "pattern": "除了",
+    "note": "「〜を除いて、〜のほかに」を表す介詞。「除了…以外…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 28,
+    "hsk_level": 4,
+    "pattern": "以外",
+    "note": "「〜以外」を表す語。「除了…以外」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 29,
+    "hsk_level": 1,
+    "pattern": "也",
+    "note": "「〜も」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 29,
+    "hsk_level": 1,
+    "pattern": "可能",
+    "note": "「〜かもしれない、〜の可能性がある」ということを表す副詞（助動詞的に使われる）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 30,
+    "hsk_level": 1,
+    "pattern": "呢",
+    "note": "疑問文を柔らかくしたり「〜は？」と聞き返すときに使う文末助詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 30,
+    "hsk_level": 1,
+    "pattern": "呀",
+    "note": "感嘆や語気をやわらげる文末助詞（「啊」と似た働き）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 31,
+    "hsk_level": 1,
+    "pattern": "也",
+    "note": "「〜も」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 31,
+    "hsk_level": 1,
+    "pattern": "不",
+    "note": "動詞・形容詞を否定する副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 32,
+    "hsk_level": 1,
+    "pattern": "因为",
+    "note": "「なぜなら、〜なので」と原因を表す接続詞。「因为…所以…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 33,
+    "hsk_level": 1,
+    "pattern": "比",
+    "note": "「〜より」を表し、二つのものを比較するときに使う介詞（A比B+形容詞）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 34,
+    "hsk_level": 2,
+    "pattern": "还",
+    "note": "「まだ、さらに」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 34,
+    "hsk_level": 2,
+    "pattern": "在",
+    "note": "「〜にいる／ある」を表す動詞、または動詞の前について進行「〜している」を表す。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 35,
+    "hsk_level": 2,
+    "pattern": "过",
+    "note": "動詞の後について「〜したことがある」という経験を表す助詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 35,
+    "hsk_level": 2,
+    "pattern": "为什么",
+    "note": "「なぜ」と理由を尋ねる疑問詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 36,
+    "hsk_level": 2,
+    "pattern": "先",
+    "note": "「まず、先に」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 36,
+    "hsk_level": 2,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 37,
+    "hsk_level": 2,
+    "pattern": "有",
+    "note": "「持っている、ある」を表す動詞。否定形は「没有」。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 37,
+    "hsk_level": 2,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 38,
+    "hsk_level": 2,
+    "pattern": "想",
+    "note": "「〜したい」という願望を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 38,
+    "hsk_level": 2,
+    "pattern": "差点儿",
+    "note": "「もう少しで〜するところだった」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 39,
+    "hsk_level": 3,
+    "pattern": "与其",
+    "note": "「〜するくらいなら」を表す接続詞。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 39,
+    "hsk_level": 3,
+    "pattern": "不如",
+    "note": "「〜する方がよい」を表す語。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 39,
+    "hsk_level": 3,
+    "pattern": "只要",
+    "note": "「〜さえすれば」を表す接続詞。「只要…就…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 39,
+    "hsk_level": 3,
+    "pattern": "才",
+    "note": "「やっと、〜してはじめて」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 40,
+    "hsk_level": 3,
+    "pattern": "得",
+    "note": "動詞・形容詞の後について程度や結果を表す補語を導く助詞（〜するのが…だ）。文脈により「〜しなければならない(děi)」の助動詞の場合もある。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 41,
+    "hsk_level": 3,
+    "pattern": "应该",
+    "note": "「〜すべきだ」という当然・義務を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 41,
+    "hsk_level": 3,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 42,
+    "hsk_level": 3,
+    "pattern": "除了",
+    "note": "「〜を除いて、〜のほかに」を表す介詞。「除了…以外…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 42,
+    "hsk_level": 3,
+    "pattern": "以外",
+    "note": "「〜以外」を表す語。「除了…以外」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 42,
+    "hsk_level": 3,
+    "pattern": "还",
+    "note": "「まだ、さらに」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 43,
+    "hsk_level": 3,
+    "pattern": "除了",
+    "note": "「〜を除いて、〜のほかに」を表す介詞。「除了…以外…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 43,
+    "hsk_level": 3,
+    "pattern": "以外",
+    "note": "「〜以外」を表す語。「除了…以外」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 44,
+    "hsk_level": 4,
+    "pattern": "虽然",
+    "note": "「〜ではあるが」を表す接続詞。「虽然…但是…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 44,
+    "hsk_level": 4,
+    "pattern": "但是",
+    "note": "「しかし」を表す接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 44,
+    "hsk_level": 4,
+    "pattern": "除了",
+    "note": "「〜を除いて、〜のほかに」を表す介詞。「除了…以外…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 44,
+    "hsk_level": 4,
+    "pattern": "以外",
+    "note": "「〜以外」を表す語。「除了…以外」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 44,
+    "hsk_level": 4,
+    "pattern": "只有",
+    "note": "「〜だけ、〜してはじめて」を表す語。「只有…才…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 44,
+    "hsk_level": 4,
+    "pattern": "才",
+    "note": "「やっと、〜してはじめて」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 45,
+    "hsk_level": 4,
+    "pattern": "除了",
+    "note": "「〜を除いて、〜のほかに」を表す介詞。「除了…以外…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 45,
+    "hsk_level": 4,
+    "pattern": "以外",
+    "note": "「〜以外」を表す語。「除了…以外」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 45,
+    "hsk_level": 4,
+    "pattern": "与其",
+    "note": "「〜するくらいなら」を表す接続詞。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 45,
+    "hsk_level": 4,
+    "pattern": "不如",
+    "note": "「〜する方がよい」を表す語。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 46,
+    "hsk_level": 4,
+    "pattern": "尽管",
+    "note": "「〜にもかかわらず」を表す接続詞。「尽管…但是…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 46,
+    "hsk_level": 4,
+    "pattern": "但是",
+    "note": "「しかし」を表す接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 46,
+    "hsk_level": 4,
+    "pattern": "与其",
+    "note": "「〜するくらいなら」を表す接続詞。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 46,
+    "hsk_level": 4,
+    "pattern": "不如",
+    "note": "「〜する方がよい」を表す語。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 47,
+    "hsk_level": 4,
+    "pattern": "除了",
+    "note": "「〜を除いて、〜のほかに」を表す介詞。「除了…以外…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 47,
+    "hsk_level": 4,
+    "pattern": "以外",
+    "note": "「〜以外」を表す語。「除了…以外」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 47,
+    "hsk_level": 4,
+    "pattern": "所以",
+    "note": "「だから」と結果を表す接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 48,
+    "hsk_level": 4,
+    "pattern": "一方面",
+    "note": "「一方では」を表す表現。「一方面…另一方面…」の形で物事の二つの側面を対比して述べる。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 49,
+    "hsk_level": 1,
+    "pattern": "吧",
+    "note": "提案・推量・軽い命令を表す文末助詞（〜しよう、〜でしょう）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 49,
+    "hsk_level": 1,
+    "pattern": "都",
+    "note": "「みな、すべて」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 50,
+    "hsk_level": 1,
+    "pattern": "还",
+    "note": "「まだ、さらに」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 50,
+    "hsk_level": 1,
+    "pattern": "就",
+    "note": "「すぐに、まさに」など、条件の帰結や強調を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 51,
+    "hsk_level": 1,
+    "pattern": "因为",
+    "note": "「なぜなら、〜なので」と原因を表す接続詞。「因为…所以…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 51,
+    "hsk_level": 1,
+    "pattern": "会",
+    "note": "「〜するだろう」「（習得して）〜できる」という可能性・技能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 51,
+    "hsk_level": 1,
+    "pattern": "但是",
+    "note": "「しかし」を表す接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 51,
+    "hsk_level": 1,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 52,
+    "hsk_level": 1,
+    "pattern": "了",
+    "note": "動作の完了や状態の変化を表す助詞（文末や動詞の直後に置く）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 52,
+    "hsk_level": 1,
+    "pattern": "没",
+    "note": "「〜していない、〜がない」を表す否定の副詞（過去・完了・所有の否定）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 52,
+    "hsk_level": 1,
+    "pattern": "有点儿",
+    "note": "「少し、ちょっと」を表す副詞。好ましくない状態を表すことが多く、形容詞・動詞の前に置く。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 52,
+    "hsk_level": 1,
+    "pattern": "吧",
+    "note": "提案・推量・軽い命令を表す文末助詞（〜しよう、〜でしょう）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 53,
+    "hsk_level": 1,
+    "pattern": "打算",
+    "note": "「〜するつもりだ」という計画を表す動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 53,
+    "hsk_level": 1,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 53,
+    "hsk_level": 1,
+    "pattern": "别",
+    "note": "「〜するな」と禁止を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 54,
+    "hsk_level": 2,
+    "pattern": "已经",
+    "note": "「すでに」を表す副詞。多くの場合、文末の「了」とセットで使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 54,
+    "hsk_level": 2,
+    "pattern": "吧",
+    "note": "提案・推量・軽い命令を表す文末助詞（〜しよう、〜でしょう）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 54,
+    "hsk_level": 2,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 54,
+    "hsk_level": 2,
+    "pattern": "还",
+    "note": "「まだ、さらに」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 55,
+    "hsk_level": 2,
+    "pattern": "还",
+    "note": "「まだ、さらに」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 55,
+    "hsk_level": 2,
+    "pattern": "没",
+    "note": "「〜していない、〜がない」を表す否定の副詞（過去・完了・所有の否定）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 55,
+    "hsk_level": 2,
+    "pattern": "会",
+    "note": "「〜するだろう」「（習得して）〜できる」という可能性・技能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 55,
+    "hsk_level": 2,
+    "pattern": "吧",
+    "note": "提案・推量・軽い命令を表す文末助詞（〜しよう、〜でしょう）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 56,
+    "hsk_level": 2,
+    "pattern": "还是",
+    "note": "「それとも」（疑問文の選択）、または「やはり」を表す。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 56,
+    "hsk_level": 2,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 56,
+    "hsk_level": 2,
+    "pattern": "从",
+    "note": "「〜から」を表す起点の介詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 56,
+    "hsk_level": 2,
+    "pattern": "到",
+    "note": "「〜まで、〜に着く」を表す介詞・動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 57,
+    "hsk_level": 2,
+    "pattern": "把",
+    "note": "目的語を動詞の前に出し「〜を…する」という処置を表す構文を作る介詞（把構文）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 57,
+    "hsk_level": 2,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 57,
+    "hsk_level": 2,
+    "pattern": "还",
+    "note": "「まだ、さらに」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 58,
+    "hsk_level": 2,
+    "pattern": "吧",
+    "note": "提案・推量・軽い命令を表す文末助詞（〜しよう、〜でしょう）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 58,
+    "hsk_level": 2,
+    "pattern": "还是",
+    "note": "「それとも」（疑問文の選択）、または「やはり」を表す。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 58,
+    "hsk_level": 2,
+    "pattern": "就",
+    "note": "「すぐに、まさに」など、条件の帰結や強調を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 58,
+    "hsk_level": 2,
+    "pattern": "一些",
+    "note": "「いくつかの、少しの」を表す数量表現。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 59,
+    "hsk_level": 3,
+    "pattern": "越来越",
+    "note": "「ますます〜になる」を表す表現。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 59,
+    "hsk_level": 3,
+    "pattern": "因为",
+    "note": "「なぜなら、〜なので」と原因を表す接続詞。「因为…所以…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 59,
+    "hsk_level": 3,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 59,
+    "hsk_level": 3,
+    "pattern": "就",
+    "note": "「すぐに、まさに」など、条件の帰結や強調を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 59,
+    "hsk_level": 3,
+    "pattern": "别",
+    "note": "「〜するな」と禁止を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 60,
+    "hsk_level": 3,
+    "pattern": "为什么",
+    "note": "「なぜ」と理由を尋ねる疑問詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 60,
+    "hsk_level": 3,
+    "pattern": "因为",
+    "note": "「なぜなら、〜なので」と原因を表す接続詞。「因为…所以…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 60,
+    "hsk_level": 3,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 60,
+    "hsk_level": 3,
+    "pattern": "会",
+    "note": "「〜するだろう」「（習得して）〜できる」という可能性・技能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 61,
+    "hsk_level": 3,
+    "pattern": "已经",
+    "note": "「すでに」を表す副詞。多くの場合、文末の「了」とセットで使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 61,
+    "hsk_level": 3,
+    "pattern": "还",
+    "note": "「まだ、さらに」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 61,
+    "hsk_level": 3,
+    "pattern": "如果",
+    "note": "「もし〜なら」仮定を表す接続詞。「如果…就…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 61,
+    "hsk_level": 3,
+    "pattern": "不过",
+    "note": "「ただし、でも」を表す軽い転換の接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 61,
+    "hsk_level": 3,
+    "pattern": "会",
+    "note": "「〜するだろう」「（習得して）〜できる」という可能性・技能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 62,
+    "hsk_level": 3,
+    "pattern": "但是",
+    "note": "「しかし」を表す接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 62,
+    "hsk_level": 3,
+    "pattern": "如果",
+    "note": "「もし〜なら」仮定を表す接続詞。「如果…就…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 62,
+    "hsk_level": 3,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 62,
+    "hsk_level": 3,
+    "pattern": "应该",
+    "note": "「〜すべきだ」という当然・義務を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 63,
+    "hsk_level": 3,
+    "pattern": "但是",
+    "note": "「しかし」を表す接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 63,
+    "hsk_level": 3,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 63,
+    "hsk_level": 3,
+    "pattern": "而且",
+    "note": "「その上、しかも」を表す接続詞。「不但…而且…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 63,
+    "hsk_level": 3,
+    "pattern": "会",
+    "note": "「〜するだろう」「（習得して）〜できる」という可能性・技能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 64,
+    "hsk_level": 4,
+    "pattern": "虽然",
+    "note": "「〜ではあるが」を表す接続詞。「虽然…但是…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 64,
+    "hsk_level": 4,
+    "pattern": "但是",
+    "note": "「しかし」を表す接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 64,
+    "hsk_level": 4,
+    "pattern": "除了",
+    "note": "「〜を除いて、〜のほかに」を表す介詞。「除了…以外…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 64,
+    "hsk_level": 4,
+    "pattern": "以外",
+    "note": "「〜以外」を表す語。「除了…以外」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 64,
+    "hsk_level": 4,
+    "pattern": "与其",
+    "note": "「〜するくらいなら」を表す接続詞。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 64,
+    "hsk_level": 4,
+    "pattern": "不如",
+    "note": "「〜する方がよい」を表す語。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 64,
+    "hsk_level": 4,
+    "pattern": "只有",
+    "note": "「〜だけ、〜してはじめて」を表す語。「只有…才…」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 64,
+    "hsk_level": 4,
+    "pattern": "才",
+    "note": "「やっと、〜してはじめて」を表す副詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 65,
+    "hsk_level": 4,
+    "pattern": "不过",
+    "note": "「ただし、でも」を表す軽い転換の接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 65,
+    "hsk_level": 4,
+    "pattern": "应该",
+    "note": "「〜すべきだ」という当然・義務を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 65,
+    "hsk_level": 4,
+    "pattern": "与其",
+    "note": "「〜するくらいなら」を表す接続詞。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 65,
+    "hsk_level": 4,
+    "pattern": "不如",
+    "note": "「〜する方がよい」を表す語。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 65,
+    "hsk_level": 4,
+    "pattern": "只要",
+    "note": "「〜さえすれば」を表す接続詞。「只要…就…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 65,
+    "hsk_level": 4,
+    "pattern": "会",
+    "note": "「〜するだろう」「（習得して）〜できる」という可能性・技能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 66,
+    "hsk_level": 4,
+    "pattern": "但",
+    "note": "「しかし」を表す接続詞（「但是」のやや書き言葉的な形）。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 66,
+    "hsk_level": 4,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 66,
+    "hsk_level": 4,
+    "pattern": "应该",
+    "note": "「〜すべきだ」という当然・義務を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 67,
+    "hsk_level": 4,
+    "pattern": "越",
+    "note": "「〜すればするほど」を表す語。「越…越…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 67,
+    "hsk_level": 4,
+    "pattern": "可是",
+    "note": "「しかし」を表す口語的な接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 67,
+    "hsk_level": 4,
+    "pattern": "应该",
+    "note": "「〜すべきだ」という当然・義務を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 67,
+    "hsk_level": 4,
+    "pattern": "除了",
+    "note": "「〜を除いて、〜のほかに」を表す介詞。「除了…以外…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 67,
+    "hsk_level": 4,
+    "pattern": "以外",
+    "note": "「〜以外」を表す語。「除了…以外」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 67,
+    "hsk_level": 4,
+    "pattern": "可以",
+    "note": "「〜してもよい、〜できる」という許可・可能を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 68,
+    "hsk_level": 4,
+    "pattern": "越来越",
+    "note": "「ますます〜になる」を表す表現。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 68,
+    "hsk_level": 4,
+    "pattern": "不过",
+    "note": "「ただし、でも」を表す軽い転換の接続詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 68,
+    "hsk_level": 4,
+    "pattern": "应该",
+    "note": "「〜すべきだ」という当然・義務を表す助動詞。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 68,
+    "hsk_level": 4,
+    "pattern": "除了",
+    "note": "「〜を除いて、〜のほかに」を表す介詞。「除了…以外…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 68,
+    "hsk_level": 4,
+    "pattern": "以外",
+    "note": "「〜以外」を表す語。「除了…以外」の形でよく使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 68,
+    "hsk_level": 4,
+    "pattern": "与其",
+    "note": "「〜するくらいなら」を表す接続詞。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 68,
+    "hsk_level": 4,
+    "pattern": "不如",
+    "note": "「〜する方がよい」を表す語。「与其…不如…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  },
+  {
+    "conversation_source_id": 68,
+    "hsk_level": 4,
+    "pattern": "只要",
+    "note": "「〜さえすれば」を表す接続詞。「只要…就…」の形で使う。",
+    "source_site": "HSKspeaking_practice"
+  }
+]

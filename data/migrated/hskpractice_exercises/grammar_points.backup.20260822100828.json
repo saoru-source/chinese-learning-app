@@ -1,0 +1,422 @@
+[
+  {
+    "hsk_level": 1,
+    "label": "叫（名前の言い方）",
+    "explanation": "「叫」は「〜という名前です」と名乗るときに使う動詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "是／也／都／是吧",
+    "explanation": "「也」は「〜も」という意味で、前の内容と同じであることを表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "几／了（変化）／多大",
+    "explanation": "文末の「了」は状態の変化を表し、「多大」は年齢を尋ねる言い方です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "会／怎么",
+    "explanation": "「怎么＋動詞」で「どのように〜するか」という方法を尋ねます。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "曜日・日付／去+場所+做什么",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "想／多少／个",
+    "explanation": "「想＋動詞」は「〜したい」、「个」はものを数える基本の量詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "在／有／呢",
+    "explanation": "「在」は存在（〜にいる）を表し、「呢」は軽い確認・強調のニュアンスを添えます。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "和／能／请",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "～点～分／前／什么时候",
+    "explanation": "「什么时候」は「いつ」と時を尋ねる疑問詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "怎么样／太～了／会（可能性）",
+    "explanation": "文末の「了」は状態の変化を表し、「多大」は年齢を尋ねる言い方です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "在～呢／喜欢做～／喂／吧",
+    "explanation": "「在」は存在（〜にいる）を表し、「呢」は軽い確認・強調のニュアンスを添えます。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "可以／了／一点儿＋名詞／～后",
+    "explanation": "「可以」は「〜してよい」という許可を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 1,
+    "label": "是～的／这些那些／听～说／○○年",
+    "explanation": "「也」は「〜も」という意味で、前の内容と同じであることを表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "要／觉得／最／几と多",
+    "explanation": "「觉得」は「〜と思う」という主観的な意見、「最」は「最も」を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "是不是／每／多",
+    "explanation": "「是不是」は確認を求める疑問文の形、「每」は「毎〜」という意味です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "的（名詞化）／一下／真",
+    "explanation": "「〜的时候」は「〜のとき」、「给＋人」は「〜に（対して）」を表す前置詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "给／帮／～的时候／已经",
+    "explanation": "「〜的时候」は「〜のとき」、「给＋人」は「〜に（対して）」を表す前置詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "就／对～／还／有点儿",
+    "explanation": "「有点儿＋形容詞」は「少し〜」とやや好ましくないニュアンスを添えます。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "怎么と为什么／什么意思／因为～所以～",
+    "explanation": "「因为〜所以〜」は「〜なので〜だ」という因果関係を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "还（継続）／時間＋就／离",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "……好吗／再／让请叫（使役）",
+    "explanation": "「让＋人＋動詞」は「（人）に〜させる／〜するよう言う」という使役表現です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "動詞の重ね型／結果補語 懂好完见错／从～",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "需要／不要不用别",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "比較構文(1) 比",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "可能／得（様態補語）／比較構文(2)",
+    "explanation": "「動詞＋得＋形容詞」で動作の様子・程度を表す様態補語です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "～着／不是～吗／往",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "～过／虽然～但是～",
+    "explanation": "「動詞＋过」は経験（〜したことがある）、「虽然〜但是〜」は逆接を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 2,
+    "label": "要～了／都～了",
+    "explanation": "「要〜了」は「もうすぐ〜する」と近い未来を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "一点都～／打算～",
+    "explanation": "「打算」は「〜するつもりだ」と予定・計画を表す動詞です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "補語 来去／就（連続動作）",
+    "explanation": "「只要A就B」は「Aさえすれば、Bだ」という必要十分条件を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "还是と或者／又～又～／越来越～",
+    "explanation": "「越来越＋形容詞」は「だんだん〜になる」という変化を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "可能補語 得／刚才／刚刚",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "継続時間の表現／疑問詞+就+疑問詞",
+    "explanation": "動詞の後に期間（两年）を置いて、動作の継続時間を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "越A越B／A跟B一样",
+    "explanation": "「越A越B」は「AすればするほどBだ」という比例関係を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "比較 A比B多一些／才と就",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "把構文",
+    "explanation": "「把＋目的語＋動詞」で、その対象をどう処置するかを強調する構文です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "一边～一边～／除了～以外～",
+    "explanation": "「一边A一边B」は「Aしながら（同時に）Bする」という動作の並行を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "如果～的话／原因の得",
+    "explanation": "「如果〜的话，就〜」は「もし〜なら、〜だ」という仮定を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "只要～就～／只有～才～",
+    "explanation": "「只要A就B」は「Aさえすれば、Bだ」という必要十分条件を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 3,
+    "label": "受身形 被叫给让",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "不仅～也～／从来",
+    "explanation": "「不仅A也B」は「AだけでなくBも」という累加の関係を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "应该／得(děi)",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "就是",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "只是～而已／即使～也",
+    "explanation": "「只是〜而已」は「ただ〜にすぎない」と程度を控えめに限定します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "在～上",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "正好／差不多",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "～不了／无法",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "尽管／不管",
+    "explanation": "「不管〜都〜」は「〜であろうと、〜だ」と条件に関係なく成立することを表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "却／而",
+    "explanation": "「只是〜而已」は「ただ〜にすぎない」と程度を控えめに限定します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "另外",
+    "explanation": "「另外」は文頭で「それと／別に」と話題を追加するときに使います。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "根据／按照",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "连～也都／甚至",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "并／估计",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "首先～其次／再说",
+    "explanation": "「首先〜其次〜」は物事を順序立てて説明するときの接続表現です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "竟然／果然",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "要是／值得",
+    "explanation": "「要是」は「如果」と同じく「もし〜なら」という仮定を表す口語的な表現です。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "以为／认为",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "既～又也还／可不是／往往",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "由于／因此／难道",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "否则／无论",
+    "explanation": "「无论〜都〜」は「不管」と同様、どんな条件でも結果が変わらないことを表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "同时／并且",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "然而／再～也～",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "以",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "由／既然",
+    "explanation": "「既然〜（那）就〜」は「〜である以上は、〜だ」とすでに確定した前提に基づく結論を表します。",
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "于是／可",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "恐怕／敢",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "到底／叫做",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "为了／在于",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "仍然／究竟",
+    "explanation": null,
+    "source_site": "HSKpractice_exercises"
+  },
+  {
+    "hsk_level": 4,
+    "label": "V着V着／一～就～",
+    "explanation": "「一A就B」は「AするとすぐにBする」という動作の連続を表します。",
+    "source_site": "HSKpractice_exercises"
+  }
+]

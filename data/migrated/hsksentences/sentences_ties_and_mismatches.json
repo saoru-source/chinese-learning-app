@@ -1,0 +1,4319 @@
+{
+  "ties": [
+    {
+      "source_id": 612,
+      "hanzi": "他们又吵又吵架，声音越来越大。",
+      "hsk_level": 3,
+      "candidates": [
+        "还是と或者／又～又～／越来越～",
+        "越A越B／A跟B一样"
+      ]
+    }
+  ],
+  "level_mismatches": [
+    {
+      "source_id": 10,
+      "hanzi": "帮忙拿一下杯子。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 13,
+      "hanzi": "这个比那个贵。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 18,
+      "hanzi": "这个菜比那个差。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 20,
+      "hanzi": "车在车站上。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "在～上",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 23,
+      "hanzi": "他出去了，一会儿出来。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 26,
+      "hanzi": "我从大学来。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 33,
+      "hanzi": "我得到了一个电脑。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "可能補語 得／刚才／刚刚",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 58,
+      "hanzi": "他从国外过来。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 61,
+      "hanzi": "他还是学生，还没工作。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "还是と或者／又～又～／越来越～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 69,
+      "hanzi": "他回家，回来吃饭。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 70,
+      "hanzi": "我回去，回答问题。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 81,
+      "hanzi": "进来，别进去了。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 83,
+      "hanzi": "我就是九岁。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "就是",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 84,
+      "hanzi": "我觉得课文很难。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 86,
+      "hanzi": "别开玩笑了。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 88,
+      "hanzi": "我看到、看见了老师。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 124,
+      "hanzi": "起来吧，前面有车。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 128,
+      "hanzi": "认真学习肉的日期。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 137,
+      "hanzi": "十点是不是上课时候？",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 166,
+      "hanzi": "一块儿去，一下儿就好。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "V着V着／一～就～",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 167,
+      "hanzi": "一些一边走一边看。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "一边～一边～／除了～以外～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 181,
+      "hanzi": "正在中间，正好。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "正好／差不多",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 186,
+      "hanzi": "走路走到最后。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 187,
+      "hanzi": "最好坐下，坐左边。",
+      "sentence_hsk_level": 1,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 189,
+      "hanzi": "啊，这是爱情，也是爱人。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 190,
+      "hanzi": "这里很安静，也很安全。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 203,
+      "hanzi": "不好意思，不久就回来。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 204,
+      "hanzi": "她不满，也不如以前。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 208,
+      "hanzi": "才看菜单，才参观。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "比較 A比B多一些／才と就",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 211,
+      "hanzi": "差不多长，常见常用。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "正好／差不多",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 224,
+      "hanzi": "打算打印文件。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "一点都～／打算～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 231,
+      "hanzi": "但是蛋不但但也当时吃了。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 234,
+      "hanzi": "得出的话得说清楚。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "应该／得(děi)",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 239,
+      "hanzi": "我懂，也懂得动物动物园。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 245,
+      "hanzi": "饭馆方便，也有方便面。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 253,
+      "hanzi": "刚刚刚才高级高中来了。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "可能補語 得／刚才／刚刚",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 260,
+      "hanzi": "观点在广场广告上。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～上",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 261,
+      "hanzi": "国际过来过年了。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 262,
+      "hanzi": "过去过了海边的海。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 267,
+      "hanzi": "红色的花是红的。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 272,
+      "hanzi": "回国的会活动或或者。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "还是と或者／又～又～／越来越～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 280,
+      "hanzi": "加油，你可以的！",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 284,
+      "hanzi": "我见过他，也见到了她。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 287,
+      "hanzi": "把这个交给他。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "把構文",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 288,
+      "hanzi": "我喜欢交朋友。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 296,
+      "hanzi": "接下来，请接着说。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 299,
+      "hanzi": "这个节目是关于节日的。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 300,
+      "hanzi": "考试结果出来了。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 318,
+      "hanzi": "我想去，可是没时间。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "想／多少／个",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 319,
+      "hanzi": "你可以进来。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 345,
+      "hanzi": "旅客们喜欢旅行和旅游。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 346,
+      "hanzi": "树叶是绿色的。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 355,
+      "hanzi": "那会儿他就那么想，也那样做了。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 367,
+      "hanzi": "他喜欢打排球，买票要排队。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 376,
+      "hanzi": "他喜欢骑车。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 381,
+      "hanzi": "青少年也是青年。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 388,
+      "hanzi": "他去银行取钱，取得了成功。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "可能補語 得／刚才／刚刚",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 396,
+      "hanzi": "人们都喜欢这里。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 397,
+      "hanzi": "我认为这样对。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "以为／认为",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 399,
+      "hanzi": "这些日子很忙。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 400,
+      "hanzi": "如果下雨，就不去了。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 404,
+      "hanzi": "少数少年喜欢这个。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 423,
+      "hanzi": "请说明原因。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 425,
+      "hanzi": "他把礼物送给我，快递送到了家。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "把構文",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 427,
+      "hanzi": "你随便坐，随时都可以来。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 430,
+      "hanzi": "猫和狗都很可爱，它们喜欢玩。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 432,
+      "hanzi": "太阳出来了。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "補語 来去／就（連続動作）"
+      ]
+    },
+    {
+      "source_id": 445,
+      "hanzi": "同事们同时到了，想法同样。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "同时／并且",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 448,
+      "hanzi": "请推门进来。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 455,
+      "hanzi": "他上网查网站，也打网球。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 459,
+      "hanzi": "喂，你在哪儿？",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 464,
+      "hanzi": "西方人喜欢吃西餐。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 474,
+      "hanzi": "我突然想到，也想起了他。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 476,
+      "hanzi": "小时候他喜欢看小说。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 484,
+      "hanzi": "手机没有信号，收不到信息。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "可能補語 得／刚才／刚刚",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 486,
+      "hanzi": "行人的行为，就是行动。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "就是",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 487,
+      "hanzi": "请问您姓什么？姓名是？",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 497,
+      "hanzi": "他去药店买药片和药水。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "曜日・日付／去+場所+做什么",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 498,
+      "hanzi": "他也许会来。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 501,
+      "hanzi": "一共多少钱？",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "想／多少／个",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 504,
+      "hanzi": "这个数字在十以上。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～上",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 506,
+      "hanzi": "我以为他不来了。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "以为／认为",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 508,
+      "hanzi": "请坐这把椅子。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 517,
+      "hanzi": "他喜欢音乐，晚上有音乐会。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 519,
+      "hanzi": "你应该早点睡。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "应该／得(děi)",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 533,
+      "hanzi": "这个月份，月亮越来越亮。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "还是と或者／又～又～／越来越～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": [
+        "越A越B／A跟B一样"
+      ]
+    },
+    {
+      "source_id": 534,
+      "hanzi": "咱们一起去吧。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 536,
+      "hanzi": "早晨我吃早餐，早就吃完了。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 546,
+      "hanzi": "他的回答正确，正好也正常，正是我想要的。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "正好／差不多",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 549,
+      "hanzi": "他喜欢吃中餐。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 556,
+      "hanzi": "他因为生病住院，也在找住房。",
+      "sentence_hsk_level": 2,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 570,
+      "hanzi": "请按照说明安装，然后按一下开关。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "根据／按照",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 575,
+      "hanzi": "在这里可以办理银行手续。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 579,
+      "hanzi": "他保证会保存好这些资料。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 586,
+      "hanzi": "他往北部走去。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "～着／不是～吗／往",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 590,
+      "hanzi": "这场比赛，胜利的比例比较高。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 591,
+      "hanzi": "这是必然的结果，也是必要的。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 592,
+      "hanzi": "情况发生了变化，好事变为了坏事。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "为了／在于",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 597,
+      "hanzi": "这个方法简单并且有效。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "同时／并且",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 598,
+      "hanzi": "他并不知道这件事。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "并／估计",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 599,
+      "hanzi": "这个节目播出后，电视台反复播放。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 607,
+      "hanzi": "这张彩色照片是他曾经拍的。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 610,
+      "hanzi": "工厂不是谈这个的场合，也不是合适的场所。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 613,
+      "hanzi": "他穿着一件白衬衫，衬衣很干净。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "～着／不是～吗／往",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 616,
+      "hanzi": "每个成员都在不断成长。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 622,
+      "hanzi": "除了处理这些文件，他还要开会。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 626,
+      "hanzi": "他从前从事教育工作，从来没有后悔过。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "不仅～也～／从来",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 638,
+      "hanzi": "这些人当中，有一个是我朋友。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 639,
+      "hanzi": "导演到底到达了没有？",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "到底／叫做",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 643,
+      "hanzi": "这部电视剧是电视台拍的。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 644,
+      "hanzi": "他喜欢听电台节目。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 648,
+      "hanzi": "这个话题是关于现代化和话剧的。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 656,
+      "hanzi": "这个消息太及时了，集体反应好极了。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 657,
+      "hanzi": "请集中精力计算这道题。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 660,
+      "hanzi": "工厂加快了加工速度，也加强了管理。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 664,
+      "hanzi": "这道题简直太简单了。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 665,
+      "hanzi": "他建议建立一个新公司，建设并建成了它。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "并／估计",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 669,
+      "hanzi": "他们经常交流，交往了很久。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "～着／不是～吗／往",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 671,
+      "hanzi": "教练比较严格，教材也叫他好好学。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 676,
+      "hanzi": "这仅仅是开始，尽量不要放弃。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 678,
+      "hanzi": "他的进步很大，事情也进一步有了进展。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 683,
+      "hanzi": "旧房子着火了，消防员救了大家，这就是英雄。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "就是",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 690,
+      "hanzi": "商店已经开业了，大门开放着。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 691,
+      "hanzi": "活动开始后，工作全面开展。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 697,
+      "hanzi": "他恐怕没有空儿来。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "恐怕／敢",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 704,
+      "hanzi": "他们离婚后，各自住在房子里面。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 706,
+      "hanzi": "团结就是力量，他立刻利用了这股力。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "就是",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 711,
+      "hanzi": "另外，另一方面他也很努力。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "另外",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 712,
+      "hanzi": "他去国外留学，学习舞龙。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "曜日・日付／去+場所+做什么",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 714,
+      "hanzi": "旅行社帮我们安排了路线和旅馆。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 721,
+      "hanzi": "每天都是美好的一天。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 722,
+      "hanzi": "他喜欢美食和美术。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 724,
+      "hanzi": "他是个足球迷，喜欢吃米饭。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 731,
+      "hanzi": "难道这道题的难度不大吗？",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "由于／因此／难道",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 732,
+      "hanzi": "这本书内容丰富，也写出了他的内心。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 733,
+      "hanzi": "他的能力这么强，能不能成功呢？",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 736,
+      "hanzi": "农村的农民从事农业生产。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 737,
+      "hanzi": "这位女子觉得今天很暖和。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 740,
+      "hanzi": "很难判断他是不是胖了。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 741,
+      "hanzi": "他每天跑步，和教练配合得很好。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 746,
+      "hanzi": "手机已经普遍普及了。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 747,
+      "hanzi": "大家都到齐了，活动如期举行。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "要～了／都～了",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 748,
+      "hanzi": "其实这不难，其次要多练习。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "首先～其次／再说",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 751,
+      "hanzi": "队伍继续前进，前往前面的目的地。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "～着／不是～吗／往",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 756,
+      "hanzi": "他向老师请教后，一起庆祝成功。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 762,
+      "hanzi": "一群女孩都穿着裙子。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "～着／不是～吗／往",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 764,
+      "hanzi": "人类需要人才，人工智能服务人民。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 766,
+      "hanzi": "他认出了老朋友，也认得他，大家都认可这份友情。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 767,
+      "hanzi": "任何人都可以担任这个任务。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 768,
+      "hanzi": "这项任务仍然是他的日常工作。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "仍然／究竟",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 769,
+      "hanzi": "如何轻松地散步并不容易。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "并／估计",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 773,
+      "hanzi": "公司设立后，设计并购买了新设备。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "并／估计"
+      ]
+    },
+    {
+      "source_id": 774,
+      "hanzi": "在社会上，身份证很重要。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "在～上",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 780,
+      "hanzi": "他做生意做得不错。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "可能／得（様態補語）／比較構文(2)",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 783,
+      "hanzi": "他因为一块石头而失去了平衡。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "却／而",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 785,
+      "hanzi": "在这个时代，每一个时刻，时间都很宝贵。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 788,
+      "hanzi": "新政策已经开始实行。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 789,
+      "hanzi": "这些食品使他始终感到满意。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 790,
+      "hanzi": "这个世纪最大的世界杯在世界各地都很受关注。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 792,
+      "hanzi": "事实上，这就是事实，他的事业很成功。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "就是",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 794,
+      "hanzi": "这个方法适合大家，也适用并适应新环境。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "并／估计",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 795,
+      "hanzi": "在办公室里，他用收音机收听广播，收看电视不用收费。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 797,
+      "hanzi": "首先我们要去首都。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "首先～其次／再说",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 799,
+      "hanzi": "他向一位熟人请教如何输入密码。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 802,
+      "hanzi": "他的思想很先进，开车速度太快了。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 811,
+      "hanzi": "这条铁路是用铁做的。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 813,
+      "hanzi": "通常情况下，通信不会停止。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "会／怎么",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 814,
+      "hanzi": "他同意了，虽然心里很痛苦，头也很痛。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 819,
+      "hanzi": "他推开门，推动并推进了这项计划的推广。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "并／估计",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 820,
+      "hanzi": "他退休后，退出了公司，往后退了一步。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "～着／不是～吗／往",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 822,
+      "hanzi": "这个计划很完美，制度也很完善很完整。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 823,
+      "hanzi": "小孩往往喜欢玩具。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "既～又也还／可不是／往往",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 825,
+      "hanzi": "为了保护地球，大家围在一起讨论这个伟大的计划。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "为了／在于",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 831,
+      "hanzi": "他希望去西部的大学系里学习。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "曜日・日付／去+場所+做什么",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 834,
+      "hanzi": "这是一个现代社会的现象，现场很多人用现金，现实并不容易。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "并／估计",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 843,
+      "hanzi": "他觉得自己很幸运，也很幸福。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 844,
+      "hanzi": "不管性别，每个人的性格都不同。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "尽管／不管",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 845,
+      "hanzi": "根据需求，他需要修改并修理这个方案。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "根据／按照",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 846,
+      "hanzi": "教练宣布了选手训练的消息，也宣传了减免学费的政策。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 847,
+      "hanzi": "工作压力太大了，他压根儿不想抽烟。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 851,
+      "hanzi": "要是没有衣架，衣服就没地方挂。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "要是／值得",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 853,
+      "hanzi": "一方面他喜欢艺术，意外地也很擅长。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 854,
+      "hanzi": "这件事很有意义，因此他坚持做。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "由于／因此／难道",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 860,
+      "hanzi": "由于下雨，比赛由他来决定是否继续。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "由于／因此／难道",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 863,
+      "hanzi": "这个方法有的是好处，既有利又有效。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "既～又也还／可不是／往往",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 868,
+      "hanzi": "他造成了这个问题，应该负责任。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "应该／得(děi)",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 871,
+      "hanzi": "记者报道的是真实的事，大家为此争论。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 876,
+      "hanzi": "警察需要证件和证据。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 879,
+      "hanzi": "这份职业很有价值，职工都觉得值得。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": [
+        "要是／值得"
+      ]
+    },
+    {
+      "source_id": 891,
+      "hanzi": "请注意安全，祝你顺利。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 894,
+      "hanzi": "他的想法转变了，一下子转了个方向。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 898,
+      "hanzi": "自从有了子女，他的生活变了。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 908,
+      "hanzi": "队员们认真对待对方和对手。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 912,
+      "hanzi": "他发送了邮件表示反对，反正结果不会变。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "会／怎么",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 913,
+      "hanzi": "在这个范围内，用这种方式可以防止危险。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 914,
+      "hanzi": "房东说房屋的房租每月都要交。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 919,
+      "hanzi": "父母和父亲都喜欢这套服装。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 923,
+      "hanzi": "他不敢说出自己的感情和感受。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "恐怕／敢",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 925,
+      "hanzi": "歌手告别舞台时，歌迷听着他的歌声哭了。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "～着／不是～吗／往",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 926,
+      "hanzi": "各位好，每个人都有各种各样的个性。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 928,
+      "hanzi": "这位工程师花了不少工夫使用工具，从事工业工作，工资不低。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 930,
+      "hanzi": "他做完功课后练功夫，手机的功能很多。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 937,
+      "hanzi": "他果然喜欢喝果汁。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "竟然／果然",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 940,
+      "hanzi": "小孩既害怕又好奇。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "既～又也还／可不是／往往",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 941,
+      "hanzi": "这个方法既合法又合理，也合格了。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "既～又也还／可不是／往往",
+      "matched_grammar_point_level": 4,
+      "other_candidates": []
+    },
+    {
+      "source_id": 946,
+      "hanzi": "这些华人喜欢周末去划船。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "是～的／这些那些／听～说／○○年"
+      ]
+    },
+    {
+      "source_id": 948,
+      "hanzi": "他随时可以用这种形式解决问题。",
+      "sentence_hsk_level": 3,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 952,
+      "hanzi": "坐飞机前需要安检。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 954,
+      "hanzi": "请按这个按钮。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 957,
+      "hanzi": "中国人过年喜欢喝白酒。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 961,
+      "hanzi": "你做得真棒！",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可能／得（様態補語）／比較構文(2)",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 963,
+      "hanzi": "我保证不会迟到。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "会／怎么",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 965,
+      "hanzi": "他打算报考北京大学。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "一点都～／打算～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 966,
+      "hanzi": "我已经报名了汉语比赛。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 973,
+      "hanzi": "我本来想去，可是太忙了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 974,
+      "hanzi": "这道题我不笨，只是没学过。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "～过／虽然～但是～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 982,
+      "hanzi": "请填写这张表格。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 989,
+      "hanzi": "请播放下一首歌。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 996,
+      "hanzi": "不论遇到什么困难，都不要放弃。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 997,
+      "hanzi": "请往前走几步。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "～着／不是～吗／往"
+      ]
+    },
+    {
+      "source_id": 1007,
+      "hanzi": "请把桌子擦干净。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1009,
+      "hanzi": "请准备好申请材料。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1014,
+      "hanzi": "请问厕所在哪儿？",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1017,
+      "hanzi": "你可以在网上查找资料。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1023,
+      "hanzi": "在学校附近要降低车速。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在／有／呢",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1026,
+      "hanzi": "他每天乘地铁上班。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1031,
+      "hanzi": "请乘坐电梯到三楼。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1035,
+      "hanzi": "系统出错了，请重新输入。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1043,
+      "hanzi": "请打开窗，让空气流通。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1046,
+      "hanzi": "请用这个词语造一个句子。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1049,
+      "hanzi": "此外，还有一个问题需要讨论。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1050,
+      "hanzi": "从此以后，他再也没有迟到。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1052,
+      "hanzi": "我们可以从中学到很多。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "動詞の重ね型／結果補語 懂好完见错／从～"
+      ]
+    },
+    {
+      "source_id": 1053,
+      "hanzi": "这根绳子太粗了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1054,
+      "hanzi": "考试时不要太粗心。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1056,
+      "hanzi": "你可以把行李存在这里。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "把構文",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1057,
+      "hanzi": "别错过这次好机会。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1058,
+      "hanzi": "每个人都会犯错误。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1060,
+      "hanzi": "他很快就答出了这道题。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1065,
+      "hanzi": "很多大学生利用暑假打工。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "几／了（変化）／多大",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1066,
+      "hanzi": "不好意思，打扰一下。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1067,
+      "hanzi": "请帮我打印这份文件。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1073,
+      "hanzi": "大夫说我需要多休息。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1076,
+      "hanzi": "请在大厅等候。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1077,
+      "hanzi": "从这里到学校大约十分钟。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1079,
+      "hanzi": "他在家里待了一整天。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在／有／呢",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1080,
+      "hanzi": "今天太冷了，记得戴帽子。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1081,
+      "hanzi": "请把东西放进袋子里。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1084,
+      "hanzi": "当时我还是个学生。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "还是と或者／又～又～／越来越～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1087,
+      "hanzi": "他把杯子里的水倒掉了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "把構文",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1095,
+      "hanzi": "请买些水果等食品。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1104,
+      "hanzi": "请告诉我你的收货地址。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1118,
+      "hanzi": "我们打算去海边度假。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "一点都～／打算～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1125,
+      "hanzi": "每个队员都很努力。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1126,
+      "hanzi": "他被选为队长。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "受身形 被叫给让",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1134,
+      "hanzi": "请把文件发送给我。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "把構文",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1136,
+      "hanzi": "每个公民都要遵守法律。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1138,
+      "hanzi": "这道题太烦了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1139,
+      "hanzi": "每个人都有自己的烦恼。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1142,
+      "hanzi": "每个人都有不同的生活方式。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1145,
+      "hanzi": "遇到困难不要轻易放弃。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1146,
+      "hanzi": "周末我喜欢放松一下。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "的（名詞化）／一下／真"
+      ]
+    },
+    {
+      "source_id": 1148,
+      "hanzi": "留学的费用越来越高。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "还是と或者／又～又～／越来越～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": [
+        "越A越B／A跟B一样"
+      ]
+    },
+    {
+      "source_id": 1151,
+      "hanzi": "请给我一份菜单。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1153,
+      "hanzi": "这里的风景太美了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1157,
+      "hanzi": "你可以用手机付钱。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1161,
+      "hanzi": "请帮我复印两份这个文件。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1162,
+      "hanzi": "这个问题比较复杂。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1166,
+      "hanzi": "请你把这个错误改过来。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1168,
+      "hanzi": "衣服已经干了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1176,
+      "hanzi": "赶快出发，不然要迟到了！",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要～了／都～了",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1179,
+      "hanzi": "他跑得快，终于赶上了公交车。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可能／得（様態補語）／比較構文(2)",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1181,
+      "hanzi": "感谢大家的帮助。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1182,
+      "hanzi": "爷爷虽然年纪大了，还是喜欢干活儿。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "还是と或者／又～又～／越来越～"
+      ]
+    },
+    {
+      "source_id": 1183,
+      "hanzi": "她从小就学钢琴。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1185,
+      "hanzi": "高考是中国最重要的考试之一。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1193,
+      "hanzi": "全国各地的人都来了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要～了／都～了",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1195,
+      "hanzi": "各位同学好，请坐。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1200,
+      "hanzi": "请爱护公共设施。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1201,
+      "hanzi": "做完功课再去玩儿。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1205,
+      "hanzi": "他每个月的工资不低。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1208,
+      "hanzi": "这些钱够买一本书。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1209,
+      "hanzi": "你可以在网上购买机票。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1210,
+      "hanzi": "她喜欢在周末购物。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1215,
+      "hanzi": "他不是故意的，请原谅他。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1216,
+      "hanzi": "把外套挂在衣架上吧。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "把構文",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1218,
+      "hanzi": "我们一起观看了足球比赛。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1222,
+      "hanzi": "阳光从窗户照进来了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1224,
+      "hanzi": "电视上的广告太多了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1227,
+      "hanzi": "请填写你的国籍。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1229,
+      "hanzi": "我想喝一杯橙果汁。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "想／多少／个",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1233,
+      "hanzi": "寒假你打算做什么？",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "一点都～／打算～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1240,
+      "hanzi": "这个笑话真好笑。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1243,
+      "hanzi": "过年的时候大人给小孩发红包。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1249,
+      "hanzi": "同学之间要互相帮助。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1251,
+      "hanzi": "我怀疑这件事不是真的。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1255,
+      "hanzi": "请尽快回复这封邮件。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1256,
+      "hanzi": "他还没有回信给我。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "还（継続）／時間＋就／离",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1259,
+      "hanzi": "这条鱼还是活的。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1264,
+      "hanzi": "她获得了比赛的金牌。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1266,
+      "hanzi": "通过学习可以获取更多知识。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1267,
+      "hanzi": "他已经掌握了基本的语法。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1269,
+      "hanzi": "学好基础很重要。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1272,
+      "hanzi": "学习语言需要慢慢积累。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1280,
+      "hanzi": "请继续往前走。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "～着／不是～吗／往"
+      ]
+    },
+    {
+      "source_id": 1282,
+      "hanzi": "他最近经常加班。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1284,
+      "hanzi": "请加快速度。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1287,
+      "hanzi": "他会说英语，加上中文也不错。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1293,
+      "hanzi": "这个包是假的。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1298,
+      "hanzi": "运动可以减轻压力。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1300,
+      "hanzi": "他每天早上去健身。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1303,
+      "hanzi": "长江是中国最长的江。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1305,
+      "hanzi": "将来你想做什么工作？",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "想／多少／个",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1307,
+      "hanzi": "他得了一个大奖。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可能補語 得／刚才／刚刚",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1329,
+      "hanzi": "请接着说下去。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1330,
+      "hanzi": "比赛的结果出来了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1333,
+      "hanzi": "服务员，请结账。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1334,
+      "hanzi": "请你解释一下这个词的意思。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "的（名詞化）／一下／真"
+      ]
+    },
+    {
+      "source_id": 1338,
+      "hanzi": "他仅仅学了三个月就通过了考试。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1340,
+      "hanzi": "请刷卡进入大楼。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1348,
+      "hanzi": "警察帮我找到了丢失的包。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1349,
+      "hanzi": "故宫是北京最著名的景点。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1350,
+      "hanzi": "这个景区的门票多少钱？",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "想／多少／个",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1354,
+      "hanzi": "她每天早上都照镜子。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1357,
+      "hanzi": "请举手回答问题。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1358,
+      "hanzi": "这座城市将举办马拉松比赛。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1361,
+      "hanzi": "老同学好不容易聚在一起。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1365,
+      "hanzi": "从这里到机场距离不远。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "还（継続）／時間＋就／离",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1366,
+      "hanzi": "今晚我们去剧院看演出。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "曜日・日付／去+場所+做什么",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1367,
+      "hanzi": "他喜欢跟朋友开玩笑。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1370,
+      "hanzi": "我需要再考虑一下。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": [
+        "需要／不要不用别"
+      ]
+    },
+    {
+      "source_id": 1371,
+      "hanzi": "考生们正在认真答题。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1376,
+      "hanzi": "他咳嗽了好几天了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "継続時間の表現／疑問詞+就+疑問詞",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1377,
+      "hanzi": "比赛输了，真可惜。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1380,
+      "hanzi": "不用客气，请坐。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "需要／不要不用别"
+      ]
+    },
+    {
+      "source_id": 1381,
+      "hanzi": "课堂上要认真听讲。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1382,
+      "hanzi": "请到客厅坐吧。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1383,
+      "hanzi": "我肯定他说的是对的。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1384,
+      "hanzi": "教室里空空的，一个人也没有。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是／也／都／是吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1388,
+      "hanzi": "这杯咖啡太苦了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1394,
+      "hanzi": "别拉我的衣服。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1395,
+      "hanzi": "请把垃圾扔进垃圾桶。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1396,
+      "hanzi": "四川菜又辣又好吃。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "还是と或者／又～又～／越来越～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1398,
+      "hanzi": "别着急，还来得及。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1399,
+      "hanzi": "他太懒了，什么也不想做。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1400,
+      "hanzi": "不要浪费粮食。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1403,
+      "hanzi": "他每年过年都回老家。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1410,
+      "hanzi": "他的理想是当一名科学家。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "想／多少／个",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1411,
+      "hanzi": "她的英语说得很厉害。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可能／得（様態補語）／比較構文(2)",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1412,
+      "hanzi": "搬这个箱子需要很大力气。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1414,
+      "hanzi": "请你举一个例子。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1419,
+      "hanzi": "护士帮我量了体温。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1423,
+      "hanzi": "今天最低温度零下十度。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1424,
+      "hanzi": "妈妈每周给我零花钱。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1427,
+      "hanzi": "这个不合适，请换另一个。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1430,
+      "hanzi": "眼泪顺着脸流了下来。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1431,
+      "hanzi": "她说中文说得非常流利。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可能／得（様態補語）／比較構文(2)",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1436,
+      "hanzi": "请旅客们注意安全。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1439,
+      "hanzi": "你的房间太乱了，快收拾。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1441,
+      "hanzi": "不好意思，麻烦你帮个忙。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1442,
+      "hanzi": "北方人喜欢吃馒头。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1444,
+      "hanzi": "洗完脸用毛巾擦一下。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1447,
+      "hanzi": "这首歌唱得真美。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1454,
+      "hanzi": "请输入你的密码。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1455,
+      "hanzi": "这个公园是免费的。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1458,
+      "hanzi": "他只用了十秒就跑完了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1462,
+      "hanzi": "母亲的爱是最伟大的。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1468,
+      "hanzi": "教小朋友需要很大的耐心。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1471,
+      "hanzi": "这件衬衫是男士专用的。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1475,
+      "hanzi": "三天内请给我回复。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1478,
+      "hanzi": "请问能否提前入住？",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1483,
+      "hanzi": "你的年龄看起来比实际小。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": [
+        "補語 来去／就（連続動作）"
+      ]
+    },
+    {
+      "source_id": 1484,
+      "hanzi": "他是在农村长大的。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1485,
+      "hanzi": "别把衣服弄脏了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "把構文",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1486,
+      "hanzi": "越来越多的女性成为企业家。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "还是と或者／又～又～／越来越～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": [
+        "越A越B／A跟B一样"
+      ]
+    },
+    {
+      "source_id": 1487,
+      "hanzi": "今天比昨天暖和多了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1489,
+      "hanzi": "帮我拍一张照片吧。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1500,
+      "hanzi": "面试的时候要穿皮鞋。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1506,
+      "hanzi": "新疆的葡萄特别甜。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1507,
+      "hanzi": "这瓶葡萄酒是法国进口的。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1510,
+      "hanzi": "请说普通话。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1517,
+      "hanzi": "别生气了，开心点。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1519,
+      "hanzi": "你要喝汽水还是果汁？",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "还是と或者／又～又～／越来越～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1522,
+      "hanzi": "千万不要忘记带护照。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1523,
+      "hanzi": "我已经拿到了签证。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1529,
+      "hanzi": "太巧了，我们在机场遇到了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1530,
+      "hanzi": "她最喜欢吃巧克力。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1531,
+      "hanzi": "过年的时候要去拜访亲戚。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1535,
+      "hanzi": "考试结束了，终于可以轻松一下了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1536,
+      "hanzi": "请你介绍一下公司的情况。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "的（名詞化）／一下／真"
+      ]
+    },
+    {
+      "source_id": 1541,
+      "hanzi": "你能告诉我这两个词的区别吗？",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1543,
+      "hanzi": "经过努力，他取得了好成绩。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可能補語 得／刚才／刚刚",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1544,
+      "hanzi": "因为天气原因，航班被取消了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "受身形 被叫给让",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1545,
+      "hanzi": "全班同学都来了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要～了／都～了",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1546,
+      "hanzi": "作业全部做完了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1547,
+      "hanzi": "我们全都准备好了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要～了／都～了",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1551,
+      "hanzi": "每个人都有自己的缺点。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1556,
+      "hanzi": "过年的时候街上特别热闹。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1561,
+      "hanzi": "他很快就完成了任务。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1562,
+      "hanzi": "请不要随便扔垃圾。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "需要／不要不用别"
+      ]
+    },
+    {
+      "source_id": 1566,
+      "hanzi": "她从小就有写日记的习惯。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1567,
+      "hanzi": "请确认一下出发的日期。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "的（名詞化）／一下／真"
+      ]
+    },
+    {
+      "source_id": 1572,
+      "hanzi": "客人下午三点可以入住。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1574,
+      "hanzi": "请扫码支付。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1576,
+      "hanzi": "这件事我们商量一下再决定。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1580,
+      "hanzi": "请稍等一下。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "的（名詞化）／一下／真"
+      ]
+    },
+    {
+      "source_id": 1582,
+      "hanzi": "在北方，荔枝比较少见。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1583,
+      "hanzi": "只需要加少量的盐就可以了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": [
+        "要～了／都～了"
+      ]
+    },
+    {
+      "source_id": 1587,
+      "hanzi": "今天最高温度三十五摄氏度。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1590,
+      "hanzi": "请出示你的身份证。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1591,
+      "hanzi": "他申请了一所美国的大学。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1594,
+      "hanzi": "每一个生命都是珍贵的。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1595,
+      "hanzi": "他的生意做得很好。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可能／得（様態補語）／比較構文(2)",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1599,
+      "hanzi": "出租车师傅，请去火车站。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1605,
+      "hanzi": "请看一下火车时间表。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "的（名詞化）／一下／真"
+      ]
+    },
+    {
+      "source_id": 1609,
+      "hanzi": "请不要浪费食物。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "需要／不要不用别"
+      ]
+    },
+    {
+      "source_id": 1610,
+      "hanzi": "他实在是太累了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1614,
+      "hanzi": "请正确使用这个设备。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1615,
+      "hanzi": "我们去农贸市场买菜。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "曜日・日付／去+場所+做什么",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1616,
+      "hanzi": "请告诉我你是否能参加。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1622,
+      "hanzi": "他很快就适应了新环境。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1625,
+      "hanzi": "出门前请收拾好房间。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1626,
+      "hanzi": "爷爷喜欢每天收听广播。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "是不是／每／多"
+      ]
+    },
+    {
+      "source_id": 1627,
+      "hanzi": "请你唱一首歌吧。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1632,
+      "hanzi": "他在比赛中受伤了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1633,
+      "hanzi": "我们球队昨天输了比赛。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1634,
+      "hanzi": "苹果还没有熟。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "还（継続）／時間＋就／离",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1636,
+      "hanzi": "暑假他打算回国看父母。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "一点都～／打算～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1637,
+      "hanzi": "班上一共有多少数学生？",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "想／多少／个",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1640,
+      "hanzi": "请记住这组数字。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1642,
+      "hanzi": "你去超市的时候，顺便帮我买瓶水。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1646,
+      "hanzi": "请你说明一下原因。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "的（名詞化）／一下／真"
+      ]
+    },
+    {
+      "source_id": 1647,
+      "hanzi": "用之前请先看说明书。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1649,
+      "hanzi": "这棵树已经死了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1650,
+      "hanzi": "请降低行驶速度。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1651,
+      "hanzi": "请少用塑料袋。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1652,
+      "hanzi": "这个柠檬太酸了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1654,
+      "hanzi": "你算一算一共多少钱。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "想／多少／个",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1655,
+      "hanzi": "你随便坐，别客气。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1656,
+      "hanzi": "随着时间的推移，他的中文越来越好。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "还是と或者／又～又～／越来越～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": [
+        "越A越B／A跟B一样"
+      ]
+    },
+    {
+      "source_id": 1657,
+      "hanzi": "爷爷最疼爱他的孙女。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1658,
+      "hanzi": "奶奶带着孙子去公园了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "～着／不是～吗／往",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1659,
+      "hanzi": "他把所有的钱都花了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "把構文",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1661,
+      "hanzi": "请帮我把桌子抬起来。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "補語 来去／就（連続動作）",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1670,
+      "hanzi": "我最讨厌下雨天。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1672,
+      "hanzi": "别忘了提醒我开会的时间。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1676,
+      "hanzi": "请提前十五分钟到达。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1678,
+      "hanzi": "公司每年组织一次体检。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1680,
+      "hanzi": "他最近的体重增加了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1681,
+      "hanzi": "请填写你的个人信息。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1684,
+      "hanzi": "听众被他精彩的演讲深深吸引。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "受身形 被叫给让",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1685,
+      "hanzi": "前面有红灯，请停车。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1688,
+      "hanzi": "雨已经停止了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "给／帮／～的时候／已经",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1695,
+      "hanzi": "请帮我倒一桶水。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1698,
+      "hanzi": "请看课本上的图。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1701,
+      "hanzi": "请不要推别人。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "需要／不要不用别"
+      ]
+    },
+    {
+      "source_id": 1704,
+      "hanzi": "进屋前请脱鞋。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1705,
+      "hanzi": "这双袜子是纯棉的。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1706,
+      "hanzi": "外出时请随身携带手机。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1711,
+      "hanzi": "越来越多的人喜欢网购。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "还是と或者／又～又～／越来越～",
+      "matched_grammar_point_level": 3,
+      "other_candidates": [
+        "越A越B／A跟B一样"
+      ]
+    },
+    {
+      "source_id": 1713,
+      "hanzi": "请打开这个网页。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1716,
+      "hanzi": "在路上开车不要看手机，太危险了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1720,
+      "hanzi": "请保持教室卫生。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1721,
+      "hanzi": "请把空调温度调低一点。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1723,
+      "hanzi": "请把文件发到我邮箱。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "把構文",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1725,
+      "hanzi": "汉字是世界上最古老的文字之一。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1739,
+      "hanzi": "最近房价有所下降。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1740,
+      "hanzi": "这些鱼非常新鲜。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1742,
+      "hanzi": "这道汤太咸了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "怎么样／太～了／会（可能性）",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1745,
+      "hanzi": "你可以通过线上报名。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1748,
+      "hanzi": "这朵花真香。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1753,
+      "hanzi": "请你详细介绍一下这个项目。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "的（名詞化）／一下／真"
+      ]
+    },
+    {
+      "source_id": 1760,
+      "hanzi": "他最喜欢读小说。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1761,
+      "hanzi": "请跟你的小组一起讨论。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1769,
+      "hanzi": "请把这个信息转告给他。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "把構文",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1772,
+      "hanzi": "今晚的星星特别亮。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1773,
+      "hanzi": "他每天早上六点就醒了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1775,
+      "hanzi": "表格上需要填写性别。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1780,
+      "hanzi": "这台电脑需要修一修。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1783,
+      "hanzi": "大学的学费一年多少钱？",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "想／多少／个",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1785,
+      "hanzi": "这些书压在箱子底下。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1788,
+      "hanzi": "中国是亚洲最大的国家。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1790,
+      "hanzi": "做菜别放太多盐。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1794,
+      "hanzi": "这个问题比较严重。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1801,
+      "hanzi": "今天阳光很好，适合出去走走。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": [
+        "補語 来去／就（連続動作）"
+      ]
+    },
+    {
+      "source_id": 1803,
+      "hanzi": "他穿上新衣服后，样子很帅。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1804,
+      "hanzi": "他邀请了同事们参加聚会。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1807,
+      "hanzi": "也许他今天不会来了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "会／怎么",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1811,
+      "hanzi": "一切都准备好了。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要～了／都～了",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1813,
+      "hanzi": "请在三天以内完成。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1815,
+      "hanzi": "他一生都在从事教育事业。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1816,
+      "hanzi": "他对艺术非常感兴趣。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "就／对～／还／有点儿",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1820,
+      "hanzi": "最后我们赢了这场比赛。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "比較構文(1) 比",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1821,
+      "hanzi": "他赢得了大家的尊重。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可能補語 得／刚才／刚刚",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1825,
+      "hanzi": "这个工具是用来修理机器的。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1827,
+      "hanzi": "他最大的优点是认真负责。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": [
+        "的（名詞化）／一下／真"
+      ]
+    },
+    {
+      "source_id": 1832,
+      "hanzi": "他喜欢运动，尤其是游泳。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1833,
+      "hanzi": "周末我们去公园游玩。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "曜日・日付／去+場所+做什么",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1846,
+      "hanzi": "原来你也在这儿啊！",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在／有／呢",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1847,
+      "hanzi": "请你原谅我的错误。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1864,
+      "hanzi": "早餐我喜欢吃鸡蛋和面包。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1865,
+      "hanzi": "早晨的空气特别好。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1866,
+      "hanzi": "保护环境是每个人的责任。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1872,
+      "hanzi": "读者可以在网上评论。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1873,
+      "hanzi": "他是一个真正的好人。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1877,
+      "hanzi": "请出示你的工作证。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1880,
+      "hanzi": "请随身携带证件。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1882,
+      "hanzi": "这个答案是正确的。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是～的／这些那些／听～说／○○年",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1884,
+      "hanzi": "这是最好的方法之一。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1886,
+      "hanzi": "你可以用微信支付。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1889,
+      "hanzi": "出发之前要检查一下行李。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "的（名詞化）／一下／真",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1890,
+      "hanzi": "学习知识可以改变命运。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1894,
+      "hanzi": "你可以直接告诉我。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可以／了／一点儿＋名詞／～后",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1895,
+      "hanzi": "她喜欢养各种植物。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在～呢／喜欢做～／喂／吧",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1900,
+      "hanzi": "请给我一张纸巾。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1902,
+      "hanzi": "这次旅行至少需要五天。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1916,
+      "hanzi": "请把这条消息转发给大家。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "把構文",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1917,
+      "hanzi": "我们需要在香港转机。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "需要／不要不用别",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1918,
+      "hanzi": "他每个月赚的钱不少。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1919,
+      "hanzi": "她把衣服装进了行李箱。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "把構文",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1921,
+      "hanzi": "请你准确回答这个问题。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1922,
+      "hanzi": "开会请准时到达。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1923,
+      "hanzi": "请把相关资料发给我。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "把構文",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1930,
+      "hanzi": "请总结一下今天的会议内容。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": [
+        "的（名詞化）／一下／真"
+      ]
+    },
+    {
+      "source_id": 1931,
+      "hanzi": "他在学校附近租了一间房子。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "在／有／呢",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1933,
+      "hanzi": "他最终决定留在北京。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "要／觉得／最／几と多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1934,
+      "hanzi": "我们要尊重每个人的想法。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "是不是／每／多",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1935,
+      "hanzi": "从这里到火车站大约三十分钟左右。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "動詞の重ね型／結果補語 懂好完见错／从～",
+      "matched_grammar_point_level": 2,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1940,
+      "hanzi": "这幅作品获得了一等奖。",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "可能補語 得／刚才／刚刚",
+      "matched_grammar_point_level": 3,
+      "other_candidates": []
+    },
+    {
+      "source_id": 1942,
+      "hanzi": "请问还有空座位吗？",
+      "sentence_hsk_level": 4,
+      "matched_grammar_point": "和／能／请",
+      "matched_grammar_point_level": 1,
+      "other_candidates": []
+    }
+  ]
+}

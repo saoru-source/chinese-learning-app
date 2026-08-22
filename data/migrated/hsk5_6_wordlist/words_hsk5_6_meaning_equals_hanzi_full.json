@@ -1,0 +1,1988 @@
+[
+  {
+    "level": 5,
+    "no": "2",
+    "hanzi": "岸",
+    "pinyin": "àn"
+  },
+  {
+    "level": 5,
+    "no": "6",
+    "hanzi": "白酒",
+    "pinyin": "bái jiǔ"
+  },
+  {
+    "level": 5,
+    "no": "8",
+    "hanzi": "版",
+    "pinyin": "bǎn"
+  },
+  {
+    "level": 5,
+    "no": "10",
+    "hanzi": "棒",
+    "pinyin": "bàng"
+  },
+  {
+    "level": 5,
+    "no": "12",
+    "hanzi": "包装",
+    "pinyin": "bāozhuāng"
+  },
+  {
+    "level": 5,
+    "no": "24",
+    "hanzi": "本人",
+    "pinyin": "běnrén"
+  },
+  {
+    "level": 5,
+    "no": "27",
+    "hanzi": "比重",
+    "pinyin": "bǐzhòng"
+  },
+  {
+    "level": 5,
+    "no": "38",
+    "hanzi": "便利",
+    "pinyin": "biànlì"
+  },
+  {
+    "level": 5,
+    "no": "48",
+    "hanzi": "博士",
+    "pinyin": "bóshì"
+  },
+  {
+    "level": 5,
+    "no": "52",
+    "hanzi": "不利",
+    "pinyin": "bú lì"
+  },
+  {
+    "level": 5,
+    "no": "54",
+    "hanzi": "不幸",
+    "pinyin": "bú xìng"
+  },
+  {
+    "level": 5,
+    "no": "61",
+    "hanzi": "不良",
+    "pinyin": "bù liáng"
+  },
+  {
+    "level": 5,
+    "no": "68",
+    "hanzi": "不足",
+    "pinyin": "bùzú"
+  },
+  {
+    "level": 5,
+    "no": "69",
+    "hanzi": "部位",
+    "pinyin": "bùwèi"
+  },
+  {
+    "level": 5,
+    "no": "78",
+    "hanzi": "草原",
+    "pinyin": "cǎo yuán"
+  },
+  {
+    "level": 5,
+    "no": "99",
+    "hanzi": "超越",
+    "pinyin": "chāoyuè"
+  },
+  {
+    "level": 5,
+    "no": "102",
+    "hanzi": "称号",
+    "pinyin": "chēnghào"
+  },
+  {
+    "level": 5,
+    "no": "120",
+    "hanzi": "丑",
+    "pinyin": "chǒu"
+  },
+  {
+    "level": 5,
+    "no": "122",
+    "hanzi": "出版",
+    "pinyin": "chūbǎn"
+  },
+  {
+    "level": 5,
+    "no": "126",
+    "hanzi": "初期",
+    "pinyin": "chū qī"
+  },
+  {
+    "level": 5,
+    "no": "159",
+    "hanzi": "大胆",
+    "pinyin": "dà dǎn"
+  },
+  {
+    "level": 5,
+    "no": "165",
+    "hanzi": "大事",
+    "pinyin": "dà shì"
+  },
+  {
+    "level": 5,
+    "no": "187",
+    "hanzi": "到来",
+    "pinyin": "dào lái"
+  },
+  {
+    "level": 5,
+    "no": "196",
+    "hanzi": "地形",
+    "pinyin": "dì xíng"
+  },
+  {
+    "level": 5,
+    "no": "197",
+    "hanzi": "地震",
+    "pinyin": "dìzhèn"
+  },
+  {
+    "level": 5,
+    "no": "214",
+    "hanzi": "毒",
+    "pinyin": "dú"
+  },
+  {
+    "level": 5,
+    "no": "231",
+    "hanzi": "法制",
+    "pinyin": "fǎ zhì"
+  },
+  {
+    "level": 5,
+    "no": "238",
+    "hanzi": "分解",
+    "pinyin": "fēnjiě"
+  },
+  {
+    "level": 5,
+    "no": "241",
+    "hanzi": "分析",
+    "pinyin": "fēnxī"
+  },
+  {
+    "level": 5,
+    "no": "251",
+    "hanzi": "幅",
+    "pinyin": "fú"
+  },
+  {
+    "level": 5,
+    "no": "253",
+    "hanzi": "福利",
+    "pinyin": "fúlì"
+  },
+  {
+    "level": 5,
+    "no": "257",
+    "hanzi": "改革",
+    "pinyin": "gǎigé"
+  },
+  {
+    "level": 5,
+    "no": "261",
+    "hanzi": "感想",
+    "pinyin": "gǎnxiǎng"
+  },
+  {
+    "level": 5,
+    "no": "267",
+    "hanzi": "高温",
+    "pinyin": "gāo wēn"
+  },
+  {
+    "level": 5,
+    "no": "269",
+    "hanzi": "高原",
+    "pinyin": "gāo yuán"
+  },
+  {
+    "level": 5,
+    "no": "278",
+    "hanzi": "更新",
+    "pinyin": "gēngxīn"
+  },
+  {
+    "level": 5,
+    "no": "283",
+    "hanzi": "公式",
+    "pinyin": "gōngshì"
+  },
+  {
+    "level": 5,
+    "no": "284",
+    "hanzi": "公正",
+    "pinyin": "gōngzhèng"
+  },
+  {
+    "level": 5,
+    "no": "308",
+    "hanzi": "国籍",
+    "pinyin": "guójí"
+  },
+  {
+    "level": 5,
+    "no": "309",
+    "hanzi": "国民",
+    "pinyin": "guó mín"
+  },
+  {
+    "level": 5,
+    "no": "313",
+    "hanzi": "害",
+    "pinyin": "hài"
+  },
+  {
+    "level": 5,
+    "no": "314",
+    "hanzi": "汗",
+    "pinyin": "hàn"
+  },
+  {
+    "level": 5,
+    "no": "318",
+    "hanzi": "合成",
+    "pinyin": "héchéng"
+  },
+  {
+    "level": 5,
+    "no": "328",
+    "hanzi": "虎",
+    "pinyin": "hǔ"
+  },
+  {
+    "level": 5,
+    "no": "331",
+    "hanzi": "化石",
+    "pinyin": "huàshí"
+  },
+  {
+    "level": 5,
+    "no": "333",
+    "hanzi": "画面",
+    "pinyin": "huà miàn"
+  },
+  {
+    "level": 5,
+    "no": "337",
+    "hanzi": "灰色",
+    "pinyin": "huī sè"
+  },
+  {
+    "level": 5,
+    "no": "340",
+    "hanzi": "回避",
+    "pinyin": "huíbì"
+  },
+  {
+    "level": 5,
+    "no": "348",
+    "hanzi": "活力",
+    "pinyin": "huólì"
+  },
+  {
+    "level": 5,
+    "no": "357",
+    "hanzi": "基地",
+    "pinyin": "jīdì"
+  },
+  {
+    "level": 5,
+    "no": "358",
+    "hanzi": "基金",
+    "pinyin": "jījīn"
+  },
+  {
+    "level": 5,
+    "no": "367",
+    "hanzi": "加速",
+    "pinyin": "jiā sù"
+  },
+  {
+    "level": 5,
+    "no": "370",
+    "hanzi": "甲",
+    "pinyin": "jiǎ"
+  },
+  {
+    "level": 5,
+    "no": "375",
+    "hanzi": "肩",
+    "pinyin": "jiān"
+  },
+  {
+    "level": 5,
+    "no": "397",
+    "hanzi": "接触",
+    "pinyin": "jiēchù"
+  },
+  {
+    "level": 5,
+    "no": "399",
+    "hanzi": "解除",
+    "pinyin": "jiěchú"
+  },
+  {
+    "level": 5,
+    "no": "400",
+    "hanzi": "解放",
+    "pinyin": "jiěfàng"
+  },
+  {
+    "level": 5,
+    "no": "403",
+    "hanzi": "今日",
+    "pinyin": "jīn rì"
+  },
+  {
+    "level": 5,
+    "no": "411",
+    "hanzi": "警告",
+    "pinyin": "jǐnggào"
+  },
+  {
+    "level": 5,
+    "no": "436",
+    "hanzi": "咳",
+    "pinyin": "ké"
+  },
+  {
+    "level": 5,
+    "no": "437",
+    "hanzi": "可",
+    "pinyin": "kě"
+  },
+  {
+    "level": 5,
+    "no": "446",
+    "hanzi": "肯定",
+    "pinyin": "kěndìng"
+  },
+  {
+    "level": 5,
+    "no": "447",
+    "hanzi": "空中",
+    "pinyin": "kōng zhōng"
+  },
+  {
+    "level": 5,
+    "no": "462",
+    "hanzi": "梨",
+    "pinyin": "lí"
+  },
+  {
+    "level": 5,
+    "no": "463",
+    "hanzi": "礼",
+    "pinyin": "lǐ"
+  },
+  {
+    "level": 5,
+    "no": "470",
+    "hanzi": "例外",
+    "pinyin": "lìwài"
+  },
+  {
+    "level": 5,
+    "no": "482",
+    "hanzi": "令",
+    "pinyin": "lìng"
+  },
+  {
+    "level": 5,
+    "no": "484",
+    "hanzi": "流通",
+    "pinyin": "liútōng"
+  },
+  {
+    "level": 5,
+    "no": "493",
+    "hanzi": "漫画",
+    "pinyin": "mànhuà"
+  },
+  {
+    "level": 5,
+    "no": "495",
+    "hanzi": "矛盾",
+    "pinyin": "máodùn"
+  },
+  {
+    "level": 5,
+    "no": "496",
+    "hanzi": "冒",
+    "pinyin": "mào"
+  },
+  {
+    "level": 5,
+    "no": "502",
+    "hanzi": "迷信",
+    "pinyin": "míxìn"
+  },
+  {
+    "level": 5,
+    "no": "505",
+    "hanzi": "秒",
+    "pinyin": "miǎo"
+  },
+  {
+    "level": 5,
+    "no": "506",
+    "hanzi": "敏感",
+    "pinyin": "mǐngǎn"
+  },
+  {
+    "level": 5,
+    "no": "509",
+    "hanzi": "命令",
+    "pinyin": "mìnglìng"
+  },
+  {
+    "level": 5,
+    "no": "514",
+    "hanzi": "摩擦",
+    "pinyin": "mócā"
+  },
+  {
+    "level": 5,
+    "no": "519",
+    "hanzi": "男性",
+    "pinyin": "nán xìng"
+  },
+  {
+    "level": 5,
+    "no": "520",
+    "hanzi": "南北",
+    "pinyin": "nán běi"
+  },
+  {
+    "level": 5,
+    "no": "527",
+    "hanzi": "年度",
+    "pinyin": "niándù"
+  },
+  {
+    "level": 5,
+    "no": "530",
+    "hanzi": "牛（形）",
+    "pinyin": "niú"
+  },
+  {
+    "level": 5,
+    "no": "533",
+    "hanzi": "女性",
+    "pinyin": "nǚ xìng"
+  },
+  {
+    "level": 5,
+    "no": "536",
+    "hanzi": "偶然",
+    "pinyin": "ǒurán"
+  },
+  {
+    "level": 5,
+    "no": "562",
+    "hanzi": "平原",
+    "pinyin": "píngyuán"
+  },
+  {
+    "level": 5,
+    "no": "586",
+    "hanzi": "前提",
+    "pinyin": "qiántí"
+  },
+  {
+    "level": 5,
+    "no": "598",
+    "hanzi": "琴",
+    "pinyin": "qín"
+  },
+  {
+    "level": 5,
+    "no": "600",
+    "hanzi": "青",
+    "pinyin": "qīng"
+  },
+  {
+    "level": 5,
+    "no": "608",
+    "hanzi": "全世界",
+    "pinyin": "quán shì jiè"
+  },
+  {
+    "level": 5,
+    "no": "609",
+    "hanzi": "泉",
+    "pinyin": "quán"
+  },
+  {
+    "level": 5,
+    "no": "620",
+    "hanzi": "人力",
+    "pinyin": "rén lì"
+  },
+  {
+    "level": 5,
+    "no": "622",
+    "hanzi": "人物",
+    "pinyin": "rénwù"
+  },
+  {
+    "level": 5,
+    "no": "644",
+    "hanzi": "扇",
+    "pinyin": "shān"
+  },
+  {
+    "level": 5,
+    "no": "653",
+    "hanzi": "蛇",
+    "pinyin": "shé"
+  },
+  {
+    "level": 5,
+    "no": "657",
+    "hanzi": "社",
+    "pinyin": "shè"
+  },
+  {
+    "level": 5,
+    "no": "659",
+    "hanzi": "射",
+    "pinyin": "shè"
+  },
+  {
+    "level": 5,
+    "no": "668",
+    "hanzi": "神",
+    "pinyin": "shén"
+  },
+  {
+    "level": 5,
+    "no": "673",
+    "hanzi": "生成",
+    "pinyin": "shēng chéng"
+  },
+  {
+    "level": 5,
+    "no": "674",
+    "hanzi": "声",
+    "pinyin": "shēng"
+  },
+  {
+    "level": 5,
+    "no": "690",
+    "hanzi": "式",
+    "pinyin": "shì"
+  },
+  {
+    "level": 5,
+    "no": "698",
+    "hanzi": "手段",
+    "pinyin": "shǒu duàn"
+  },
+  {
+    "level": 5,
+    "no": "699",
+    "hanzi": "手法",
+    "pinyin": "shǒufǎ"
+  },
+  {
+    "level": 5,
+    "no": "700",
+    "hanzi": "寿司",
+    "pinyin": "shòu sī"
+  },
+  {
+    "level": 5,
+    "no": "717",
+    "hanzi": "水分",
+    "pinyin": "shuǐ fèn"
+  },
+  {
+    "level": 5,
+    "no": "720",
+    "hanzi": "睡眠",
+    "pinyin": "shuì mián"
+  },
+  {
+    "level": 5,
+    "no": "747",
+    "hanzi": "桃",
+    "pinyin": "táo"
+  },
+  {
+    "level": 5,
+    "no": "752",
+    "hanzi": "特性",
+    "pinyin": "tè xìng"
+  },
+  {
+    "level": 5,
+    "no": "753",
+    "hanzi": "特有",
+    "pinyin": "tè yǒu"
+  },
+  {
+    "level": 5,
+    "no": "755",
+    "hanzi": "提起",
+    "pinyin": "tí qǐ"
+  },
+  {
+    "level": 5,
+    "no": "759",
+    "hanzi": "体力",
+    "pinyin": "tǐ lì"
+  },
+  {
+    "level": 5,
+    "no": "760",
+    "hanzi": "天才",
+    "pinyin": "tiāncái"
+  },
+  {
+    "level": 5,
+    "no": "762",
+    "hanzi": "天文",
+    "pinyin": "tiānwén"
+  },
+  {
+    "level": 5,
+    "no": "770",
+    "hanzi": "突破",
+    "pinyin": "tūpò"
+  },
+  {
+    "level": 5,
+    "no": "778",
+    "hanzi": "外界",
+    "pinyin": "wàijiè"
+  },
+  {
+    "level": 5,
+    "no": "789",
+    "hanzi": "唯一",
+    "pinyin": "wéiyī"
+  },
+  {
+    "level": 5,
+    "no": "792",
+    "hanzi": "胃",
+    "pinyin": "wèi"
+  },
+  {
+    "level": 5,
+    "no": "833",
+    "hanzi": "相声",
+    "pinyin": "xiàngsheng"
+  },
+  {
+    "level": 5,
+    "no": "836",
+    "hanzi": "消毒",
+    "pinyin": "xiāodú"
+  },
+  {
+    "level": 5,
+    "no": "837",
+    "hanzi": "消防",
+    "pinyin": "xiāofáng"
+  },
+  {
+    "level": 5,
+    "no": "849",
+    "hanzi": "信念",
+    "pinyin": "xìnniàn"
+  },
+  {
+    "level": 5,
+    "no": "853",
+    "hanzi": "性能",
+    "pinyin": "xìngnéng"
+  },
+  {
+    "level": 5,
+    "no": "863",
+    "hanzi": "学科",
+    "pinyin": "xué kē"
+  },
+  {
+    "level": 5,
+    "no": "864",
+    "hanzi": "学位",
+    "pinyin": "xuéwèi"
+  },
+  {
+    "level": 5,
+    "no": "865",
+    "hanzi": "学者",
+    "pinyin": "xué zhě"
+  },
+  {
+    "level": 5,
+    "no": "875",
+    "hanzi": "研究所",
+    "pinyin": "yán jiū suǒ"
+  },
+  {
+    "level": 5,
+    "no": "883",
+    "hanzi": "一流",
+    "pinyin": "yīliú"
+  },
+  {
+    "level": 5,
+    "no": "896",
+    "hanzi": "乙",
+    "pinyin": "yǐ"
+  },
+  {
+    "level": 5,
+    "no": "903",
+    "hanzi": "意志",
+    "pinyin": "yìzhì"
+  },
+  {
+    "level": 5,
+    "no": "907",
+    "hanzi": "印刷",
+    "pinyin": "yìnshuā"
+  },
+  {
+    "level": 5,
+    "no": "925",
+    "hanzi": "有毒",
+    "pinyin": "yǒu dú"
+  },
+  {
+    "level": 5,
+    "no": "926",
+    "hanzi": "有害",
+    "pinyin": "yǒu hài"
+  },
+  {
+    "level": 5,
+    "no": "932",
+    "hanzi": "雨水",
+    "pinyin": "yǔ shuǐ"
+  },
+  {
+    "level": 5,
+    "no": "935",
+    "hanzi": "元旦",
+    "pinyin": "yuándàn"
+  },
+  {
+    "level": 5,
+    "no": "937",
+    "hanzi": "原理",
+    "pinyin": "yuánlǐ"
+  },
+  {
+    "level": 5,
+    "no": "970",
+    "hanzi": "摘",
+    "pinyin": "zhāi"
+  },
+  {
+    "level": 5,
+    "no": "972",
+    "hanzi": "展示",
+    "pinyin": "zhǎnshì"
+  },
+  {
+    "level": 5,
+    "no": "975",
+    "hanzi": "占有",
+    "pinyin": "zhàn yǒu"
+  },
+  {
+    "level": 5,
+    "no": "985",
+    "hanzi": "真理",
+    "pinyin": "zhēnlǐ"
+  },
+  {
+    "level": 5,
+    "no": "986",
+    "hanzi": "真相",
+    "pinyin": "zhēnxiàng"
+  },
+  {
+    "level": 5,
+    "no": "1003",
+    "hanzi": "支出",
+    "pinyin": "zhīchū"
+  },
+  {
+    "level": 5,
+    "no": "1004",
+    "hanzi": "支配",
+    "pinyin": "zhīpèi"
+  },
+  {
+    "level": 5,
+    "no": "1015",
+    "hanzi": "指示",
+    "pinyin": "zhǐshì"
+  },
+  {
+    "level": 5,
+    "no": "1017",
+    "hanzi": "至",
+    "pinyin": "zhì"
+  },
+  {
+    "level": 5,
+    "no": "1020",
+    "hanzi": "治安",
+    "pinyin": "zhì’ān"
+  },
+  {
+    "level": 5,
+    "no": "1022",
+    "hanzi": "中断",
+    "pinyin": "zhōngduàn"
+  },
+  {
+    "level": 5,
+    "no": "1024",
+    "hanzi": "中央",
+    "pinyin": "zhōngyāng"
+  },
+  {
+    "level": 5,
+    "no": "1029",
+    "hanzi": "中毒",
+    "pinyin": "zhòng dú"
+  },
+  {
+    "level": 5,
+    "no": "1031",
+    "hanzi": "周期",
+    "pinyin": "zhōuqī"
+  },
+  {
+    "level": 5,
+    "no": "1036",
+    "hanzi": "主管",
+    "pinyin": "zhǔguǎn"
+  },
+  {
+    "level": 5,
+    "no": "1037",
+    "hanzi": "主体",
+    "pinyin": "zhǔ tǐ"
+  },
+  {
+    "level": 5,
+    "no": "1041",
+    "hanzi": "注射",
+    "pinyin": "zhùshè"
+  },
+  {
+    "level": 5,
+    "no": "1058",
+    "hanzi": "紫",
+    "pinyin": "zǐ"
+  },
+  {
+    "level": 5,
+    "no": "1070",
+    "hanzi": "尊重",
+    "pinyin": "zūnzhòng"
+  },
+  {
+    "level": 5,
+    "no": "1071",
+    "hanzi": "遵守",
+    "pinyin": "zūnshǒu"
+  },
+  {
+    "level": 6,
+    "no": "14",
+    "hanzi": "保健",
+    "pinyin": "bǎo jiàn"
+  },
+  {
+    "level": 6,
+    "no": "19",
+    "hanzi": "暴力",
+    "pinyin": "bàolì"
+  },
+  {
+    "level": 6,
+    "no": "20",
+    "hanzi": "暴露",
+    "pinyin": "bàolù"
+  },
+  {
+    "level": 6,
+    "no": "25",
+    "hanzi": "悲惨",
+    "pinyin": "bēicǎn"
+  },
+  {
+    "level": 6,
+    "no": "28",
+    "hanzi": "被告",
+    "pinyin": "bèigào"
+  },
+  {
+    "level": 6,
+    "no": "30",
+    "hanzi": "本（代、副）",
+    "pinyin": "běn"
+  },
+  {
+    "level": 6,
+    "no": "34",
+    "hanzi": "本土",
+    "pinyin": "běn tǔ"
+  },
+  {
+    "level": 6,
+    "no": "39",
+    "hanzi": "必修",
+    "pinyin": "bì xiū"
+  },
+  {
+    "level": 6,
+    "no": "57",
+    "hanzi": "不便",
+    "pinyin": "bú biàn"
+  },
+  {
+    "level": 6,
+    "no": "83",
+    "hanzi": "残酷",
+    "pinyin": "cánkù"
+  },
+  {
+    "level": 6,
+    "no": "84",
+    "hanzi": "惨",
+    "pinyin": "cǎn"
+  },
+  {
+    "level": 6,
+    "no": "112",
+    "hanzi": "超",
+    "pinyin": "chāo"
+  },
+  {
+    "level": 6,
+    "no": "124",
+    "hanzi": "成分",
+    "pinyin": "chéngfèn"
+  },
+  {
+    "level": 6,
+    "no": "147",
+    "hanzi": "初等",
+    "pinyin": "chū děng"
+  },
+  {
+    "level": 6,
+    "no": "148",
+    "hanzi": "除",
+    "pinyin": "chú"
+  },
+  {
+    "level": 6,
+    "no": "160",
+    "hanzi": "串",
+    "pinyin": "chuàn"
+  },
+  {
+    "level": 6,
+    "no": "193",
+    "hanzi": "大使",
+    "pinyin": "dà shǐ"
+  },
+  {
+    "level": 6,
+    "no": "198",
+    "hanzi": "党",
+    "pinyin": "dǎng"
+  },
+  {
+    "level": 6,
+    "no": "199",
+    "hanzi": "当",
+    "pinyin": "dāng"
+  },
+  {
+    "level": 6,
+    "no": "208",
+    "hanzi": "道教",
+    "pinyin": "dào jiào"
+  },
+  {
+    "level": 6,
+    "no": "211",
+    "hanzi": "低温",
+    "pinyin": "dī wēn"
+  },
+  {
+    "level": 6,
+    "no": "212",
+    "hanzi": "滴",
+    "pinyin": "dī"
+  },
+  {
+    "level": 6,
+    "no": "214",
+    "hanzi": "抵抗",
+    "pinyin": "dǐkàng"
+  },
+  {
+    "level": 6,
+    "no": "216",
+    "hanzi": "地名",
+    "pinyin": "dì míng"
+  },
+  {
+    "level": 6,
+    "no": "217",
+    "hanzi": "地下室",
+    "pinyin": "dì xià shì"
+  },
+  {
+    "level": 6,
+    "no": "230",
+    "hanzi": "都市",
+    "pinyin": "dū shì"
+  },
+  {
+    "level": 6,
+    "no": "234",
+    "hanzi": "渡",
+    "pinyin": "dù"
+  },
+  {
+    "level": 6,
+    "no": "235",
+    "hanzi": "端",
+    "pinyin": "duān"
+  },
+  {
+    "level": 6,
+    "no": "243",
+    "hanzi": "多方面",
+    "pinyin": "duō fāng miàn"
+  },
+  {
+    "level": 6,
+    "no": "247",
+    "hanzi": "恩人",
+    "pinyin": "ēn rén"
+  },
+  {
+    "level": 6,
+    "no": "258",
+    "hanzi": "番",
+    "pinyin": "fān"
+  },
+  {
+    "level": 6,
+    "no": "261",
+    "hanzi": "繁殖",
+    "pinyin": "fánzhí"
+  },
+  {
+    "level": 6,
+    "no": "262",
+    "hanzi": "反抗",
+    "pinyin": "fǎnkàng"
+  },
+  {
+    "level": 6,
+    "no": "265",
+    "hanzi": "犯",
+    "pinyin": "fàn"
+  },
+  {
+    "level": 6,
+    "no": "267",
+    "hanzi": "犯罪",
+    "pinyin": "fàn zuì"
+  },
+  {
+    "level": 6,
+    "no": "274",
+    "hanzi": "肺",
+    "pinyin": "fèi"
+  },
+  {
+    "level": 6,
+    "no": "276",
+    "hanzi": "分裂",
+    "pinyin": "fēnliè"
+  },
+  {
+    "level": 6,
+    "no": "283",
+    "hanzi": "服",
+    "pinyin": "fú"
+  },
+  {
+    "level": 6,
+    "no": "284",
+    "hanzi": "浮",
+    "pinyin": "fú"
+  },
+  {
+    "level": 6,
+    "no": "286",
+    "hanzi": "父子",
+    "pinyin": "fù zǐ"
+  },
+  {
+    "level": 6,
+    "no": "296",
+    "hanzi": "肝",
+    "pinyin": "gān"
+  },
+  {
+    "level": 6,
+    "no": "308",
+    "hanzi": "高等",
+    "pinyin": "gāo děng"
+  },
+  {
+    "level": 6,
+    "no": "314",
+    "hanzi": "歌唱",
+    "pinyin": "gē chàng"
+  },
+  {
+    "level": 6,
+    "no": "317",
+    "hanzi": "革新",
+    "pinyin": "gé xīn"
+  },
+  {
+    "level": 6,
+    "no": "320",
+    "hanzi": "公",
+    "pinyin": "gōng"
+  },
+  {
+    "level": 6,
+    "no": "321",
+    "hanzi": "公安",
+    "pinyin": "gōng ān"
+  },
+  {
+    "level": 6,
+    "no": "331",
+    "hanzi": "孤独",
+    "pinyin": "gūdú"
+  },
+  {
+    "level": 6,
+    "no": "334",
+    "hanzi": "古典",
+    "pinyin": "gǔdiǎn"
+  },
+  {
+    "level": 6,
+    "no": "338",
+    "hanzi": "故障",
+    "pinyin": "gùzhàng"
+  },
+  {
+    "level": 6,
+    "no": "352",
+    "hanzi": "国歌",
+    "pinyin": "guó gē"
+  },
+  {
+    "level": 6,
+    "no": "353",
+    "hanzi": "国会",
+    "pinyin": "guó huì"
+  },
+  {
+    "level": 6,
+    "no": "354",
+    "hanzi": "国旗",
+    "pinyin": "guó qí"
+  },
+  {
+    "level": 6,
+    "no": "355",
+    "hanzi": "国王",
+    "pinyin": "guówáng"
+  },
+  {
+    "level": 6,
+    "no": "362",
+    "hanzi": "海底",
+    "pinyin": "hǎi dǐ"
+  },
+  {
+    "level": 6,
+    "no": "365",
+    "hanzi": "海外",
+    "pinyin": "hǎi wài"
+  },
+  {
+    "level": 6,
+    "no": "371",
+    "hanzi": "好学",
+    "pinyin": "hào xué"
+  },
+  {
+    "level": 6,
+    "no": "374",
+    "hanzi": "核心",
+    "pinyin": "héxīn"
+  },
+  {
+    "level": 6,
+    "no": "379",
+    "hanzi": "衡量",
+    "pinyin": "héng liáng"
+  },
+  {
+    "level": 6,
+    "no": "381",
+    "hanzi": "洪水",
+    "pinyin": "hóngshuǐ"
+  },
+  {
+    "level": 6,
+    "no": "388",
+    "hanzi": "花瓶",
+    "pinyin": "huā píng"
+  },
+  {
+    "level": 6,
+    "no": "391",
+    "hanzi": "幻想",
+    "pinyin": "huànxiǎng"
+  },
+  {
+    "level": 6,
+    "no": "392",
+    "hanzi": "患者",
+    "pinyin": "huànzhě"
+  },
+  {
+    "level": 6,
+    "no": "393",
+    "hanzi": "皇帝",
+    "pinyin": "huángdì"
+  },
+  {
+    "level": 6,
+    "no": "399",
+    "hanzi": "昏",
+    "pinyin": "hūn"
+  },
+  {
+    "level": 6,
+    "no": "400",
+    "hanzi": "混",
+    "pinyin": "hùn"
+  },
+  {
+    "level": 6,
+    "no": "401",
+    "hanzi": "混合",
+    "pinyin": "hùnhé"
+  },
+  {
+    "level": 6,
+    "no": "402",
+    "hanzi": "混乱",
+    "pinyin": "hùnluàn"
+  },
+  {
+    "level": 6,
+    "no": "410",
+    "hanzi": "吉利",
+    "pinyin": "jí lì"
+  },
+  {
+    "level": 6,
+    "no": "411",
+    "hanzi": "吉祥",
+    "pinyin": "jíxiáng"
+  },
+  {
+    "level": 6,
+    "no": "415",
+    "hanzi": "集",
+    "pinyin": "jí"
+  },
+  {
+    "level": 6,
+    "no": "417",
+    "hanzi": "加盟",
+    "pinyin": "jiā méng"
+  },
+  {
+    "level": 6,
+    "no": "422",
+    "hanzi": "尖",
+    "pinyin": "jiān"
+  },
+  {
+    "level": 6,
+    "no": "435",
+    "hanzi": "焦点",
+    "pinyin": "jiāodiǎn"
+  },
+  {
+    "level": 6,
+    "no": "439",
+    "hanzi": "教育部",
+    "pinyin": "jiào yù bù"
+  },
+  {
+    "level": 6,
+    "no": "452",
+    "hanzi": "界",
+    "pinyin": "jiè"
+  },
+  {
+    "level": 6,
+    "no": "457",
+    "hanzi": "金融",
+    "pinyin": "jīnróng"
+  },
+  {
+    "level": 6,
+    "no": "464",
+    "hanzi": "精",
+    "pinyin": "jīng"
+  },
+  {
+    "level": 6,
+    "no": "467",
+    "hanzi": "井",
+    "pinyin": "jǐng"
+  },
+  {
+    "level": 6,
+    "no": "474",
+    "hanzi": "救命",
+    "pinyin": "jiù mìng"
+  },
+  {
+    "level": 6,
+    "no": "475",
+    "hanzi": "救援",
+    "pinyin": "jiù yuán"
+  },
+  {
+    "level": 6,
+    "no": "476",
+    "hanzi": "救助",
+    "pinyin": "jiù zhù"
+  },
+  {
+    "level": 6,
+    "no": "481",
+    "hanzi": "据",
+    "pinyin": "jù"
+  },
+  {
+    "level": 6,
+    "no": "531",
+    "hanzi": "冷水",
+    "pinyin": "lěng shuǐ"
+  },
+  {
+    "level": 6,
+    "no": "533",
+    "hanzi": "理",
+    "pinyin": "lǐ"
+  },
+  {
+    "level": 6,
+    "no": "537",
+    "hanzi": "利",
+    "pinyin": "lì"
+  },
+  {
+    "level": 6,
+    "no": "570",
+    "hanzi": "盲人",
+    "pinyin": "máng rén"
+  },
+  {
+    "level": 6,
+    "no": "572",
+    "hanzi": "美容",
+    "pinyin": "měi róng"
+  },
+  {
+    "level": 6,
+    "no": "580",
+    "hanzi": "妙",
+    "pinyin": "miào"
+  },
+  {
+    "level": 6,
+    "no": "585",
+    "hanzi": "民意",
+    "pinyin": "mín yì"
+  },
+  {
+    "level": 6,
+    "no": "590",
+    "hanzi": "名誉",
+    "pinyin": "míngyù"
+  },
+  {
+    "level": 6,
+    "no": "591",
+    "hanzi": "明日",
+    "pinyin": "míng rì"
+  },
+  {
+    "level": 6,
+    "no": "593",
+    "hanzi": "膜",
+    "pinyin": "mó"
+  },
+  {
+    "level": 6,
+    "no": "597",
+    "hanzi": "母",
+    "pinyin": "mǔ"
+  },
+  {
+    "level": 6,
+    "no": "600",
+    "hanzi": "母子",
+    "pinyin": "mǔ zǐ"
+  },
+  {
+    "level": 6,
+    "no": "601",
+    "hanzi": "墓",
+    "pinyin": "mù"
+  },
+  {
+    "level": 6,
+    "no": "607",
+    "hanzi": "内外",
+    "pinyin": "nèi wài"
+  },
+  {
+    "level": 6,
+    "no": "610",
+    "hanzi": "泥",
+    "pinyin": "ní"
+  },
+  {
+    "level": 6,
+    "no": "616",
+    "hanzi": "泡",
+    "pinyin": "pào"
+  },
+  {
+    "level": 6,
+    "no": "625",
+    "hanzi": "平凡",
+    "pinyin": "píngfán"
+  },
+  {
+    "level": 6,
+    "no": "638",
+    "hanzi": "起点",
+    "pinyin": "qǐ diǎn"
+  },
+  {
+    "level": 6,
+    "no": "647",
+    "hanzi": "前方",
+    "pinyin": "qián fāng"
+  },
+  {
+    "level": 6,
+    "no": "693",
+    "hanzi": "融合",
+    "pinyin": "róng hé"
+  },
+  {
+    "level": 6,
+    "no": "695",
+    "hanzi": "如",
+    "pinyin": "rú"
+  },
+  {
+    "level": 6,
+    "no": "696",
+    "hanzi": "如一",
+    "pinyin": "rú yī"
+  },
+  {
+    "level": 6,
+    "no": "698",
+    "hanzi": "入",
+    "pinyin": "rù"
+  },
+  {
+    "level": 6,
+    "no": "699",
+    "hanzi": "入学",
+    "pinyin": "rù xué"
+  },
+  {
+    "level": 6,
+    "no": "717",
+    "hanzi": "上演",
+    "pinyin": "shàng yǎn"
+  },
+  {
+    "level": 6,
+    "no": "723",
+    "hanzi": "深化",
+    "pinyin": "shēn huà"
+  },
+  {
+    "level": 6,
+    "no": "743",
+    "hanzi": "食欲",
+    "pinyin": "shí yù"
+  },
+  {
+    "level": 6,
+    "no": "744",
+    "hanzi": "市民",
+    "pinyin": "shì mín"
+  },
+  {
+    "level": 6,
+    "no": "755",
+    "hanzi": "首席",
+    "pinyin": "shǒu xí"
+  },
+  {
+    "level": 6,
+    "no": "756",
+    "hanzi": "首相",
+    "pinyin": "shǒu xiàng"
+  },
+  {
+    "level": 6,
+    "no": "768",
+    "hanzi": "死亡",
+    "pinyin": "sǐwáng"
+  },
+  {
+    "level": 6,
+    "no": "770",
+    "hanzi": "寺",
+    "pinyin": "sì"
+  },
+  {
+    "level": 6,
+    "no": "780",
+    "hanzi": "塔",
+    "pinyin": "tǎ"
+  },
+  {
+    "level": 6,
+    "no": "790",
+    "hanzi": "特大",
+    "pinyin": "tè dà"
+  },
+  {
+    "level": 6,
+    "no": "798",
+    "hanzi": "天然",
+    "pinyin": "tiān rán"
+  },
+  {
+    "level": 6,
+    "no": "800",
+    "hanzi": "天下",
+    "pinyin": "tiān xià"
+  },
+  {
+    "level": 6,
+    "no": "802",
+    "hanzi": "田",
+    "pinyin": "tián"
+  },
+  {
+    "level": 6,
+    "no": "810",
+    "hanzi": "通行",
+    "pinyin": "tōng xíng"
+  },
+  {
+    "level": 6,
+    "no": "812",
+    "hanzi": "同",
+    "pinyin": "tóng"
+  },
+  {
+    "level": 6,
+    "no": "813",
+    "hanzi": "同胞",
+    "pinyin": "tóngbāo"
+  },
+  {
+    "level": 6,
+    "no": "814",
+    "hanzi": "同行",
+    "pinyin": "tóng háng"
+  },
+  {
+    "level": 6,
+    "no": "815",
+    "hanzi": "同期",
+    "pinyin": "tóng qī"
+  },
+  {
+    "level": 6,
+    "no": "816",
+    "hanzi": "同一",
+    "pinyin": "tóng yī"
+  },
+  {
+    "level": 6,
+    "no": "819",
+    "hanzi": "投票",
+    "pinyin": "tóupiào"
+  },
+  {
+    "level": 6,
+    "no": "836",
+    "hanzi": "外部",
+    "pinyin": "wài bù"
+  },
+  {
+    "level": 6,
+    "no": "837",
+    "hanzi": "外出",
+    "pinyin": "wài chū"
+  },
+  {
+    "level": 6,
+    "no": "839",
+    "hanzi": "外科",
+    "pinyin": "wài kē"
+  },
+  {
+    "level": 6,
+    "no": "840",
+    "hanzi": "外来",
+    "pinyin": "wài lái"
+  },
+  {
+    "level": 6,
+    "no": "848",
+    "hanzi": "王子",
+    "pinyin": "wángzǐ"
+  },
+  {
+    "level": 6,
+    "no": "868",
+    "hanzi": "物品",
+    "pinyin": "wù pǐn"
+  },
+  {
+    "level": 6,
+    "no": "888",
+    "hanzi": "小麦",
+    "pinyin": "xiǎomài"
+  },
+  {
+    "level": 6,
+    "no": "904",
+    "hanzi": "新人",
+    "pinyin": "xīn rén"
+  },
+  {
+    "level": 6,
+    "no": "907",
+    "hanzi": "信仰",
+    "pinyin": "xìnyǎng"
+  },
+  {
+    "level": 6,
+    "no": "908",
+    "hanzi": "信用",
+    "pinyin": "xìn yòng"
+  },
+  {
+    "level": 6,
+    "no": "911",
+    "hanzi": "形",
+    "pinyin": "xíng"
+  },
+  {
+    "level": 6,
+    "no": "912",
+    "hanzi": "凶",
+    "pinyin": "xiōng"
+  },
+  {
+    "level": 6,
+    "no": "920",
+    "hanzi": "学会",
+    "pinyin": "xué huì"
+  },
+  {
+    "level": 6,
+    "no": "922",
+    "hanzi": "血管",
+    "pinyin": "xuè guǎn"
+  },
+  {
+    "level": 6,
+    "no": "923",
+    "hanzi": "血液",
+    "pinyin": "xuè yè"
+  },
+  {
+    "level": 6,
+    "no": "932",
+    "hanzi": "演奏",
+    "pinyin": "yǎnzòu"
+  },
+  {
+    "level": 6,
+    "no": "933",
+    "hanzi": "宴会",
+    "pinyin": "yànhuì"
+  },
+  {
+    "level": 6,
+    "no": "934",
+    "hanzi": "洋",
+    "pinyin": "yáng"
+  },
+  {
+    "level": 6,
+    "no": "943",
+    "hanzi": "要素",
+    "pinyin": "yàosù"
+  },
+  {
+    "level": 6,
+    "no": "944",
+    "hanzi": "野",
+    "pinyin": "yě"
+  },
+  {
+    "level": 6,
+    "no": "945",
+    "hanzi": "野生",
+    "pinyin": "yě shēng"
+  },
+  {
+    "level": 6,
+    "no": "957",
+    "hanzi": "一番",
+    "pinyin": "yì fān"
+  },
+  {
+    "level": 6,
+    "no": "962",
+    "hanzi": "一行",
+    "pinyin": "yì xíng"
+  },
+  {
+    "level": 6,
+    "no": "972",
+    "hanzi": "音量",
+    "pinyin": "yīn liàng"
+  },
+  {
+    "level": 6,
+    "no": "976",
+    "hanzi": "印",
+    "pinyin": "yìn"
+  },
+  {
+    "level": 6,
+    "no": "986",
+    "hanzi": "用品",
+    "pinyin": "yòng pǐn"
+  },
+  {
+    "level": 6,
+    "no": "1003",
+    "hanzi": "元素",
+    "pinyin": "yuánsù"
+  },
+  {
+    "level": 6,
+    "no": "1006",
+    "hanzi": "原",
+    "pinyin": "yuán"
+  },
+  {
+    "level": 6,
+    "no": "1007",
+    "hanzi": "原告",
+    "pinyin": "yuángào"
+  },
+  {
+    "level": 6,
+    "no": "1010",
+    "hanzi": "援助",
+    "pinyin": "yuán zhù"
+  },
+  {
+    "level": 6,
+    "no": "1022",
+    "hanzi": "再生",
+    "pinyin": "zài shēng"
+  },
+  {
+    "level": 6,
+    "no": "1042",
+    "hanzi": "章",
+    "pinyin": "zhāng"
+  },
+  {
+    "level": 6,
+    "no": "1053",
+    "hanzi": "哲学",
+    "pinyin": "zhéxué"
+  },
+  {
+    "level": 6,
+    "no": "1059",
+    "hanzi": "正当",
+    "pinyin": "zhèngdāng"
+  },
+  {
+    "level": 6,
+    "no": "1060",
+    "hanzi": "政策",
+    "pinyin": "zhèngcè"
+  },
+  {
+    "level": 6,
+    "no": "1061",
+    "hanzi": "政党",
+    "pinyin": "zhèng dǎng"
+  },
+  {
+    "level": 6,
+    "no": "1063",
+    "hanzi": "症状",
+    "pinyin": "zhèngzhuàng"
+  },
+  {
+    "level": 6,
+    "no": "1066",
+    "hanzi": "支援",
+    "pinyin": "zhīyuán"
+  },
+  {
+    "level": 6,
+    "no": "1067",
+    "hanzi": "枝",
+    "pinyin": "zhī"
+  },
+  {
+    "level": 6,
+    "no": "1076",
+    "hanzi": "指定",
+    "pinyin": "zhǐdìng"
+  },
+  {
+    "level": 6,
+    "no": "1077",
+    "hanzi": "指数",
+    "pinyin": "zhǐ shù"
+  },
+  {
+    "level": 6,
+    "no": "1083",
+    "hanzi": "中等",
+    "pinyin": "zhōng děng"
+  },
+  {
+    "level": 6,
+    "no": "1085",
+    "hanzi": "中期",
+    "pinyin": "zhōng qī"
+  },
+  {
+    "level": 6,
+    "no": "1086",
+    "hanzi": "中外",
+    "pinyin": "zhōng wài"
+  },
+  {
+    "level": 6,
+    "no": "1096",
+    "hanzi": "主流",
+    "pinyin": "zhǔliú"
+  },
+  {
+    "level": 6,
+    "no": "1098",
+    "hanzi": "住宅",
+    "pinyin": "zhùzhái"
+  },
+  {
+    "level": 6,
+    "no": "1117",
+    "hanzi": "宗教",
+    "pinyin": "zōngjiào"
+  },
+  {
+    "level": 6,
+    "no": "1127",
+    "hanzi": "族",
+    "pinyin": "zú"
+  },
+  {
+    "level": 6,
+    "no": "1129",
+    "hanzi": "祖父",
+    "pinyin": "zǔfù"
+  },
+  {
+    "level": 6,
+    "no": "1130",
+    "hanzi": "祖国",
+    "pinyin": "zǔguó"
+  },
+  {
+    "level": 6,
+    "no": "1131",
+    "hanzi": "祖母",
+    "pinyin": "zǔ mǔ"
+  },
+  {
+    "level": 6,
+    "no": "1135",
+    "hanzi": "罪",
+    "pinyin": "zuì"
+  },
+  {
+    "level": 6,
+    "no": "1137",
+    "hanzi": "作",
+    "pinyin": "zuò"
+  }
+]
