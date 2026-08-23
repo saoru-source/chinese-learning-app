@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { tokenizeSentence } from "@/lib/words/segment";
 import BookmarkToggle from "@/components/BookmarkToggle";
 import SpeakButton from "@/components/SpeakButton";
+import PronunciationCheck from "@/components/PronunciationCheck";
 import TappableText from "@/components/TappableText";
 
 const LEVELS = [1, 2, 3, 4, 5, 6];
@@ -332,6 +333,7 @@ export default async function WordsPage({
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginBottom: 8 }}>
           <span style={{ fontSize: 44, fontWeight: 700, color: "var(--ink)" }}>{word.hanzi}</span>
           <SpeakButton text={word.hanzi} size={30} />
+          <PronunciationCheck target={word.hanzi} pinyin={word.pinyin} />
         </div>
 
         <p style={{ fontSize: 15, fontWeight: 500, color: "var(--ink-soft)", marginBottom: 18 }}>
