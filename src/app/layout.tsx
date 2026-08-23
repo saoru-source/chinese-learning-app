@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { createClient } from "@/lib/supabase/server";
 import { ThemeProvider } from "@/lib/theme/ThemeContext";
+import { LevelProvider } from "@/lib/level/LevelContext";
 import AppShell from "@/components/AppShell";
 import "./globals.css";
 
@@ -27,13 +28,15 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
   } = await supabase.auth.getUser();
 
   let theme: string | null = null;
+  let level: number | null = null;
   if (user) {
     const { data: profile } = await supabase
       .from("users")
-      .select("theme")
+      .select("theme, hsk_level")
       .eq("id", user.id)
       .maybeSingle();
     theme = profile?.theme ?? null;
+    level = profile?.hsk_level ?? null;
   }
 
   return (
@@ -44,7 +47,9 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col">
         <ThemeProvider initialTheme={theme}>
-          <AppShell>{children}</AppShell>
+          <LevelProvider initialLevel={level}>
+            <AppShell>{children}</AppShell>
+          </LevelProvider>
         </ThemeProvider>
       </body>
     </html>

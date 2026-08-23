@@ -6,6 +6,8 @@ import { AnimatePresence, motion } from "motion/react";
 import { useState, type ReactNode } from "react";
 import { useTheme } from "@/lib/theme/ThemeContext";
 import { THEME_KEYS, THEME_META } from "@/lib/theme/themeMeta";
+import { useLevel } from "@/lib/level/LevelContext";
+import { LEVEL_KEYS, LEVEL_META } from "@/lib/level/levelMeta";
 
 const NAV = [
   { zh: "家", label: "ホーム", path: "/" },
@@ -18,6 +20,8 @@ const NAV = [
 export default function AppShell({ children }: { children: ReactNode }) {
   const { themeKey, setThemeKey } = useTheme();
   const [themeOpen, setThemeOpen] = useState(false);
+  const { levelKey, setLevelKey } = useLevel();
+  const [levelOpen, setLevelOpen] = useState(false);
   const pathname = usePathname();
 
   return (
@@ -57,6 +61,28 @@ export default function AppShell({ children }: { children: ReactNode }) {
         </Link>
 
         <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
+          <motion.button
+            type="button"
+            whileTap={{ scale: 0.9 }}
+            onClick={() => setLevelOpen((v) => !v)}
+            aria-label="HSKレベルを切り替え"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              height: 24,
+              padding: "0 10px",
+              borderRadius: 999,
+              background: "var(--paper-deep)",
+              border: "1px solid var(--line)",
+              color: "var(--ink)",
+              fontSize: 11,
+              fontWeight: 700,
+              cursor: "pointer",
+            }}
+          >
+            {LEVEL_META[levelKey].label}
+          </motion.button>
           <div style={{ display: "flex", gap: 4, alignItems: "center" }}>
             {THEME_KEYS.map((key) => (
               <motion.button
@@ -196,6 +222,91 @@ export default function AppShell({ children }: { children: ReactNode }) {
                     {THEME_META[key].label}
                   </span>
                   {key === themeKey && (
+                    <span style={{ marginLeft: "auto", fontSize: 10, color: "var(--seal)" }}>✓</span>
+                  )}
+                </motion.button>
+              ))}
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
+
+      <AnimatePresence>
+        {levelOpen && (
+          <>
+            <div
+              onClick={() => setLevelOpen(false)}
+              style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.2)", zIndex: 40 }}
+            />
+            <motion.div
+              initial={{ opacity: 0, y: 10, scale: 0.95 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 10, scale: 0.95 }}
+              style={{
+                position: "fixed",
+                top: 58,
+                right: 16,
+                background: "var(--paper)",
+                borderRadius: 20,
+                padding: "14px 16px",
+                zIndex: 50,
+                boxShadow: "0 8px 32px rgba(0,0,0,0.14)",
+                minWidth: 160,
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  marginBottom: 12,
+                }}
+              >
+                <span style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)", letterSpacing: "0.08em" }}>
+                  HSKレベル
+                </span>
+                <button
+                  type="button"
+                  onClick={() => setLevelOpen(false)}
+                  aria-label="閉じる"
+                  style={{
+                    background: "none",
+                    border: "none",
+                    cursor: "pointer",
+                    color: "var(--ink-soft)",
+                    fontSize: 16,
+                    lineHeight: 1,
+                  }}
+                >
+                  ×
+                </button>
+              </div>
+              {LEVEL_KEYS.map((key) => (
+                <motion.button
+                  key={key}
+                  type="button"
+                  whileTap={{ scale: 0.96 }}
+                  onClick={() => {
+                    setLevelKey(key);
+                    setLevelOpen(false);
+                  }}
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: 10,
+                    width: "100%",
+                    padding: "9px 10px",
+                    borderRadius: 12,
+                    background: key === levelKey ? "var(--paper-deep)" : "transparent",
+                    border: "none",
+                    cursor: "pointer",
+                    marginBottom: 2,
+                  }}
+                >
+                  <span style={{ fontSize: 12, fontWeight: key === levelKey ? 700 : 400, color: "var(--ink)" }}>
+                    {LEVEL_META[key].label}
+                  </span>
+                  {key === levelKey && (
                     <span style={{ marginLeft: "auto", fontSize: 10, color: "var(--seal)" }}>✓</span>
                   )}
                 </motion.button>
