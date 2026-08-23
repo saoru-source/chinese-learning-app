@@ -46,8 +46,18 @@ export default function LearnPage() {
           gradient="linear-gradient(135deg, var(--lavender), var(--seal-deep))"
           href={`/quiz/ai?level=${levelKey}`}
         />
-        <MenuTile label="文法辞書" icon={<GrammarDictIcon soft />} gradient="var(--paper-deep)" badge="近日公開" />
-        <MenuTile label="単語辞書" icon={<WordDictIcon soft />} gradient="var(--paper-deep)" badge="近日公開" />
+        <MenuTile
+          label="文法辞書"
+          icon={<GrammarDictIcon />}
+          gradient="linear-gradient(135deg, var(--seal), var(--seal-deep))"
+          href={`/learn/grammar?level=${levelKey}`}
+        />
+        <MenuTile
+          label="単語辞書"
+          icon={<WordDictIcon />}
+          gradient="linear-gradient(135deg, var(--gold), var(--jade-deep))"
+          href={`/learn/dictionary?level=${levelKey}`}
+        />
       </div>
     </main>
   );

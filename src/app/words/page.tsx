@@ -188,6 +188,26 @@ export default async function WordsPage({
     );
   }
 
+  // 単語辞書(/learn/dictionary)の「学習済み」判定用。カードとして表示された単語を
+  // progressテーブルに記録する(item_type="word")。既存の行(クイズの正誤記録等)を
+  // 上書きしないよう、ignoreDuplicatesで「まだ無ければ挿入するだけ」にしている。
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (user) {
+    await supabase.from("progress").upsert(
+      {
+        user_id: user.id,
+        item_type: "word",
+        item_id: word.id,
+        correct_count: 0,
+        incorrect_count: 0,
+        last_studied_at: new Date().toISOString(),
+      },
+      { onConflict: "user_id,item_type,item_id", ignoreDuplicates: true },
+    );
+  }
+
   const { data: exampleRows } = await supabase
     .from("sentences")
     .select("id, hanzi, pinyin, meaning_ja, grammar_label_raw")
