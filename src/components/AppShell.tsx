@@ -239,15 +239,17 @@ export default function AppShell({ children }: { children: ReactNode }) {
                 }}
               >
                 {active && (
-                  <div
+                  <motion.div
+                    layoutId="nav-pill"
+                    transition={{ type: "spring", stiffness: 500, damping: 35 }}
                     style={{
                       position: "absolute",
                       top: 3,
-                      width: 42,
-                      height: 34,
-                      borderRadius: 12,
-                      background: "var(--grad)",
-                      opacity: 0.15,
+                      width: 46,
+                      height: 38,
+                      borderRadius: 14,
+                      background: "var(--paper-deep)",
+                      border: "1px solid var(--line)",
                       zIndex: -1,
                     }}
                   />
