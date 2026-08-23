@@ -1,67 +1,90 @@
 @import "tailwindcss";
 
-/* 配色テーマ(追加コンテンツ仕様⑤)
-   4種類のプリセットをCSS変数で管理し、[data-theme]属性で切り替える。
-   値は top-page-mockup-character.html のプロトタイプに準拠。
-   yebe(パステルイエベ)がデフォルト = :root にそのまま定義。 */
-:root {
-  --paper: #fff8f5;
-  --paper-deep: #fdedf0;
-  --ink: #4a3628;
-  --ink-soft: #8a7568;
-  --seal: #f2a0ae;
-  --seal-deep: #e8879a;
-  --jade: #9ad1c4;
-  --jade-deep: #6fbba8;
-  --gold: #f6c863;
-  --gold-deep: #eab84a;
-  --lavender: #c9b8e8;
-  --line: #f5dce1;
+/* ===== PINK ===== */
+:root, [data-theme="yebe"], [data-theme="pink"] {
+  --paper: #FFFFFF;
+  --paper-deep: #FFFBFF;
+  --ink: #5A1840;
+  --ink-soft: #C090A8;
+  --seal: #F0A8CE;
+  --seal-deep: #FFE8FF;
+  --jade: #86E8D4;
+  --jade-deep: #58C8B0;
+  --gold: #FFC8E0;
+  --gold-deep: #F0A0C0;
+  --lavender: #D8B0FF;
+  --line: #FFE8FF;
 }
 
-[data-theme="burube"] {
-  --paper: #f5f7fc;
-  --paper-deep: #e9eef9;
-  --ink: #33405c;
-  --ink-soft: #7a88a8;
-  --seal: #93aeeb;
-  --seal-deep: #7191de;
-  --jade: #8fe0b8;
-  --jade-deep: #63c99a;
-  --gold: #f3e27a;
-  --gold-deep: #e3cc50;
-  --lavender: #b39ee8;
-  --line: #dce4f5;
+/* ===== BLUE ===== */
+[data-theme="burube"], [data-theme="blue"] {
+  --paper: #FFFFFF;
+  --paper-deep: #F0F8FF;
+  --ink: #203858;
+  --ink-soft: #6898B8;
+  --seal: #90D8F8;
+  --seal-deep: #58E8FF;
+  --jade: #88D0FF;
+  --jade-deep: #88A8F0;
+  --gold: #C8ECFF;
+  --gold-deep: #90D0F8;
+  --lavender: #C8B8FF;
+  --line: #E4F2FF;
 }
 
-[data-theme="nordic"] {
-  --paper: #f5f1e8;
-  --paper-deep: #eae3d2;
-  --ink: #2e3b36;
-  --ink-soft: #6e7a70;
-  --seal: #7fa0a8;
-  --seal-deep: #5e848c;
-  --jade: #6b8a5e;
-  --jade-deep: #4f6d45;
-  --gold: #cc9f3b;
-  --gold-deep: #b08a2e;
-  --lavender: #b06a50;
-  --line: #ded4bc;
+/* ===== GREEN ===== */
+[data-theme="green"] {
+  --paper: #FFFFFF;
+  --paper-deep: #FFFFFF;
+  --ink: #284020;
+  --ink-soft: #80A858;
+  --seal: #B8E878;
+  --seal-deep: #80C840;
+  --jade: #F5BBD4;
+  --jade-deep: #E890A8;
+  --gold: #D8F898;
+  --gold-deep: #B0E060;
+  --lavender: #EAFFE0;
+  --line: #EAFFE0;
 }
 
+/* ===== PURPLE ===== */
+[data-theme="purple"] {
+  --paper: #FFFFFF;
+  --paper-deep: #FFFFFF;
+  --ink: #302058;
+  --ink-soft: #0888B8;
+  --seal: #C0B8F8;
+  --seal-deep: #9888D0;
+  --jade: #F8C0E8;
+  --jade-deep: #E898D0;
+  --gold: #DDD8FF;
+  --gold-deep: #C0B0F8;
+  --lavender: #D0B8FF;
+  --line: #EEE8FF;
+}
+
+/* ===== JIRAI ===== */
 [data-theme="jirai"] {
-  --paper: #fbf4f7;
-  --paper-deep: #f2dde6;
-  --ink: #221820;
-  --ink-soft: #7a6270;
-  --seal: #e85d8a;
-  --seal-deep: #c74070;
-  --jade: #7a5b99;
-  --jade-deep: #5c4278;
-  --gold: #2a2430;
-  --gold-deep: #120e14;
-  --lavender: #b685c9;
-  --line: #ebc9da;
+  --paper: #FDFCFD;
+  --paper-deep: #F7F2F5;
+  --ink: #483848;
+  --ink-soft: #A890A0;
+  --seal: #E0C0CC;
+  --seal-deep: #C8A0B0;
+  --jade: #C8C8DC;
+  --jade-deep: #A8A8C8;
+  --gold: #EDD8E4;
+  --gold-deep: #D8C0CC;
+  --lavender: #F0E8EE;
+  --line: #F0E8EE;
+}
+
+/* GlassButton等の共通グラデーション。値は各テーマの--seal/--seal-deepを
+   参照しているだけなので、テーマごとに再定義する必要はない
+   (data-theme切り替えに応じて自動で追従する)。 */
+:root {
+  --grad: linear-gradient(135deg, var(--seal), var(--seal-deep));
 }
 
 @theme inline {

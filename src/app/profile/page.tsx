@@ -2,6 +2,7 @@ import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { upsertNickname } from "@/lib/profile/actions";
+import { signOut } from "@/lib/supabase/actions";
 import ThemeSwitcher from "./ThemeSwitcher";
 
 export default async function ProfilePage({
@@ -21,7 +22,7 @@ export default async function ProfilePage({
 
   const { data: profile } = await supabase
     .from("users")
-    .select("nickname, theme")
+    .select("nickname")
     .eq("id", user.id)
     .maybeSingle();
 
@@ -70,8 +71,14 @@ export default async function ProfilePage({
 
       <div className="mt-8">
         <h2 className="mb-3 text-sm font-bold text-ink-soft">配色テーマ</h2>
-        <ThemeSwitcher current={profile?.theme ?? "yebe"} />
+        <ThemeSwitcher />
       </div>
+
+      <form action={signOut} className="mt-10">
+        <button type="submit" className="w-full rounded border border-line py-2 text-sm text-ink-soft">
+          ログアウト
+        </button>
+      </form>
     </div>
   );
 }
