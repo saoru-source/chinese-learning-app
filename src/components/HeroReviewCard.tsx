@@ -71,7 +71,11 @@ export default function HeroReviewCard({ displayName }: { displayName: string })
           ログイン中: {displayName}
         </span>
 
-        <h2 style={{ color: "#fff", fontSize: 18, fontWeight: 800, margin: 0 }}>今日の復習</h2>
+        <h2 style={{ color: "#fff", fontSize: 18, fontWeight: 800, margin: 0 }}>今日の学習</h2>
+
+        <p style={{ color: "#fff", fontSize: 13, opacity: 0.85, margin: 0 }}>
+          AIがあなたに合った問題を用意しました
+        </p>
 
         <GlassButton variant="white" size="sm" onClick={() => router.push("/quiz/ai")}>
           <span style={{ color: "var(--seal-deep)", display: "inline-flex", alignItems: "center", gap: 6 }}>
