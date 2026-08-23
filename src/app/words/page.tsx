@@ -1,118 +1,405 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import { tokenizeSentence } from "@/lib/words/segment";
+import BookmarkToggle from "@/components/BookmarkToggle";
+import SpeakButton from "@/components/SpeakButton";
+import TappableText from "@/components/TappableText";
 
-const PAGE_SIZE = 50;
+const LEVELS = [1, 2, 3, 4, 5, 6];
+
+function BackArrowIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="var(--ink)" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M15 5l-7 7 7 7" />
+    </svg>
+  );
+}
+
+function ArrowLeftIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="var(--jade-deep)" strokeWidth={2.4} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M15 5l-7 7 7 7" />
+    </svg>
+  );
+}
+
+function ArrowRightIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="white" strokeWidth={2.4} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M9 5l7 7-7 7" />
+    </svg>
+  );
+}
+
+function RewindIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={16} height={16} fill="none" stroke="var(--ink)" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M3 12a9 9 0 1 0 3-6.7" />
+      <path d="M3 4v5h5" />
+    </svg>
+  );
+}
+
+function CompletionScreen({
+  level,
+  words,
+}: {
+  level: number;
+  words: { id: number; hanzi: string; pinyin: string | null; meaning_ja: string | null }[];
+}) {
+  return (
+    <main style={{ maxWidth: 480, margin: "0 auto", padding: "24px 16px 40px" }}>
+      <div style={{ textAlign: "center", marginBottom: 20 }}>
+        <div
+          style={{
+            fontSize: 52,
+            fontWeight: 800,
+            background: "var(--grad)",
+            WebkitBackgroundClip: "text",
+            backgroundClip: "text",
+            color: "transparent",
+            lineHeight: 1.1,
+          }}
+        >
+          {words.length}語
+        </div>
+        <p style={{ fontSize: 14, color: "var(--ink-soft)", marginTop: 4 }}>
+          すべての単語を確認しました
+        </p>
+      </div>
+
+      <div
+        style={{
+          background: "#fff",
+          borderRadius: 22,
+          boxShadow: "0 4px 16px rgba(0,0,0,0.06)",
+          padding: "4px 16px",
+          marginBottom: 20,
+        }}
+      >
+        {words.map((w, i) => (
+          <div
+            key={w.id}
+            style={{
+              display: "flex",
+              alignItems: "baseline",
+              gap: 10,
+              padding: "12px 0",
+              borderTop: i === 0 ? "none" : "1px solid var(--line)",
+            }}
+          >
+            <span style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>{w.hanzi}</span>
+            <span style={{ fontSize: 12, color: "var(--ink-soft)", fontWeight: 500 }}>{w.pinyin}</span>
+            <span style={{ marginLeft: "auto", fontSize: 13, color: "var(--ink)", textAlign: "right" }}>
+              {w.meaning_ja}
+            </span>
+          </div>
+        ))}
+      </div>
+
+      <div style={{ display: "flex", gap: 10 }}>
+        <Link
+          href={`/words?level=${level}&index=0`}
+          style={{
+            flex: 1,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            gap: 6,
+            background: "#fff",
+            border: "1px solid var(--line)",
+            borderRadius: 999,
+            padding: "12px 0",
+            fontSize: 13,
+            fontWeight: 700,
+            color: "var(--ink)",
+            textDecoration: "none",
+          }}
+        >
+          <RewindIcon />
+          もう一度
+        </Link>
+        <Link
+          href="/"
+          style={{
+            flex: 1,
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            background: "var(--grad)",
+            borderRadius: 999,
+            padding: "12px 0",
+            fontSize: 13,
+            fontWeight: 700,
+            color: "#fff",
+            textDecoration: "none",
+          }}
+        >
+          ホームへ
+        </Link>
+      </div>
+    </main>
+  );
+}
 
 export default async function WordsPage({
   searchParams,
 }: {
-  searchParams: Promise<{ level?: string; page?: string }>;
+  searchParams: Promise<{ level?: string; index?: string }>;
 }) {
   const params = await searchParams;
-  const level = params.level ? Number(params.level) : null;
-  const page = params.page ? Math.max(1, Number(params.page)) : 1;
+  const level = LEVELS.includes(Number(params.level)) ? Number(params.level) : 1;
+  const index = Math.max(0, Number(params.index) || 0);
 
   const supabase = await createClient();
 
-  let query = supabase
+  const { count } = await supabase
     .from("words")
-    .select("id, hanzi, pinyin, meaning_ja, hsk_level", { count: "exact" })
-    .order("id", { ascending: true })
-    .range((page - 1) * PAGE_SIZE, page * PAGE_SIZE - 1);
+    .select("id", { count: "exact", head: true })
+    .eq("hsk_level", level);
 
-  if (level) {
-    query = query.eq("hsk_level", level);
+  const total = count ?? 0;
+
+  if (index >= total) {
+    const { data: allWords } = await supabase
+      .from("words")
+      .select("id, hanzi, pinyin, meaning_ja")
+      .eq("hsk_level", level)
+      .order("id", { ascending: true });
+
+    return <CompletionScreen level={level} words={allWords ?? []} />;
   }
 
-  const { data: words, count, error } = await query;
+  const { data: wordRows } = await supabase
+    .from("words")
+    .select("id, hanzi, pinyin, meaning_ja, hsk_level")
+    .eq("hsk_level", level)
+    .order("id", { ascending: true })
+    .range(index, index);
 
-  const totalPages = count ? Math.ceil(count / PAGE_SIZE) : 1;
+  const word = wordRows?.[0];
 
-  const levelHref = (lv: number | null) =>
-    `/words${lv ? `?level=${lv}` : ""}`;
-  const pageHref = (p: number) =>
-    `/words?${level ? `level=${level}&` : ""}page=${p}`;
+  if (!word) {
+    return (
+      <main style={{ maxWidth: 480, margin: "0 auto", padding: "24px 16px" }}>
+        <p style={{ fontSize: 14, color: "var(--ink-soft)" }}>単語が見つかりませんでした。</p>
+        <Link href="/" className="underline text-sm">トップに戻る</Link>
+      </main>
+    );
+  }
+
+  const { data: exampleRows } = await supabase
+    .from("sentences")
+    .select("id, hanzi, pinyin, meaning_ja, grammar_label_raw")
+    .ilike("hanzi", `%${word.hanzi}%`)
+    .order("hsk_level", { ascending: true })
+    .order("id", { ascending: true })
+    .limit(1);
+
+  const example = exampleRows?.[0] ?? null;
+  const exampleSegments = example ? await tokenizeSentence(supabase, example.hanzi) : null;
+
+  const progressPct = Math.round(((index + 1) / total) * 100);
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-10">
-      <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-2xl font-bold">単語一覧</h1>
-        <Link href="/" className="text-sm underline">
-          トップに戻る
-        </Link>
-      </div>
-
-      <div className="mb-4 flex flex-wrap gap-2 text-sm">
-        <Link
-          href={levelHref(null)}
-          className={`rounded border border-line px-3 py-1 ${!level ? "bg-seal text-ink border-seal" : ""}`}
-        >
-          すべて
-        </Link>
-        {[1, 2, 3, 4, 5, 6].map((lv) => (
+    <main style={{ maxWidth: 480, margin: "0 auto", padding: "16px 16px 40px" }}>
+      <div style={{ display: "flex", gap: 6, marginBottom: 14, flexWrap: "wrap" }}>
+        {LEVELS.map((lv) => (
           <Link
             key={lv}
-            href={levelHref(lv)}
-            className={`rounded border border-line px-3 py-1 ${level === lv ? "bg-seal text-ink border-seal" : ""}`}
+            href={`/words?level=${lv}&index=0`}
+            style={{
+              fontSize: 11,
+              fontWeight: 700,
+              padding: "4px 10px",
+              borderRadius: 999,
+              textDecoration: "none",
+              color: lv === level ? "#fff" : "var(--ink-soft)",
+              background: lv === level ? "var(--grad)" : "var(--paper-deep)",
+            }}
           >
             HSK{lv}
           </Link>
         ))}
       </div>
 
-      {error && (
-        <p className="rounded bg-red-50 p-3 text-sm text-red-700">
-          データの取得に失敗しました: {error.message}
-        </p>
-      )}
-
-      <p className="mb-2 text-sm text-ink-soft">
-        全{count ?? 0}件中 {(page - 1) * PAGE_SIZE + 1}〜
-        {Math.min(page * PAGE_SIZE, count ?? 0)}件を表示
-      </p>
-
-      <div className="overflow-x-auto rounded border border-line">
-        <table className="w-full text-sm">
-          <thead>
-            <tr className="border-b border-line bg-paper-deep text-left">
-              <th className="px-3 py-2">漢字</th>
-              <th className="px-3 py-2">拼音</th>
-              <th className="px-3 py-2">意味</th>
-              <th className="px-3 py-2">級</th>
-            </tr>
-          </thead>
-          <tbody>
-            {words?.map((w) => (
-              <tr key={w.id} className="border-b border-line last:border-0">
-                <td className="px-3 py-2">{w.hanzi}</td>
-                <td className="px-3 py-2 text-ink-soft">{w.pinyin}</td>
-                <td className="px-3 py-2">{w.meaning_ja}</td>
-                <td className="px-3 py-2">HSK{w.hsk_level}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <div className="mt-4 flex items-center justify-center gap-4 text-sm">
-        {page > 1 ? (
-          <Link href={pageHref(page - 1)} className="underline">
-            前へ
-          </Link>
-        ) : (
-          <span className="text-ink-soft/40">前へ</span>
-        )}
-        <span>
-          {page} / {totalPages}
+      <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
+        <Link
+          href="/"
+          aria-label="トップに戻る"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: 30,
+            height: 30,
+            borderRadius: "50%",
+            background: "#fff",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+            flexShrink: 0,
+          }}
+        >
+          <BackArrowIcon />
+        </Link>
+        <span style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)" }}>
+          単語学習 · HSK{word.hsk_level}
         </span>
-        {page < totalPages ? (
-          <Link href={pageHref(page + 1)} className="underline">
-            次へ
-          </Link>
-        ) : (
-          <span className="text-ink-soft/40">次へ</span>
-        )}
+        <span style={{ marginLeft: "auto", fontSize: 12, color: "var(--ink-soft)" }}>
+          {index + 1} / {total} 語
+        </span>
+        <span
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: "3px 9px",
+            borderRadius: 8,
+            background: "var(--grad)",
+            color: "#fff",
+            fontSize: 11,
+            fontWeight: 700,
+            transform: "rotate(-4deg)",
+            flexShrink: 0,
+          }}
+        >
+          HSK{word.hsk_level}
+        </span>
       </div>
-    </div>
+
+      <div
+        style={{
+          height: 6,
+          borderRadius: 999,
+          background: "var(--line)",
+          overflow: "hidden",
+          marginBottom: 18,
+        }}
+      >
+        <div
+          style={{
+            height: "100%",
+            width: `${progressPct}%`,
+            background: "var(--grad)",
+            borderRadius: 999,
+            transition: "width 0.3s ease",
+          }}
+        />
+      </div>
+
+      <div
+        style={{
+          position: "relative",
+          background: "#fff",
+          borderRadius: 22,
+          boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
+          padding: "24px 20px",
+          textAlign: "center",
+          marginBottom: 18,
+        }}
+      >
+        <BookmarkToggle />
+
+        <div
+          style={{
+            width: 44,
+            height: 4,
+            borderRadius: 999,
+            background: "var(--grad)",
+            margin: "0 auto 18px",
+          }}
+        />
+
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginBottom: 8 }}>
+          <span style={{ fontSize: 44, fontWeight: 700, color: "var(--ink)" }}>{word.hanzi}</span>
+          <SpeakButton text={word.hanzi} size={30} />
+        </div>
+
+        <p style={{ fontSize: 15, fontWeight: 500, color: "var(--ink-soft)", marginBottom: 18 }}>
+          {word.pinyin}
+        </p>
+
+        <div style={{ borderTop: "1px solid var(--line)", paddingTop: 16 }}>
+          <p style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 4 }}>意味</p>
+          <p style={{ fontSize: 20, fontWeight: 700, color: "var(--ink)" }}>{word.meaning_ja}</p>
+        </div>
+      </div>
+
+      <div style={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 24, marginBottom: 20 }}>
+        <Link
+          href={index > 0 ? `/words?level=${level}&index=${index - 1}` : "#"}
+          aria-disabled={index === 0}
+          tabIndex={index === 0 ? -1 : undefined}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: 48,
+            height: 48,
+            borderRadius: "50%",
+            background: "#fff",
+            boxShadow: "0 4px 14px rgba(0,0,0,0.08)",
+            opacity: index === 0 ? 0.35 : 1,
+            pointerEvents: index === 0 ? "none" : "auto",
+          }}
+        >
+          <ArrowLeftIcon />
+        </Link>
+        <Link
+          href={`/words?level=${level}&index=${index + 1}`}
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: 48,
+            height: 48,
+            borderRadius: "50%",
+            background: "var(--grad)",
+            boxShadow: "0 6px 18px rgba(0,0,0,0.14)",
+          }}
+        >
+          <ArrowRightIcon />
+        </Link>
+      </div>
+
+      {example && exampleSegments && (
+        <div
+          style={{
+            background: "#fff",
+            borderRadius: 20,
+            boxShadow: "0 4px 16px rgba(0,0,0,0.06)",
+            padding: "18px 20px",
+          }}
+        >
+          <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
+            <div style={{ flex: 1 }}>
+              <TappableText segments={exampleSegments} fontSize={16} lineHeight={1.7} />
+            </div>
+            <SpeakButton text={example.hanzi} size={26} />
+          </div>
+
+          <p style={{ fontSize: 11, color: "var(--ink-soft)", fontWeight: 500, marginTop: 8 }}>
+            {example.pinyin}
+          </p>
+          <p style={{ fontSize: 14, color: "var(--ink)", marginTop: 4 }}>{example.meaning_ja}</p>
+
+          {example.grammar_label_raw && (
+            <span
+              style={{
+                display: "inline-flex",
+                marginTop: 10,
+                padding: "4px 12px",
+                borderRadius: 999,
+                background: "var(--grad)",
+                color: "#fff",
+                fontSize: 11,
+                fontWeight: 700,
+              }}
+            >
+              {example.grammar_label_raw}
+            </span>
+          )}
+        </div>
+      )}
+    </main>
   );
 }
