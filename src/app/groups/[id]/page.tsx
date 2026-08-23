@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import PronunciationCheck from "@/components/PronunciationCheck";
 
 type Item = {
   order_index: number;
@@ -112,7 +113,10 @@ function WordChip({
   if (!word) return null;
   return (
     <div className="text-center">
-      <p className="text-lg">{word.hanzi}</p>
+      <div className="flex items-center justify-center gap-1">
+        <p className="text-lg">{word.hanzi}</p>
+        <PronunciationCheck target={word.hanzi} pinyin={word.pinyin} />
+      </div>
       <p className="text-xs text-ink-soft">{word.pinyin}</p>
       <p className="text-xs">{word.meaning_ja}</p>
     </div>

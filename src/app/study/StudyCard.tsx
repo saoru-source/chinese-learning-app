@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { recordStepwiseResult } from "@/lib/stepwise/actions";
 import type { StepwiseSentence } from "@/lib/stepwise/select";
+import PronunciationCheck from "@/components/PronunciationCheck";
 
 export default function StudyCard({
   sentence,
@@ -14,7 +15,10 @@ export default function StudyCard({
   return (
     <div className="rounded border border-line p-8 text-center">
       <p className="mb-1 text-xs text-ink-soft">HSK{sentence.hsk_level}</p>
-      <p className="mb-4 text-2xl">{sentence.hanzi}</p>
+      <div className="mb-4 flex items-center justify-center gap-2">
+        <p className="text-2xl">{sentence.hanzi}</p>
+        <PronunciationCheck target={sentence.hanzi} pinyin={sentence.pinyin} />
+      </div>
 
       {sentence.knownWords.length > 0 && (
         <div className="mb-4 flex flex-wrap justify-center gap-1">

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import PronunciationCheck from "@/components/PronunciationCheck";
 
 export default async function PatternSituationPage({
   params,
@@ -39,7 +40,10 @@ export default async function PatternSituationPage({
         {patterns?.map((p) => (
           <li key={p.id} className="rounded border border-line p-4">
             <p className="mb-1 text-xs text-ink-soft">HSK{p.hsk_level}</p>
-            <p className="text-lg">{p.hanzi}</p>
+            <div className="mb-1 flex items-center gap-2">
+              <p className="text-lg">{p.hanzi}</p>
+              <PronunciationCheck target={p.hanzi} pinyin={p.pinyin} />
+            </div>
             <p className="text-sm text-ink-soft">{p.pinyin}</p>
             <p className="text-sm">{p.meaning_ja}</p>
           </li>
