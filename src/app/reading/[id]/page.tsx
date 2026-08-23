@@ -1,8 +1,28 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { tokenizePassage } from "@/lib/reading/segment";
+import TappableText from "@/components/TappableText";
+import SpeakButton from "@/components/SpeakButton";
 import ReadingQuestions from "./ReadingQuestions";
 import ShareButton from "@/components/ShareButton";
+
+function BackArrowIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="var(--ink-soft)" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M15 5l-7 7 7 7" />
+    </svg>
+  );
+}
+
+function BookIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={16} height={16} fill="none" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5v-15z" />
+      <path d="M4 18a2.5 2.5 0 0 1 2.5-2.5H20" />
+    </svg>
+  );
+}
 
 export default async function ReadingPassagePage({
   params,
@@ -38,6 +58,8 @@ export default async function ReadingPassagePage({
     correct_choice_index: q.correct_choice_index,
   }));
 
+  const segments = await tokenizePassage(supabase, passage.body, passage.hsk_level);
+
   const {
     data: { user },
   } = await supabase.auth.getUser();
@@ -59,38 +81,69 @@ export default async function ReadingPassagePage({
   }
 
   return (
-    <div className="mx-auto max-w-md px-4 py-10">
-      <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-2xl font-bold">{passage.title}</h1>
-        <Link href="/reading" className="text-sm underline">
-          一覧に戻る
+    <main style={{ maxWidth: 480, margin: "0 auto", padding: "16px 16px 40px" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16 }}>
+        <Link href="/reading" aria-label="一覧に戻る" style={{ display: "flex", alignItems: "center" }}>
+          <BackArrowIcon />
         </Link>
+        <div>
+          <p style={{ fontSize: 13, fontWeight: 700, color: "var(--ink)" }}>{passage.title}</p>
+          <p style={{ fontSize: 10, color: "var(--ink-soft)" }}>
+            HSK{passage.hsk_level} · 約{passage.body.length}字
+          </p>
+        </div>
       </div>
 
-      <p className="mb-4 text-xs text-ink-soft">HSK{passage.hsk_level}級</p>
+      <div
+        style={{
+          background: "#fff",
+          borderRadius: 22,
+          boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
+          padding: "20px 20px",
+          marginBottom: 16,
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
+          <div style={{ flex: 1 }}>
+            <TappableText segments={segments} fontSize={14} lineHeight={2.0} />
+          </div>
+          <SpeakButton text={passage.body} size={28} />
+        </div>
 
-      <div className="mb-2 whitespace-pre-wrap rounded border border-line p-4 text-sm leading-relaxed">
-        {passage.body}
+        <p style={{ fontSize: 11, color: "var(--ink-soft)", textAlign: "center", marginTop: 14 }}>
+          本文中の単語をタップすると意味と発音がポップアップ表示されます
+        </p>
+
+        <div style={{ borderTop: "1px solid var(--line)", margin: "16px 0" }} />
+
+        <ReadingQuestions questions={questions} />
       </div>
 
-      <div className="mb-8">
-        <ShareButton
-          itemType="passage"
-          itemId={passage.id}
-          followingList={followingList}
-        />
+      <div style={{ marginBottom: 14 }}>
+        <ShareButton itemType="passage" itemId={passage.id} followingList={followingList} />
       </div>
 
-      <ReadingQuestions questions={questions} />
-
-      <div className="mt-8 text-center">
-        <Link
-          href={`/reading/${passage.id}/summary`}
-          className="text-sm underline"
-        >
-          この文章を要約する →
-        </Link>
-      </div>
-    </div>
+      <Link
+        href={`/reading/${passage.id}/summary`}
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          gap: 8,
+          width: "100%",
+          background: "var(--grad)",
+          color: "#fff",
+          fontWeight: 700,
+          fontSize: 14,
+          borderRadius: 999,
+          padding: "13px 0",
+          boxShadow: "0 8px 20px rgba(0,0,0,0.12)",
+          textDecoration: "none",
+        }}
+      >
+        <BookIcon />
+        読んだ内容を中国語で要約する
+      </Link>
+    </main>
   );
 }

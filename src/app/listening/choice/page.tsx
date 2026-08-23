@@ -1,9 +1,17 @@
-import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { randomOffset } from "@/lib/listening/pickRandom";
+import ListeningHeader from "../ListeningHeader";
 import ListeningChoiceCard from "./ListeningChoiceCard";
 
-export default async function ListeningChoicePage() {
+export default async function ListeningChoicePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ n?: string }>;
+}) {
+  const params = await searchParams;
+  const current = Math.max(1, Number(params.n) || 1);
+
   const supabase = await createClient();
   const {
     data: { user },
@@ -22,7 +30,7 @@ export default async function ListeningChoicePage() {
 
   let question = null;
   if (total > 0) {
-    const offset = Math.floor(Math.random() * total);
+    const offset = randomOffset(total);
     const { data } = await supabase
       .from("listening_questions")
       .select("id, hsk_level, text_zh, correct_answer, choices")
@@ -33,19 +41,22 @@ export default async function ListeningChoicePage() {
   }
 
   return (
-    <div className="mx-auto max-w-md px-4 py-10">
-      <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-2xl font-bold">選択式ヒアリング</h1>
-        <Link href="/listening" className="text-sm underline">
-          ヒアリングに戻る
-        </Link>
-      </div>
+    <main style={{ maxWidth: 480, margin: "0 auto", padding: "16px 16px 40px" }}>
+      <ListeningHeader active="choice" hskLevel={question?.hsk_level ?? 1} current={current} total={total} />
 
       {question ? (
-        <ListeningChoiceCard question={question} />
+        <ListeningChoiceCard
+          key={`${question.id}-${current}`}
+          question={question}
+          nextHref={`/listening/choice?n=${current + 1}`}
+        />
       ) : (
-        <p className="text-sm text-ink-soft">問題がありません。</p>
+        <p style={{ fontSize: 13, color: "var(--ink-soft)", textAlign: "center" }}>問題がありません。</p>
       )}
-    </div>
+
+      <p style={{ fontSize: 11, color: "var(--ink-soft)", textAlign: "center", marginTop: 16 }}>
+        ブラウザ標準の音声読み上げ機能を使用します
+      </p>
+    </main>
   );
 }

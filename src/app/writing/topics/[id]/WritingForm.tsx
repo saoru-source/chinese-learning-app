@@ -25,7 +25,7 @@ export default function WritingForm({ topicId }: { topicId: number }) {
 
   return (
     <div>
-      <form action={handleSubmit} className="flex flex-col gap-3">
+      <form action={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: 12 }}>
         <input type="hidden" name="topicId" value={topicId} />
         <textarea
           name="text"
@@ -33,23 +33,54 @@ export default function WritingForm({ topicId }: { topicId: number }) {
           onChange={(e) => setText(e.target.value)}
           rows={6}
           placeholder="ここに中国語で書いてください"
-          className="rounded border border-line px-3 py-2 text-sm"
+          style={{
+            background: "#fff",
+            borderRadius: 16,
+            border: "1px solid var(--line)",
+            padding: "14px 16px",
+            fontSize: 14,
+            color: "var(--ink)",
+            lineHeight: 1.7,
+            resize: "vertical",
+            boxShadow: "0 4px 14px rgba(0,0,0,0.05)",
+          }}
         />
         <button
           type="submit"
-          disabled={loading}
-          className="rounded bg-seal px-4 py-2 text-sm text-ink disabled:opacity-50"
+          disabled={loading || !text.trim()}
+          style={{
+            background: "var(--grad)",
+            color: "#fff",
+            fontWeight: 700,
+            fontSize: 14,
+            border: "none",
+            borderRadius: 999,
+            padding: "13px 0",
+            boxShadow: "0 8px 20px rgba(0,0,0,0.12)",
+            opacity: loading || !text.trim() ? 0.5 : 1,
+            cursor: loading || !text.trim() ? "default" : "pointer",
+          }}
         >
           {loading ? "AIが添削中…" : "AIに添削してもらう"}
         </button>
       </form>
 
-      {error && <p className="mt-4 text-sm text-red-600">{error}</p>}
+      {error && (
+        <p style={{ marginTop: 14, fontSize: 12, fontWeight: 700, color: "var(--miss-red)" }}>{error}</p>
+      )}
 
       {feedback && (
-        <div className="mt-6 rounded border border-line bg-paper-deep p-4">
-          <p className="mb-2 text-sm font-bold text-ink-soft">AIの添削結果</p>
-          <p className="whitespace-pre-wrap text-sm">{feedback}</p>
+        <div
+          style={{
+            marginTop: 16,
+            background: "#fff",
+            borderRadius: 16,
+            padding: "16px 18px",
+            boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
+          }}
+        >
+          <p style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 8 }}>AIの添削結果</p>
+          <p style={{ fontSize: 13, color: "var(--ink)", lineHeight: 1.8, whiteSpace: "pre-wrap" }}>{feedback}</p>
         </div>
       )}
     </div>

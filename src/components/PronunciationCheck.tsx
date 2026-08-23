@@ -90,7 +90,18 @@ function MicIcon() {
   );
 }
 
-export default function PronunciationCheck({ target, pinyin }: { target: string; pinyin?: string | null }) {
+export default function PronunciationCheck({
+  target,
+  pinyin,
+  onResult,
+}: {
+  target: string;
+  pinyin?: string | null;
+  // 発音チェックの一致度(%)が確定した時点で呼ばれる任意コールバック。
+  // 段階的暗記画面のように、発音判定の結果を使って正誤を決めたい画面のためのもの。
+  // 省略しても既存の見た目・挙動(マイク→判定→再チャレンジ/閉じる)は一切変わらない。
+  onResult?: (pct: number) => void;
+}) {
   const [open, setOpen] = useState(false);
   const [status, setStatus] = useState<Status>("idle");
   const [matched, setMatched] = useState<boolean[]>([]);
@@ -123,6 +134,7 @@ export default function PronunciationCheck({ target, pinyin }: { target: string;
       setMatched(m);
       setPct(percent);
       setStatus("result");
+      onResult?.(percent);
     };
 
     rec.onerror = (e) => {

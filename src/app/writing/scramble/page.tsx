@@ -1,9 +1,25 @@
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { randomOffset } from "@/lib/listening/pickRandom";
 import ScrambleCard from "./ScrambleCard";
 
-export default async function ScramblePage() {
+function BackArrowIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="var(--ink-soft)" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M15 5l-7 7 7 7" />
+    </svg>
+  );
+}
+
+export default async function ScramblePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ n?: string }>;
+}) {
+  const params = await searchParams;
+  const current = Math.max(1, Number(params.n) || 1);
+
   const supabase = await createClient();
   const {
     data: { user },
@@ -21,7 +37,7 @@ export default async function ScramblePage() {
 
   let question = null;
   if (total > 0) {
-    const offset = Math.floor(Math.random() * total);
+    const offset = randomOffset(total);
     const { data } = await supabase
       .from("writing_scramble_questions")
       .select("id, hsk_level, words_shuffled, correct_sentence, meaning_ja")
@@ -31,19 +47,19 @@ export default async function ScramblePage() {
   }
 
   return (
-    <div className="mx-auto max-w-md px-4 py-10">
-      <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-2xl font-bold">語順並べ替え</h1>
-        <Link href="/writing" className="text-sm underline">
-          ライティングに戻る
+    <main style={{ maxWidth: 480, margin: "0 auto", padding: "16px 16px 40px" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16 }}>
+        <Link href="/writing" aria-label="ライティングに戻る" style={{ display: "flex", alignItems: "center" }}>
+          <BackArrowIcon />
         </Link>
+        <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>語順並べ替え</h1>
       </div>
 
       {question ? (
-        <ScrambleCard question={question} />
+        <ScrambleCard key={`${question.id}-${current}`} question={question} nextHref={`/writing/scramble?n=${current + 1}`} />
       ) : (
-        <p className="text-sm text-ink-soft">問題がありません。</p>
+        <p style={{ fontSize: 13, color: "var(--ink-soft)", textAlign: "center" }}>問題がありません。</p>
       )}
-    </div>
+    </main>
   );
 }

@@ -1,20 +1,17 @@
 "use server";
 
-import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 
-export async function recordStepwiseResult(formData: FormData) {
+// クライアント側(StudySession)がセッション内で順番に呼び出す想定のため、
+// フォーム送信ではなく直接引数で呼び出す形にしている(呼び出し後に画面遷移は
+// 行わず、セッションの進行はクライアント側のstateで管理する)。
+export async function recordStepwiseResult(itemId: number, correct: boolean) {
   const supabase = await createClient();
   const {
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user) {
-    redirect("/login");
-  }
-
-  const itemId = Number(formData.get("itemId"));
-  const correct = formData.get("correct") === "true";
+  if (!user) return;
 
   const { data: existing } = await supabase
     .from("progress")
@@ -43,6 +40,4 @@ export async function recordStepwiseResult(formData: FormData) {
       last_studied_at: new Date().toISOString(),
     });
   }
-
-  redirect("/study");
 }

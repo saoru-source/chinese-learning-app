@@ -1,7 +1,16 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import SpeakButton from "@/components/SpeakButton";
 import PronunciationCheck from "@/components/PronunciationCheck";
+
+function BackArrowIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={24} height={24} fill="none" stroke="var(--ink-soft)" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M19 12H5M12 19l-7-7 7-7" />
+    </svg>
+  );
+}
 
 export default async function PatternSituationPage({
   params,
@@ -24,31 +33,70 @@ export default async function PatternSituationPage({
     .order("id", { ascending: true });
 
   return (
-    <div className="mx-auto max-w-md px-4 py-10">
-      <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-2xl font-bold">{situation}</h1>
-        <Link href="/patterns" className="text-sm underline">
-          一覧に戻る
-        </Link>
+    <main style={{ maxWidth: 480, margin: "0 auto", padding: "16px 16px 40px" }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 12 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <Link href={`/patterns?style=${style}`} aria-label="一覧に戻る" style={{ display: "flex", alignItems: "center" }}>
+            <BackArrowIcon />
+          </Link>
+          <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>{situation}</h1>
+        </div>
+        <span
+          style={{
+            flexShrink: 0,
+            background: "var(--grad)",
+            color: "#fff",
+            fontSize: 10,
+            fontWeight: 600,
+            borderRadius: 20,
+            padding: "3px 12px",
+          }}
+        >
+          {style === "colloquial" ? "口語" : "ビジネス"}
+        </span>
       </div>
 
-      <p className="mb-4 text-sm text-ink-soft">
-        {style === "colloquial" ? "口語" : "ビジネス"} ・全{patterns?.length ?? 0}件
-      </p>
+      <p style={{ fontSize: 12, color: "var(--ink-soft)", marginBottom: 14 }}>全{patterns?.length ?? 0}件</p>
 
-      <ul className="flex flex-col gap-3">
+      <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
         {patterns?.map((p) => (
-          <li key={p.id} className="rounded border border-line p-4">
-            <p className="mb-1 text-xs text-ink-soft">HSK{p.hsk_level}</p>
-            <div className="mb-1 flex items-center gap-2">
-              <p className="text-lg">{p.hanzi}</p>
-              <PronunciationCheck target={p.hanzi} pinyin={p.pinyin} />
+          <div
+            key={p.id}
+            style={{
+              background: "#fff",
+              borderRadius: 22,
+              boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
+              padding: "18px 20px",
+            }}
+          >
+            <span
+              style={{
+                display: "inline-block",
+                fontSize: 10,
+                fontWeight: 700,
+                color: "#fff",
+                background: "var(--grad)",
+                borderRadius: 6,
+                padding: "3px 8px",
+                marginBottom: 8,
+              }}
+            >
+              HSK{p.hsk_level}
+            </span>
+
+            <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
+              <p style={{ flex: 1, fontSize: 18, lineHeight: 1.7, color: "var(--ink)" }}>{p.hanzi}</p>
+              <div style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0 }}>
+                <SpeakButton text={p.hanzi} size={28} />
+                <PronunciationCheck target={p.hanzi} pinyin={p.pinyin} />
+              </div>
             </div>
-            <p className="text-sm text-ink-soft">{p.pinyin}</p>
-            <p className="text-sm">{p.meaning_ja}</p>
-          </li>
+
+            <p style={{ fontSize: 11, fontWeight: 500, color: "var(--ink-soft)", marginTop: 8 }}>{p.pinyin}</p>
+            <p style={{ fontSize: 14, color: "var(--ink)", marginTop: 4 }}>{p.meaning_ja}</p>
+          </div>
         ))}
-      </ul>
-    </div>
+      </div>
+    </main>
   );
 }
