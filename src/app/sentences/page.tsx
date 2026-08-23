@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import ShareButton from "@/components/ShareButton";
 
 const PAGE_SIZE = 30;
 
@@ -30,6 +31,26 @@ export default async function SentencesPage({
   const { data: sentences, count, error } = await query;
 
   const totalPages = count ? Math.ceil(count / PAGE_SIZE) : 1;
+
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  let followingList: { id: string; nickname: string }[] = [];
+  if (user) {
+    const { data: followingRows } = await supabase
+      .from("follows")
+      .select("following_id")
+      .eq("follower_id", user.id);
+    const followingIds = (followingRows ?? []).map((r) => r.following_id);
+    if (followingIds.length) {
+      const { data } = await supabase
+        .from("users")
+        .select("id, nickname")
+        .in("id", followingIds);
+      followingList = data ?? [];
+    }
+  }
 
   const levelHref = (lv: number | null) =>
     `/sentences${lv ? `?level=${lv}` : ""}`;
@@ -97,6 +118,13 @@ export default async function SentencesPage({
                   {s.explanation_ja}
                 </p>
               )}
+              <div className="mt-2">
+                <ShareButton
+                  itemType="sentence"
+                  itemId={s.id}
+                  followingList={followingList}
+                />
+              </div>
             </li>
           );
         })}

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import ReadingQuestions from "./ReadingQuestions";
+import ShareButton from "@/components/ShareButton";
 
 export default async function ReadingPassagePage({
   params,
@@ -37,6 +38,26 @@ export default async function ReadingPassagePage({
     correct_choice_index: q.correct_choice_index,
   }));
 
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  let followingList: { id: string; nickname: string }[] = [];
+  if (user) {
+    const { data: followingRows } = await supabase
+      .from("follows")
+      .select("following_id")
+      .eq("follower_id", user.id);
+    const followingIds = (followingRows ?? []).map((r) => r.following_id);
+    if (followingIds.length) {
+      const { data } = await supabase
+        .from("users")
+        .select("id, nickname")
+        .in("id", followingIds);
+      followingList = data ?? [];
+    }
+  }
+
   return (
     <div className="mx-auto max-w-md px-4 py-10">
       <div className="mb-6 flex items-center justify-between">
@@ -48,8 +69,16 @@ export default async function ReadingPassagePage({
 
       <p className="mb-4 text-xs text-ink-soft">HSK{passage.hsk_level}級</p>
 
-      <div className="mb-8 whitespace-pre-wrap rounded border border-line p-4 text-sm leading-relaxed">
+      <div className="mb-2 whitespace-pre-wrap rounded border border-line p-4 text-sm leading-relaxed">
         {passage.body}
+      </div>
+
+      <div className="mb-8">
+        <ShareButton
+          itemType="passage"
+          itemId={passage.id}
+          followingList={followingList}
+        />
       </div>
 
       <ReadingQuestions questions={questions} />

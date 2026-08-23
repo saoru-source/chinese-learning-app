@@ -48,7 +48,11 @@ docs/フォルダの別ファイルに分けているので、該当フェーズ
 - users: ユーザー情報、現在のHSKレベル、配色テーマ(theme列)
 - progress: 学習履歴。item_type(word/sentence/passage/pattern等) + item_id の
   組み合わせで、単語・例文・長文などあらゆる種類の学習対象を1テーブルで管理する方式
-- shares: 共有機能（誰が誰に何を共有したか）
+- shares: 共有機能（誰が誰に何を共有したか。2026-08-23実装済み。
+  外部SNSへの投稿ではなく、アプリ内でフォローしている相手に例文・長文を
+  共有するだけの内部機能。item_typeはprogressと同じ方針(word/sentence/
+  passage/pattern等)で、UIはsentence(`/sentences`)とpassage
+  (`/reading/[id]`)の2種類のみ実装。共有一覧は`/shares`）
 - follows: フォロー関係（follower_id / following_id）
 
 ### 既存4サイト統合分

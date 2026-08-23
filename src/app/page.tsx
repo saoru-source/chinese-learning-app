@@ -61,6 +61,11 @@ export default async function Home() {
             みんなを探す
           </Link>
         )}
+        {user && (
+          <Link href="/shares" className="rounded border border-line px-4 py-2">
+            共有
+          </Link>
+        )}
       </div>
 
       {user ? (
