@@ -12,7 +12,7 @@ import { LEVEL_KEYS, LEVEL_META } from "@/lib/level/levelMeta";
 const NAV = [
   { zh: "家", label: "ホーム", path: "/" },
   { zh: "词", label: "単語", path: "/words" },
-  { zh: "试", label: "学習", path: "/quiz/ai" },
+  { zh: "试", label: "学習", path: "/learn" },
   { zh: "听", label: "リスニング", path: "/listening" },
   { zh: "我", label: "マイページ", path: "/profile" },
 ];

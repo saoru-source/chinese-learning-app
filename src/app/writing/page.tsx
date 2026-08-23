@@ -26,6 +26,17 @@ export default function WritingPage() {
             お題に沿って中国語で書き、AIが添削します
           </p>
         </Link>
+        <div className="rounded border border-line p-4 opacity-55">
+          <div className="flex items-center justify-between">
+            <p className="font-bold text-ink-soft">画像描写</p>
+            <span className="rounded-full border border-line bg-paper-deep px-2 py-0.5 text-[10px] font-bold text-seal-deep">
+              近日公開
+            </span>
+          </div>
+          <p className="text-sm text-ink-soft">
+            画像を見て、その内容を中国語で説明します(画像素材準備中)
+          </p>
+        </div>
       </div>
     </div>
   );
