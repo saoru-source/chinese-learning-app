@@ -22,7 +22,7 @@ export default async function AiQuizPage() {
         </Link>
       </div>
       <p className="mb-6 text-sm text-ink-soft">
-        あなたの苦手な単語を使って、AIがその場で新しい例文を作ります。
+        出題範囲を選ぶと、あなたの苦手な単語や文法パターンを使って、AIがその場で新しい問題を作ります。
       </p>
 
       <AiQuizCard />

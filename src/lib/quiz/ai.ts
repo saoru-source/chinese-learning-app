@@ -3,7 +3,9 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
-import { getWeakWords } from "@/lib/quiz/select";
+import { getWeakWords, getRandomGrammarPoints } from "@/lib/quiz/select";
+
+export type QuizScope = "word" | "grammar" | "mix";
 
 export type AiSentence = {
   hanzi: string;
@@ -13,29 +15,19 @@ export type AiSentence = {
   usedWordIds: number[];
 };
 
-export async function generateAiSentence(): Promise<
-  { ok: true; sentence: AiSentence } | { ok: false; error: string }
-> {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+function buildWordPrompt(
+  scope: "word" | "mix",
+  level: number,
+  wordList: string,
+): string {
+  const focusInstruction =
+    scope === "word"
+      ? "語彙の意味・使い方・ピンインの理解を問うことを重視した、シンプルな例文にしてください。"
+      : "";
 
-  if (!user) {
-    redirect("/login");
-  }
-
-  const weakWords = await getWeakWords(supabase, user.id, 3);
-  if (weakWords.length === 0) {
-    return { ok: false, error: "出題できる単語がありません。" };
-  }
-
-  const wordList = weakWords
-    .map((w) => `${w.hanzi}（${w.pinyin}、意味:${w.meaning_ja}、HSK${w.hsk_level}）`)
-    .join("、");
-
-  const prompt = `あなたは中国語学習アプリの出題担当です。以下の単語のうち、
-少なくとも1つ(できれば複数)を使った、自然な中国語の例文を1つ作成してください。
+  return `あなたは中国語学習アプリの出題担当です。以下の単語のうち、
+少なくとも1つ(できれば複数)を使った、自然なHSK${level}レベルの中国語の例文を1つ作成してください。
+${focusInstruction}
 
 対象単語: ${wordList}
 
@@ -46,7 +38,28 @@ export async function generateAiSentence(): Promise<
   "meaning_ja": "日本語訳",
   "explanation_ja": "使った単語や文法についての簡潔な日本語解説(1〜2文)"
 }`;
+}
 
+function buildGrammarPrompt(level: number, label: string, explanation: string | null): string {
+  return `あなたは中国語学習アプリの出題担当です。
+以下の文法パターンの用法を練習させる、HSK${level}レベルの中国語の例文を1つ作成してください。
+可能であれば、文法パターンが使われている箇所を「___」で穴埋めにしてください。
+
+文法パターン: ${label}
+文法の説明: ${explanation ?? "(説明なし)"}
+
+出力は以下のJSON形式のみで、他のテキストやMarkdownの装飾は一切含めないでください。
+{
+  "hanzi": "中国語の例文(簡体字。穴埋め形式にする場合は空欄部分を___にする)",
+  "pinyin": "その例文の拼音(声調記号付き)",
+  "meaning_ja": "日本語訳",
+  "explanation_ja": "この文法パターンの使い方についての簡潔な日本語解説(1〜2文)"
+}`;
+}
+
+async function callAnthropic(
+  prompt: string,
+): Promise<{ ok: true; parsed: Record<string, unknown> } | { ok: false; error: string }> {
   const client = new Anthropic();
 
   try {
@@ -68,20 +81,73 @@ export async function generateAiSentence(): Promise<
       return { ok: false, error: "AIの応答の形式が不正でした。" };
     }
 
-    return {
-      ok: true,
-      sentence: {
-        hanzi: parsed.hanzi,
-        pinyin: parsed.pinyin,
-        meaning_ja: parsed.meaning_ja,
-        explanation_ja: parsed.explanation_ja ?? "",
-        usedWordIds: weakWords.map((w) => w.id),
-      },
-    };
+    return { ok: true, parsed };
   } catch (e) {
     console.error("generateAiSentence failed", e);
     return { ok: false, error: "AIによる例文生成に失敗しました。時間をおいて再度お試しください。" };
   }
+}
+
+export async function generateAiSentence(
+  scope: QuizScope,
+  level: number,
+): Promise<{ ok: true; sentence: AiSentence } | { ok: false; error: string }> {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) {
+    redirect("/login");
+  }
+
+  if (scope === "grammar") {
+    const points = await getRandomGrammarPoints(supabase, level, 1);
+    if (points.length === 0) {
+      return { ok: false, error: "このレベルの文法項目がまだありません。" };
+    }
+    const point = points[0];
+    const prompt = buildGrammarPrompt(level, point.label, point.explanation);
+    const result = await callAnthropic(prompt);
+    if (!result.ok) return result;
+
+    return {
+      ok: true,
+      sentence: {
+        hanzi: result.parsed.hanzi as string,
+        pinyin: result.parsed.pinyin as string,
+        meaning_ja: result.parsed.meaning_ja as string,
+        explanation_ja: (result.parsed.explanation_ja as string) ?? "",
+        // 文法点の正誤履歴はprogressテーブルの対象外(item_typeがword/sentenceのみ)のため
+        // 記録対象の単語IDはなし
+        usedWordIds: [],
+      },
+    };
+  }
+
+  const weakWords = await getWeakWords(supabase, user.id, level, 3);
+  if (weakWords.length === 0) {
+    return { ok: false, error: "出題できる単語がありません。" };
+  }
+
+  const wordList = weakWords
+    .map((w) => `${w.hanzi}（${w.pinyin}、意味:${w.meaning_ja}、HSK${w.hsk_level}）`)
+    .join("、");
+
+  const prompt = buildWordPrompt(scope, level, wordList);
+  const result = await callAnthropic(prompt);
+  if (!result.ok) return result;
+
+  return {
+    ok: true,
+    sentence: {
+      hanzi: result.parsed.hanzi as string,
+      pinyin: result.parsed.pinyin as string,
+      meaning_ja: result.parsed.meaning_ja as string,
+      explanation_ja: (result.parsed.explanation_ja as string) ?? "",
+      usedWordIds: weakWords.map((w) => w.id),
+    },
+  };
 }
 
 export async function recordAiSentenceResult(

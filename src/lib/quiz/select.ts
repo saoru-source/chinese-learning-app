@@ -87,9 +87,13 @@ export async function pickNextWord(
 
 // AI例文生成の材料にする「苦手な単語」を最大limit件取得する。
 // 苦手な単語が足りない場合は、まだ学習していない単語で補う。
+// levelを渡すと、その単語自体をHSKレベルで絞り込む
+// (「苦手」の判定自体はレベルを跨いだprogress全体から行うが、
+// 実際にAIへの材料として使うのは指定レベルの単語だけ)。
 export async function getWeakWords(
   supabase: SupabaseClient,
   userId: string,
+  level: number,
   limit = 3
 ): Promise<QuizWord[]> {
   const { data: progressRows } = await supabase
@@ -110,6 +114,7 @@ export async function getWeakWords(
     const { data } = await supabase
       .from("words")
       .select("id, hanzi, pinyin, meaning_ja, hsk_level")
+      .eq("hsk_level", level)
       .in("id", weakIds);
     if (data) result.push(...data);
   }
@@ -119,6 +124,7 @@ export async function getWeakWords(
     let fillerQuery = supabase
       .from("words")
       .select("id, hanzi, pinyin, meaning_ja, hsk_level")
+      .eq("hsk_level", level)
       .order("id", { ascending: true })
       .limit(limit - result.length);
 
@@ -131,4 +137,27 @@ export async function getWeakWords(
   }
 
   return result;
+}
+
+// AI文法出題の材料にする文法パターンをlimit件、指定レベルからランダムに取得する。
+// progressテーブルはitem_type in ('word','sentence')のみ許容しており文法点の
+// 正誤履歴を持たないため、単語のような「苦手優先」の個人化はできない
+// (現時点ではランダム抽出のみ)。
+export async function getRandomGrammarPoints(
+  supabase: SupabaseClient,
+  level: number,
+  limit = 1
+) {
+  const { data } = await supabase
+    .from("grammar_points")
+    .select("id, hsk_level, label, explanation")
+    .eq("hsk_level", level);
+
+  const points = data ?? [];
+  for (let i = points.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [points[i], points[j]] = [points[j], points[i]];
+  }
+
+  return points.slice(0, limit);
 }
