@@ -33,7 +33,7 @@ function TopicList({ topics }: { topics: { id: number; hsk_level: number; prompt
             display: "flex",
             alignItems: "center",
             gap: 10,
-            background: "#fff",
+            background: "var(--card)",
             borderRadius: 15,
             padding: "13px 16px",
             boxShadow: "0 4px 14px rgba(0,0,0,0.06)",

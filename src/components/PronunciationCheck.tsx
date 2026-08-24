@@ -379,7 +379,7 @@ export default function PronunciationCheck({
                     padding: "10px 0",
                     borderRadius: 999,
                     border: "1px solid var(--line)",
-                    background: "#fff",
+                    background: "var(--card)",
                     color: "var(--ink)",
                     fontSize: 13,
                     fontWeight: 700,

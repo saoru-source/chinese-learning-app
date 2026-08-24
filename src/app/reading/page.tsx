@@ -104,7 +104,7 @@ export default async function ReadingPage() {
                     display: "flex",
                     alignItems: "center",
                     gap: 12,
-                    background: "#fff",
+                    background: "var(--card)",
                     borderRadius: 16,
                     padding: "12px 14px",
                     boxShadow: "0 4px 14px rgba(0,0,0,0.06)",

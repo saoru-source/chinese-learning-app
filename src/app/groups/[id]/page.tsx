@@ -24,7 +24,7 @@ function BackArrowIcon() {
 }
 
 const cardStyle: React.CSSProperties = {
-  background: "#fff",
+  background: "var(--card)",
   borderRadius: 18,
   boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
 };

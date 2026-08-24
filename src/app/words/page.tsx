@@ -71,7 +71,7 @@ function CompletionScreen({
 
       <div
         style={{
-          background: "#fff",
+          background: "var(--card)",
           borderRadius: 22,
           boxShadow: "0 4px 16px rgba(0,0,0,0.06)",
           padding: "4px 16px",
@@ -107,7 +107,7 @@ function CompletionScreen({
             alignItems: "center",
             justifyContent: "center",
             gap: 6,
-            background: "#fff",
+            background: "var(--card)",
             border: "1px solid var(--line)",
             borderRadius: 999,
             padding: "12px 0",
@@ -255,7 +255,7 @@ export default async function WordsPage({
             width: 30,
             height: 30,
             borderRadius: "50%",
-            background: "#fff",
+            background: "var(--card)",
             boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
             flexShrink: 0,
           }}
@@ -310,7 +310,7 @@ export default async function WordsPage({
       <div
         style={{
           position: "relative",
-          background: "#fff",
+          background: "var(--card)",
           borderRadius: 22,
           boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
           padding: "12px 16px",
@@ -349,7 +349,7 @@ export default async function WordsPage({
             width: 48,
             height: 48,
             borderRadius: "50%",
-            background: "#fff",
+            background: "var(--card)",
             boxShadow: "0 4px 14px rgba(0,0,0,0.08)",
             opacity: index === 0 ? 0.35 : 1,
             pointerEvents: index === 0 ? "none" : "auto",
@@ -378,7 +378,7 @@ export default async function WordsPage({
       {example && exampleSegments && (
         <div
           style={{
-            background: "#fff",
+            background: "var(--card)",
             borderRadius: 20,
             boxShadow: "0 4px 16px rgba(0,0,0,0.06)",
             padding: "18px 20px",

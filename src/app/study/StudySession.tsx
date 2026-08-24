@@ -132,7 +132,7 @@ export default function StudySession({ items }: { items: Item[] }) {
 
         <div
           style={{
-            background: "#fff",
+            background: "var(--card)",
             borderRadius: 22,
             boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
             padding: "20px 20px",
@@ -203,7 +203,7 @@ export default function StudySession({ items }: { items: Item[] }) {
 
         <div
           style={{
-            background: "#fff",
+            background: "var(--card)",
             borderRadius: 22,
             boxShadow: "0 4px 16px rgba(0,0,0,0.06)",
             padding: "4px 16px",
@@ -260,7 +260,7 @@ export default function StudySession({ items }: { items: Item[] }) {
               alignItems: "center",
               justifyContent: "center",
               gap: 6,
-              background: "#fff",
+              background: "var(--card)",
               border: "1px solid var(--line)",
               borderRadius: 999,
               padding: "12px 0",
@@ -312,7 +312,7 @@ export default function StudySession({ items }: { items: Item[] }) {
             width: 30,
             height: 30,
             borderRadius: "50%",
-            background: "#fff",
+            background: "var(--card)",
             boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
             flexShrink: 0,
           }}
@@ -361,7 +361,7 @@ export default function StudySession({ items }: { items: Item[] }) {
 
       <div
         style={{
-          background: "#fff",
+          background: "var(--card)",
           borderRadius: 22,
           boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
           padding: "22px 20px",
@@ -389,7 +389,7 @@ export default function StudySession({ items }: { items: Item[] }) {
       {pct !== null && (
         <div
           style={{
-            background: "#fff",
+            background: "var(--card)",
             borderRadius: 14,
             boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
             padding: "14px 16px",

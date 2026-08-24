@@ -18,7 +18,7 @@ export default function GrammarDictionaryList({ points }: { points: GrammarPoint
           <div
             key={p.id}
             style={{
-              background: "#fff",
+              background: "var(--card)",
               borderRadius: 16,
               padding: "14px 16px",
               boxShadow: "0 4px 14px rgba(0,0,0,0.06)",

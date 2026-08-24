@@ -63,7 +63,7 @@ export default async function PatternSituationPage({
           <div
             key={p.id}
             style={{
-              background: "#fff",
+              background: "var(--card)",
               borderRadius: 22,
               boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
               padding: "18px 20px",

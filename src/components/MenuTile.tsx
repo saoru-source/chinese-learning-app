@@ -59,7 +59,7 @@ export default function MenuTile({ label, icon, gradient, href, badge }: Props) 
     display: "flex",
     alignItems: "center",
     gap: 10,
-    background: "#fff",
+    background: "var(--card)",
     borderRadius: 18,
     padding: "12px 14px",
     boxShadow: "0 4px 14px rgba(0,0,0,0.06)",

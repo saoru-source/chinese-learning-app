@@ -51,7 +51,7 @@ export default function ListeningChoiceCard({
   return (
     <div
       style={{
-        background: "#fff",
+        background: "var(--card)",
         borderRadius: 22,
         boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
         padding: "22px 20px",
@@ -99,8 +99,8 @@ export default function ListeningChoiceCard({
           const background = showResult && isCorrect
             ? "var(--match-green)"
             : showResult && isSelected
-              ? "color-mix(in srgb, var(--miss-red) 15%, white)"
-              : "#fff";
+              ? "color-mix(in srgb, var(--miss-red) 15%, var(--card))"
+              : "var(--card)";
           const color = showResult && isCorrect ? "#fff" : showResult && isSelected ? "var(--miss-red)" : "var(--ink)";
 
           return (

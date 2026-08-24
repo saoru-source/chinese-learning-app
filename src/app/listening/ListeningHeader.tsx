@@ -52,7 +52,7 @@ export default function ListeningHeader({
             fontSize: 13,
             fontWeight: active === "choice" ? 600 : 400,
             color: active === "choice" ? "var(--ink)" : "var(--ink-soft)",
-            background: active === "choice" ? "#fff" : "transparent",
+            background: active === "choice" ? "var(--card)" : "transparent",
             boxShadow: active === "choice" ? "0 2px 6px rgba(0,0,0,0.08)" : "none",
             textDecoration: "none",
           }}
@@ -69,7 +69,7 @@ export default function ListeningHeader({
             fontSize: 13,
             fontWeight: active === "dictation" ? 600 : 400,
             color: active === "dictation" ? "var(--ink)" : "var(--ink-soft)",
-            background: active === "dictation" ? "#fff" : "transparent",
+            background: active === "dictation" ? "var(--card)" : "transparent",
             boxShadow: active === "dictation" ? "0 2px 6px rgba(0,0,0,0.08)" : "none",
             textDecoration: "none",
           }}

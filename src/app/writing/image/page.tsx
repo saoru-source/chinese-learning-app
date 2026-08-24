@@ -46,7 +46,7 @@ export default async function WritingImagePage() {
         <Header />
         <div
           style={{
-            background: "#fff",
+            background: "var(--card)",
             borderRadius: 22,
             boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
             padding: "32px 24px",
@@ -95,7 +95,7 @@ export default async function WritingImagePage() {
         <>
           <div
             style={{
-              background: "#fff",
+              background: "var(--card)",
               borderRadius: 22,
               boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
               padding: "20px 20px",

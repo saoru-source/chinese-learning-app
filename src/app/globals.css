@@ -4,7 +4,12 @@
 :root, [data-theme="yebe"], [data-theme="pink"] {
   --paper: #FFFFFF;
   --paper-deep: #FFFBFF;
+  --card: #FFFFFF;
   --ink: #5A1840;
+  /* 常に白いサーフェス(GlassButtonのwhiteバリアント、パンダのアイコン等)の上に
+     載る文字/線の色。ダークモードブロックではあえて再定義せず、
+     ライトモードの--ink値に固定する(cascadeでこの宣言が生き残る)。 */
+  --ink-on-light: #5A1840;
   --ink-soft: #A45F82;
   --seal: #F0A8CE;
   --seal-deep: #FFE8FF;
@@ -18,11 +23,38 @@
   --miss-red: #EF4444;
 }
 
+/* ===== PINK (ダーク) ===== */
+:root[data-mode="dark"],
+[data-theme="yebe"][data-mode="dark"],
+[data-theme="pink"][data-mode="dark"] {
+  --paper: #1A0F16;
+  --paper-deep: #241521;
+  --card: #2E1B29;
+  --ink: #F7E4EF;
+  --ink-soft: #D460A6;
+  --seal: #F0A8CE;
+  /* ライトモードの--seal-deep(#FFE8FF)はほぼ白に近く、暗い背景の上では
+     グラデーションの片端が背景と同化して見えてしまう(--gradを使う
+     アイコン枠・バッジ等に影響)。ダークモードでは彩度を保った
+     はっきりしたピンクに変更する。 */
+  --seal-deep: #F585BE;
+  --jade: #86E8D4;
+  --jade-deep: #58C8B0;
+  --gold: #FFC8E0;
+  --gold-deep: #F0A0C0;
+  --lavender: #D8B0FF;
+  --line: #4A2C42;
+  --match-green: #4ADE80;
+  --miss-red: #F87171;
+}
+
 /* ===== BLUE ===== */
 [data-theme="burube"], [data-theme="blue"] {
   --paper: #FFFFFF;
   --paper-deep: #F0F8FF;
+  --card: #FFFFFF;
   --ink: #203858;
+  --ink-on-light: #203858;
   --ink-soft: #497A9B;
   --seal: #90D8F8;
   --seal-deep: #58E8FF;
@@ -36,11 +68,35 @@
   --miss-red: #EF4444;
 }
 
+/* ===== BLUE (ダーク) ===== */
+[data-theme="burube"][data-mode="dark"], [data-theme="blue"][data-mode="dark"] {
+  --paper: #0E1620;
+  --paper-deep: #16212E;
+  --card: #1C2A3A;
+  --ink: #E6EFFB;
+  --ink-soft: #6B93C9;
+  --seal: #90D8F8;
+  --seal-deep: #58E8FF;
+  --jade: #88D0FF;
+  --jade-deep: #88A8F0;
+  /* ライトモードの--gold(#C8ECFF)はほぼ白に近く、暗い背景の上では
+     グラデーションが薄く見えてしまうため、彩度を保った値に変更する
+     (yebeの--seal-deep修正と同じ理由)。 */
+  --gold: #6FC4F5;
+  --gold-deep: #90D0F8;
+  --lavender: #C8B8FF;
+  --line: #2E4155;
+  --match-green: #4ADE80;
+  --miss-red: #F87171;
+}
+
 /* ===== GREEN ===== */
 [data-theme="green"] {
   --paper: #FFFFFF;
   --paper-deep: #FFFFFF;
+  --card: #FFFFFF;
   --ink: #284020;
+  --ink-on-light: #284020;
   --ink-soft: #607E42;
   --seal: #B8E878;
   --seal-deep: #80C840;
@@ -54,11 +110,35 @@
   --miss-red: #EF4444;
 }
 
+/* ===== GREEN (ダーク) ===== */
+[data-theme="green"][data-mode="dark"] {
+  --paper: #101A0C;
+  --paper-deep: #182611;
+  --card: #203015;
+  --ink: #E9F5DE;
+  --ink-soft: #66A351;
+  --seal: #B8E878;
+  --seal-deep: #80C840;
+  --jade: #F5BBD4;
+  --jade-deep: #E890A8;
+  /* ライトモードの--gold/--lavenderはほぼ白に近く、暗い背景の上では
+     グラデーションが薄く見えてしまうため、彩度を保った値に変更する
+     (yebeの--seal-deep修正と同じ理由)。 */
+  --gold: #C2E85E;
+  --gold-deep: #B0E060;
+  --lavender: #B8E89E;
+  --line: #33481F;
+  --match-green: #4ADE80;
+  --miss-red: #F87171;
+}
+
 /* ===== PURPLE ===== */
 [data-theme="purple"] {
   --paper: #FFFFFF;
   --paper-deep: #FFFFFF;
+  --card: #FFFFFF;
   --ink: #302058;
+  --ink-on-light: #302058;
   --ink-soft: #077EAA;
   --seal: #C0B8F8;
   --seal-deep: #9888D0;
@@ -72,11 +152,32 @@
   --miss-red: #EF4444;
 }
 
+/* ===== PURPLE (ダーク) ===== */
+[data-theme="purple"][data-mode="dark"] {
+  --paper: #150E24;
+  --paper-deep: #1E1530;
+  --card: #281C3C;
+  --ink: #EDE7FA;
+  --ink-soft: #947DD0;
+  --seal: #C0B8F8;
+  --seal-deep: #9888D0;
+  --jade: #F8C0E8;
+  --jade-deep: #E898D0;
+  --gold: #DDD8FF;
+  --gold-deep: #C0B0F8;
+  --lavender: #D0B8FF;
+  --line: #3E2C57;
+  --match-green: #4ADE80;
+  --miss-red: #F87171;
+}
+
 /* ===== JIRAI ===== */
 [data-theme="jirai"] {
   --paper: #FDFCFD;
   --paper-deep: #F7F2F5;
+  --card: #FFFFFF;
   --ink: #483848;
+  --ink-on-light: #483848;
   --ink-soft: #886B7F;
   --seal: #E0C0CC;
   --seal-deep: #C8A0B0;
@@ -90,6 +191,28 @@
   --miss-red: #EF4444;
 }
 
+/* ===== JIRAI (ダーク) ===== */
+[data-theme="jirai"][data-mode="dark"] {
+  --paper: #171016;
+  --paper-deep: #211820;
+  --card: #2A1F29;
+  --ink: #F2E9EE;
+  --ink-soft: #9D829D;
+  --seal: #E0C0CC;
+  --seal-deep: #C8A0B0;
+  --jade: #C8C8DC;
+  --jade-deep: #A8A8C8;
+  --gold: #EDD8E4;
+  --gold-deep: #D8C0CC;
+  /* ライトモードの--lavender(#F0E8EE)はほぼ白に近く、暗い背景の上では
+     グラデーションが薄く見えてしまうため、彩度を保った値に変更する
+     (yebeの--seal-deep修正と同じ理由)。 */
+  --lavender: #DCC0D4;
+  --line: #3C2E3A;
+  --match-green: #4ADE80;
+  --miss-red: #F87171;
+}
+
 /* GlassButton等の共通グラデーション。値は各テーマの--seal/--seal-deepを
    参照しているだけなので、テーマごとに再定義する必要はない
    (data-theme切り替えに応じて自動で追従する)。 */
@@ -100,7 +223,9 @@
 @theme inline {
   --color-paper: var(--paper);
   --color-paper-deep: var(--paper-deep);
+  --color-card: var(--card);
   --color-ink: var(--ink);
+  --color-ink-on-light: var(--ink-on-light);
   --color-ink-soft: var(--ink-soft);
   --color-seal: var(--seal);
   --color-seal-deep: var(--seal-deep);

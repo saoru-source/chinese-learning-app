@@ -32,7 +32,7 @@ export default function GoalCard({ initialGoal }: { initialGoal?: string | null 
         display: "flex",
         alignItems: "center",
         gap: 12,
-        background: "#fff",
+        background: "var(--card)",
         borderRadius: 16,
         padding: "12px 16px",
         boxShadow: "0 4px 16px rgba(0,0,0,0.06)",

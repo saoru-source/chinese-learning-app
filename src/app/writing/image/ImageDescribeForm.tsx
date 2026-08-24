@@ -35,7 +35,7 @@ export default function ImageDescribeForm({ promptId }: { promptId: number }) {
           rows={6}
           placeholder="ここに中国語で書いてください"
           style={{
-            background: "#fff",
+            background: "var(--card)",
             borderRadius: 16,
             border: "1px solid var(--line)",
             padding: "14px 16px",
@@ -59,7 +59,7 @@ export default function ImageDescribeForm({ promptId }: { promptId: number }) {
         <div
           style={{
             marginTop: 16,
-            background: "#fff",
+            background: "var(--card)",
             borderRadius: 16,
             padding: "16px 18px",
             boxShadow: "0 4px 14px rgba(0,0,0,0.06)",

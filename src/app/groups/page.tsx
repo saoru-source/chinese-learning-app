@@ -157,7 +157,7 @@ export default async function GroupsPage({
             fontSize: 13,
             fontWeight: activeType === "theme" ? 600 : 400,
             color: activeType === "theme" ? "var(--ink)" : "var(--ink-soft)",
-            background: activeType === "theme" ? "#fff" : "transparent",
+            background: activeType === "theme" ? "var(--card)" : "transparent",
             boxShadow: activeType === "theme" ? "0 2px 6px rgba(0,0,0,0.08)" : "none",
             textDecoration: "none",
           }}
@@ -174,7 +174,7 @@ export default async function GroupsPage({
             fontSize: 13,
             fontWeight: activeType === "pos" ? 600 : 400,
             color: activeType === "pos" ? "var(--ink)" : "var(--ink-soft)",
-            background: activeType === "pos" ? "#fff" : "transparent",
+            background: activeType === "pos" ? "var(--card)" : "transparent",
             boxShadow: activeType === "pos" ? "0 2px 6px rgba(0,0,0,0.08)" : "none",
             textDecoration: "none",
           }}
@@ -193,7 +193,7 @@ export default async function GroupsPage({
               display: "flex",
               alignItems: "center",
               gap: 12,
-              background: "#fff",
+              background: "var(--card)",
               borderRadius: 16,
               padding: "12px 14px",
               boxShadow: "0 4px 14px rgba(0,0,0,0.06)",

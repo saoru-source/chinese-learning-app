@@ -42,8 +42,8 @@ export default function ReadingQuestions({
                 const background = showResult && isChoiceCorrect
                   ? "var(--jade)"
                   : showResult && isSelected
-                    ? "color-mix(in srgb, var(--seal) 25%, white)"
-                    : "#fff";
+                    ? "color-mix(in srgb, var(--seal) 25%, var(--card))"
+                    : "var(--card)";
                 const color = showResult && isChoiceCorrect
                   ? "#fff"
                   : showResult && isSelected

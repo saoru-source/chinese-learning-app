@@ -45,7 +45,7 @@ export default function ConversationLines({ characters, lines }: { characters: s
           <div
             key={line.id}
             style={{
-              background: "#fff",
+              background: "var(--card)",
               borderRadius: 18,
               boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
               padding: "14px 16px",

@@ -55,7 +55,7 @@ export default function DictationCard({
   return (
     <div
       style={{
-        background: "#fff",
+        background: "var(--card)",
         borderRadius: 22,
         boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
         padding: "22px 20px",

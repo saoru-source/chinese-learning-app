@@ -17,7 +17,7 @@ export default function ThemeSwitcher() {
             onClick={() => setThemeKey(key)}
             style={{
               textAlign: "left",
-              background: "#fff",
+              background: "var(--card)",
               borderRadius: 14,
               padding: "12px 14px",
               border: active ? "2px solid var(--seal)" : "1px solid var(--line)",

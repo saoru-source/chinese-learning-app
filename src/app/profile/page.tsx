@@ -45,7 +45,7 @@ function StatCard({ value, label }: { value: string; label: string }) {
   return (
     <div
       style={{
-        background: "#fff",
+        background: "var(--card)",
         borderRadius: 16,
         padding: "16px 12px",
         textAlign: "center",
@@ -79,7 +79,7 @@ function LinkRow({
         display: "flex",
         alignItems: "center",
         gap: 12,
-        background: "#fff",
+        background: "var(--card)",
         borderRadius: 15,
         padding: "13px 16px",
         boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
@@ -201,7 +201,7 @@ export default async function ProfilePage({
           display: "flex",
           alignItems: "center",
           gap: 14,
-          background: "#fff",
+          background: "var(--card)",
           borderRadius: 22,
           boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
           padding: "20px 20px",
@@ -254,7 +254,7 @@ export default async function ProfilePage({
           placeholder="ニックネームを入力"
           style={{
             flex: 1,
-            background: "#fff",
+            background: "var(--card)",
             border: "1px solid var(--line)",
             borderRadius: 12,
             padding: "10px 14px",
@@ -318,7 +318,7 @@ export default async function ProfilePage({
           type="submit"
           style={{
             width: "100%",
-            background: "#fff",
+            background: "var(--card)",
             border: "1px solid var(--line)",
             color: "var(--ink-soft)",
             fontWeight: 700,

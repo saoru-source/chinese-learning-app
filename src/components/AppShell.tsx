@@ -8,6 +8,24 @@ import { useTheme } from "@/lib/theme/ThemeContext";
 import { THEME_KEYS, THEME_META } from "@/lib/theme/themeMeta";
 import { useLevel } from "@/lib/level/LevelContext";
 import { LEVEL_KEYS, LEVEL_META } from "@/lib/level/levelMeta";
+import { useMode } from "@/lib/mode/ModeContext";
+
+function SunIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={14} height={14} fill="none" stroke="var(--ink)" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <circle cx="12" cy="12" r="4" />
+      <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+    </svg>
+  );
+}
+
+function MoonIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={14} height={14} fill="none" stroke="var(--ink)" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+    </svg>
+  );
+}
 
 const NAV = [
   { zh: "家", label: "ホーム", path: "/" },
@@ -22,6 +40,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
   const [themeOpen, setThemeOpen] = useState(false);
   const { levelKey, setLevelKey } = useLevel();
   const [levelOpen, setLevelOpen] = useState(false);
+  const { modeKey, setModeKey } = useMode();
   const pathname = usePathname();
 
   return (
@@ -226,6 +245,49 @@ export default function AppShell({ children }: { children: ReactNode }) {
                   )}
                 </motion.button>
               ))}
+
+              <div style={{ borderTop: "1px solid var(--line)", marginTop: 10, paddingTop: 10 }}>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+                  <span style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 12, fontWeight: 700, color: "var(--ink)" }}>
+                    {modeKey === "dark" ? <MoonIcon /> : <SunIcon />}
+                    {modeKey === "dark" ? "ダークモード" : "ライトモード"}
+                  </span>
+                  <motion.button
+                    type="button"
+                    whileTap={{ scale: 0.92 }}
+                    onClick={() => setModeKey(modeKey === "dark" ? "light" : "dark")}
+                    aria-label={modeKey === "dark" ? "ライトモードに切り替え" : "ダークモードに切り替え"}
+                    role="switch"
+                    aria-checked={modeKey === "dark"}
+                    style={{
+                      width: 44,
+                      height: 24,
+                      borderRadius: 999,
+                      background: modeKey === "dark" ? "var(--grad)" : "var(--paper-deep)",
+                      border: "1px solid var(--line)",
+                      position: "relative",
+                      cursor: "pointer",
+                      padding: 0,
+                      flexShrink: 0,
+                    }}
+                  >
+                    <motion.span
+                      layout
+                      transition={{ type: "spring", stiffness: 500, damping: 30 }}
+                      style={{
+                        position: "absolute",
+                        top: 2,
+                        left: modeKey === "dark" ? 22 : 2,
+                        width: 18,
+                        height: 18,
+                        borderRadius: "50%",
+                        background: "#fff",
+                        boxShadow: "0 1px 3px rgba(0,0,0,0.3)",
+                      }}
+                    />
+                  </motion.button>
+                </div>
+              </div>
             </motion.div>
           </>
         )}

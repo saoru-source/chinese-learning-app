@@ -40,7 +40,7 @@ export default function GlassButton({
         position: "relative",
         overflow: "hidden",
         background: isPrimary ? "var(--grad)" : disabled ? "#E5E7EB" : "#ffffff",
-        color: isPrimary ? "#fff" : disabled ? "#9CA3AF" : "var(--ink)",
+        color: isPrimary ? "#fff" : disabled ? "#9CA3AF" : "var(--ink-on-light)",
         border: variant === "white" ? "1px solid var(--line)" : "none",
         borderRadius: 50,
         padding: PAD[size],

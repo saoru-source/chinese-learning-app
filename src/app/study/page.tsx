@@ -12,7 +12,7 @@ function EmptyCard({ icon, title, children }: { icon: string; title: string; chi
     <main style={{ maxWidth: 480, margin: "0 auto", padding: "16px 16px 40px" }}>
       <div
         style={{
-          background: "#fff",
+          background: "var(--card)",
           borderRadius: 22,
           boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
           padding: "32px 24px",

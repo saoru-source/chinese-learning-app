@@ -88,7 +88,7 @@ export default async function PatternsPage({
 
       <div
         style={{
-          background: "#fff",
+          background: "var(--card)",
           borderRadius: 22,
           boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
           padding: "20px 20px",
@@ -144,7 +144,7 @@ export default async function PatternsPage({
             fontSize: 12,
             fontWeight: activeStyle === "colloquial" ? 600 : 400,
             color: activeStyle === "colloquial" ? "var(--ink)" : "var(--ink-soft)",
-            background: activeStyle === "colloquial" ? "#fff" : "transparent",
+            background: activeStyle === "colloquial" ? "var(--card)" : "transparent",
             boxShadow: activeStyle === "colloquial" ? "0 2px 6px rgba(0,0,0,0.08)" : "none",
             textDecoration: "none",
           }}
@@ -161,7 +161,7 @@ export default async function PatternsPage({
             fontSize: 12,
             fontWeight: activeStyle === "business" ? 600 : 400,
             color: activeStyle === "business" ? "var(--ink)" : "var(--ink-soft)",
-            background: activeStyle === "business" ? "#fff" : "transparent",
+            background: activeStyle === "business" ? "var(--card)" : "transparent",
             boxShadow: activeStyle === "business" ? "0 2px 6px rgba(0,0,0,0.08)" : "none",
             textDecoration: "none",
           }}
@@ -180,7 +180,7 @@ export default async function PatternsPage({
               display: "flex",
               alignItems: "center",
               gap: 12,
-              background: "#fff",
+              background: "var(--card)",
               borderRadius: 15,
               padding: "13px 16px",
               boxShadow: "0 4px 14px rgba(0,0,0,0.06)",

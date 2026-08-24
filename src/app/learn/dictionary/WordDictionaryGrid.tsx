@@ -60,7 +60,7 @@ export default function WordDictionaryGrid() {
           <div
             key={w.id}
             style={{
-              background: "#fff",
+              background: "var(--card)",
               borderRadius: 14,
               padding: "10px 6px",
               textAlign: "center",
