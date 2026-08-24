@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useId, useRef, useState } from "react";
 import { setGoalText } from "@/lib/goal/actions";
 
 function TargetIcon() {
@@ -20,6 +20,12 @@ const DEFAULT_GOAL = "HSK4合格を目指す";
 export default function GoalCard({ initialGoal }: { initialGoal?: string | null }) {
   const [goal, setGoal] = useState(initialGoal ?? DEFAULT_GOAL);
   const inputRef = useRef<HTMLInputElement>(null);
+  // iOSのSafari系ブラウザ(Chrome for iOSもWebKitベース)は、autocomplete="off"を
+  // 付けても固定のname値に対してパスワード/カード/連絡先のオートフィル候補を
+  // 出し続けることがある。レンダーごとに一意なnameにすることで、OS側が
+  // この欄を特定の入力欄として学習・キャッシュできないようにする。
+  const id = useId();
+  const dynamicName = `goal-${id}`;
 
   const handleBlur = () => {
     void setGoalText(goal);
@@ -69,7 +75,7 @@ export default function GoalCard({ initialGoal }: { initialGoal?: string | null 
         <input
           ref={inputRef}
           type="text"
-          name="study-goal-text"
+          name={dynamicName}
           autoComplete="off"
           value={goal}
           onChange={(e) => setGoal(e.target.value)}
