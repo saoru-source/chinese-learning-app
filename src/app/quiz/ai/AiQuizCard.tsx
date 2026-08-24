@@ -1,11 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useLevel } from "@/lib/level/LevelContext";
 import {
-  generateAiSentence,
+  generateAiSentenceBatch,
   recordAiSentenceResult,
   type AiSentence,
+  type AiQuizBatchResult,
   type QuizScope,
 } from "@/lib/quiz/ai";
 
@@ -20,32 +21,120 @@ export default function AiQuizCard() {
   const [scope, setScope] = useState<QuizScope | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-  const [sentence, setSentence] = useState<AiSentence | null>(null);
+  const [items, setItems] = useState<AiSentence[]>([]);
+  const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [recording, setRecording] = useState(false);
 
-  async function handleGenerate(currentScope: QuizScope) {
+  // 次の10問をバックグラウンドで先読みした結果。使い切ったタイミングで
+  // これが用意済みなら待ち時間ゼロで切り替え、間に合っていなければ
+  // (nullのままなら)通常のローディング表示にフォールバックする。
+  const nextBatchRef = useRef<AiSentence[] | null>(null);
+  const prefetchStartedRef = useRef(false);
+  // scope変更/初回読み込みのたびに更新し、古い(切り替え前の)非同期処理の
+  // 結果が後から届いてstateを上書きしないようにするためのトークン。
+  const sessionTokenRef = useRef(0);
+
+  const sentence = items[index] ?? null;
+
+  async function loadBatch(currentScope: QuizScope, token: number): Promise<AiQuizBatchResult | null> {
+    const result = await generateAiSentenceBatch(currentScope, levelKey);
+    if (sessionTokenRef.current !== token) return null;
+    return result;
+  }
+
+  async function handleStart(currentScope: QuizScope) {
+    const token = ++sessionTokenRef.current;
+    nextBatchRef.current = null;
+    prefetchStartedRef.current = false;
+
+    setScope(currentScope);
     setLoading(true);
     setError(null);
-    setSentence(null);
+    setItems([]);
+    setIndex(0);
     setRevealed(false);
 
-    const result = await generateAiSentence(currentScope, levelKey);
+    const result = await loadBatch(currentScope, token);
+    if (result === null) return;
     if (result.ok) {
-      setSentence(result.sentence);
+      setItems(result.items);
     } else {
       setError(result.error);
     }
     setLoading(false);
   }
 
+  function startPrefetch(currentScope: QuizScope, token: number) {
+    if (prefetchStartedRef.current) return;
+    prefetchStartedRef.current = true;
+    void generateAiSentenceBatch(currentScope, levelKey).then((result) => {
+      if (sessionTokenRef.current !== token) return;
+      if (result.ok) {
+        nextBatchRef.current = result.items;
+      }
+      // 失敗時は何もしない。10問使い切った時点でnextBatchRef.currentがnullの
+      // ままなら、handleAnswer側のフォールバックで通常のローディングに切り替わる。
+    });
+  }
+
+  function handleReset() {
+    sessionTokenRef.current += 1;
+    nextBatchRef.current = null;
+    prefetchStartedRef.current = false;
+    setScope(null);
+    setItems([]);
+    setIndex(0);
+    setError(null);
+    setRevealed(false);
+  }
+
   async function handleAnswer(correct: boolean) {
-    if (!sentence) return;
+    if (!sentence || !scope) return;
+    const token = sessionTokenRef.current;
+
     setRecording(true);
     await recordAiSentenceResult(sentence.usedWordIds, sentence.usedGrammarPointId, correct);
     setRecording(false);
-    setSentence(null);
     setRevealed(false);
+
+    const nextIndex = index + 1;
+    // 現在のバッチの半分程度(10問なら5問目)を解き終えたタイミングで、
+    // 残り5問を解いている間に完了するよう次の10問の先読みを開始する。
+    const prefetchTriggerIndex = Math.ceil(items.length / 2);
+    if (nextIndex === prefetchTriggerIndex) {
+      startPrefetch(scope, token);
+    }
+
+    if (nextIndex < items.length) {
+      setIndex(nextIndex);
+      return;
+    }
+
+    // このバッチを使い切った
+    if (nextBatchRef.current) {
+      const nextItems = nextBatchRef.current;
+      nextBatchRef.current = null;
+      prefetchStartedRef.current = false;
+      setItems(nextItems);
+      setIndex(0);
+      return;
+    }
+
+    // 先読みが間に合わなかった場合のフォールバック
+    setLoading(true);
+    setError(null);
+    const result = await loadBatch(scope, token);
+    if (result === null) return;
+    if (result.ok) {
+      prefetchStartedRef.current = false;
+      setItems(result.items);
+      setIndex(0);
+    } else {
+      setError(result.error);
+      setItems([]);
+    }
+    setLoading(false);
   }
 
   if (!scope) {
@@ -58,10 +147,7 @@ export default function AiQuizCard() {
           <button
             key={opt.key}
             type="button"
-            onClick={() => {
-              setScope(opt.key);
-              void handleGenerate(opt.key);
-            }}
+            onClick={() => void handleStart(opt.key)}
             className="rounded border border-line bg-paper p-4 text-left active:scale-[0.97] transition-transform"
           >
             <p className="font-bold text-ink">{opt.label}</p>
@@ -77,38 +163,27 @@ export default function AiQuizCard() {
       <div className="mb-4 flex items-center justify-between text-[14.4px] text-ink-soft">
         <span>
           出題範囲: {SCOPE_OPTIONS.find((o) => o.key === scope)?.label} · HSK{levelKey}
+          {items.length > 0 && ` · ${index + 1}/${items.length}問`}
         </span>
         <button
           type="button"
-          onClick={() => {
-            setScope(null);
-            setSentence(null);
-            setError(null);
-            setRevealed(false);
-          }}
+          onClick={handleReset}
           className="underline active:opacity-60 transition-opacity"
         >
           範囲を変更
         </button>
       </div>
 
-      {!sentence && (
-        <button
-          type="button"
-          onClick={() => handleGenerate(scope)}
-          disabled={loading}
-          className="rounded bg-seal px-6 py-2 text-[16.8px] text-ink disabled:opacity-50 active:scale-95 transition-transform inline-flex items-center gap-2"
-        >
-          {loading && (
-            <span className="inline-block h-3 w-3 animate-spin rounded-full border-2 border-ink border-t-transparent" />
-          )}
-          {loading ? "AIが例文を作成中…" : "AIに例文を作ってもらう"}
-        </button>
+      {loading && (
+        <p className="inline-flex items-center gap-2 text-[16.8px] text-ink-soft">
+          <span className="inline-block h-3 w-3 animate-spin rounded-full border-2 border-ink-soft border-t-transparent" />
+          AIが{items.length === 0 ? "10問分の" : ""}例文を作成中…
+        </p>
       )}
 
       {error && <p className="mt-4 text-[16.8px] text-red-600">{error}</p>}
 
-      {sentence && (
+      {sentence && !loading && (
         <>
           <p className="mb-6 text-[36px]">{sentence.hanzi}</p>
 

@@ -3,7 +3,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
-import { getWeakWords, getWeakGrammarPoints } from "@/lib/quiz/select";
+import { getWeakWords, getWeakGrammarPoints, type QuizWord, type QuizGrammarPoint } from "@/lib/quiz/select";
 
 export type QuizScope = "word" | "grammar" | "mix";
 
@@ -15,6 +15,19 @@ export type AiSentence = {
   usedWordIds: number[];
   usedGrammarPointId: number | null;
 };
+
+export type AiQuizBatchResult =
+  | { ok: true; items: AiSentence[] }
+  | { ok: false; error: string };
+
+const BATCH_SIZE = 10;
+// 苦手単語の候補プール。10問(1問あたり3語)ぶんの組み合わせをなるべく重複
+// させずにローテーションするため、BATCH_SIZE*3(30)より少し絞った値にする
+// (常に30語もの候補が取れるとは限らないため、getWeakWordsの新出単語補充に
+// 過度な負荷をかけない範囲で確保する)。20はBATCH_SIZE(10)の倍数でも
+// 3の倍数でもないため、(i*3)%20のローテーションで10通りの開始位置が
+// 全て重複しない(下記コメント参照)。
+const WORD_POOL_SIZE = 20;
 
 // ユーザーが自由記述したgoal_textをプロンプトに埋め込む際の共通ブロック。
 // プロンプトインジェクション対策として、ユーザー入力を<learner_goal>タグで
@@ -40,10 +53,13 @@ ${goalText}
 (使用する単語・文法パターン自体は上記の指定を優先してください)。`;
 }
 
-function buildWordPrompt(
+const BATCH_OUTPUT_FORMAT = `出力は以下のJSON配列形式のみで、他のテキストやMarkdownの装飾は一切含めないでください。
+配列の各要素は対応する課題番号(id)の順に並べ、必ず${BATCH_SIZE}件すべて出力してください。`;
+
+function buildWordBatchPrompt(
   scope: "word" | "mix",
   level: number,
-  wordList: string,
+  groups: QuizWord[][],
   goalText: string | null,
 ): string {
   const focusInstruction =
@@ -51,54 +67,66 @@ function buildWordPrompt(
       ? "語彙の意味・使い方・ピンインの理解を問うことを重視した、シンプルな例文にしてください。"
       : "";
 
-  return `あなたは中国語学習アプリの出題担当です。以下の単語のうち、
-少なくとも1つ(できれば複数)を使った、自然なHSK${level}レベルの中国語の例文を1つ作成してください。
+  const tasksText = groups
+    .map((group, i) => `課題${i + 1}: ${group.map((w) => w.hanzi).join("、")}`)
+    .join("\n");
+
+  return `あなたは中国語学習アプリの出題担当です。以下の${BATCH_SIZE}個の課題それぞれについて、
+指定された単語のうち少なくとも1つ(できれば複数)を使った、自然なHSK${level}レベルの
+中国語の例文を1つずつ作成してください。
 ${focusInstruction}
 
-対象単語: ${wordList}
+${tasksText}
 ${buildGoalContext(goalText)}
 
-出力は以下のJSON形式のみで、他のテキストやMarkdownの装飾は一切含めないでください。
-{
-  "hanzi": "中国語の例文(簡体字)",
-  "pinyin": "その例文の拼音(声調記号付き)",
-  "meaning_ja": "日本語訳",
-  "explanation_ja": "使った単語や文法についての簡潔な日本語解説(1〜2文)"
-}`;
+${BATCH_OUTPUT_FORMAT}
+[
+  { "id": 1, "hanzi": "中国語の例文(簡体字)", "pinyin": "その例文の拼音(声調記号付き)", "meaning_ja": "日本語訳", "explanation_ja": "使った単語や文法についての簡潔な日本語解説(1〜2文)" },
+  ...
+]`;
 }
 
-function buildGrammarPrompt(
+function buildGrammarBatchPrompt(
   level: number,
-  label: string,
-  explanation: string | null,
+  points: QuizGrammarPoint[],
   goalText: string | null,
 ): string {
-  return `あなたは中国語学習アプリの出題担当です。
-以下の文法パターンの用法を練習させる、HSK${level}レベルの中国語の例文を1つ作成してください。
-可能であれば、文法パターンが使われている箇所を「___」で穴埋めにしてください。
+  const tasksText = points
+    .map((p, i) => `課題${i + 1}: 文法パターン「${p.label}」(${p.explanation ?? "説明なし"})`)
+    .join("\n");
 
-文法パターン: ${label}
-文法の説明: ${explanation ?? "(説明なし)"}
+  return `あなたは中国語学習アプリの出題担当です。以下の${BATCH_SIZE}個の課題それぞれについて、
+指定された文法パターンの用法を練習させる、自然なHSK${level}レベルの中国語の例文を
+1つずつ作成してください。可能であれば、文法パターンが使われている箇所を「___」で
+穴埋めにしてください。
+
+${tasksText}
 ${buildGoalContext(goalText)}
 
-出力は以下のJSON形式のみで、他のテキストやMarkdownの装飾は一切含めないでください。
-{
-  "hanzi": "中国語の例文(簡体字。穴埋め形式にする場合は空欄部分を___にする)",
-  "pinyin": "その例文の拼音(声調記号付き)",
-  "meaning_ja": "日本語訳",
-  "explanation_ja": "この文法パターンの使い方についての簡潔な日本語解説(1〜2文)"
-}`;
+${BATCH_OUTPUT_FORMAT}
+[
+  { "id": 1, "hanzi": "中国語の例文(簡体字。穴埋め形式にする場合は空欄部分を___にする)", "pinyin": "その例文の拼音(声調記号付き)", "meaning_ja": "日本語訳", "explanation_ja": "この文法パターンの使い方についての簡潔な日本語解説(1〜2文)" },
+  ...
+]`;
 }
 
-async function callAnthropic(
+type RawBatchItem = {
+  id?: unknown;
+  hanzi?: unknown;
+  pinyin?: unknown;
+  meaning_ja?: unknown;
+  explanation_ja?: unknown;
+};
+
+async function callAnthropicBatch(
   prompt: string,
-): Promise<{ ok: true; parsed: Record<string, unknown> } | { ok: false; error: string }> {
+): Promise<{ ok: true; items: RawBatchItem[] } | { ok: false; error: string }> {
   const client = new Anthropic();
 
   try {
     const response = await client.messages.create({
       model: "claude-haiku-4-5",
-      max_tokens: 1024,
+      max_tokens: 4096,
       messages: [{ role: "user", content: prompt }],
     });
 
@@ -110,21 +138,34 @@ async function callAnthropic(
     const jsonText = textBlock.text.trim().replace(/^```json\s*|```$/g, "");
     const parsed = JSON.parse(jsonText);
 
-    if (!parsed.hanzi || !parsed.pinyin || !parsed.meaning_ja) {
+    if (!Array.isArray(parsed)) {
       return { ok: false, error: "AIの応答の形式が不正でした。" };
     }
 
-    return { ok: true, parsed };
+    const valid = (parsed as RawBatchItem[]).filter(
+      (item) =>
+        item &&
+        typeof item.id === "number" &&
+        typeof item.hanzi === "string" &&
+        typeof item.pinyin === "string" &&
+        typeof item.meaning_ja === "string",
+    );
+
+    if (valid.length === 0) {
+      return { ok: false, error: "AIの応答の形式が不正でした。" };
+    }
+
+    return { ok: true, items: valid };
   } catch (e) {
-    console.error("generateAiSentence failed", e);
+    console.error("generateAiSentenceBatch failed", e);
     return { ok: false, error: "AIによる例文生成に失敗しました。時間をおいて再度お試しください。" };
   }
 }
 
-export async function generateAiSentence(
+export async function generateAiSentenceBatch(
   scope: QuizScope,
   level: number,
-): Promise<{ ok: true; sentence: AiSentence } | { ok: false; error: string }> {
+): Promise<AiQuizBatchResult> {
   const supabase = await createClient();
   const {
     data: { user },
@@ -142,52 +183,79 @@ export async function generateAiSentence(
   const goalText = profile?.goal_text ?? null;
 
   if (scope === "grammar") {
-    const points = await getWeakGrammarPoints(supabase, user.id, level, 1);
+    const points = await getWeakGrammarPoints(supabase, user.id, level, BATCH_SIZE);
     if (points.length === 0) {
       return { ok: false, error: "このレベルの文法項目がまだありません。" };
     }
-    const point = points[0];
-    const prompt = buildGrammarPrompt(level, point.label, point.explanation, goalText);
-    const result = await callAnthropic(prompt);
+
+    const prompt = buildGrammarBatchPrompt(level, points, goalText);
+    const result = await callAnthropicBatch(prompt);
     if (!result.ok) return result;
 
-    return {
-      ok: true,
-      sentence: {
-        hanzi: result.parsed.hanzi as string,
-        pinyin: result.parsed.pinyin as string,
-        meaning_ja: result.parsed.meaning_ja as string,
-        explanation_ja: (result.parsed.explanation_ja as string) ?? "",
-        usedWordIds: [],
-        usedGrammarPointId: point.id,
-      },
-    };
+    const items: AiSentence[] = result.items
+      .map((raw): AiSentence | null => {
+        const point = points[(raw.id as number) - 1];
+        if (!point) return null;
+        return {
+          hanzi: raw.hanzi as string,
+          pinyin: raw.pinyin as string,
+          meaning_ja: raw.meaning_ja as string,
+          explanation_ja: (raw.explanation_ja as string) ?? "",
+          usedWordIds: [],
+          usedGrammarPointId: point.id,
+        };
+      })
+      .filter((item): item is AiSentence => item !== null);
+
+    if (items.length === 0) {
+      return { ok: false, error: "AIの応答の形式が不正でした。" };
+    }
+    return { ok: true, items };
   }
 
-  const weakWords = await getWeakWords(supabase, user.id, level, 3);
-  if (weakWords.length === 0) {
+  const pool = await getWeakWords(supabase, user.id, level, WORD_POOL_SIZE);
+  if (pool.length === 0) {
     return { ok: false, error: "出題できる単語がありません。" };
   }
 
-  const wordList = weakWords
-    .map((w) => `${w.hanzi}（${w.pinyin}、意味:${w.meaning_ja}、HSK${w.hsk_level}）`)
-    .join("、");
+  // 苦手単語プール(pool)から3語ずつ、10通りの組み合わせを作る。
+  // プールの長さが3の倍数でなければ、開始位置(i*3) % pool.lengthは
+  // BATCH_SIZE(10)件のうち重複しない(プールが3の倍数の場合のみ
+  // 短い周期で開始位置が循環してしまうため、WORD_POOL_SIZE=20を
+  // 3の倍数にならない値として選んでいる)。
+  const groups: QuizWord[][] = [];
+  for (let i = 0; i < BATCH_SIZE; i++) {
+    const start = (i * 3) % pool.length;
+    const group: QuizWord[] = [];
+    for (let j = 0; j < 3; j++) {
+      group.push(pool[(start + j) % pool.length]);
+    }
+    groups.push(group);
+  }
 
-  const prompt = buildWordPrompt(scope, level, wordList, goalText);
-  const result = await callAnthropic(prompt);
+  const prompt = buildWordBatchPrompt(scope, level, groups, goalText);
+  const result = await callAnthropicBatch(prompt);
   if (!result.ok) return result;
 
-  return {
-    ok: true,
-    sentence: {
-      hanzi: result.parsed.hanzi as string,
-      pinyin: result.parsed.pinyin as string,
-      meaning_ja: result.parsed.meaning_ja as string,
-      explanation_ja: (result.parsed.explanation_ja as string) ?? "",
-      usedWordIds: weakWords.map((w) => w.id),
-      usedGrammarPointId: null,
-    },
-  };
+  const items: AiSentence[] = result.items
+    .map((raw): AiSentence | null => {
+      const group = groups[(raw.id as number) - 1];
+      if (!group) return null;
+      return {
+        hanzi: raw.hanzi as string,
+        pinyin: raw.pinyin as string,
+        meaning_ja: raw.meaning_ja as string,
+        explanation_ja: (raw.explanation_ja as string) ?? "",
+        usedWordIds: group.map((w) => w.id),
+        usedGrammarPointId: null,
+      };
+    })
+    .filter((item): item is AiSentence => item !== null);
+
+  if (items.length === 0) {
+    return { ok: false, error: "AIの応答の形式が不正でした。" };
+  }
+  return { ok: true, items };
 }
 
 async function upsertProgress(
