@@ -44,11 +44,12 @@ export default function ReadingQuestions({
                   : showResult && isSelected
                     ? "color-mix(in srgb, var(--seal) 25%, var(--card))"
                     : "var(--card)";
-                const color = showResult && isChoiceCorrect
-                  ? "#fff"
-                  : showResult && isSelected
-                    ? "var(--seal-deep)"
-                    : "var(--ink)";
+                // ライトモードのyebe/pinkテーマは--seal-deep(#FFE8FF)がほぼ白に近く、
+                // ほぼ白い背景(color-mix上のchip)の上の文字色に使うと視認性が
+                // 著しく低下する(実測コントラスト比約1:1)。--inkは全テーマ・
+                // 両モードで背景と十分なコントラストを持つよう設計されているため、
+                // こちらを使う。
+                const color = showResult && isChoiceCorrect ? "#fff" : "var(--ink)";
 
                 return (
                   <button
@@ -63,7 +64,9 @@ export default function ReadingQuestions({
                       fontSize: 15,
                       background,
                       color,
-                      border: isSelected && !showResult ? "1.5px solid var(--seal-deep)" : "1px solid var(--line)",
+                      // 同上の理由でborderも--seal-deepではなく--sealを使う
+                      // (yebe/pinkライトモードで枠線がほぼ見えなくなるため)
+                      border: isSelected && !showResult ? "1.5px solid var(--seal)" : "1px solid var(--line)",
                       boxShadow: "0 2px 8px rgba(0,0,0,0.05)",
                       cursor: submitted ? "default" : "pointer",
                     }}
