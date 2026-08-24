@@ -321,7 +321,7 @@ export default async function WordsPage({
         <BookmarkToggle />
 
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginBottom: 4 }}>
-          <SpeakButton text={word.hanzi} size={36} />
+          <SpeakButton text={word.hanzi} size={36} layout="column" />
           <span style={{ fontSize: 38, fontWeight: 700, color: "var(--ink)" }}>{word.hanzi}</span>
           <PronunciationCheck target={word.hanzi} pinyin={word.pinyin} />
         </div>

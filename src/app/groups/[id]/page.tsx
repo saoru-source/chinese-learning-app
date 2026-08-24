@@ -144,7 +144,7 @@ function WordChip({
     <div style={{ textAlign: "center" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 4 }}>
         <p style={{ fontSize: 18, fontWeight: 700, color: "var(--ink)" }}>{word.hanzi}</p>
-        <SpeakButton text={word.hanzi} size={22} />
+        <SpeakButton text={word.hanzi} size={22} layout="column" />
         <PronunciationCheck target={word.hanzi} pinyin={word.pinyin} />
       </div>
       <p style={{ fontSize: 12, fontWeight: 500, color: "var(--ink-soft)", marginTop: 2 }}>{word.pinyin}</p>

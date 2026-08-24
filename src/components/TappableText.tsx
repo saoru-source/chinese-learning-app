@@ -103,7 +103,7 @@ export default function TappableText({ segments, fontSize = 15, lineHeight = 1.9
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 8, fontWeight: 700, fontSize: 13 }}>
             {activeWord.ja}
-            <SpeakButton text={activeWord.zh} size={20} bg="var(--seal)" />
+            <SpeakButton text={activeWord.zh} size={20} bg="var(--seal)" showSlowButton={false} />
           </div>
         </div>
       )}
