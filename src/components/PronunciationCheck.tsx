@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 // 姉妹アプリ「HSK会話トレーニング」(claude/HSKconversations.html, HSKspeaking_practice)と
 // 同一のアルゴリズムをそのまま流用。句読点等を除去した上でLCS(最長共通部分列)により
@@ -58,6 +58,7 @@ interface SpeechRecognitionLike {
   onend: (() => void) | null;
   start: () => void;
   stop: () => void;
+  abort: () => void;
 }
 type SpeechRecognitionConstructor = new () => SpeechRecognitionLike;
 
@@ -69,6 +70,12 @@ declare global {
 }
 
 type Status = "idle" | "unsupported" | "listening" | "error" | "result";
+
+// Web Speech APIは実機(特にモバイルSafari/Chrome)で、認識サービスへの
+// ネットワークが不調な場合等にonresult/onerror/onendのいずれも発火せず
+// 無期限にハングすることがある。UIが「聞き取り中…」のまま復帰不能に
+// ならないよう、一定時間で強制的にタイムアウトさせる保険をかける。
+const LISTEN_TIMEOUT_MS = 8000;
 
 function MicIcon() {
   return (
@@ -108,8 +115,42 @@ export default function PronunciationCheck({
   const [pct, setPct] = useState(0);
   const [errorMessage, setErrorMessage] = useState("");
   const recRef = useRef<SpeechRecognitionLike | null>(null);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const cleanTarget = stripForCompare(target);
+
+  // タイムアウトの解除と、認識オブジェクトからのハンドラの切り離しをまとめて行う。
+  // ハンドラを先にnullにしてからstop/abortすることで、切り離し後に古いイベントが
+  // 遅れて発火してstateを上書きする(タイムアウトで確定させた状態が壊れる)のを防ぐ。
+  function clearListenTimeout() {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+  }
+
+  function detachRecognition() {
+    const rec = recRef.current;
+    if (!rec) return;
+    rec.onresult = null;
+    rec.onerror = null;
+    rec.onend = null;
+    try {
+      rec.abort();
+    } catch {
+      // 既に終了している場合等はabort()が例外を投げることがあるが、
+      // ハンドラは既に外してあるので無視して問題ない。
+    }
+    recRef.current = null;
+  }
+
+  // アンマウント時(画面遷移等)にマイクを確実に解放する。
+  useEffect(() => {
+    return () => {
+      clearListenTimeout();
+      detachRecognition();
+    };
+  }, []);
 
   function startListening() {
     const SpeechRec = typeof window !== "undefined" ? window.SpeechRecognition || window.webkitSpeechRecognition : undefined;
@@ -128,6 +169,7 @@ export default function PronunciationCheck({
 
     rec.onresult = (e) => {
       resultReceived = true;
+      clearListenTimeout();
       const said = stripForCompare(e.results[0][0].transcript || "");
       const { score, matched: m } = lcsMatch(cleanTarget, said);
       const percent = cleanTarget.length > 0 ? Math.round((score / cleanTarget.length) * 100) : 0;
@@ -139,6 +181,7 @@ export default function PronunciationCheck({
 
     rec.onerror = (e) => {
       resultReceived = true;
+      clearListenTimeout();
       const message =
         e.error === "not-allowed" || e.error === "service-not-allowed"
           ? "マイクの使用が許可されていません。ブラウザの設定をご確認ください。"
@@ -151,6 +194,7 @@ export default function PronunciationCheck({
 
     rec.onend = () => {
       recRef.current = null;
+      clearListenTimeout();
       if (!resultReceived) {
         setErrorMessage("音声を検出できませんでした。もう一度お試しください。");
         setStatus("error");
@@ -159,7 +203,27 @@ export default function PronunciationCheck({
 
     recRef.current = rec;
     setStatus("listening");
-    rec.start();
+
+    try {
+      rec.start();
+    } catch {
+      // 直前の認識がまだ完全に終了していない状態で連続タップした場合等、
+      // start()が同期的に例外を投げることがある。状態を確実に戻す。
+      recRef.current = null;
+      setErrorMessage("音声認識を開始できませんでした。もう一度お試しください。");
+      setStatus("error");
+      return;
+    }
+
+    clearListenTimeout();
+    timeoutRef.current = setTimeout(() => {
+      timeoutRef.current = null;
+      // onresult/onerror/onendのいずれも発火しないまま時間切れになったケース。
+      // ブラウザ側の状態に関わらず、UIだけは確実に復帰させる。
+      detachRecognition();
+      setErrorMessage("反応がありませんでした。もう一度お試しください。");
+      setStatus("error");
+    }, LISTEN_TIMEOUT_MS);
   }
 
   function handleOpen() {
@@ -168,19 +232,15 @@ export default function PronunciationCheck({
   }
 
   function handleClose() {
-    if (recRef.current) {
-      recRef.current.stop();
-      recRef.current = null;
-    }
+    clearListenTimeout();
+    detachRecognition();
     setOpen(false);
     setStatus("idle");
   }
 
   function handleRetry() {
-    if (recRef.current) {
-      recRef.current.stop();
-      recRef.current = null;
-    }
+    clearListenTimeout();
+    detachRecognition();
     setStatus("idle");
     startListening();
   }
@@ -255,8 +315,33 @@ export default function PronunciationCheck({
               <>
                 <div style={{ fontSize: 32, fontWeight: 700, color: "var(--ink)", marginBottom: 8 }}>{target}</div>
                 {pinyin && <p style={{ fontSize: 13, color: "var(--ink-soft)", marginBottom: 20 }}>{pinyin}</p>}
-                <p style={{ fontSize: 13, color: "var(--seal-deep)", fontWeight: 700, marginBottom: 20 }}>
+                <p
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    gap: 7,
+                    fontSize: 13,
+                    color: "var(--ink)",
+                    fontWeight: 700,
+                    marginBottom: 8,
+                  }}
+                >
+                  <span
+                    className="animate-pulse"
+                    style={{
+                      display: "inline-block",
+                      width: 8,
+                      height: 8,
+                      borderRadius: "50%",
+                      background: "var(--miss-red)",
+                      flexShrink: 0,
+                    }}
+                  />
                   聞き取り中…
+                </p>
+                <p style={{ fontSize: 11, color: "var(--ink-soft)", marginBottom: 20 }}>
+                  「閉じる」でいつでも中止できます
                 </p>
               </>
             )}
