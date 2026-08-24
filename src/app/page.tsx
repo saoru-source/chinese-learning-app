@@ -2,6 +2,36 @@ import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import GoalCard from "@/components/GoalCard";
 import HeroReviewCard from "@/components/HeroReviewCard";
+import MenuTile from "@/components/MenuTile";
+import { SpeakIcon, ListenIcon, ReadIcon, WriteIcon, QuizIcon } from "@/components/learnIcons";
+
+const HOME_MENU_TILES = [
+  { label: "話す", href: "/learn/speaking", icon: <SpeakIcon />, gradient: "var(--grad)" },
+  {
+    label: "聞く",
+    href: "/listening",
+    icon: <ListenIcon />,
+    gradient: "linear-gradient(135deg, var(--jade), var(--jade-deep))",
+  },
+  {
+    label: "読む",
+    href: "/learn/reading",
+    icon: <ReadIcon />,
+    gradient: "linear-gradient(135deg, var(--gold), var(--gold-deep))",
+  },
+  {
+    label: "書く",
+    href: "/writing",
+    icon: <WriteIcon />,
+    gradient: "linear-gradient(135deg, var(--seal), var(--gold))",
+  },
+  {
+    label: "ドリル",
+    href: "/quiz/ai",
+    icon: <QuizIcon />,
+    gradient: "linear-gradient(135deg, var(--lavender), var(--seal-deep))",
+  },
+];
 
 export default async function Home() {
   const supabase = await createClient();
@@ -52,6 +82,17 @@ export default async function Home() {
             </Link>
           </p>
         )}
+
+        <section>
+          <h2 style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>
+            学習メニュー
+          </h2>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+            {HOME_MENU_TILES.map((tile) => (
+              <MenuTile key={tile.href} label={tile.label} href={tile.href} icon={tile.icon} gradient={tile.gradient} />
+            ))}
+          </div>
+        </section>
       </div>
     </main>
   );
