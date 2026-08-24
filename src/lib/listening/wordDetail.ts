@@ -3,7 +3,7 @@ import { tokenizeSentence } from "@/lib/words/segment";
 import type { Segment } from "@/components/TappableText";
 
 export type ListeningWordDetail = {
-  word: { id: number; hanzi: string; pinyin: string | null; meaning_ja: string | null };
+  word: { id: number; hanzi: string; pinyin: string | null; meaning_ja: string | null; word_type: string | null };
   example: { hanzi: string; pinyin: string | null; meaning_ja: string | null } | null;
   exampleSegments: Segment[] | null;
 };
@@ -19,7 +19,7 @@ export async function fetchListeningWordDetail(
 ): Promise<ListeningWordDetail | null> {
   const { data: wordRows } = await supabase
     .from("words")
-    .select("id, hanzi, pinyin, meaning_ja")
+    .select("id, hanzi, pinyin, meaning_ja, word_type")
     .eq("hanzi", textZh)
     .limit(1);
 

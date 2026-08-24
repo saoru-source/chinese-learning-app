@@ -14,6 +14,7 @@ export type AiSentence = {
   meaning_ja: string;
   explanation_ja: string;
   usedWordIds: number[];
+  usedWords: { id: number; hanzi: string; word_type: string | null }[];
   usedGrammarPointId: number | null;
 };
 
@@ -203,6 +204,7 @@ export async function generateAiSentenceBatch(
           meaning_ja: raw.meaning_ja as string,
           explanation_ja: (raw.explanation_ja as string) ?? "",
           usedWordIds: [],
+          usedWords: [],
           usedGrammarPointId: point.id,
         };
       })
@@ -248,6 +250,7 @@ export async function generateAiSentenceBatch(
         meaning_ja: raw.meaning_ja as string,
         explanation_ja: (raw.explanation_ja as string) ?? "",
         usedWordIds: group.map((w) => w.id),
+        usedWords: group.map((w) => ({ id: w.id, hanzi: w.hanzi, word_type: w.word_type })),
         usedGrammarPointId: null,
       };
     })

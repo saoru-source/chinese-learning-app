@@ -6,6 +6,7 @@ export type QuizWord = {
   pinyin: string | null;
   meaning_ja: string | null;
   hsk_level: number | null;
+  word_type: string | null;
 };
 
 // 進捗データを見て、優先的に出題する単語を1つ選ぶ。
@@ -33,7 +34,7 @@ export async function pickNextWord(
     const pickId = weakIds[Math.floor(Math.random() * weakIds.length)];
     const { data } = await supabase
       .from("words")
-      .select("id, hanzi, pinyin, meaning_ja, hsk_level")
+      .select("id, hanzi, pinyin, meaning_ja, hsk_level, word_type")
       .eq("id", pickId)
       .single();
     if (data) return data;
@@ -57,14 +58,14 @@ export async function pickNextWord(
 
   let newWordQuery = supabase
     .from("words")
-    .select("id, hanzi, pinyin, meaning_ja, hsk_level")
+    .select("id, hanzi, pinyin, meaning_ja, hsk_level, word_type")
     .order("id", { ascending: true })
     .range(randomOffset, randomOffset);
 
   if (allStudiedIds.length > 0) {
     newWordQuery = supabase
       .from("words")
-      .select("id, hanzi, pinyin, meaning_ja, hsk_level")
+      .select("id, hanzi, pinyin, meaning_ja, hsk_level, word_type")
       .not("id", "in", `(${allStudiedIds.join(",")})`)
       .order("id", { ascending: true })
       .limit(1);
@@ -78,7 +79,7 @@ export async function pickNextWord(
   // 新出単語がなければ(全部学習済み)、全体からランダムに復習
   const { data: reviewCandidate } = await supabase
     .from("words")
-    .select("id, hanzi, pinyin, meaning_ja, hsk_level")
+    .select("id, hanzi, pinyin, meaning_ja, hsk_level, word_type")
     .order("id", { ascending: true })
     .range(randomOffset, randomOffset);
 
@@ -113,7 +114,7 @@ export async function getWeakWords(
   if (weakIds.length > 0) {
     const { data } = await supabase
       .from("words")
-      .select("id, hanzi, pinyin, meaning_ja, hsk_level")
+      .select("id, hanzi, pinyin, meaning_ja, hsk_level, word_type")
       .eq("hsk_level", level)
       .in("id", weakIds);
     if (data) result.push(...data);
@@ -123,7 +124,7 @@ export async function getWeakWords(
     const studiedIds = (progressRows ?? []).map((p) => p.item_id);
     let fillerQuery = supabase
       .from("words")
-      .select("id, hanzi, pinyin, meaning_ja, hsk_level")
+      .select("id, hanzi, pinyin, meaning_ja, hsk_level, word_type")
       .eq("hsk_level", level)
       .order("id", { ascending: true })
       .limit(limit - result.length);

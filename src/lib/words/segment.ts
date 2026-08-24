@@ -3,7 +3,7 @@ import type { Segment } from "@/components/TappableText";
 
 const MAX_WORD_LEN = 4;
 
-type WordEntry = { pinyin: string | null; meaning_ja: string | null };
+type WordEntry = { pinyin: string | null; meaning_ja: string | null; word_type?: string | null };
 
 // 貪欲最長一致で辞書(dict)を使ってtextをセグメント配列に変換する純粋関数。
 // 辞書の作り方(候補問い合わせ/レベル一括取得等)は呼び出し側に委ねる。
@@ -27,7 +27,7 @@ export function buildSegmentsFromDict(text: string, dict: Map<string, WordEntry>
       const slice = text.slice(i, i + matchedLen);
       const w = dict.get(slice)!;
       segments.push({
-        word: { zh: slice, pinyin: w.pinyin ?? "", ja: w.meaning_ja ?? "" },
+        word: { zh: slice, pinyin: w.pinyin ?? "", ja: w.meaning_ja ?? "", pos: w.word_type ?? null },
       });
       i += matchedLen;
     } else {
@@ -62,7 +62,7 @@ export async function tokenizeSentence(
 
   const { data } = await supabase
     .from("words")
-    .select("hanzi, pinyin, meaning_ja")
+    .select("hanzi, pinyin, meaning_ja, word_type")
     .in("hanzi", Array.from(candidates));
 
   const dict = new Map((data ?? []).map((w) => [w.hanzi as string, w as WordEntry]));

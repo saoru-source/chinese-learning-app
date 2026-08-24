@@ -1,6 +1,7 @@
 import SpeakButton from "./SpeakButton";
 import PronunciationCheck from "./PronunciationCheck";
 import TappableText from "./TappableText";
+import PosBadge from "./PosBadge";
 import type { ListeningWordDetail } from "@/lib/listening/wordDetail";
 
 // ヒアリング(選択式/ディクテーション)の回答後に、その問題で使われた単語の
@@ -26,9 +27,10 @@ export default function WordDetailCard({ detail }: { detail: ListeningWordDetail
           <PronunciationCheck target={word.hanzi} pinyin={word.pinyin} />
         </div>
 
-        <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)", marginBottom: 6 }}>
-          {word.pinyin}
-        </p>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginBottom: 6 }}>
+          <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)" }}>{word.pinyin}</p>
+          <PosBadge type={word.word_type} />
+        </div>
 
         <div style={{ borderTop: "1px solid var(--line)", paddingTop: 6 }}>
           <p style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 2 }}>意味</p>

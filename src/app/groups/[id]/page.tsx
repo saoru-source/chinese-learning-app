@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import SpeakButton from "@/components/SpeakButton";
 import PronunciationCheck from "@/components/PronunciationCheck";
+import PosBadge from "@/components/PosBadge";
 
 type Item = {
   order_index: number;
@@ -12,6 +13,7 @@ type Item = {
     hanzi: string;
     pinyin: string | null;
     meaning_ja: string | null;
+    word_type: string | null;
   } | null;
 };
 
@@ -49,7 +51,7 @@ export default async function GroupDetailPage({
 
   const { data: rawItems } = await supabase
     .from("word_group_items")
-    .select("order_index, role, words(id, hanzi, pinyin, meaning_ja)")
+    .select("order_index, role, words(id, hanzi, pinyin, meaning_ja, word_type)")
     .eq("group_id", id)
     .order("order_index", { ascending: true });
 
@@ -137,7 +139,7 @@ export default async function GroupDetailPage({
 function WordChip({
   word,
 }: {
-  word: { hanzi: string; pinyin: string | null; meaning_ja: string | null } | undefined | null;
+  word: { hanzi: string; pinyin: string | null; meaning_ja: string | null; word_type: string | null } | undefined | null;
 }) {
   if (!word) return null;
   return (
@@ -147,7 +149,10 @@ function WordChip({
         <SpeakButton text={word.hanzi} size={22} layout="column" />
         <PronunciationCheck target={word.hanzi} pinyin={word.pinyin} />
       </div>
-      <p style={{ fontSize: 14.4, fontWeight: 500, color: "var(--ink-soft)", marginTop: 2 }}>{word.pinyin}</p>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 6, marginTop: 2 }}>
+        <p style={{ fontSize: 14.4, fontWeight: 500, color: "var(--ink-soft)" }}>{word.pinyin}</p>
+        <PosBadge type={word.word_type} fontSize={11} />
+      </div>
       <p style={{ fontSize: 14.4, color: "var(--ink)" }}>{word.meaning_ja}</p>
     </div>
   );

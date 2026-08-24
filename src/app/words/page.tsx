@@ -6,6 +6,7 @@ import BookmarkToggle from "@/components/BookmarkToggle";
 import SpeakButton from "@/components/SpeakButton";
 import PronunciationCheck from "@/components/PronunciationCheck";
 import TappableText from "@/components/TappableText";
+import PosBadge from "@/components/PosBadge";
 
 const LEVELS = [1, 2, 3, 4, 5, 6];
 
@@ -47,7 +48,7 @@ function CompletionScreen({
   words,
 }: {
   level: number;
-  words: { id: number; hanzi: string; pinyin: string | null; meaning_ja: string | null }[];
+  words: { id: number; hanzi: string; pinyin: string | null; meaning_ja: string | null; word_type: string | null }[];
 }) {
   return (
     <main style={{ maxWidth: 480, margin: "0 auto", padding: "24px 16px 40px" }}>
@@ -92,6 +93,7 @@ function CompletionScreen({
           >
             <span style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>{w.hanzi}</span>
             <span style={{ fontSize: 14.4, color: "var(--ink-soft)", fontWeight: 500 }}>{w.pinyin}</span>
+            <PosBadge type={w.word_type} fontSize={11} />
             <span style={{ marginLeft: "auto", fontSize: 15.6, color: "var(--ink)", textAlign: "right" }}>
               {w.meaning_ja}
             </span>
@@ -169,7 +171,7 @@ export default async function WordsPage({
   if (index >= total) {
     const { data: allWords } = await supabase
       .from("words")
-      .select("id, hanzi, pinyin, meaning_ja")
+      .select("id, hanzi, pinyin, meaning_ja, word_type")
       .eq("hsk_level", level)
       .order("id", { ascending: true });
 
@@ -179,7 +181,7 @@ export default async function WordsPage({
   const wordId = order[index];
   const { data: wordRows } = await supabase
     .from("words")
-    .select("id, hanzi, pinyin, meaning_ja, hsk_level")
+    .select("id, hanzi, pinyin, meaning_ja, hsk_level, word_type")
     .eq("id", wordId)
     .limit(1);
 
@@ -330,9 +332,10 @@ export default async function WordsPage({
           <PronunciationCheck target={word.hanzi} pinyin={word.pinyin} />
         </div>
 
-        <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)", marginBottom: 6 }}>
-          {word.pinyin}
-        </p>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginBottom: 6 }}>
+          <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)" }}>{word.pinyin}</p>
+          <PosBadge type={word.word_type} />
+        </div>
 
         <div style={{ borderTop: "1px solid var(--line)", paddingTop: 6 }}>
           <p style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 2 }}>意味</p>

@@ -6,6 +6,7 @@ export type NewWord = {
   pinyin: string | null;
   meaning_ja: string | null;
   hsk_level: number;
+  word_type: string | null;
 };
 
 // 「段階的暗記モード」: まだ覚えていない新出単語を、現在のHSKレベル設定
@@ -21,7 +22,7 @@ export async function pickNewWords(
 ): Promise<NewWord[]> {
   const { data: words } = await supabase
     .from("words")
-    .select("id, hanzi, pinyin, meaning_ja, hsk_level")
+    .select("id, hanzi, pinyin, meaning_ja, hsk_level, word_type")
     .eq("hsk_level", level)
     .order("id", { ascending: true });
 

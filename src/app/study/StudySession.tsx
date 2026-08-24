@@ -9,6 +9,7 @@ import type { Segment } from "@/components/TappableText";
 import TappableText from "@/components/TappableText";
 import SpeakButton from "@/components/SpeakButton";
 import PronunciationCheck from "@/components/PronunciationCheck";
+import PosBadge from "@/components/PosBadge";
 
 type Item = {
   word: NewWord;
@@ -246,6 +247,7 @@ export default function StudySession({ items }: { items: Item[] }) {
                 HSK{w.hsk_level}
               </span>
               <span style={{ fontSize: 15.6, fontWeight: 700, color: "var(--ink)" }}>{w.hanzi}</span>
+              <PosBadge type={w.word_type} fontSize={11} />
               <span
                 style={{
                   fontSize: 13.2,
@@ -403,9 +405,10 @@ export default function StudySession({ items }: { items: Item[] }) {
               <SpeakButton text={current.word.hanzi} size={32} layout="column" />
               <span style={{ fontSize: 40.8, fontWeight: 700, color: "var(--ink)" }}>{current.word.hanzi}</span>
             </div>
-            <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)", marginBottom: 6 }}>
-              {current.word.pinyin}
-            </p>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginBottom: 6 }}>
+              <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)" }}>{current.word.pinyin}</p>
+              <PosBadge type={current.word.word_type} />
+            </div>
             <div style={{ borderTop: "1px solid var(--line)", paddingTop: 6, marginTop: 6 }}>
               <p style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 2 }}>意味</p>
               <p style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>{current.word.meaning_ja}</p>
@@ -425,9 +428,10 @@ export default function StudySession({ items }: { items: Item[] }) {
               </p>
             ) : (
               <>
-                <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)", marginBottom: 6 }}>
-                  {current.word.pinyin}
-                </p>
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginBottom: 6 }}>
+                  <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)" }}>{current.word.pinyin}</p>
+                  <PosBadge type={current.word.word_type} />
+                </div>
                 <div style={{ borderTop: "1px solid var(--line)", paddingTop: 6, marginTop: 6 }}>
                   <p style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 2 }}>意味</p>
                   <p style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>{current.word.meaning_ja}</p>
@@ -444,7 +448,10 @@ export default function StudySession({ items }: { items: Item[] }) {
               <span style={{ fontSize: 40.8, fontWeight: 700, color: "var(--ink)" }}>{current.word.hanzi}</span>
               <PronunciationCheck key={current.word.id} target={current.word.hanzi} pinyin={current.word.pinyin} />
             </div>
-            <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)" }}>{current.word.pinyin}</p>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}>
+              <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)" }}>{current.word.pinyin}</p>
+              <PosBadge type={current.word.word_type} />
+            </div>
             <p style={{ fontSize: 13.2, color: "var(--ink-soft)", marginTop: 10 }}>
               マイクボタンを押して、実際に発音してみましょう
             </p>
@@ -456,6 +463,7 @@ export default function StudySession({ items }: { items: Item[] }) {
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginBottom: 14 }}>
               <span style={{ fontSize: 24, fontWeight: 700, color: "var(--ink)" }}>{current.word.hanzi}</span>
               <span style={{ fontSize: 13.2, color: "var(--ink-soft)" }}>{current.word.meaning_ja}</span>
+              <PosBadge type={current.word.word_type} />
             </div>
             {current.example && current.exampleSegments ? (
               <div style={{ textAlign: "left" }}>

@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import { useLevel } from "@/lib/level/LevelContext";
+import PosBadge from "@/components/PosBadge";
 import {
   generateAiSentenceBatch,
   recordAiSentenceResult,
@@ -199,11 +200,21 @@ export default function AiQuizCard() {
             <>
               <p className="mb-1 text-ink-soft">{sentence.pinyin}</p>
               <p className="mb-2 text-[21.6px]">{sentence.meaning_ja}</p>
-              {sentence.explanation_ja && (
-                <p className="mb-6 text-[14.4px] text-ink-soft">
-                  {sentence.explanation_ja}
-                </p>
-              )}
+              <div className="mb-6">
+                {sentence.explanation_ja && (
+                  <p className="text-[14.4px] text-ink-soft">{sentence.explanation_ja}</p>
+                )}
+                {sentence.usedWords.length > 0 && (
+                  <div className="mt-2 flex flex-wrap justify-center gap-2">
+                    {sentence.usedWords.map((w) => (
+                      <span key={w.id} className="inline-flex items-center gap-1 text-[13.2px] text-ink-soft">
+                        {w.hanzi}
+                        <PosBadge type={w.word_type} fontSize={11} />
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </div>
               <div className="flex justify-center gap-4">
                 <button
                   type="button"

@@ -2,8 +2,9 @@
 
 import { useRef, useState } from "react";
 import SpeakButton from "./SpeakButton";
+import PosBadge from "./PosBadge";
 
-export type TappableWord = { zh: string; pinyin: string; ja: string };
+export type TappableWord = { zh: string; pinyin: string; ja: string; pos?: string | null };
 export type Segment = string | { word: TappableWord };
 
 type Props = {
@@ -94,12 +95,16 @@ export default function TappableText({ segments, fontSize = 18, lineHeight = 1.9
           />
           <div
             style={{
+              display: "flex",
+              alignItems: "center",
+              gap: 6,
               color: "color-mix(in srgb, var(--paper) 60%, transparent)",
               fontSize: 13.2,
               marginBottom: 2,
             }}
           >
             {activeWord.pinyin}
+            <PosBadge type={activeWord.pos} fontSize={11} />
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 8, fontWeight: 700, fontSize: 15.6 }}>
             {activeWord.ja}
