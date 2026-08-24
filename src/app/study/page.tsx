@@ -59,7 +59,7 @@ export default async function StudyPage() {
         <EmptyCard icon="📖" title="まだ覚えた単語がありません">
           <p>
             まず
-            <Link href="/quiz" className="underline">
+            <Link href="/quiz/ai" className="underline">
               クイズ
             </Link>
             で単語を学習してみましょう。
