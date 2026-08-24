@@ -19,7 +19,7 @@ const DEFAULT_GOAL = "HSK4合格を目指す";
 // に保存し、未ログイン(ゲスト)時はこのローカルstateのみで完結する(リロードで消える)。
 export default function GoalCard({ initialGoal }: { initialGoal?: string | null }) {
   const [goal, setGoal] = useState(initialGoal ?? DEFAULT_GOAL);
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
   // iOSのSafari系ブラウザ(Chrome for iOSもWebKitベース)は、autocomplete="off"を
   // 付けても固定のname値に対してパスワード/カード/連絡先のオートフィル候補を
   // 出し続けることがある。レンダーごとに一意なnameにすることで、OS側が
@@ -29,6 +29,21 @@ export default function GoalCard({ initialGoal }: { initialGoal?: string | null 
 
   const handleBlur = () => {
     void setGoalText(goal);
+  };
+
+  // <textarea>は複数行入力が可能なUIだが、目標欄は1行のみを想定しているため、
+  // Enterキーでの改行を無効化し、代わりに確定(blur)扱いにする。
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      inputRef.current?.blur();
+    }
+  };
+
+  // 改行を含むペーストへの対策(念のため、キー入力以外の経路で改行が
+  // 混入した場合もスペースに置き換えて1行を保つ)。
+  const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
+    setGoal(e.target.value.replace(/\n/g, " "));
   };
 
   return (
@@ -72,21 +87,24 @@ export default function GoalCard({ initialGoal }: { initialGoal?: string | null 
         >
           目標
         </div>
-        <input
+        <textarea
           ref={inputRef}
-          // iOS(WebKit)はtype="text"の欄に対して、パスワード/カード/住所の
-          // AutoFill候補バーをautocomplete="off"でも抑制しないことがある。
-          // type="search"はWebKit側でこの種のAutoFillの対象外として扱われる
-          // ため、これに変更する(下記styleでネイティブの検索欄の見た目
-          // (角丸・クリアボタン)は打ち消し、type="text"と同じ見た目にする)。
-          type="search"
+          // <input>はChrome for iOS等がautocomplete="off"やtype指定を無視して
+          // パスワード/カード/住所のAutoFill候補バーを出すことがあるため、
+          // 単一行の識別情報欄とは見なされにくい<textarea>(自由記述用の
+          // フォーム部品)に変更した。rows=1・改行禁止(handleKeyDown/
+          // handleChange)・下記styleで、見た目・挙動は元の1行入力欄と
+          // 同じになるようにしている。
+          rows={1}
           name={dynamicName}
           autoComplete="off"
           value={goal}
-          onChange={(e) => setGoal(e.target.value)}
+          onChange={handleChange}
+          onKeyDown={handleKeyDown}
           onBlur={handleBlur}
           onClick={(e) => e.stopPropagation()}
           style={{
+            display: "block",
             width: "100%",
             border: "none",
             outline: "none",
@@ -95,8 +113,12 @@ export default function GoalCard({ initialGoal }: { initialGoal?: string | null 
             fontWeight: 700,
             color: "var(--ink)",
             padding: 0,
-            WebkitAppearance: "none",
-            appearance: "none",
+            margin: 0,
+            resize: "none",
+            overflow: "hidden",
+            whiteSpace: "nowrap",
+            fontFamily: "inherit",
+            lineHeight: 1.3,
           }}
         />
       </div>

@@ -251,13 +251,3 @@ body {
   overscroll-behavior-x: none;
   max-width: 100vw;
 }
-
-/* GoalCardの目標入力欄で、iOSのAutoFill候補(パスワード/カード/住所)を
-   回避するためtype="search"を使っている。input自体のWebkitAppearance:none
-   だけではChromeの検索クリアボタン(×)という別の疑似要素までは
-   打ち消せないため、ここで明示的に非表示にしてtype="text"と同じ見た目にする。 */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-  appearance: none;
-}
