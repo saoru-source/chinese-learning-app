@@ -3,18 +3,27 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import { recordStepwiseResult } from "@/lib/stepwise/actions";
-import type { StepwiseSentence } from "@/lib/stepwise/select";
-import TappableText, { type Segment } from "@/components/TappableText";
+import { recordNewWordLearned } from "@/lib/stepwise/actions";
+import type { NewWord } from "@/lib/stepwise/select";
+import type { Segment } from "@/components/TappableText";
+import TappableText from "@/components/TappableText";
 import SpeakButton from "@/components/SpeakButton";
 import PronunciationCheck from "@/components/PronunciationCheck";
 
-type Item = { sentence: StepwiseSentence; segments: Segment[] };
-type Answer = { sentence: StepwiseSentence; correct: boolean };
+type Item = {
+  word: NewWord;
+  example: { hanzi: string; pinyin: string | null; meaning_ja: string | null } | null;
+  exampleSegments: Segment[] | null;
+};
 
-// PronunciationCheckの一致度がこの値以上なら「正解」としてrecordStepwiseResultに記録する
-// (85%以上=とても良い、60%以上=惜しい、を踏まえ「惜しい」以上を合格ラインとした)
-const PASS_THRESHOLD = 60;
+type Stage = 1 | 2 | 3 | 4;
+const STAGE_ORDER: Stage[] = [1, 2, 3, 4];
+const STAGE_LABELS: Record<Stage, string> = {
+  1: "見る",
+  2: "思い出す",
+  3: "発音する",
+  4: "使う",
+};
 
 function StarIcon({ size = 28 }: { size?: number }) {
   return (
@@ -65,39 +74,30 @@ function CheckIcon() {
   );
 }
 
-function CrossIcon() {
-  return (
-    <svg viewBox="0 0 24 24" width={16} height={16} fill="none" stroke="var(--miss-red)" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <path d="M18 6L6 18M6 6l12 12" />
-    </svg>
-  );
-}
-
 export default function StudySession({ items }: { items: Item[] }) {
   const router = useRouter();
-  const [phase, setPhase] = useState<"intro" | "quiz" | "result">("intro");
-  const [index, setIndex] = useState(0);
-  const [pct, setPct] = useState<number | null>(null);
-  const [answers, setAnswers] = useState<Answer[]>([]);
+  const [phase, setPhase] = useState<"intro" | "session" | "result">("intro");
+  const [wordIndex, setWordIndex] = useState(0);
+  const [stage, setStage] = useState<Stage>(1);
+  const [revealed, setRevealed] = useState(false);
+  const [learned, setLearned] = useState<NewWord[]>([]);
+  const [saving, setSaving] = useState(false);
 
   const total = items.length;
-  const current = items[index];
-  const isLast = index === total - 1;
+  const current = items[wordIndex];
+  const isLastWord = wordIndex === total - 1;
 
-  function handleResult(score: number) {
-    setPct(score);
-  }
-
-  function handleNext() {
-    if (pct === null) return;
-    const correct = pct >= PASS_THRESHOLD;
-    void recordStepwiseResult(current.sentence.id, correct);
-    setAnswers((prev) => [...prev, { sentence: current.sentence, correct }]);
-    setPct(null);
-    if (isLast) {
+  async function handleWordComplete() {
+    setSaving(true);
+    await recordNewWordLearned(current.word.id);
+    setSaving(false);
+    setLearned((prev) => [...prev, current.word]);
+    setRevealed(false);
+    if (isLastWord) {
       setPhase("result");
     } else {
-      setIndex((i) => i + 1);
+      setWordIndex((i) => i + 1);
+      setStage(1);
     }
   }
 
@@ -124,10 +124,10 @@ export default function StudySession({ items }: { items: Item[] }) {
           <StarIcon />
         </div>
 
-        <h1 style={{ fontSize: 26.4, fontWeight: 800, color: "var(--ink)", marginBottom: 8 }}>今日の復習</h1>
+        <h1 style={{ fontSize: 26.4, fontWeight: 800, color: "var(--ink)", marginBottom: 8 }}>段階的暗記</h1>
 
         <p style={{ fontSize: 15.6, color: "var(--ink-soft)", maxWidth: 280, margin: "0 auto 20px", lineHeight: 1.7 }}>
-          進捗データをもとに、今のあなたに合った例文を{total}問用意しました
+          まだ覚えていない新しい単語を{total}語、4つのステップで少しずつ覚えていきます
         </p>
 
         <div
@@ -137,19 +137,36 @@ export default function StudySession({ items }: { items: Item[] }) {
             boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
             padding: "20px 20px",
             marginBottom: 20,
+            textAlign: "left",
           }}
         >
-          {/* sentencesテーブルには「文法/量詞」等の一貫したカテゴリ分類が無いため、
-              モックの3分割内訳ボックスは実データが無く実装せず、件数のみの1行に簡略化している */}
-          <p style={{ fontSize: 16.8, fontWeight: 700, color: "var(--ink)", marginBottom: 8 }}>
-            今日は{total}文の例文が用意されています
-          </p>
-          <p style={{ fontSize: 13.2, color: "var(--ink-soft)" }}>発音の練習も交えながら復習しましょう</p>
+          {STAGE_ORDER.map((s, i) => (
+            <div key={s} style={{ display: "flex", alignItems: "center", gap: 10, padding: "6px 0" }}>
+              <span
+                style={{
+                  flexShrink: 0,
+                  width: 22,
+                  height: 22,
+                  borderRadius: "50%",
+                  background: "var(--grad)",
+                  color: "#fff",
+                  fontSize: 12,
+                  fontWeight: 700,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                {i + 1}
+              </span>
+              <span style={{ fontSize: 15.6, fontWeight: 700, color: "var(--ink)" }}>{STAGE_LABELS[s]}</span>
+            </div>
+          ))}
         </div>
 
         <button
           type="button"
-          onClick={() => setPhase("quiz")}
+          onClick={() => setPhase("session")}
           style={{
             width: "100%",
             display: "inline-flex",
@@ -168,17 +185,13 @@ export default function StudySession({ items }: { items: Item[] }) {
           }}
         >
           <SmallStarIcon />
-          問題をはじめる
+          はじめる
         </button>
       </main>
     );
   }
 
   if (phase === "result") {
-    const correctCount = answers.filter((a) => a.correct).length;
-    const scorePct = Math.round((correctCount / total) * 100);
-    const comment = scorePct >= 80 ? "いい調子です！" : "もう少し復習しましょう";
-
     return (
       <main style={{ maxWidth: 480, margin: "0 auto", padding: "24px 16px 40px" }}>
         <div style={{ textAlign: "center", marginBottom: 20 }}>
@@ -193,12 +206,9 @@ export default function StudySession({ items }: { items: Item[] }) {
               lineHeight: 1.1,
             }}
           >
-            {scorePct}%
+            {learned.length}語
           </div>
-          <p style={{ fontSize: 16.8, color: "var(--ink-soft)", marginTop: 4 }}>
-            {total}問中 <span style={{ fontWeight: 700, color: "var(--ink)" }}>{correctCount}問</span> 正解
-          </p>
-          <p style={{ fontSize: 15.6, color: "var(--ink-soft)", marginTop: 4 }}>{comment}</p>
+          <p style={{ fontSize: 16.8, color: "var(--ink-soft)", marginTop: 4 }}>新しい単語を覚えました！</p>
         </div>
 
         <div
@@ -210,9 +220,9 @@ export default function StudySession({ items }: { items: Item[] }) {
             marginBottom: 20,
           }}
         >
-          {answers.map((a, i) => (
+          {learned.map((w, i) => (
             <div
-              key={a.sentence.id}
+              key={w.id}
               style={{
                 display: "flex",
                 alignItems: "center",
@@ -221,7 +231,7 @@ export default function StudySession({ items }: { items: Item[] }) {
                 borderTop: i === 0 ? "none" : "1px solid var(--line)",
               }}
             >
-              {a.correct ? <CheckIcon /> : <CrossIcon />}
+              <CheckIcon />
               <span
                 style={{
                   flexShrink: 0,
@@ -233,18 +243,19 @@ export default function StudySession({ items }: { items: Item[] }) {
                   padding: "2px 6px",
                 }}
               >
-                HSK{a.sentence.hsk_level}
+                HSK{w.hsk_level}
               </span>
+              <span style={{ fontSize: 15.6, fontWeight: 700, color: "var(--ink)" }}>{w.hanzi}</span>
               <span
                 style={{
-                  fontSize: 15.6,
-                  color: "var(--ink)",
+                  fontSize: 13.2,
+                  color: "var(--ink-soft)",
                   overflow: "hidden",
                   textOverflow: "ellipsis",
                   whiteSpace: "nowrap",
                 }}
               >
-                {a.sentence.hanzi}
+                {w.meaning_ja}
               </span>
             </div>
           ))}
@@ -271,7 +282,7 @@ export default function StudySession({ items }: { items: Item[] }) {
             }}
           >
             <RewindIcon />
-            もう一度
+            続けて学ぶ
           </button>
           <Link
             href="/"
@@ -296,8 +307,10 @@ export default function StudySession({ items }: { items: Item[] }) {
     );
   }
 
-  // phase === "quiz"
-  const progressPct = Math.round(((index + 1) / total) * 100);
+  // phase === "session"
+  const overallProgress = (wordIndex * 4 + (stage - 1)) / (total * 4);
+  const progressPct = Math.round(overallProgress * 100);
+  const nextDisabled = saving;
 
   return (
     <main style={{ maxWidth: 480, margin: "0 auto", padding: "16px 16px 40px" }}>
@@ -339,11 +352,11 @@ export default function StudySession({ items }: { items: Item[] }) {
           />
         </div>
         <span style={{ fontSize: 13.2, color: "var(--ink-soft)", flexShrink: 0 }}>
-          {index + 1} / {total}
+          単語 {wordIndex + 1}/{total}
         </span>
       </div>
 
-      <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 14 }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 14 }}>
         <span
           style={{
             flexShrink: 0,
@@ -355,8 +368,23 @@ export default function StudySession({ items }: { items: Item[] }) {
             padding: "3px 10px",
           }}
         >
-          HSK{current.sentence.hsk_level}
+          HSK{current.word.hsk_level}
         </span>
+        {STAGE_ORDER.map((s) => (
+          <span
+            key={s}
+            style={{
+              fontSize: 12,
+              fontWeight: 700,
+              padding: "3px 9px",
+              borderRadius: 999,
+              color: s === stage ? "#fff" : "var(--ink-soft)",
+              background: s === stage ? "var(--grad)" : "var(--paper-deep)",
+            }}
+          >
+            {s}.{STAGE_LABELS[s]}
+          </span>
+        ))}
       </div>
 
       <div
@@ -364,57 +392,112 @@ export default function StudySession({ items }: { items: Item[] }) {
           background: "var(--card)",
           borderRadius: 22,
           boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
-          padding: "22px 20px",
+          padding: "26px 20px",
           marginBottom: 14,
+          textAlign: "center",
         }}
       >
-        <div style={{ display: "flex", alignItems: "flex-start", gap: 10, marginBottom: 10 }}>
-          <div style={{ flex: 1 }}>
-            <TappableText segments={current.segments} fontSize={20.4} lineHeight={1.8} />
-          </div>
-        </div>
+        {stage === 1 && (
+          <>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginBottom: 4 }}>
+              <SpeakButton text={current.word.hanzi} size={32} layout="column" />
+              <span style={{ fontSize: 40.8, fontWeight: 700, color: "var(--ink)" }}>{current.word.hanzi}</span>
+            </div>
+            <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)", marginBottom: 6 }}>
+              {current.word.pinyin}
+            </p>
+            <div style={{ borderTop: "1px solid var(--line)", paddingTop: 6, marginTop: 6 }}>
+              <p style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 2 }}>意味</p>
+              <p style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>{current.word.meaning_ja}</p>
+            </div>
+          </>
+        )}
 
-        <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-          <SpeakButton text={current.sentence.hanzi} size={30} />
-          <PronunciationCheck
-            key={current.sentence.id}
-            target={current.sentence.hanzi}
-            pinyin={current.sentence.pinyin}
-            onResult={handleResult}
-          />
-          <span style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)" }}>{current.sentence.pinyin}</span>
-        </div>
+        {stage === 2 && (
+          <>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginBottom: 10 }}>
+              <SpeakButton text={current.word.hanzi} size={32} layout="column" />
+              <span style={{ fontSize: 40.8, fontWeight: 700, color: "var(--ink)" }}>{current.word.hanzi}</span>
+            </div>
+            {!revealed ? (
+              <p style={{ fontSize: 13.2, color: "var(--ink-soft)" }}>
+                ピンインと意味を思い出せますか？
+              </p>
+            ) : (
+              <>
+                <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)", marginBottom: 6 }}>
+                  {current.word.pinyin}
+                </p>
+                <div style={{ borderTop: "1px solid var(--line)", paddingTop: 6, marginTop: 6 }}>
+                  <p style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 2 }}>意味</p>
+                  <p style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>{current.word.meaning_ja}</p>
+                </div>
+              </>
+            )}
+          </>
+        )}
+
+        {stage === 3 && (
+          <>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginBottom: 4 }}>
+              <SpeakButton text={current.word.hanzi} size={32} layout="column" />
+              <span style={{ fontSize: 40.8, fontWeight: 700, color: "var(--ink)" }}>{current.word.hanzi}</span>
+              <PronunciationCheck key={current.word.id} target={current.word.hanzi} pinyin={current.word.pinyin} />
+            </div>
+            <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)" }}>{current.word.pinyin}</p>
+            <p style={{ fontSize: 13.2, color: "var(--ink-soft)", marginTop: 10 }}>
+              マイクボタンを押して、実際に発音してみましょう
+            </p>
+          </>
+        )}
+
+        {stage === 4 && (
+          <>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginBottom: 14 }}>
+              <span style={{ fontSize: 24, fontWeight: 700, color: "var(--ink)" }}>{current.word.hanzi}</span>
+              <span style={{ fontSize: 13.2, color: "var(--ink-soft)" }}>{current.word.meaning_ja}</span>
+            </div>
+            {current.example && current.exampleSegments ? (
+              <div style={{ textAlign: "left" }}>
+                <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
+                  <div style={{ flex: 1 }}>
+                    <TappableText segments={current.exampleSegments} fontSize={19.2} lineHeight={1.7} />
+                  </div>
+                  <SpeakButton text={current.example.hanzi} size={26} />
+                </div>
+                <p style={{ fontSize: 13.2, color: "var(--ink-soft)", fontWeight: 500, marginTop: 8 }}>
+                  {current.example.pinyin}
+                </p>
+                <p style={{ fontSize: 15.6, color: "var(--ink)", marginTop: 4 }}>{current.example.meaning_ja}</p>
+              </div>
+            ) : (
+              <p style={{ fontSize: 13.2, color: "var(--ink-soft)" }}>
+                この単語を使った例文はまだ見つかりませんでした。
+              </p>
+            )}
+          </>
+        )}
       </div>
-
-      {pct !== null && (
-        <div
-          style={{
-            background: "var(--card)",
-            borderRadius: 14,
-            boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
-            padding: "14px 16px",
-            marginBottom: 14,
-          }}
-        >
-          {pct >= PASS_THRESHOLD ? (
-            <p style={{ fontSize: 15.6, fontWeight: 700, color: "var(--ink)", marginBottom: 4 }}>
-              よくできました！({pct}%)
-            </p>
-          ) : (
-            <p style={{ fontSize: 15.6, fontWeight: 700, color: "var(--ink)", marginBottom: 4 }}>
-              もう少し練習してみましょう({pct}%)
-            </p>
-          )}
-          {current.sentence.meaning_ja && (
-            <p style={{ fontSize: 14.4, color: "var(--ink-soft)" }}>{current.sentence.meaning_ja}</p>
-          )}
-        </div>
-      )}
 
       <button
         type="button"
-        onClick={handleNext}
-        disabled={pct === null}
+        disabled={nextDisabled}
+        onClick={() => {
+          if (stage === 1) {
+            setStage(2);
+          } else if (stage === 2) {
+            if (!revealed) {
+              setRevealed(true);
+            } else {
+              setRevealed(false);
+              setStage(3);
+            }
+          } else if (stage === 3) {
+            setStage(4);
+          } else {
+            void handleWordComplete();
+          }
+        }}
         style={{
           width: "100%",
           display: "inline-flex",
@@ -428,12 +511,30 @@ export default function StudySession({ items }: { items: Item[] }) {
           border: "none",
           borderRadius: 999,
           padding: "13px 0",
-          opacity: pct === null ? 0.4 : 1,
-          cursor: pct === null ? "default" : "pointer",
+          opacity: nextDisabled ? 0.4 : 1,
+          cursor: nextDisabled ? "default" : "pointer",
         }}
       >
-        {isLast ? "結果を見る" : "次の例文"}
-        <ArrowRightIcon />
+        {stage === 1 && (
+          <>
+            わかった、次へ
+            <ArrowRightIcon />
+          </>
+        )}
+        {stage === 2 && !revealed && "答えを確認する"}
+        {stage === 2 && revealed && (
+          <>
+            次へ
+            <ArrowRightIcon />
+          </>
+        )}
+        {stage === 3 && (
+          <>
+            次へ
+            <ArrowRightIcon />
+          </>
+        )}
+        {stage === 4 && (isLastWord ? "覚えた！結果を見る" : "覚えた！次の単語へ")}
       </button>
     </main>
   );

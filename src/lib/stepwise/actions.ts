@@ -1,11 +1,13 @@
 "use server";
 
 import { createClient } from "@/lib/supabase/server";
+import { recordWordReviewResult } from "@/lib/words/reviewProgress";
 
-// クライアント側(StudySession)がセッション内で順番に呼び出す想定のため、
-// フォーム送信ではなく直接引数で呼び出す形にしている(呼び出し後に画面遷移は
-// 行わず、セッションの進行はクライアント側のstateで管理する)。
-export async function recordStepwiseResult(itemId: number, correct: boolean) {
+// 段階的暗記(/study)の4段階(見る→思い出す→発音する→使う)を完了した単語を
+// 「覚えた」として記録する。間隔反復システム(recordWordReviewResult)の
+// 「正解」時と同じ扱いにすることで、review_stageを0→1に進め次回復習日を
+// 設定し、以降は/wordsや/quizの通常の復習サイクルに合流させる。
+export async function recordNewWordLearned(wordId: number) {
   const supabase = await createClient();
   const {
     data: { user },
@@ -13,31 +15,5 @@ export async function recordStepwiseResult(itemId: number, correct: boolean) {
 
   if (!user) return;
 
-  const { data: existing } = await supabase
-    .from("progress")
-    .select("id, correct_count, incorrect_count")
-    .eq("user_id", user.id)
-    .eq("item_type", "sentence")
-    .eq("item_id", itemId)
-    .maybeSingle();
-
-  if (existing) {
-    await supabase
-      .from("progress")
-      .update({
-        correct_count: existing.correct_count + (correct ? 1 : 0),
-        incorrect_count: existing.incorrect_count + (correct ? 0 : 1),
-        last_studied_at: new Date().toISOString(),
-      })
-      .eq("id", existing.id);
-  } else {
-    await supabase.from("progress").insert({
-      user_id: user.id,
-      item_type: "sentence",
-      item_id: itemId,
-      correct_count: correct ? 1 : 0,
-      incorrect_count: correct ? 0 : 1,
-      last_studied_at: new Date().toISOString(),
-    });
-  }
+  await recordWordReviewResult(supabase, user.id, wordId, true);
 }
