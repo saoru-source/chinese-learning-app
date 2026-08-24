@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import Link from "next/link";
+import { useEffect, useState, useTransition } from "react";
+import { useRouter } from "next/navigation";
 import { speak } from "@/lib/speech";
 import WordDetailCard from "@/components/WordDetailCard";
 import type { ListeningWordDetail } from "@/lib/listening/wordDetail";
@@ -32,10 +32,18 @@ export default function DictationCard({
   nextHref: string;
   wordDetail: ListeningWordDetail | null;
 }) {
+  const router = useRouter();
+  const [isPending, startTransition] = useTransition();
   const [input, setInput] = useState("");
   const [checked, setChecked] = useState(false);
   const [supported, setSupported] = useState(true);
   const [playing, setPlaying] = useState(false);
+
+  function handleNext() {
+    startTransition(() => {
+      router.push(nextHref);
+    });
+  }
 
   // ブラウザAPI(window.speechSynthesis)の有無を見るための正当なuseEffect。
   // 初期値をuseStateの遅延初期化でtypeof window判定すると、SSR(false)と
@@ -162,22 +170,27 @@ export default function DictationCard({
       )}
 
       {checked && (
-        <Link
-          href={nextHref}
+        <button
+          type="button"
+          onClick={handleNext}
+          disabled={isPending}
           style={{
             display: "block",
+            width: "100%",
             marginTop: 16,
             fontSize: 15.6,
             fontWeight: 700,
             color: "#fff",
             background: "var(--grad)",
+            border: "none",
             borderRadius: 999,
             padding: "11px 0",
-            textDecoration: "none",
+            opacity: isPending ? 0.6 : 1,
+            cursor: isPending ? "default" : "pointer",
           }}
         >
-          次の問題へ
-        </Link>
+          {isPending ? "読み込み中..." : "次の問題へ"}
+        </button>
       )}
     </div>
 
