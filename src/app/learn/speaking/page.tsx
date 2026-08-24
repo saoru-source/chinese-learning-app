@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useLevel } from "@/lib/level/LevelContext";
 import MenuTile from "@/components/MenuTile";
-import { WordsIcon, StepwiseIcon, GroupsIcon, PatternsIcon } from "@/components/learnIcons";
+import { WordsIcon, StepwiseIcon, GroupsIcon, PatternsIcon, ConversationIcon } from "@/components/learnIcons";
 
 export default function LearnSpeakingPage() {
   const { levelKey } = useLevel();
@@ -36,6 +36,12 @@ export default function LearnSpeakingPage() {
           icon={<PatternsIcon />}
           gradient="linear-gradient(135deg, var(--jade), var(--lavender))"
           href={`/patterns?level=${levelKey}`}
+        />
+        <MenuTile
+          label="会話練習"
+          icon={<ConversationIcon />}
+          gradient="linear-gradient(135deg, var(--gold), var(--seal-deep))"
+          href={`/conversations?level=${levelKey}`}
         />
       </div>
     </main>

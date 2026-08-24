@@ -123,6 +123,15 @@ export function LongReadingIcon() {
   );
 }
 
+export function ConversationIcon() {
+  return (
+    <svg {...PROPS}>
+      <path d="M2 5h11v7H8l-3 3v-3H2V5z" />
+      <path d="M13 9h9v6h-3v3l-3-3h-3V9z" />
+    </svg>
+  );
+}
+
 export function ImageIcon(props: { soft?: boolean } = {}) {
   return (
     <svg {...(props.soft ? SOFT_PROPS : PROPS)}>

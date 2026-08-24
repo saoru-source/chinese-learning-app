@@ -12,6 +12,10 @@ type Props = {
   // "row"(横並び、既定)/"column"(縦並び)。単語一覧のように左右対称に
   // 収める必要がある箇所では"column"にして、既存の横幅を変えずに収める。
   layout?: "row" | "column";
+  // 会話練習で話者ごとに声を変えるためのオプション。src/lib/speech.tsの
+  // pickSpeakerVoices()が返す値をそのまま渡す想定。
+  pitch?: number;
+  voiceName?: string;
 };
 
 function SpeakerIcon({ size }: { size: number }) {
@@ -23,17 +27,25 @@ function SpeakerIcon({ size }: { size: number }) {
   );
 }
 
-export default function SpeakButton({ text = "", size = 28, bg, showSlowButton = true, layout = "row" }: Props) {
+export default function SpeakButton({
+  text = "",
+  size = 28,
+  bg,
+  showSlowButton = true,
+  layout = "row",
+  pitch,
+  voiceName,
+}: Props) {
   const handleClick = (e: React.MouseEvent) => {
     e.stopPropagation();
     if (!text) return;
-    speak(text);
+    speak(text, { pitch, voiceName });
   };
 
   const handleSlowClick = (e: React.MouseEvent) => {
     e.stopPropagation();
     if (!text) return;
-    speak(text, { rate: 0.5 });
+    speak(text, { rate: 0.5, pitch, voiceName });
   };
 
   const slowSize = Math.max(Math.round(size * 0.7), 16);
