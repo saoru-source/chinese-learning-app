@@ -74,7 +74,12 @@ export default function GoalCard({ initialGoal }: { initialGoal?: string | null 
         </div>
         <input
           ref={inputRef}
-          type="text"
+          // iOS(WebKit)はtype="text"の欄に対して、パスワード/カード/住所の
+          // AutoFill候補バーをautocomplete="off"でも抑制しないことがある。
+          // type="search"はWebKit側でこの種のAutoFillの対象外として扱われる
+          // ため、これに変更する(下記styleでネイティブの検索欄の見た目
+          // (角丸・クリアボタン)は打ち消し、type="text"と同じ見た目にする)。
+          type="search"
           name={dynamicName}
           autoComplete="off"
           value={goal}
@@ -90,6 +95,8 @@ export default function GoalCard({ initialGoal }: { initialGoal?: string | null 
             fontWeight: 700,
             color: "var(--ink)",
             padding: 0,
+            WebkitAppearance: "none",
+            appearance: "none",
           }}
         />
       </div>
