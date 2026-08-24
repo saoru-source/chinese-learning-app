@@ -139,25 +139,61 @@ export async function getWeakWords(
   return result;
 }
 
-// AI文法出題の材料にする文法パターンをlimit件、指定レベルからランダムに取得する。
-// progressテーブルはitem_type in ('word','sentence')のみ許容しており文法点の
-// 正誤履歴を持たないため、単語のような「苦手優先」の個人化はできない
-// (現時点ではランダム抽出のみ)。
-export async function getRandomGrammarPoints(
+export type QuizGrammarPoint = {
+  id: number;
+  hsk_level: number | null;
+  label: string;
+  explanation: string | null;
+};
+
+// AI文法出題の材料にする「苦手な文法点」を最大limit件取得する。
+// getWeakWordsと同じ考え方: 苦手な文法点(不正解数が正解数以上)が足りない
+// 場合は、まだ学習していない文法点で補う。levelでの絞り込みも同様。
+export async function getWeakGrammarPoints(
   supabase: SupabaseClient,
+  userId: string,
   level: number,
   limit = 1
-) {
-  const { data } = await supabase
-    .from("grammar_points")
-    .select("id, hsk_level, label, explanation")
-    .eq("hsk_level", level);
+): Promise<QuizGrammarPoint[]> {
+  const { data: progressRows } = await supabase
+    .from("progress")
+    .select("item_id, correct_count, incorrect_count")
+    .eq("user_id", userId)
+    .eq("item_type", "grammar");
 
-  const points = data ?? [];
-  for (let i = points.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [points[i], points[j]] = [points[j], points[i]];
+  const weakIds = (progressRows ?? [])
+    .filter((p) => p.incorrect_count >= p.correct_count)
+    .sort((a, b) => b.incorrect_count - b.correct_count - (a.incorrect_count - a.correct_count))
+    .slice(0, limit)
+    .map((p) => p.item_id);
+
+  const result: QuizGrammarPoint[] = [];
+
+  if (weakIds.length > 0) {
+    const { data } = await supabase
+      .from("grammar_points")
+      .select("id, hsk_level, label, explanation")
+      .eq("hsk_level", level)
+      .in("id", weakIds);
+    if (data) result.push(...data);
   }
 
-  return points.slice(0, limit);
+  if (result.length < limit) {
+    const studiedIds = (progressRows ?? []).map((p) => p.item_id);
+    let fillerQuery = supabase
+      .from("grammar_points")
+      .select("id, hsk_level, label, explanation")
+      .eq("hsk_level", level)
+      .order("id", { ascending: true })
+      .limit(limit - result.length);
+
+    if (studiedIds.length > 0) {
+      fillerQuery = fillerQuery.not("id", "in", `(${studiedIds.join(",")})`);
+    }
+
+    const { data: filler } = await fillerQuery;
+    if (filler) result.push(...filler);
+  }
+
+  return result;
 }

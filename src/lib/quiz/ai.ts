@@ -3,7 +3,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
-import { getWeakWords, getRandomGrammarPoints } from "@/lib/quiz/select";
+import { getWeakWords, getWeakGrammarPoints } from "@/lib/quiz/select";
 
 export type QuizScope = "word" | "grammar" | "mix";
 
@@ -13,6 +13,7 @@ export type AiSentence = {
   meaning_ja: string;
   explanation_ja: string;
   usedWordIds: number[];
+  usedGrammarPointId: number | null;
 };
 
 function buildWordPrompt(
@@ -102,7 +103,7 @@ export async function generateAiSentence(
   }
 
   if (scope === "grammar") {
-    const points = await getRandomGrammarPoints(supabase, level, 1);
+    const points = await getWeakGrammarPoints(supabase, user.id, level, 1);
     if (points.length === 0) {
       return { ok: false, error: "このレベルの文法項目がまだありません。" };
     }
@@ -118,9 +119,8 @@ export async function generateAiSentence(
         pinyin: result.parsed.pinyin as string,
         meaning_ja: result.parsed.meaning_ja as string,
         explanation_ja: (result.parsed.explanation_ja as string) ?? "",
-        // 文法点の正誤履歴はprogressテーブルの対象外(item_typeがword/sentenceのみ)のため
-        // 記録対象の単語IDはなし
         usedWordIds: [],
+        usedGrammarPointId: point.id,
       },
     };
   }
@@ -146,12 +146,50 @@ export async function generateAiSentence(
       meaning_ja: result.parsed.meaning_ja as string,
       explanation_ja: (result.parsed.explanation_ja as string) ?? "",
       usedWordIds: weakWords.map((w) => w.id),
+      usedGrammarPointId: null,
     },
   };
 }
 
+async function upsertProgress(
+  supabase: Awaited<ReturnType<typeof createClient>>,
+  userId: string,
+  itemType: "word" | "grammar",
+  itemId: number,
+  correct: boolean
+) {
+  const { data: existing } = await supabase
+    .from("progress")
+    .select("id, correct_count, incorrect_count")
+    .eq("user_id", userId)
+    .eq("item_type", itemType)
+    .eq("item_id", itemId)
+    .maybeSingle();
+
+  if (existing) {
+    await supabase
+      .from("progress")
+      .update({
+        correct_count: existing.correct_count + (correct ? 1 : 0),
+        incorrect_count: existing.incorrect_count + (correct ? 0 : 1),
+        last_studied_at: new Date().toISOString(),
+      })
+      .eq("id", existing.id);
+  } else {
+    await supabase.from("progress").insert({
+      user_id: userId,
+      item_type: itemType,
+      item_id: itemId,
+      correct_count: correct ? 1 : 0,
+      incorrect_count: correct ? 0 : 1,
+      last_studied_at: new Date().toISOString(),
+    });
+  }
+}
+
 export async function recordAiSentenceResult(
   usedWordIds: number[],
+  usedGrammarPointId: number | null,
   correct: boolean
 ) {
   const supabase = await createClient();
@@ -164,32 +202,9 @@ export async function recordAiSentenceResult(
   }
 
   for (const itemId of usedWordIds) {
-    const { data: existing } = await supabase
-      .from("progress")
-      .select("id, correct_count, incorrect_count")
-      .eq("user_id", user.id)
-      .eq("item_type", "word")
-      .eq("item_id", itemId)
-      .maybeSingle();
-
-    if (existing) {
-      await supabase
-        .from("progress")
-        .update({
-          correct_count: existing.correct_count + (correct ? 1 : 0),
-          incorrect_count: existing.incorrect_count + (correct ? 0 : 1),
-          last_studied_at: new Date().toISOString(),
-        })
-        .eq("id", existing.id);
-    } else {
-      await supabase.from("progress").insert({
-        user_id: user.id,
-        item_type: "word",
-        item_id: itemId,
-        correct_count: correct ? 1 : 0,
-        incorrect_count: correct ? 0 : 1,
-        last_studied_at: new Date().toISOString(),
-      });
-    }
+    await upsertProgress(supabase, user.id, "word", itemId, correct);
+  }
+  if (usedGrammarPointId !== null) {
+    await upsertProgress(supabase, user.id, "grammar", usedGrammarPointId, correct);
   }
 }

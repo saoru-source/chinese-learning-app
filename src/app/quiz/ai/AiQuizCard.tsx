@@ -42,7 +42,7 @@ export default function AiQuizCard() {
   async function handleAnswer(correct: boolean) {
     if (!sentence) return;
     setRecording(true);
-    await recordAiSentenceResult(sentence.usedWordIds, correct);
+    await recordAiSentenceResult(sentence.usedWordIds, sentence.usedGrammarPointId, correct);
     setRecording(false);
     setSentence(null);
     setRevealed(false);
