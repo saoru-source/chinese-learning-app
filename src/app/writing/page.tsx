@@ -176,7 +176,7 @@ export default function WritingPage() {
                   flexShrink: 0,
                   fontSize: 10,
                   fontWeight: 700,
-                  color: "var(--seal-deep)",
+                  color: "var(--ink)",
                   background: "var(--paper-deep)",
                   border: "1px solid var(--line)",
                   borderRadius: 20,

@@ -22,11 +22,11 @@ function PandaMascot() {
       <ellipse cx="40" cy="50" rx="22" ry="18" fill="rgba(255,255,255,0.4)" />
       <circle cx="24" cy="50" r="5" fill="rgba(255,255,255,0.55)" />
       <circle cx="56" cy="50" r="5" fill="rgba(255,255,255,0.55)" />
-      <circle cx="31" cy="41" r="3.2" fill="var(--seal-deep)" opacity="0.85" />
-      <circle cx="49" cy="41" r="3.2" fill="var(--seal-deep)" opacity="0.85" />
+      <circle cx="31" cy="41" r="3.2" fill="var(--ink)" opacity="0.85" />
+      <circle cx="49" cy="41" r="3.2" fill="var(--ink)" opacity="0.85" />
       <path
         d="M36 52 Q40 56 44 52"
-        stroke="var(--seal-deep)"
+        stroke="var(--ink)"
         strokeWidth="2.2"
         fill="none"
         strokeLinecap="round"
@@ -78,7 +78,7 @@ export default function HeroReviewCard({ displayName }: { displayName: string })
         </p>
 
         <GlassButton variant="white" size="sm" onClick={() => router.push("/quiz/ai")}>
-          <span style={{ color: "var(--seal-deep)", display: "inline-flex", alignItems: "center", gap: 6 }}>
+          <span style={{ color: "var(--ink)", display: "inline-flex", alignItems: "center", gap: 6 }}>
             <StarIcon />
             はじめる
           </span>

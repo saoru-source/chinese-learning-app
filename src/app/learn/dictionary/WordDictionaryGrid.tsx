@@ -108,7 +108,7 @@ export default function WordDictionaryGrid() {
           style={{
             fontSize: 13,
             fontWeight: 700,
-            color: "var(--seal-deep)",
+            color: "var(--ink)",
             opacity: page <= 1 ? 0.35 : 1,
             background: "none",
             border: "none",
@@ -127,7 +127,7 @@ export default function WordDictionaryGrid() {
           style={{
             fontSize: 13,
             fontWeight: 700,
-            color: "var(--seal-deep)",
+            color: "var(--ink)",
             opacity: page >= totalPages ? 0.35 : 1,
             background: "none",
             border: "none",

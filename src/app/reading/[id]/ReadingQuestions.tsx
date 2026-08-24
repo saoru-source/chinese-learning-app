@@ -80,7 +80,7 @@ export default function ReadingQuestions({
                   marginTop: 8,
                   fontSize: 12,
                   fontWeight: 700,
-                  color: isCorrect ? "var(--jade-deep)" : "var(--miss-red)",
+                  color: "var(--ink)",
                 }}
               >
                 {isCorrect

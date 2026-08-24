@@ -42,7 +42,7 @@ export default function MenuTile({ label, icon, gradient, href, badge }: Props) 
             flexShrink: 0,
             fontSize: 9,
             fontWeight: 700,
-            color: "var(--seal-deep)",
+            color: "var(--ink)",
             background: "var(--paper-deep)",
             border: "1px solid var(--line)",
             borderRadius: 999,

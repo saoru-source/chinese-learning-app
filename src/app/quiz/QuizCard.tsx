@@ -1,8 +1,22 @@
 "use client";
 
 import { useState } from "react";
+import { useFormStatus } from "react-dom";
 import { recordAnswer } from "@/lib/quiz/actions";
 import type { QuizWord } from "@/lib/quiz/select";
+
+function AnswerButton({ label, className }: { label: string; className: string }) {
+  const { pending } = useFormStatus();
+  return (
+    <button
+      type="submit"
+      disabled={pending}
+      className={`${className} active:scale-95 transition-transform disabled:opacity-50`}
+    >
+      {pending ? "送信中…" : label}
+    </button>
+  );
+}
 
 export default function QuizCard({ word }: { word: QuizWord }) {
   const [revealed, setRevealed] = useState(false);
@@ -16,7 +30,7 @@ export default function QuizCard({ word }: { word: QuizWord }) {
         <button
           type="button"
           onClick={() => setRevealed(true)}
-          className="rounded bg-seal px-6 py-2 text-sm text-ink"
+          className="rounded bg-seal px-6 py-2 text-sm text-ink active:scale-95 transition-transform"
         >
           答えを見る
         </button>
@@ -28,22 +42,12 @@ export default function QuizCard({ word }: { word: QuizWord }) {
             <form action={recordAnswer}>
               <input type="hidden" name="itemId" value={word.id} />
               <input type="hidden" name="correct" value="false" />
-              <button
-                type="submit"
-                className="rounded border border-red-300 px-6 py-2 text-sm text-red-600"
-              >
-                できなかった
-              </button>
+              <AnswerButton label="できなかった" className="rounded border border-red-300 px-6 py-2 text-sm text-red-600" />
             </form>
             <form action={recordAnswer}>
               <input type="hidden" name="itemId" value={word.id} />
               <input type="hidden" name="correct" value="true" />
-              <button
-                type="submit"
-                className="rounded bg-green-600 px-6 py-2 text-sm text-white"
-              >
-                できた
-              </button>
+              <AnswerButton label="できた" className="rounded bg-green-600 px-6 py-2 text-sm text-white" />
             </form>
           </div>
         </>

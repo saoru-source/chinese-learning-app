@@ -379,7 +379,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
                 <span
                   style={{
                     fontSize: 8.5,
-                    color: active ? "var(--seal-deep)" : "var(--ink-soft)",
+                    color: active ? "var(--ink)" : "var(--ink-soft)",
                     fontWeight: active ? 700 : 400,
                     transition: "color 0.2s ease",
                   }}

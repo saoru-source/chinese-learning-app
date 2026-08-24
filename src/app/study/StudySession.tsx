@@ -59,7 +59,7 @@ function RewindIcon() {
 
 function CheckIcon() {
   return (
-    <svg viewBox="0 0 24 24" width={16} height={16} fill="none" stroke="var(--jade-deep)" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width={16} height={16} fill="none" stroke="var(--match-green)" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M20 6L9 17l-5-5" />
     </svg>
   );
@@ -67,7 +67,7 @@ function CheckIcon() {
 
 function CrossIcon() {
   return (
-    <svg viewBox="0 0 24 24" width={16} height={16} fill="none" stroke="var(--seal-deep)" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width={16} height={16} fill="none" stroke="var(--miss-red)" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <path d="M18 6L6 18M6 6l12 12" />
     </svg>
   );
@@ -397,11 +397,11 @@ export default function StudySession({ items }: { items: Item[] }) {
           }}
         >
           {pct >= PASS_THRESHOLD ? (
-            <p style={{ fontSize: 13, fontWeight: 700, color: "var(--jade-deep)", marginBottom: 4 }}>
+            <p style={{ fontSize: 13, fontWeight: 700, color: "var(--ink)", marginBottom: 4 }}>
               よくできました！({pct}%)
             </p>
           ) : (
-            <p style={{ fontSize: 13, fontWeight: 700, color: "var(--seal-deep)", marginBottom: 4 }}>
+            <p style={{ fontSize: 13, fontWeight: 700, color: "var(--ink)", marginBottom: 4 }}>
               もう少し練習してみましょう({pct}%)
             </p>
           )}

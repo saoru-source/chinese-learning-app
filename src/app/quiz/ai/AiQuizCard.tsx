@@ -62,7 +62,7 @@ export default function AiQuizCard() {
               setScope(opt.key);
               void handleGenerate(opt.key);
             }}
-            className="rounded border border-line bg-paper p-4 text-left"
+            className="rounded border border-line bg-paper p-4 text-left active:scale-[0.97] transition-transform"
           >
             <p className="font-bold text-ink">{opt.label}</p>
             <p className="text-xs text-ink-soft">{opt.description}</p>
@@ -86,7 +86,7 @@ export default function AiQuizCard() {
             setError(null);
             setRevealed(false);
           }}
-          className="underline"
+          className="underline active:opacity-60 transition-opacity"
         >
           範囲を変更
         </button>
@@ -97,8 +97,11 @@ export default function AiQuizCard() {
           type="button"
           onClick={() => handleGenerate(scope)}
           disabled={loading}
-          className="rounded bg-seal px-6 py-2 text-sm text-ink disabled:opacity-50"
+          className="rounded bg-seal px-6 py-2 text-sm text-ink disabled:opacity-50 active:scale-95 transition-transform inline-flex items-center gap-2"
         >
+          {loading && (
+            <span className="inline-block h-3 w-3 animate-spin rounded-full border-2 border-ink border-t-transparent" />
+          )}
           {loading ? "AIが例文を作成中…" : "AIに例文を作ってもらう"}
         </button>
       )}
@@ -113,7 +116,7 @@ export default function AiQuizCard() {
             <button
               type="button"
               onClick={() => setRevealed(true)}
-              className="rounded bg-seal px-6 py-2 text-sm text-ink"
+              className="rounded bg-seal px-6 py-2 text-sm text-ink active:scale-95 transition-transform"
             >
               答えを見る
             </button>
@@ -131,7 +134,7 @@ export default function AiQuizCard() {
                   type="button"
                   disabled={recording}
                   onClick={() => handleAnswer(false)}
-                  className="rounded border border-red-300 px-6 py-2 text-sm text-red-600 disabled:opacity-50"
+                  className="rounded border border-red-300 px-6 py-2 text-sm text-red-600 disabled:opacity-50 active:scale-95 transition-transform"
                 >
                   できなかった
                 </button>
@@ -139,7 +142,7 @@ export default function AiQuizCard() {
                   type="button"
                   disabled={recording}
                   onClick={() => handleAnswer(true)}
-                  className="rounded bg-green-600 px-6 py-2 text-sm text-white disabled:opacity-50"
+                  className="rounded bg-green-600 px-6 py-2 text-sm text-white disabled:opacity-50 active:scale-95 transition-transform"
                 >
                   できた
                 </button>
