@@ -5,6 +5,12 @@ import SpeakButton from "@/components/SpeakButton";
 import PronunciationCheck from "@/components/PronunciationCheck";
 import TappableText, { type Segment } from "@/components/TappableText";
 import { pickSpeakerVoices, type SpeakerVoiceOptions } from "@/lib/speech";
+import { recordConversationLineResult } from "@/lib/conversations/actions";
+
+// PronunciationCheckの一致度がこの値以上なら「正解」としてprogressに記録する
+// (/studyのPASS_THRESHOLDと同じ基準: 85%以上=とても良い、60%以上=惜しい、を
+// 踏まえ「惜しい」以上を合格ラインとした)
+const PASS_THRESHOLD = 60;
 
 type Line = {
   id: number;
@@ -72,7 +78,13 @@ export default function ConversationLines({ characters, lines }: { characters: s
               </div>
               <div style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0 }}>
                 <SpeakButton text={line.hanzi} size={28} pitch={voiceOptions.pitch} voiceName={voiceOptions.voiceName} />
-                <PronunciationCheck target={line.hanzi} pinyin={line.pinyin} />
+                <PronunciationCheck
+                  target={line.hanzi}
+                  pinyin={line.pinyin}
+                  onResult={(pct) => {
+                    void recordConversationLineResult(line.id, pct >= PASS_THRESHOLD);
+                  }}
+                />
               </div>
             </div>
 
