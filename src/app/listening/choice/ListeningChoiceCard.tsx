@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { speak } from "@/lib/speech";
+import WordDetailCard from "@/components/WordDetailCard";
+import type { ListeningWordDetail } from "@/lib/listening/wordDetail";
 
 type Question = {
   id: number;
@@ -25,9 +27,11 @@ function SpeakerWaveIcon() {
 export default function ListeningChoiceCard({
   question,
   nextHref,
+  wordDetail,
 }: {
   question: Question;
   nextHref: string;
+  wordDetail: ListeningWordDetail | null;
 }) {
   const [selected, setSelected] = useState<string | null>(null);
   const [supported, setSupported] = useState(true);
@@ -49,6 +53,7 @@ export default function ListeningChoiceCard({
   }
 
   return (
+    <>
     <div
       style={{
         background: "var(--card)",
@@ -161,5 +166,8 @@ export default function ListeningChoiceCard({
         </Link>
       )}
     </div>
+
+    {selected !== null && wordDetail && <WordDetailCard detail={wordDetail} />}
+    </>
   );
 }

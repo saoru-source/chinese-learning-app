@@ -3,6 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { speak } from "@/lib/speech";
+import WordDetailCard from "@/components/WordDetailCard";
+import type { ListeningWordDetail } from "@/lib/listening/wordDetail";
 
 type Question = {
   id: number;
@@ -24,9 +26,11 @@ function SpeakerWaveIcon() {
 export default function DictationCard({
   question,
   nextHref,
+  wordDetail,
 }: {
   question: Question;
   nextHref: string;
+  wordDetail: ListeningWordDetail | null;
 }) {
   const [input, setInput] = useState("");
   const [checked, setChecked] = useState(false);
@@ -53,6 +57,7 @@ export default function DictationCard({
   const underlineColor = !checked ? "var(--line)" : isCorrect ? "var(--match-green)" : "var(--miss-red)";
 
   return (
+    <>
     <div
       style={{
         background: "var(--card)",
@@ -175,5 +180,8 @@ export default function DictationCard({
         </Link>
       )}
     </div>
+
+    {checked && wordDetail && <WordDetailCard detail={wordDetail} />}
+    </>
   );
 }
