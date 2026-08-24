@@ -69,6 +69,8 @@ export default function GoalCard({ initialGoal }: { initialGoal?: string | null 
         <input
           ref={inputRef}
           type="text"
+          name="study-goal-text"
+          autoComplete="off"
           value={goal}
           onChange={(e) => setGoal(e.target.value)}
           onBlur={handleBlur}
