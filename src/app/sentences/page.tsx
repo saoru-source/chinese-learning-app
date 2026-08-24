@@ -73,7 +73,7 @@ export default async function SentencesPage({
         >
           すべて
         </Link>
-        {[1, 2, 3, 4].map((lv) => (
+        {[1, 2, 3, 4, 5, 6].map((lv) => (
           <Link
             key={lv}
             href={levelHref(lv)}
