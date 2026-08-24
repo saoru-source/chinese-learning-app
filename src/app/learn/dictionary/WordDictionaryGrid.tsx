@@ -42,7 +42,7 @@ export default function WordDictionaryGrid() {
 
   return (
     <div>
-      <p style={{ fontSize: 12, color: "var(--ink-soft)", marginBottom: 12 }}>
+      <p style={{ fontSize: 14.4, color: "var(--ink-soft)", marginBottom: 12 }}>
         HSK{levelKey} · 全{total}語
       </p>
 
@@ -69,7 +69,7 @@ export default function WordDictionaryGrid() {
           >
             <div
               style={{
-                fontSize: 20,
+                fontSize: 24,
                 fontWeight: 700,
                 color: "var(--ink)",
                 opacity: w.studied ? 1 : 0.35,
@@ -79,10 +79,10 @@ export default function WordDictionaryGrid() {
             </div>
             {w.studied ? (
               <>
-                <div style={{ fontSize: 10, color: "var(--ink-soft)", marginTop: 2 }}>{w.pinyin}</div>
+                <div style={{ fontSize: 12, color: "var(--ink-soft)", marginTop: 2 }}>{w.pinyin}</div>
                 <div
                   style={{
-                    fontSize: 10,
+                    fontSize: 12,
                     color: "var(--ink)",
                     marginTop: 1,
                     overflow: "hidden",
@@ -94,7 +94,7 @@ export default function WordDictionaryGrid() {
                 </div>
               </>
             ) : (
-              <div style={{ fontSize: 10, color: "var(--ink-soft)", opacity: 0.5, marginTop: 2 }}>？？？</div>
+              <div style={{ fontSize: 12, color: "var(--ink-soft)", opacity: 0.5, marginTop: 2 }}>？？？</div>
             )}
           </div>
         ))}
@@ -106,7 +106,7 @@ export default function WordDictionaryGrid() {
           onClick={() => setPage((p) => Math.max(1, p - 1))}
           disabled={page <= 1}
           style={{
-            fontSize: 13,
+            fontSize: 15.6,
             fontWeight: 700,
             color: "var(--ink)",
             opacity: page <= 1 ? 0.35 : 1,
@@ -117,7 +117,7 @@ export default function WordDictionaryGrid() {
         >
           前へ
         </button>
-        <span style={{ fontSize: 12, color: "var(--ink-soft)" }}>
+        <span style={{ fontSize: 14.4, color: "var(--ink-soft)" }}>
           {page} / {totalPages}
         </span>
         <button
@@ -125,7 +125,7 @@ export default function WordDictionaryGrid() {
           onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
           disabled={page >= totalPages}
           style={{
-            fontSize: 13,
+            fontSize: 15.6,
             fontWeight: 700,
             color: "var(--ink)",
             opacity: page >= totalPages ? 0.35 : 1,

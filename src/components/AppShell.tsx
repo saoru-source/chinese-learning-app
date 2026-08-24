@@ -69,14 +69,14 @@ export default function AppShell({ children }: { children: ReactNode }) {
               alignItems: "center",
               justifyContent: "center",
               fontWeight: 600,
-              fontSize: 15,
+              fontSize: 18,
               borderRadius: 10,
               transform: "rotate(-3deg)",
             }}
           >
             学
           </div>
-          <span style={{ fontWeight: 700, fontSize: 15, color: "var(--ink)" }}>中文一途</span>
+          <span style={{ fontWeight: 700, fontSize: 18, color: "var(--ink)" }}>中文一途</span>
         </Link>
 
         <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
@@ -95,7 +95,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
               background: "var(--paper-deep)",
               border: "1px solid var(--line)",
               color: "var(--ink)",
-              fontSize: 11,
+              fontSize: 13.2,
               fontWeight: 700,
               cursor: "pointer",
             }}
@@ -139,7 +139,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: 12,
+              fontSize: 14.4,
               fontWeight: 700,
               border: "none",
               cursor: "pointer",
@@ -181,7 +181,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
                   marginBottom: 12,
                 }}
               >
-                <span style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)", letterSpacing: "0.08em" }}>
+                <span style={{ fontSize: 13.2, fontWeight: 700, color: "var(--ink-soft)", letterSpacing: "0.08em" }}>
                   テーマ
                 </span>
                 <button
@@ -193,7 +193,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
                     border: "none",
                     cursor: "pointer",
                     color: "var(--ink-soft)",
-                    fontSize: 16,
+                    fontSize: 19.2,
                     lineHeight: 1,
                   }}
                 >
@@ -237,18 +237,18 @@ export default function AppShell({ children }: { children: ReactNode }) {
                       <span key={c} style={{ flex: 1, background: c }} />
                     ))}
                   </div>
-                  <span style={{ fontSize: 12, fontWeight: key === themeKey ? 700 : 400, color: "var(--ink)" }}>
+                  <span style={{ fontSize: 14.4, fontWeight: key === themeKey ? 700 : 400, color: "var(--ink)" }}>
                     {THEME_META[key].label}
                   </span>
                   {key === themeKey && (
-                    <span style={{ marginLeft: "auto", fontSize: 10, color: "var(--seal)" }}>✓</span>
+                    <span style={{ marginLeft: "auto", fontSize: 12, color: "var(--seal)" }}>✓</span>
                   )}
                 </motion.button>
               ))}
 
               <div style={{ borderTop: "1px solid var(--line)", marginTop: 10, paddingTop: 10 }}>
                 <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                  <span style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 12, fontWeight: 700, color: "var(--ink)" }}>
+                  <span style={{ display: "flex", alignItems: "center", gap: 6, fontSize: 14.4, fontWeight: 700, color: "var(--ink)" }}>
                     {modeKey === "dark" ? <MoonIcon /> : <SunIcon />}
                     {modeKey === "dark" ? "ダークモード" : "ライトモード"}
                   </span>
@@ -324,7 +324,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
                   marginBottom: 12,
                 }}
               >
-                <span style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)", letterSpacing: "0.08em" }}>
+                <span style={{ fontSize: 13.2, fontWeight: 700, color: "var(--ink-soft)", letterSpacing: "0.08em" }}>
                   HSKレベル
                 </span>
                 <button
@@ -336,7 +336,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
                     border: "none",
                     cursor: "pointer",
                     color: "var(--ink-soft)",
-                    fontSize: 16,
+                    fontSize: 19.2,
                     lineHeight: 1,
                   }}
                 >
@@ -365,11 +365,11 @@ export default function AppShell({ children }: { children: ReactNode }) {
                     marginBottom: 2,
                   }}
                 >
-                  <span style={{ fontSize: 12, fontWeight: key === levelKey ? 700 : 400, color: "var(--ink)" }}>
+                  <span style={{ fontSize: 14.4, fontWeight: key === levelKey ? 700 : 400, color: "var(--ink)" }}>
                     {LEVEL_META[key].label}
                   </span>
                   {key === levelKey && (
-                    <span style={{ marginLeft: "auto", fontSize: 10, color: "var(--seal)" }}>✓</span>
+                    <span style={{ marginLeft: "auto", fontSize: 12, color: "var(--seal)" }}>✓</span>
                   )}
                 </motion.button>
               ))}
@@ -429,7 +429,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
                 )}
                 <span
                   style={{
-                    fontSize: 18,
+                    fontSize: 21.6,
                     lineHeight: 1,
                     marginBottom: 2,
                     color: active ? "var(--seal)" : "var(--ink-soft)",
@@ -440,7 +440,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
                 </span>
                 <span
                   style={{
-                    fontSize: 8.5,
+                    fontSize: 10.2,
                     color: active ? "var(--ink)" : "var(--ink-soft)",
                     fontWeight: active ? 700 : 400,
                     transition: "color 0.2s ease",

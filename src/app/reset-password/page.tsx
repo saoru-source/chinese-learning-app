@@ -9,16 +9,16 @@ export default async function ResetPasswordPage({
 
   return (
     <div className="mx-auto flex min-h-screen max-w-sm flex-col justify-center gap-6 px-4">
-      <h1 className="text-2xl font-bold">新しいパスワードの設定</h1>
+      <h1 className="text-[28.8px] font-bold">新しいパスワードの設定</h1>
 
       {params.error && (
-        <p className="rounded bg-red-50 p-3 text-sm text-red-700">
+        <p className="rounded bg-red-50 p-3 text-[16.8px] text-red-700">
           {params.error}
         </p>
       )}
 
       <form action={updatePassword} className="flex flex-col gap-3">
-        <label className="flex flex-col gap-1 text-sm">
+        <label className="flex flex-col gap-1 text-[16.8px]">
           新しいパスワード
           <input
             type="password"

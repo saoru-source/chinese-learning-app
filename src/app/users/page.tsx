@@ -71,14 +71,14 @@ export default async function UsersPage({
   return (
     <div className="mx-auto max-w-md px-4 py-10">
       <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-2xl font-bold">みんなを探す</h1>
-        <Link href="/" className="text-sm underline">
+        <h1 className="text-[28.8px] font-bold">みんなを探す</h1>
+        <Link href="/" className="text-[16.8px] underline">
           トップに戻る
         </Link>
       </div>
 
       {!myProfile?.nickname && (
-        <p className="mb-4 rounded bg-yellow-50 p-3 text-sm text-yellow-800">
+        <p className="mb-4 rounded bg-yellow-50 p-3 text-[16.8px] text-yellow-800">
           あなたのニックネームが未設定です。
           <Link href="/profile" className="underline">
             設定する
@@ -93,20 +93,20 @@ export default async function UsersPage({
           name="q"
           defaultValue={q}
           placeholder="ニックネームで検索"
-          className="flex-1 rounded border border-line px-3 py-2 text-sm"
+          className="flex-1 rounded border border-line px-3 py-2 text-[16.8px]"
         />
-        <button type="submit" className="rounded bg-seal px-4 py-2 text-sm text-ink">
+        <button type="submit" className="rounded bg-seal px-4 py-2 text-[16.8px] text-ink">
           検索
         </button>
       </form>
 
       {q && (
         <div className="mb-8">
-          <h2 className="mb-2 text-sm font-bold text-ink-soft">
+          <h2 className="mb-2 text-[16.8px] font-bold text-ink-soft">
             「{q}」の検索結果
           </h2>
           {searchResults.length === 0 ? (
-            <p className="text-sm text-ink-soft">見つかりませんでした。</p>
+            <p className="text-[16.8px] text-ink-soft">見つかりませんでした。</p>
           ) : (
             <ul className="flex flex-col gap-2">
               {searchResults.map((u) => {
@@ -114,14 +114,14 @@ export default async function UsersPage({
                 return (
                   <li
                     key={u.id}
-                    className="flex items-center justify-between rounded border border-line px-3 py-2 text-sm"
+                    className="flex items-center justify-between rounded border border-line px-3 py-2 text-[16.8px]"
                   >
                     <span>{u.nickname}</span>
                     <form action={isFollowing ? unfollowUser : followUser}>
                       <input type="hidden" name="targetId" value={u.id} />
                       <button
                         type="submit"
-                        className={`rounded border px-3 py-1 text-xs ${
+                        className={`rounded border px-3 py-1 text-[14.4px] ${
                           isFollowing
                             ? "border-line"
                             : "border-seal bg-seal text-ink"
@@ -139,22 +139,22 @@ export default async function UsersPage({
       )}
 
       <div className="mb-8">
-        <h2 className="mb-2 text-sm font-bold text-ink-soft">
+        <h2 className="mb-2 text-[16.8px] font-bold text-ink-soft">
           フォロー中({followingList.length})
         </h2>
         {followingList.length === 0 ? (
-          <p className="text-sm text-ink-soft">まだ誰もフォローしていません。</p>
+          <p className="text-[16.8px] text-ink-soft">まだ誰もフォローしていません。</p>
         ) : (
           <ul className="flex flex-col gap-2">
             {followingList.map((u) => (
               <li
                 key={u.id}
-                className="flex items-center justify-between rounded border border-line px-3 py-2 text-sm"
+                className="flex items-center justify-between rounded border border-line px-3 py-2 text-[16.8px]"
               >
                 <span>{u.nickname}</span>
                 <form action={unfollowUser}>
                   <input type="hidden" name="targetId" value={u.id} />
-                  <button type="submit" className="rounded border border-line px-3 py-1 text-xs">
+                  <button type="submit" className="rounded border border-line px-3 py-1 text-[14.4px]">
                     フォロー解除
                   </button>
                 </form>
@@ -165,15 +165,15 @@ export default async function UsersPage({
       </div>
 
       <div>
-        <h2 className="mb-2 text-sm font-bold text-ink-soft">
+        <h2 className="mb-2 text-[16.8px] font-bold text-ink-soft">
           フォロワー({followerRows?.length ?? 0})
         </h2>
         {!followerRows || followerRows.length === 0 ? (
-          <p className="text-sm text-ink-soft">まだフォロワーがいません。</p>
+          <p className="text-[16.8px] text-ink-soft">まだフォロワーがいません。</p>
         ) : (
           <ul className="flex flex-col gap-2">
             {followerRows.map((u) => (
-              <li key={u.id} className="rounded border border-line px-3 py-2 text-sm">
+              <li key={u.id} className="rounded border border-line px-3 py-2 text-[16.8px]">
                 {u.nickname}
               </li>
             ))}

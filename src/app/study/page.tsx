@@ -28,14 +28,14 @@ function EmptyCard({ icon, title, children }: { icon: string; title: string; chi
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            fontSize: 24,
+            fontSize: 28.8,
             margin: "0 auto 16px",
           }}
         >
           {icon}
         </div>
-        <p style={{ fontSize: 15, fontWeight: 700, color: "var(--ink)", marginBottom: 8 }}>{title}</p>
-        <div style={{ fontSize: 13, color: "var(--ink-soft)", lineHeight: 1.7 }}>{children}</div>
+        <p style={{ fontSize: 18, fontWeight: 700, color: "var(--ink)", marginBottom: 8 }}>{title}</p>
+        <div style={{ fontSize: 15.6, color: "var(--ink-soft)", lineHeight: 1.7 }}>{children}</div>
       </div>
     </main>
   );

@@ -40,10 +40,10 @@ export default function ThemeSwitcher() {
                 />
               ))}
             </div>
-            <span style={{ fontSize: 12, fontWeight: active ? 700 : 500, color: "var(--ink)" }}>
+            <span style={{ fontSize: 14.4, fontWeight: active ? 700 : 500, color: "var(--ink)" }}>
               {THEME_META[key].label}
             </span>
-            {active && <span style={{ marginLeft: 6, fontSize: 10, color: "var(--seal)" }}>✓</span>}
+            {active && <span style={{ marginLeft: 6, fontSize: 12, color: "var(--seal)" }}>✓</span>}
           </button>
         );
       })}

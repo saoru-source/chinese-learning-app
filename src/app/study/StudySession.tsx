@@ -124,9 +124,9 @@ export default function StudySession({ items }: { items: Item[] }) {
           <StarIcon />
         </div>
 
-        <h1 style={{ fontSize: 22, fontWeight: 800, color: "var(--ink)", marginBottom: 8 }}>今日の復習</h1>
+        <h1 style={{ fontSize: 26.4, fontWeight: 800, color: "var(--ink)", marginBottom: 8 }}>今日の復習</h1>
 
-        <p style={{ fontSize: 13, color: "var(--ink-soft)", maxWidth: 280, margin: "0 auto 20px", lineHeight: 1.7 }}>
+        <p style={{ fontSize: 15.6, color: "var(--ink-soft)", maxWidth: 280, margin: "0 auto 20px", lineHeight: 1.7 }}>
           進捗データをもとに、今のあなたに合った例文を{total}問用意しました
         </p>
 
@@ -141,10 +141,10 @@ export default function StudySession({ items }: { items: Item[] }) {
         >
           {/* sentencesテーブルには「文法/量詞」等の一貫したカテゴリ分類が無いため、
               モックの3分割内訳ボックスは実データが無く実装せず、件数のみの1行に簡略化している */}
-          <p style={{ fontSize: 14, fontWeight: 700, color: "var(--ink)", marginBottom: 8 }}>
+          <p style={{ fontSize: 16.8, fontWeight: 700, color: "var(--ink)", marginBottom: 8 }}>
             今日は{total}文の例文が用意されています
           </p>
-          <p style={{ fontSize: 11, color: "var(--ink-soft)" }}>発音の練習も交えながら復習しましょう</p>
+          <p style={{ fontSize: 13.2, color: "var(--ink-soft)" }}>発音の練習も交えながら復習しましょう</p>
         </div>
 
         <button
@@ -159,7 +159,7 @@ export default function StudySession({ items }: { items: Item[] }) {
             background: "var(--grad)",
             color: "#fff",
             fontWeight: 700,
-            fontSize: 14,
+            fontSize: 16.8,
             border: "none",
             borderRadius: 999,
             padding: "13px 0",
@@ -184,7 +184,7 @@ export default function StudySession({ items }: { items: Item[] }) {
         <div style={{ textAlign: "center", marginBottom: 20 }}>
           <div
             style={{
-              fontSize: 52,
+              fontSize: 62.4,
               fontWeight: 800,
               background: "var(--grad)",
               WebkitBackgroundClip: "text",
@@ -195,10 +195,10 @@ export default function StudySession({ items }: { items: Item[] }) {
           >
             {scorePct}%
           </div>
-          <p style={{ fontSize: 14, color: "var(--ink-soft)", marginTop: 4 }}>
+          <p style={{ fontSize: 16.8, color: "var(--ink-soft)", marginTop: 4 }}>
             {total}問中 <span style={{ fontWeight: 700, color: "var(--ink)" }}>{correctCount}問</span> 正解
           </p>
-          <p style={{ fontSize: 13, color: "var(--ink-soft)", marginTop: 4 }}>{comment}</p>
+          <p style={{ fontSize: 15.6, color: "var(--ink-soft)", marginTop: 4 }}>{comment}</p>
         </div>
 
         <div
@@ -225,7 +225,7 @@ export default function StudySession({ items }: { items: Item[] }) {
               <span
                 style={{
                   flexShrink: 0,
-                  fontSize: 10,
+                  fontSize: 12,
                   fontWeight: 700,
                   color: "#fff",
                   background: "var(--grad)",
@@ -237,7 +237,7 @@ export default function StudySession({ items }: { items: Item[] }) {
               </span>
               <span
                 style={{
-                  fontSize: 13,
+                  fontSize: 15.6,
                   color: "var(--ink)",
                   overflow: "hidden",
                   textOverflow: "ellipsis",
@@ -264,7 +264,7 @@ export default function StudySession({ items }: { items: Item[] }) {
               border: "1px solid var(--line)",
               borderRadius: 999,
               padding: "12px 0",
-              fontSize: 13,
+              fontSize: 15.6,
               fontWeight: 700,
               color: "var(--ink)",
               cursor: "pointer",
@@ -283,7 +283,7 @@ export default function StudySession({ items }: { items: Item[] }) {
               background: "var(--grad)",
               borderRadius: 999,
               padding: "12px 0",
-              fontSize: 13,
+              fontSize: 15.6,
               fontWeight: 700,
               color: "#fff",
               textDecoration: "none",
@@ -338,7 +338,7 @@ export default function StudySession({ items }: { items: Item[] }) {
             }}
           />
         </div>
-        <span style={{ fontSize: 11, color: "var(--ink-soft)", flexShrink: 0 }}>
+        <span style={{ fontSize: 13.2, color: "var(--ink-soft)", flexShrink: 0 }}>
           {index + 1} / {total}
         </span>
       </div>
@@ -347,7 +347,7 @@ export default function StudySession({ items }: { items: Item[] }) {
         <span
           style={{
             flexShrink: 0,
-            fontSize: 11,
+            fontSize: 13.2,
             fontWeight: 700,
             color: "#fff",
             background: "var(--grad)",
@@ -370,7 +370,7 @@ export default function StudySession({ items }: { items: Item[] }) {
       >
         <div style={{ display: "flex", alignItems: "flex-start", gap: 10, marginBottom: 10 }}>
           <div style={{ flex: 1 }}>
-            <TappableText segments={current.segments} fontSize={17} lineHeight={1.8} />
+            <TappableText segments={current.segments} fontSize={20.4} lineHeight={1.8} />
           </div>
         </div>
 
@@ -382,7 +382,7 @@ export default function StudySession({ items }: { items: Item[] }) {
             pinyin={current.sentence.pinyin}
             onResult={handleResult}
           />
-          <span style={{ fontSize: 13, fontWeight: 500, color: "var(--ink-soft)" }}>{current.sentence.pinyin}</span>
+          <span style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)" }}>{current.sentence.pinyin}</span>
         </div>
       </div>
 
@@ -397,16 +397,16 @@ export default function StudySession({ items }: { items: Item[] }) {
           }}
         >
           {pct >= PASS_THRESHOLD ? (
-            <p style={{ fontSize: 13, fontWeight: 700, color: "var(--ink)", marginBottom: 4 }}>
+            <p style={{ fontSize: 15.6, fontWeight: 700, color: "var(--ink)", marginBottom: 4 }}>
               よくできました！({pct}%)
             </p>
           ) : (
-            <p style={{ fontSize: 13, fontWeight: 700, color: "var(--ink)", marginBottom: 4 }}>
+            <p style={{ fontSize: 15.6, fontWeight: 700, color: "var(--ink)", marginBottom: 4 }}>
               もう少し練習してみましょう({pct}%)
             </p>
           )}
           {current.sentence.meaning_ja && (
-            <p style={{ fontSize: 12, color: "var(--ink-soft)" }}>{current.sentence.meaning_ja}</p>
+            <p style={{ fontSize: 14.4, color: "var(--ink-soft)" }}>{current.sentence.meaning_ja}</p>
           )}
         </div>
       )}
@@ -424,7 +424,7 @@ export default function StudySession({ items }: { items: Item[] }) {
           background: "var(--grad)",
           color: "#fff",
           fontWeight: 700,
-          fontSize: 14,
+          fontSize: 16.8,
           border: "none",
           borderRadius: 999,
           padding: "13px 0",

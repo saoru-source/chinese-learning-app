@@ -58,7 +58,7 @@ export default function ListeningChoiceCard({
         textAlign: "center",
       }}
     >
-      <p style={{ fontSize: 12, color: "var(--ink-soft)", marginBottom: 14 }}>音声を聞いて、質問に答えてください</p>
+      <p style={{ fontSize: 14.4, color: "var(--ink-soft)", marginBottom: 14 }}>音声を聞いて、質問に答えてください</p>
 
       <button
         type="button"
@@ -70,7 +70,7 @@ export default function ListeningChoiceCard({
           background: "var(--grad)",
           color: "#fff",
           fontWeight: 700,
-          fontSize: 14,
+          fontSize: 16.8,
           border: "none",
           borderRadius: 999,
           padding: "11px 24px",
@@ -81,12 +81,12 @@ export default function ListeningChoiceCard({
         {playing ? "再生中..." : "音声を再生"}
       </button>
       {!supported && (
-        <p style={{ marginTop: 8, fontSize: 11, color: "var(--miss-red)" }}>
+        <p style={{ marginTop: 8, fontSize: 13.2, color: "var(--miss-red)" }}>
           このブラウザは音声読み上げに対応していません。
         </p>
       )}
 
-      <p style={{ marginTop: 20, marginBottom: 12, textAlign: "left", fontSize: 13, fontWeight: 700, color: "var(--ink)" }}>
+      <p style={{ marginTop: 20, marginBottom: 12, textAlign: "left", fontSize: 15.6, fontWeight: 700, color: "var(--ink)" }}>
         HSK{question.hsk_level}レベルの内容を聞き取ってください
       </p>
 
@@ -112,7 +112,7 @@ export default function ListeningChoiceCard({
               style={{
                 borderRadius: 13,
                 padding: "12px 10px",
-                fontSize: 16,
+                fontSize: 19.2,
                 background,
                 color,
                 border: "none",
@@ -131,7 +131,7 @@ export default function ListeningChoiceCard({
           style={{
             marginTop: 14,
             textAlign: "left",
-            fontSize: 12,
+            fontSize: 14.4,
             fontWeight: 700,
             color: selected === question.correct_answer ? "var(--match-green)" : "var(--miss-red)",
           }}
@@ -148,7 +148,7 @@ export default function ListeningChoiceCard({
           style={{
             display: "block",
             marginTop: 16,
-            fontSize: 13,
+            fontSize: 15.6,
             fontWeight: 700,
             color: "#fff",
             background: "var(--grad)",

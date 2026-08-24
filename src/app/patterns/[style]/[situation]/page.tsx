@@ -39,14 +39,14 @@ export default async function PatternSituationPage({
           <Link href={`/patterns?style=${style}`} aria-label="一覧に戻る" style={{ display: "flex", alignItems: "center" }}>
             <BackArrowIcon />
           </Link>
-          <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>{situation}</h1>
+          <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>{situation}</h1>
         </div>
         <span
           style={{
             flexShrink: 0,
             background: "var(--grad)",
             color: "#fff",
-            fontSize: 10,
+            fontSize: 12,
             fontWeight: 600,
             borderRadius: 20,
             padding: "3px 12px",
@@ -56,7 +56,7 @@ export default async function PatternSituationPage({
         </span>
       </div>
 
-      <p style={{ fontSize: 12, color: "var(--ink-soft)", marginBottom: 14 }}>全{patterns?.length ?? 0}件</p>
+      <p style={{ fontSize: 14.4, color: "var(--ink-soft)", marginBottom: 14 }}>全{patterns?.length ?? 0}件</p>
 
       <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
         {patterns?.map((p) => (
@@ -72,7 +72,7 @@ export default async function PatternSituationPage({
             <span
               style={{
                 display: "inline-block",
-                fontSize: 10,
+                fontSize: 12,
                 fontWeight: 700,
                 color: "#fff",
                 background: "var(--grad)",
@@ -85,15 +85,15 @@ export default async function PatternSituationPage({
             </span>
 
             <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
-              <p style={{ flex: 1, fontSize: 18, lineHeight: 1.7, color: "var(--ink)" }}>{p.hanzi}</p>
+              <p style={{ flex: 1, fontSize: 21.6, lineHeight: 1.7, color: "var(--ink)" }}>{p.hanzi}</p>
               <div style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0 }}>
                 <SpeakButton text={p.hanzi} size={28} />
                 <PronunciationCheck target={p.hanzi} pinyin={p.pinyin} />
               </div>
             </div>
 
-            <p style={{ fontSize: 11, fontWeight: 500, color: "var(--ink-soft)", marginTop: 8 }}>{p.pinyin}</p>
-            <p style={{ fontSize: 14, color: "var(--ink)", marginTop: 4 }}>{p.meaning_ja}</p>
+            <p style={{ fontSize: 13.2, fontWeight: 500, color: "var(--ink-soft)", marginTop: 8 }}>{p.pinyin}</p>
+            <p style={{ fontSize: 16.8, color: "var(--ink)", marginTop: 4 }}>{p.meaning_ja}</p>
           </div>
         ))}
       </div>

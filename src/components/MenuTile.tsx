@@ -32,7 +32,7 @@ export default function MenuTile({ label, icon, gradient, href, badge }: Props) 
   const content = (
     <>
       {iconBox}
-      <span style={{ fontSize: 12, fontWeight: 700, color: href ? "var(--ink)" : "var(--ink-soft)" }}>
+      <span style={{ fontSize: 14.4, fontWeight: 700, color: href ? "var(--ink)" : "var(--ink-soft)" }}>
         {label}
       </span>
       {badge && (
@@ -40,7 +40,7 @@ export default function MenuTile({ label, icon, gradient, href, badge }: Props) 
           style={{
             marginLeft: "auto",
             flexShrink: 0,
-            fontSize: 9,
+            fontSize: 10.8,
             fontWeight: 700,
             color: "var(--ink)",
             background: "var(--paper-deep)",

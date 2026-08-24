@@ -95,8 +95,8 @@ function ModeCard({
         {icon}
       </div>
       <div style={{ flex: 1, minWidth: 0 }}>
-        <p style={{ fontSize: 14, fontWeight: 700, color: "var(--ink)" }}>{title}</p>
-        <p style={{ fontSize: 11, color: "var(--ink-soft)", marginTop: 2, lineHeight: 1.5 }}>{subtitle}</p>
+        <p style={{ fontSize: 16.8, fontWeight: 700, color: "var(--ink)" }}>{title}</p>
+        <p style={{ fontSize: 13.2, color: "var(--ink-soft)", marginTop: 2, lineHeight: 1.5 }}>{subtitle}</p>
       </div>
       <div style={{ flexShrink: 0, marginTop: 12 }}>
         <ChevronRightIcon />
@@ -112,10 +112,10 @@ export default function WritingPage() {
         <Link href="/" aria-label="トップに戻る" style={{ display: "flex", alignItems: "center" }}>
           <BackArrowIcon />
         </Link>
-        <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>ライティング</h1>
+        <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>ライティング</h1>
       </div>
 
-      <p style={{ fontSize: 12, color: "var(--ink-soft)", marginBottom: 16, lineHeight: 1.6 }}>
+      <p style={{ fontSize: 14.4, color: "var(--ink-soft)", marginBottom: 16, lineHeight: 1.6 }}>
         日本語を介さず、中国語のまま発想して書く練習です。取り組みたいモードを選んでください。
       </p>
 
@@ -170,11 +170,11 @@ export default function WritingPage() {
           </div>
           <div style={{ flex: 1, minWidth: 0 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <p style={{ fontSize: 14, fontWeight: 700, color: "var(--ink)" }}>画像描写</p>
+              <p style={{ fontSize: 16.8, fontWeight: 700, color: "var(--ink)" }}>画像描写</p>
               <span
                 style={{
                   flexShrink: 0,
-                  fontSize: 10,
+                  fontSize: 12,
                   fontWeight: 700,
                   color: "var(--ink)",
                   background: "var(--paper-deep)",
@@ -186,7 +186,7 @@ export default function WritingPage() {
                 近日公開
               </span>
             </div>
-            <p style={{ fontSize: 11, color: "var(--ink-soft)", marginTop: 2, lineHeight: 1.5 }}>
+            <p style={{ fontSize: 13.2, color: "var(--ink-soft)", marginTop: 2, lineHeight: 1.5 }}>
               画像を見て、その内容を中国語で説明します(画像素材準備中)
             </p>
           </div>

@@ -87,8 +87,8 @@ export default async function ReadingPassagePage({
           <BackArrowIcon />
         </Link>
         <div>
-          <p style={{ fontSize: 13, fontWeight: 700, color: "var(--ink)" }}>{passage.title}</p>
-          <p style={{ fontSize: 10, color: "var(--ink-soft)" }}>
+          <p style={{ fontSize: 15.6, fontWeight: 700, color: "var(--ink)" }}>{passage.title}</p>
+          <p style={{ fontSize: 12, color: "var(--ink-soft)" }}>
             HSK{passage.hsk_level} · 約{passage.body.length}字
           </p>
         </div>
@@ -105,12 +105,12 @@ export default async function ReadingPassagePage({
       >
         <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
           <div style={{ flex: 1 }}>
-            <TappableText segments={segments} fontSize={14} lineHeight={2.0} />
+            <TappableText segments={segments} fontSize={16.8} lineHeight={2.0} />
           </div>
           <SpeakButton text={passage.body} size={28} />
         </div>
 
-        <p style={{ fontSize: 11, color: "var(--ink-soft)", textAlign: "center", marginTop: 14 }}>
+        <p style={{ fontSize: 13.2, color: "var(--ink-soft)", textAlign: "center", marginTop: 14 }}>
           本文中の単語をタップすると意味と発音がポップアップ表示されます
         </p>
 
@@ -134,7 +134,7 @@ export default async function ReadingPassagePage({
           background: "var(--grad)",
           color: "#fff",
           fontWeight: 700,
-          fontSize: 14,
+          fontSize: 16.8,
           borderRadius: 999,
           padding: "13px 0",
           boxShadow: "0 8px 20px rgba(0,0,0,0.12)",

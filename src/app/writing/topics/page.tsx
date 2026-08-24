@@ -20,7 +20,7 @@ function ChevronRightIcon() {
 
 function TopicList({ topics }: { topics: { id: number; hsk_level: number; prompt_text: string }[] }) {
   if (topics.length === 0) {
-    return <p style={{ fontSize: 12, color: "var(--ink-soft)" }}>お題がありません。</p>;
+    return <p style={{ fontSize: 14.4, color: "var(--ink-soft)" }}>お題がありません。</p>;
   }
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
@@ -43,7 +43,7 @@ function TopicList({ topics }: { topics: { id: number; hsk_level: number; prompt
           <span
             style={{
               flexShrink: 0,
-              fontSize: 10,
+              fontSize: 12,
               fontWeight: 700,
               color: "var(--ink)",
               background: "var(--paper-deep)",
@@ -53,7 +53,7 @@ function TopicList({ topics }: { topics: { id: number; hsk_level: number; prompt
           >
             HSK{t.hsk_level}
           </span>
-          <span style={{ flex: 1, fontSize: 13, color: "var(--ink)", lineHeight: 1.5 }}>{t.prompt_text}</span>
+          <span style={{ flex: 1, fontSize: 15.6, color: "var(--ink)", lineHeight: 1.5 }}>{t.prompt_text}</span>
           <ChevronRightIcon />
         </Link>
       ))}
@@ -85,18 +85,18 @@ export default async function WritingTopicsPage() {
         <Link href="/writing" aria-label="ライティングに戻る" style={{ display: "flex", alignItems: "center" }}>
           <BackArrowIcon />
         </Link>
-        <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>作文のお題</h1>
+        <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>作文のお題</h1>
       </div>
 
       <section style={{ marginBottom: 24 }}>
-        <h2 style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>
+        <h2 style={{ fontSize: 14.4, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>
           自由作文 <span style={{ fontWeight: 400 }}>・テーマについて自由に書く</span>
         </h2>
         <TopicList topics={freeTopics} />
       </section>
 
       <section>
-        <h2 style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>
+        <h2 style={{ fontSize: 14.4, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>
           場面設定 <span style={{ fontWeight: 400 }}>・お題も中国語のみで提示されます</span>
         </h2>
         <TopicList topics={scenarios} />

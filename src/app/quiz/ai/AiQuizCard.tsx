@@ -51,7 +51,7 @@ export default function AiQuizCard() {
   if (!scope) {
     return (
       <div className="flex flex-col gap-3">
-        <p className="text-center text-sm text-ink-soft">
+        <p className="text-center text-[16.8px] text-ink-soft">
           出題範囲を選んでください(HSK{levelKey})
         </p>
         {SCOPE_OPTIONS.map((opt) => (
@@ -65,7 +65,7 @@ export default function AiQuizCard() {
             className="rounded border border-line bg-paper p-4 text-left active:scale-[0.97] transition-transform"
           >
             <p className="font-bold text-ink">{opt.label}</p>
-            <p className="text-xs text-ink-soft">{opt.description}</p>
+            <p className="text-[14.4px] text-ink-soft">{opt.description}</p>
           </button>
         ))}
       </div>
@@ -74,7 +74,7 @@ export default function AiQuizCard() {
 
   return (
     <div className="rounded border border-line p-8 text-center">
-      <div className="mb-4 flex items-center justify-between text-xs text-ink-soft">
+      <div className="mb-4 flex items-center justify-between text-[14.4px] text-ink-soft">
         <span>
           出題範囲: {SCOPE_OPTIONS.find((o) => o.key === scope)?.label} · HSK{levelKey}
         </span>
@@ -97,7 +97,7 @@ export default function AiQuizCard() {
           type="button"
           onClick={() => handleGenerate(scope)}
           disabled={loading}
-          className="rounded bg-seal px-6 py-2 text-sm text-ink disabled:opacity-50 active:scale-95 transition-transform inline-flex items-center gap-2"
+          className="rounded bg-seal px-6 py-2 text-[16.8px] text-ink disabled:opacity-50 active:scale-95 transition-transform inline-flex items-center gap-2"
         >
           {loading && (
             <span className="inline-block h-3 w-3 animate-spin rounded-full border-2 border-ink border-t-transparent" />
@@ -106,26 +106,26 @@ export default function AiQuizCard() {
         </button>
       )}
 
-      {error && <p className="mt-4 text-sm text-red-600">{error}</p>}
+      {error && <p className="mt-4 text-[16.8px] text-red-600">{error}</p>}
 
       {sentence && (
         <>
-          <p className="mb-6 text-3xl">{sentence.hanzi}</p>
+          <p className="mb-6 text-[36px]">{sentence.hanzi}</p>
 
           {!revealed ? (
             <button
               type="button"
               onClick={() => setRevealed(true)}
-              className="rounded bg-seal px-6 py-2 text-sm text-ink active:scale-95 transition-transform"
+              className="rounded bg-seal px-6 py-2 text-[16.8px] text-ink active:scale-95 transition-transform"
             >
               答えを見る
             </button>
           ) : (
             <>
               <p className="mb-1 text-ink-soft">{sentence.pinyin}</p>
-              <p className="mb-2 text-lg">{sentence.meaning_ja}</p>
+              <p className="mb-2 text-[21.6px]">{sentence.meaning_ja}</p>
               {sentence.explanation_ja && (
-                <p className="mb-6 text-xs text-ink-soft">
+                <p className="mb-6 text-[14.4px] text-ink-soft">
                   {sentence.explanation_ja}
                 </p>
               )}
@@ -134,7 +134,7 @@ export default function AiQuizCard() {
                   type="button"
                   disabled={recording}
                   onClick={() => handleAnswer(false)}
-                  className="rounded border border-red-300 px-6 py-2 text-sm text-red-600 disabled:opacity-50 active:scale-95 transition-transform"
+                  className="rounded border border-red-300 px-6 py-2 text-[16.8px] text-red-600 disabled:opacity-50 active:scale-95 transition-transform"
                 >
                   できなかった
                 </button>
@@ -142,7 +142,7 @@ export default function AiQuizCard() {
                   type="button"
                   disabled={recording}
                   onClick={() => handleAnswer(true)}
-                  className="rounded bg-green-600 px-6 py-2 text-sm text-white disabled:opacity-50 active:scale-95 transition-transform"
+                  className="rounded bg-green-600 px-6 py-2 text-[16.8px] text-white disabled:opacity-50 active:scale-95 transition-transform"
                 >
                   できた
                 </button>

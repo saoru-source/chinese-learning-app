@@ -42,7 +42,7 @@ export default async function WritingTopicDetailPage({
         <Link href="/writing/topics" aria-label="お題一覧に戻る" style={{ display: "flex", alignItems: "center" }}>
           <BackArrowIcon />
         </Link>
-        <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>作文のお題</h1>
+        <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>作文のお題</h1>
       </div>
 
       <div
@@ -59,7 +59,7 @@ export default async function WritingTopicDetailPage({
             display: "inline-block",
             background: "var(--grad)",
             color: "#fff",
-            fontSize: 10,
+            fontSize: 12,
             fontWeight: 600,
             borderRadius: 20,
             padding: "3px 12px",
@@ -68,7 +68,7 @@ export default async function WritingTopicDetailPage({
         >
           HSK{topic.hsk_level} ・ {topic.category === "free_topic" ? "自由作文" : "場面設定"}
         </span>
-        <p style={{ fontSize: 17, color: "var(--ink)", lineHeight: 1.6 }}>{topic.prompt_text}</p>
+        <p style={{ fontSize: 20.4, color: "var(--ink)", lineHeight: 1.6 }}>{topic.prompt_text}</p>
       </div>
 
       <WritingForm key={topic.id} topicId={topic.id} />

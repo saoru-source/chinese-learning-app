@@ -24,7 +24,7 @@ export default function ShareButton({
   }
 
   if (done) {
-    return <p className="text-xs text-ink-soft">共有しました</p>;
+    return <p className="text-[14.4px] text-ink-soft">共有しました</p>;
   }
 
   if (!open) {
@@ -32,7 +32,7 @@ export default function ShareButton({
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="text-xs text-ink-soft underline"
+        className="text-[14.4px] text-ink-soft underline"
       >
         共有する
       </button>
@@ -59,7 +59,7 @@ export default function ShareButton({
         <input type="hidden" name="itemId" value={itemId} />
         <select
           name="recipientId"
-          className="rounded border border-line px-1 py-0.5 text-xs"
+          className="rounded border border-line px-1 py-0.5 text-[14.4px]"
         >
           {followingList.map((p) => (
             <option key={p.id} value={p.id}>
@@ -70,12 +70,12 @@ export default function ShareButton({
         <button
           type="submit"
           disabled={loading}
-          className="rounded bg-seal px-2 py-0.5 text-xs text-ink disabled:opacity-50"
+          className="rounded bg-seal px-2 py-0.5 text-[14.4px] text-ink disabled:opacity-50"
         >
           {loading ? "送信中…" : "送る"}
         </button>
       </form>
-      {error && <p className="mt-1 text-xs text-red-600">{error}</p>}
+      {error && <p className="mt-1 text-[14.4px] text-red-600">{error}</p>}
     </div>
   );
 }

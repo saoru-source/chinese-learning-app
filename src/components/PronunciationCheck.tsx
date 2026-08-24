@@ -295,7 +295,7 @@ export default function PronunciationCheck({
           >
             <p
               style={{
-                fontSize: 11,
+                fontSize: 13.2,
                 fontWeight: 700,
                 color: "var(--ink-soft)",
                 letterSpacing: "0.08em",
@@ -306,22 +306,22 @@ export default function PronunciationCheck({
             </p>
 
             {status === "unsupported" && (
-              <p style={{ fontSize: 13, color: "var(--ink-soft)", marginBottom: 20 }}>
+              <p style={{ fontSize: 15.6, color: "var(--ink-soft)", marginBottom: 20 }}>
                 お使いのブラウザは音声認識に対応していません。
               </p>
             )}
 
             {status === "listening" && (
               <>
-                <div style={{ fontSize: 32, fontWeight: 700, color: "var(--ink)", marginBottom: 8 }}>{target}</div>
-                {pinyin && <p style={{ fontSize: 13, color: "var(--ink-soft)", marginBottom: 20 }}>{pinyin}</p>}
+                <div style={{ fontSize: 38.4, fontWeight: 700, color: "var(--ink)", marginBottom: 8 }}>{target}</div>
+                {pinyin && <p style={{ fontSize: 15.6, color: "var(--ink-soft)", marginBottom: 20 }}>{pinyin}</p>}
                 <p
                   style={{
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
                     gap: 7,
-                    fontSize: 13,
+                    fontSize: 15.6,
                     color: "var(--ink)",
                     fontWeight: 700,
                     marginBottom: 8,
@@ -340,7 +340,7 @@ export default function PronunciationCheck({
                   />
                   聞き取り中…
                 </p>
-                <p style={{ fontSize: 11, color: "var(--ink-soft)", marginBottom: 20 }}>
+                <p style={{ fontSize: 13.2, color: "var(--ink-soft)", marginBottom: 20 }}>
                   「閉じる」でいつでも中止できます
                 </p>
               </>
@@ -348,23 +348,23 @@ export default function PronunciationCheck({
 
             {status === "error" && (
               <>
-                <div style={{ fontSize: 32, fontWeight: 700, color: "var(--ink)", marginBottom: 12 }}>{target}</div>
-                <p style={{ fontSize: 13, color: "var(--ink-soft)", marginBottom: 20 }}>{errorMessage}</p>
+                <div style={{ fontSize: 38.4, fontWeight: 700, color: "var(--ink)", marginBottom: 12 }}>{target}</div>
+                <p style={{ fontSize: 15.6, color: "var(--ink-soft)", marginBottom: 20 }}>{errorMessage}</p>
               </>
             )}
 
             {status === "result" && (
               <>
-                <div style={{ fontSize: 32, fontWeight: 700, marginBottom: 4, letterSpacing: "0.04em" }}>
+                <div style={{ fontSize: 38.4, fontWeight: 700, marginBottom: 4, letterSpacing: "0.04em" }}>
                   {cleanTarget.split("").map((ch, i) => (
                     <span key={i} style={{ color: matched[i] ? "var(--match-green)" : "var(--miss-red)" }}>
                       {ch}
                     </span>
                   ))}
                 </div>
-                {pinyin && <p style={{ fontSize: 13, color: "var(--ink-soft)", marginBottom: 12 }}>{pinyin}</p>}
-                <p style={{ fontSize: 24, fontWeight: 800, color: "var(--ink)", marginBottom: 4 }}>{pct}%</p>
-                <p style={{ fontSize: 14, fontWeight: 700, color: verdictColor, marginBottom: 20 }}>{verdict}</p>
+                {pinyin && <p style={{ fontSize: 15.6, color: "var(--ink-soft)", marginBottom: 12 }}>{pinyin}</p>}
+                <p style={{ fontSize: 28.8, fontWeight: 800, color: "var(--ink)", marginBottom: 4 }}>{pct}%</p>
+                <p style={{ fontSize: 16.8, fontWeight: 700, color: verdictColor, marginBottom: 20 }}>{verdict}</p>
               </>
             )}
 
@@ -381,7 +381,7 @@ export default function PronunciationCheck({
                     border: "1px solid var(--line)",
                     background: "var(--card)",
                     color: "var(--ink)",
-                    fontSize: 13,
+                    fontSize: 15.6,
                     fontWeight: 700,
                     cursor: status === "listening" ? "default" : "pointer",
                     opacity: status === "listening" ? 0.5 : 1,
@@ -400,7 +400,7 @@ export default function PronunciationCheck({
                   border: "none",
                   background: "var(--grad)",
                   color: "#fff",
-                  fontSize: 13,
+                  fontSize: 15.6,
                   fontWeight: 700,
                   cursor: "pointer",
                 }}

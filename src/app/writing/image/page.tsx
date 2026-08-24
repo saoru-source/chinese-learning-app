@@ -18,7 +18,7 @@ function Header() {
       <Link href="/writing" aria-label="ライティングに戻る" style={{ display: "flex", alignItems: "center" }}>
         <BackArrowIcon />
       </Link>
-      <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>画像描写</h1>
+      <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>画像描写</h1>
     </div>
   );
 }
@@ -62,14 +62,14 @@ export default async function WritingImagePage() {
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
-              fontSize: 24,
+              fontSize: 28.8,
               margin: "0 auto 16px",
             }}
           >
             🖼️
           </div>
-          <p style={{ fontSize: 15, fontWeight: 700, color: "var(--ink)", marginBottom: 8 }}>近日公開</p>
-          <p style={{ fontSize: 13, color: "var(--ink-soft)", lineHeight: 1.7 }}>
+          <p style={{ fontSize: 18, fontWeight: 700, color: "var(--ink)", marginBottom: 8 }}>近日公開</p>
+          <p style={{ fontSize: 15.6, color: "var(--ink-soft)", lineHeight: 1.7 }}>
             画像描写モードは現在準備中です。画像素材が揃い次第、公開します。
           </p>
         </div>
@@ -107,7 +107,7 @@ export default async function WritingImagePage() {
                 display: "inline-block",
                 background: "var(--grad)",
                 color: "#fff",
-                fontSize: 10,
+                fontSize: 12,
                 fontWeight: 600,
                 borderRadius: 20,
                 padding: "3px 12px",
@@ -127,18 +127,18 @@ export default async function WritingImagePage() {
               }}
             />
             {prompt.topic && (
-              <p style={{ fontSize: 13, color: "var(--ink-soft)", lineHeight: 1.6 }}>{prompt.topic}</p>
+              <p style={{ fontSize: 15.6, color: "var(--ink-soft)", lineHeight: 1.6 }}>{prompt.topic}</p>
             )}
           </div>
 
-          <p style={{ fontSize: 12, color: "var(--ink-soft)", marginBottom: 12 }}>
+          <p style={{ fontSize: 14.4, color: "var(--ink-soft)", marginBottom: 12 }}>
             上の画像を見て、その内容を中国語で説明してください。
           </p>
 
           <ImageDescribeForm key={prompt.id} promptId={prompt.id} />
         </>
       ) : (
-        <p style={{ fontSize: 13, color: "var(--ink-soft)", textAlign: "center" }}>お題が見つかりませんでした。</p>
+        <p style={{ fontSize: 15.6, color: "var(--ink-soft)", textAlign: "center" }}>お題が見つかりませんでした。</p>
       )}
     </main>
   );

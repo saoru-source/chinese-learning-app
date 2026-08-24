@@ -38,7 +38,7 @@ export default function WritingForm({ topicId }: { topicId: number }) {
             borderRadius: 16,
             border: "1px solid var(--line)",
             padding: "14px 16px",
-            fontSize: 14,
+            fontSize: 16.8,
             color: "var(--ink)",
             lineHeight: 1.7,
             resize: "vertical",
@@ -52,7 +52,7 @@ export default function WritingForm({ topicId }: { topicId: number }) {
             background: "var(--grad)",
             color: "#fff",
             fontWeight: 700,
-            fontSize: 14,
+            fontSize: 16.8,
             border: "none",
             borderRadius: 999,
             padding: "13px 0",
@@ -66,7 +66,7 @@ export default function WritingForm({ topicId }: { topicId: number }) {
       </form>
 
       {error && (
-        <p style={{ marginTop: 14, fontSize: 12, fontWeight: 700, color: "var(--miss-red)" }}>{error}</p>
+        <p style={{ marginTop: 14, fontSize: 14.4, fontWeight: 700, color: "var(--miss-red)" }}>{error}</p>
       )}
 
       {feedback && (
@@ -79,8 +79,8 @@ export default function WritingForm({ topicId }: { topicId: number }) {
             boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
           }}
         >
-          <p style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 8 }}>AIの添削結果</p>
-          <p style={{ fontSize: 13, color: "var(--ink)", lineHeight: 1.8, whiteSpace: "pre-wrap" }}>{feedback}</p>
+          <p style={{ fontSize: 14.4, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 8 }}>AIの添削結果</p>
+          <p style={{ fontSize: 15.6, color: "var(--ink)", lineHeight: 1.8, whiteSpace: "pre-wrap" }}>{feedback}</p>
         </div>
       )}
     </div>

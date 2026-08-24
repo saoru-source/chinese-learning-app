@@ -19,12 +19,12 @@ export default async function QuizPage() {
   return (
     <div className="mx-auto max-w-md px-4 py-10">
       <div className="mb-2 flex items-center justify-between">
-        <h1 className="text-2xl font-bold">クイズ</h1>
-        <Link href="/" className="text-sm underline">
+        <h1 className="text-[28.8px] font-bold">クイズ</h1>
+        <Link href="/" className="text-[16.8px] underline">
           トップに戻る
         </Link>
       </div>
-      <p className="mb-6 text-sm">
+      <p className="mb-6 text-[16.8px]">
         <Link href="/quiz/ai" className="underline">
           AIに新しい例文を作ってもらう →
         </Link>
@@ -33,7 +33,7 @@ export default async function QuizPage() {
       {word ? (
         <QuizCard word={word} />
       ) : (
-        <p className="text-sm text-ink-soft">出題できる単語がありません。</p>
+        <p className="text-[16.8px] text-ink-soft">出題できる単語がありません。</p>
       )}
     </div>
   );

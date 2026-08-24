@@ -15,7 +15,7 @@ type Props = {
 };
 
 const PAD = { sm: "9px 20px", md: "13px 28px", lg: "16px 36px" };
-const FONT_SIZE = { sm: 12, md: 14, lg: 15 };
+const FONT_SIZE = { sm: 14.4, md: 16.8, lg: 18 };
 
 export default function GlassButton({
   onClick,

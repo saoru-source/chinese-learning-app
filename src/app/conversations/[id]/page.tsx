@@ -67,15 +67,15 @@ export default async function ConversationDetailPage({
           <BackArrowIcon />
         </Link>
         <div>
-          <p style={{ fontSize: 13, fontWeight: 700, color: "var(--ink)" }}>{conversation.title}</p>
-          <p style={{ fontSize: 10, color: "var(--ink-soft)" }}>
+          <p style={{ fontSize: 15.6, fontWeight: 700, color: "var(--ink)" }}>{conversation.title}</p>
+          <p style={{ fontSize: 12, color: "var(--ink-soft)" }}>
             HSK{conversation.hsk_level} ・ {characters.join("・")}
           </p>
         </div>
       </div>
 
       {conversation.grammar_label_raw && (
-        <p style={{ fontSize: 11, color: "var(--ink-soft)", marginBottom: 14 }}>
+        <p style={{ fontSize: 13.2, color: "var(--ink-soft)", marginBottom: 14 }}>
           文法ポイント: {conversation.grammar_label_raw}
         </p>
       )}
@@ -83,7 +83,7 @@ export default async function ConversationDetailPage({
       {lines.length > 0 ? (
         <ConversationLines characters={characters} lines={lines} />
       ) : (
-        <p style={{ fontSize: 13, color: "var(--ink-soft)", textAlign: "center" }}>セリフが見つかりませんでした。</p>
+        <p style={{ fontSize: 15.6, color: "var(--ink-soft)", textAlign: "center" }}>セリフが見つかりませんでした。</p>
       )}
     </main>
   );

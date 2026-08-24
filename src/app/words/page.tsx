@@ -53,7 +53,7 @@ function CompletionScreen({
       <div style={{ textAlign: "center", marginBottom: 20 }}>
         <div
           style={{
-            fontSize: 52,
+            fontSize: 62.4,
             fontWeight: 800,
             background: "var(--grad)",
             WebkitBackgroundClip: "text",
@@ -64,7 +64,7 @@ function CompletionScreen({
         >
           {words.length}語
         </div>
-        <p style={{ fontSize: 14, color: "var(--ink-soft)", marginTop: 4 }}>
+        <p style={{ fontSize: 16.8, color: "var(--ink-soft)", marginTop: 4 }}>
           すべての単語を確認しました
         </p>
       </div>
@@ -89,9 +89,9 @@ function CompletionScreen({
               borderTop: i === 0 ? "none" : "1px solid var(--line)",
             }}
           >
-            <span style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>{w.hanzi}</span>
-            <span style={{ fontSize: 12, color: "var(--ink-soft)", fontWeight: 500 }}>{w.pinyin}</span>
-            <span style={{ marginLeft: "auto", fontSize: 13, color: "var(--ink)", textAlign: "right" }}>
+            <span style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>{w.hanzi}</span>
+            <span style={{ fontSize: 14.4, color: "var(--ink-soft)", fontWeight: 500 }}>{w.pinyin}</span>
+            <span style={{ marginLeft: "auto", fontSize: 15.6, color: "var(--ink)", textAlign: "right" }}>
               {w.meaning_ja}
             </span>
           </div>
@@ -111,7 +111,7 @@ function CompletionScreen({
             border: "1px solid var(--line)",
             borderRadius: 999,
             padding: "12px 0",
-            fontSize: 13,
+            fontSize: 15.6,
             fontWeight: 700,
             color: "var(--ink)",
             textDecoration: "none",
@@ -130,7 +130,7 @@ function CompletionScreen({
             background: "var(--grad)",
             borderRadius: 999,
             padding: "12px 0",
-            fontSize: 13,
+            fontSize: 15.6,
             fontWeight: 700,
             color: "#fff",
             textDecoration: "none",
@@ -183,8 +183,8 @@ export default async function WordsPage({
   if (!word) {
     return (
       <main style={{ maxWidth: 480, margin: "0 auto", padding: "24px 16px" }}>
-        <p style={{ fontSize: 14, color: "var(--ink-soft)" }}>単語が見つかりませんでした。</p>
-        <Link href="/" className="underline text-sm">トップに戻る</Link>
+        <p style={{ fontSize: 16.8, color: "var(--ink-soft)" }}>単語が見つかりませんでした。</p>
+        <Link href="/" className="underline text-[16.8px]">トップに戻る</Link>
       </main>
     );
   }
@@ -230,7 +230,7 @@ export default async function WordsPage({
             key={lv}
             href={`/words?level=${lv}&index=0`}
             style={{
-              fontSize: 11,
+              fontSize: 13.2,
               fontWeight: 700,
               padding: "4px 10px",
               borderRadius: 999,
@@ -262,10 +262,10 @@ export default async function WordsPage({
         >
           <BackArrowIcon />
         </Link>
-        <span style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)" }}>
+        <span style={{ fontSize: 14.4, fontWeight: 700, color: "var(--ink-soft)" }}>
           単語学習 · HSK{word.hsk_level}
         </span>
-        <span style={{ marginLeft: "auto", fontSize: 12, color: "var(--ink-soft)" }}>
+        <span style={{ marginLeft: "auto", fontSize: 14.4, color: "var(--ink-soft)" }}>
           {index + 1} / {total} 語
         </span>
         <span
@@ -277,7 +277,7 @@ export default async function WordsPage({
             borderRadius: 8,
             background: "var(--grad)",
             color: "#fff",
-            fontSize: 11,
+            fontSize: 13.2,
             fontWeight: 700,
             transform: "rotate(-4deg)",
             flexShrink: 0,
@@ -322,17 +322,17 @@ export default async function WordsPage({
 
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginBottom: 4 }}>
           <SpeakButton text={word.hanzi} size={36} layout="column" />
-          <span style={{ fontSize: 38, fontWeight: 700, color: "var(--ink)" }}>{word.hanzi}</span>
+          <span style={{ fontSize: 45.6, fontWeight: 700, color: "var(--ink)" }}>{word.hanzi}</span>
           <PronunciationCheck target={word.hanzi} pinyin={word.pinyin} />
         </div>
 
-        <p style={{ fontSize: 13, fontWeight: 500, color: "var(--ink-soft)", marginBottom: 6 }}>
+        <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)", marginBottom: 6 }}>
           {word.pinyin}
         </p>
 
         <div style={{ borderTop: "1px solid var(--line)", paddingTop: 6 }}>
-          <p style={{ fontSize: 10, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 2 }}>意味</p>
-          <p style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>{word.meaning_ja}</p>
+          <p style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 2 }}>意味</p>
+          <p style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>{word.meaning_ja}</p>
         </div>
       </div>
 
@@ -386,15 +386,15 @@ export default async function WordsPage({
         >
           <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
             <div style={{ flex: 1 }}>
-              <TappableText segments={exampleSegments} fontSize={16} lineHeight={1.7} />
+              <TappableText segments={exampleSegments} fontSize={19.2} lineHeight={1.7} />
             </div>
             <SpeakButton text={example.hanzi} size={26} />
           </div>
 
-          <p style={{ fontSize: 11, color: "var(--ink-soft)", fontWeight: 500, marginTop: 8 }}>
+          <p style={{ fontSize: 13.2, color: "var(--ink-soft)", fontWeight: 500, marginTop: 8 }}>
             {example.pinyin}
           </p>
-          <p style={{ fontSize: 14, color: "var(--ink)", marginTop: 4 }}>{example.meaning_ja}</p>
+          <p style={{ fontSize: 16.8, color: "var(--ink)", marginTop: 4 }}>{example.meaning_ja}</p>
 
           {example.grammar_label_raw && (
             <span
@@ -405,7 +405,7 @@ export default async function WordsPage({
                 borderRadius: 999,
                 background: "var(--grad)",
                 color: "#fff",
-                fontSize: 11,
+                fontSize: 13.2,
                 fontWeight: 700,
               }}
             >

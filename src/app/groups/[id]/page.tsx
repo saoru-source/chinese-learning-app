@@ -68,11 +68,11 @@ export default async function GroupDetailPage({
           <Link href="/groups" aria-label="一覧に戻る" style={{ display: "flex", alignItems: "center" }}>
             <BackArrowIcon />
           </Link>
-          <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>{group.category}</h1>
+          <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>{group.category}</h1>
         </div>
         <span
           style={{
-            fontSize: 11,
+            fontSize: 13.2,
             color: "var(--ink-soft)",
             background: "var(--paper-deep)",
             borderRadius: 20,
@@ -101,7 +101,7 @@ export default async function GroupDetailPage({
                 }}
               >
                 <WordChip word={left} />
-                <span style={{ color: "var(--ink-soft)", fontSize: 15 }}>⇄</span>
+                <span style={{ color: "var(--ink-soft)", fontSize: 18 }}>⇄</span>
                 <WordChip word={right} />
               </li>
             );
@@ -143,12 +143,12 @@ function WordChip({
   return (
     <div style={{ textAlign: "center" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 4 }}>
-        <p style={{ fontSize: 18, fontWeight: 700, color: "var(--ink)" }}>{word.hanzi}</p>
+        <p style={{ fontSize: 21.6, fontWeight: 700, color: "var(--ink)" }}>{word.hanzi}</p>
         <SpeakButton text={word.hanzi} size={22} layout="column" />
         <PronunciationCheck target={word.hanzi} pinyin={word.pinyin} />
       </div>
-      <p style={{ fontSize: 12, fontWeight: 500, color: "var(--ink-soft)", marginTop: 2 }}>{word.pinyin}</p>
-      <p style={{ fontSize: 12, color: "var(--ink)" }}>{word.meaning_ja}</p>
+      <p style={{ fontSize: 14.4, fontWeight: 500, color: "var(--ink-soft)", marginTop: 2 }}>{word.pinyin}</p>
+      <p style={{ fontSize: 14.4, color: "var(--ink)" }}>{word.meaning_ja}</p>
     </div>
   );
 }

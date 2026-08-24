@@ -30,7 +30,7 @@ export default function ReadingQuestions({
 
         return (
           <div key={q.id}>
-            <p style={{ fontSize: 13, fontWeight: 700, color: "var(--ink)", marginBottom: 10 }}>
+            <p style={{ fontSize: 15.6, fontWeight: 700, color: "var(--ink)", marginBottom: 10 }}>
               Q{q.question_order}. {q.question_text}
             </p>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
@@ -61,7 +61,7 @@ export default function ReadingQuestions({
                       textAlign: "left",
                       borderRadius: 12,
                       padding: "10px 12px",
-                      fontSize: 15,
+                      fontSize: 18,
                       background,
                       color,
                       // 同上の理由でborderも--seal-deepではなく--sealを使う
@@ -81,7 +81,7 @@ export default function ReadingQuestions({
               <p
                 style={{
                   marginTop: 8,
-                  fontSize: 12,
+                  fontSize: 14.4,
                   fontWeight: 700,
                   color: "var(--ink)",
                 }}
@@ -105,7 +105,7 @@ export default function ReadingQuestions({
             background: "var(--grad)",
             color: "#fff",
             fontWeight: 700,
-            fontSize: 14,
+            fontSize: 16.8,
             border: "none",
             borderRadius: 999,
             padding: "12px 0",
@@ -116,7 +116,7 @@ export default function ReadingQuestions({
           採点する
         </button>
       ) : (
-        <p style={{ textAlign: "center", fontSize: 13, color: "var(--ink-soft)" }}>
+        <p style={{ textAlign: "center", fontSize: 15.6, color: "var(--ink-soft)" }}>
           {questions.length}問中 <span style={{ fontWeight: 700, color: "var(--ink)" }}>{score}問</span> 正解
         </p>
       )}

@@ -60,7 +60,7 @@ export default function ConversationLines({ characters, lines }: { characters: s
             <span
               style={{
                 display: "inline-block",
-                fontSize: 11,
+                fontSize: 13.2,
                 fontWeight: 700,
                 color: "#fff",
                 background: badgeBg,
@@ -74,7 +74,7 @@ export default function ConversationLines({ characters, lines }: { characters: s
 
             <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
               <div style={{ flex: 1 }}>
-                <TappableText segments={line.segments} fontSize={16} lineHeight={1.8} />
+                <TappableText segments={line.segments} fontSize={19.2} lineHeight={1.8} />
               </div>
               <div style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0 }}>
                 <SpeakButton text={line.hanzi} size={28} pitch={voiceOptions.pitch} voiceName={voiceOptions.voiceName} />
@@ -89,9 +89,9 @@ export default function ConversationLines({ characters, lines }: { characters: s
             </div>
 
             {line.pinyin && (
-              <p style={{ fontSize: 11, fontWeight: 500, color: "var(--ink-soft)", marginTop: 8 }}>{line.pinyin}</p>
+              <p style={{ fontSize: 13.2, fontWeight: 500, color: "var(--ink-soft)", marginTop: 8 }}>{line.pinyin}</p>
             )}
-            {line.meaning_ja && <p style={{ fontSize: 13, color: "var(--ink)", marginTop: 4 }}>{line.meaning_ja}</p>}
+            {line.meaning_ja && <p style={{ fontSize: 15.6, color: "var(--ink)", marginTop: 4 }}>{line.meaning_ja}</p>}
           </div>
         );
       })}

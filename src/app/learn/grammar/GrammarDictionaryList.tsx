@@ -10,7 +10,7 @@ export default function GrammarDictionaryList({ points }: { points: GrammarPoint
 
   return (
     <div>
-      <p style={{ fontSize: 12, color: "var(--ink-soft)", marginBottom: 12 }}>
+      <p style={{ fontSize: 14.4, color: "var(--ink-soft)", marginBottom: 12 }}>
         HSK{levelKey} · {filtered.length}件
       </p>
       <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
@@ -25,11 +25,11 @@ export default function GrammarDictionaryList({ points }: { points: GrammarPoint
             }}
           >
             <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 4 }}>
-              <span style={{ fontSize: 15, fontWeight: 700, color: "var(--ink)" }}>{p.label}</span>
+              <span style={{ fontSize: 18, fontWeight: 700, color: "var(--ink)" }}>{p.label}</span>
               <span
                 style={{
                   flexShrink: 0,
-                  fontSize: 10,
+                  fontSize: 12,
                   fontWeight: 700,
                   color: "#fff",
                   background: "var(--grad)",
@@ -40,11 +40,11 @@ export default function GrammarDictionaryList({ points }: { points: GrammarPoint
                 HSK{p.hsk_level}
               </span>
             </div>
-            {p.explanation && <p style={{ fontSize: 13, color: "var(--ink-soft)" }}>{p.explanation}</p>}
+            {p.explanation && <p style={{ fontSize: 15.6, color: "var(--ink-soft)" }}>{p.explanation}</p>}
           </div>
         ))}
         {filtered.length === 0 && (
-          <p style={{ fontSize: 13, color: "var(--ink-soft)" }}>このレベルの文法項目はまだありません。</p>
+          <p style={{ fontSize: 15.6, color: "var(--ink-soft)" }}>このレベルの文法項目はまだありません。</p>
         )}
       </div>
     </div>

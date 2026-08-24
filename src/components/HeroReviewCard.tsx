@@ -63,7 +63,7 @@ export default function HeroReviewCard({ displayName }: { displayName: string })
             color: "#fff",
             borderRadius: 999,
             padding: "3px 10px",
-            fontSize: 11,
+            fontSize: 13.2,
             fontWeight: 600,
           }}
         >
@@ -71,9 +71,9 @@ export default function HeroReviewCard({ displayName }: { displayName: string })
           ログイン中: {displayName}
         </span>
 
-        <h2 style={{ color: "#fff", fontSize: 18, fontWeight: 800, margin: 0 }}>今日の学習</h2>
+        <h2 style={{ color: "#fff", fontSize: 21.6, fontWeight: 800, margin: 0 }}>今日の学習</h2>
 
-        <p style={{ color: "#fff", fontSize: 13, opacity: 0.85, margin: 0 }}>
+        <p style={{ color: "#fff", fontSize: 15.6, opacity: 0.85, margin: 0 }}>
           AIがあなたに合った問題を用意しました
         </p>
 

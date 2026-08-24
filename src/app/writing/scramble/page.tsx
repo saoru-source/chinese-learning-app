@@ -52,13 +52,13 @@ export default async function ScramblePage({
         <Link href="/writing" aria-label="ライティングに戻る" style={{ display: "flex", alignItems: "center" }}>
           <BackArrowIcon />
         </Link>
-        <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>語順並べ替え</h1>
+        <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>語順並べ替え</h1>
       </div>
 
       {question ? (
         <ScrambleCard key={`${question.id}-${current}`} question={question} nextHref={`/writing/scramble?n=${current + 1}`} />
       ) : (
-        <p style={{ fontSize: 13, color: "var(--ink-soft)", textAlign: "center" }}>問題がありません。</p>
+        <p style={{ fontSize: 15.6, color: "var(--ink-soft)", textAlign: "center" }}>問題がありません。</p>
       )}
     </main>
   );

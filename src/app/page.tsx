@@ -52,9 +52,9 @@ export default async function Home() {
   if (!user) {
     return (
       <main className="mx-auto flex min-h-[70vh] max-w-sm flex-col items-center justify-center gap-4 px-4 text-center">
-        <h1 className="text-2xl font-bold">中国語学習アプリ</h1>
-        <p className="text-sm text-ink-soft">未ログインです</p>
-        <div className="flex gap-3 text-sm">
+        <h1 className="text-[28.8px] font-bold">中国語学習アプリ</h1>
+        <p className="text-[16.8px] text-ink-soft">未ログインです</p>
+        <div className="flex gap-3 text-[16.8px]">
           <Link href="/login" className="rounded bg-seal px-4 py-2 text-ink">
             ログイン
           </Link>
@@ -76,7 +76,7 @@ export default async function Home() {
         <HeroReviewCard displayName={displayName} />
 
         {!profile?.nickname && (
-          <p className="text-center text-xs text-ink-soft">
+          <p className="text-center text-[14.4px] text-ink-soft">
             <Link href="/profile" className="underline">
               ニックネームを設定する →
             </Link>
@@ -84,7 +84,7 @@ export default async function Home() {
         )}
 
         <section>
-          <h2 style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>
+          <h2 style={{ fontSize: 13.2, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>
             学習メニュー
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>

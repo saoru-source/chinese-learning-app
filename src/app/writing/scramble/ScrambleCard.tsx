@@ -35,7 +35,7 @@ export default function ScrambleCard({
           display: "inline-block",
           background: "var(--paper-deep)",
           color: "var(--ink)",
-          fontSize: 10,
+          fontSize: 12,
           fontWeight: 700,
           borderRadius: 20,
           padding: "3px 12px",
@@ -54,7 +54,7 @@ export default function ScrambleCard({
               border: "1px solid var(--line)",
               borderRadius: 12,
               padding: "9px 14px",
-              fontSize: 17,
+              fontSize: 20.4,
               color: "var(--ink)",
             }}
           >
@@ -71,7 +71,7 @@ export default function ScrambleCard({
             background: "var(--grad)",
             color: "#fff",
             fontWeight: 700,
-            fontSize: 14,
+            fontSize: 16.8,
             border: "none",
             borderRadius: 999,
             padding: "12px 32px",
@@ -82,9 +82,9 @@ export default function ScrambleCard({
         </button>
       ) : (
         <>
-          <p style={{ fontSize: 18, color: "var(--ink)", marginBottom: 6 }}>{question.correct_sentence}</p>
+          <p style={{ fontSize: 21.6, color: "var(--ink)", marginBottom: 6 }}>{question.correct_sentence}</p>
           {question.meaning_ja && (
-            <p style={{ fontSize: 13, color: "var(--ink-soft)", marginBottom: 20 }}>{question.meaning_ja}</p>
+            <p style={{ fontSize: 15.6, color: "var(--ink-soft)", marginBottom: 20 }}>{question.meaning_ja}</p>
           )}
           <Link
             href={nextHref}
@@ -93,7 +93,7 @@ export default function ScrambleCard({
               background: "var(--grad)",
               color: "#fff",
               fontWeight: 700,
-              fontSize: 14,
+              fontSize: 16.8,
               borderRadius: 999,
               padding: "12px 32px",
               textDecoration: "none",

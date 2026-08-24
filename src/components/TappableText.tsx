@@ -12,7 +12,7 @@ type Props = {
   lineHeight?: number | string;
 };
 
-export default function TappableText({ segments, fontSize = 15, lineHeight = 1.9 }: Props) {
+export default function TappableText({ segments, fontSize = 18, lineHeight = 1.9 }: Props) {
   const [activeWord, setActiveWord] = useState<TappableWord | null>(null);
   const [popupLeft, setPopupLeft] = useState(0);
   const [popupTop, setPopupTop] = useState(0);
@@ -74,7 +74,7 @@ export default function TappableText({ segments, fontSize = 15, lineHeight = 1.9
             color: "var(--paper)",
             borderRadius: 12,
             padding: "10px 14px",
-            fontSize: 12,
+            fontSize: 14.4,
             boxShadow: "0 10px 24px rgba(0,0,0,0.25)",
             whiteSpace: "nowrap",
             zIndex: 20,
@@ -95,13 +95,13 @@ export default function TappableText({ segments, fontSize = 15, lineHeight = 1.9
           <div
             style={{
               color: "color-mix(in srgb, var(--paper) 60%, transparent)",
-              fontSize: 11,
+              fontSize: 13.2,
               marginBottom: 2,
             }}
           >
             {activeWord.pinyin}
           </div>
-          <div style={{ display: "flex", alignItems: "center", gap: 8, fontWeight: 700, fontSize: 13 }}>
+          <div style={{ display: "flex", alignItems: "center", gap: 8, fontWeight: 700, fontSize: 15.6 }}>
             {activeWord.ja}
             <SpeakButton text={activeWord.zh} size={20} bg="var(--seal)" showSlowButton={false} />
           </div>

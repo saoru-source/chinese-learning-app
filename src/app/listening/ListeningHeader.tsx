@@ -30,7 +30,7 @@ export default function ListeningHeader({
         <Link href="/" aria-label="トップに戻る" style={{ display: "flex", alignItems: "center" }}>
           <BackArrowIcon />
         </Link>
-        <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>ヒアリング</h1>
+        <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>ヒアリング</h1>
       </div>
 
       <div
@@ -49,7 +49,7 @@ export default function ListeningHeader({
             textAlign: "center",
             padding: "8px 0",
             borderRadius: 999,
-            fontSize: 13,
+            fontSize: 15.6,
             fontWeight: active === "choice" ? 600 : 400,
             color: active === "choice" ? "var(--ink)" : "var(--ink-soft)",
             background: active === "choice" ? "var(--card)" : "transparent",
@@ -66,7 +66,7 @@ export default function ListeningHeader({
             textAlign: "center",
             padding: "8px 0",
             borderRadius: 999,
-            fontSize: 13,
+            fontSize: 15.6,
             fontWeight: active === "dictation" ? 600 : 400,
             color: active === "dictation" ? "var(--ink)" : "var(--ink-soft)",
             background: active === "dictation" ? "var(--card)" : "transparent",
@@ -85,14 +85,14 @@ export default function ListeningHeader({
             background: "var(--grad)",
             color: "#fff",
             fontWeight: 700,
-            fontSize: 10,
+            fontSize: 12,
             borderRadius: 6,
             padding: "3px 10px",
           }}
         >
           HSK{hskLevel}
         </span>
-        <span style={{ flexShrink: 0, fontSize: 12, color: "var(--ink-soft)" }}>
+        <span style={{ flexShrink: 0, fontSize: 14.4, color: "var(--ink-soft)" }}>
           問{current} / {total}問
         </span>
         <div style={{ flex: 1, height: 4, borderRadius: 999, background: "var(--line)", overflow: "hidden" }}>

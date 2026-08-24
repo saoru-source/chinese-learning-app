@@ -88,23 +88,23 @@ export default async function SharesPage() {
   return (
     <div className="mx-auto max-w-md px-4 py-10">
       <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-2xl font-bold">共有</h1>
-        <Link href="/" className="text-sm underline">
+        <h1 className="text-[28.8px] font-bold">共有</h1>
+        <Link href="/" className="text-[16.8px] underline">
           トップに戻る
         </Link>
       </div>
 
       <section className="mb-8">
-        <h2 className="mb-2 text-sm font-bold text-ink-soft">
+        <h2 className="mb-2 text-[16.8px] font-bold text-ink-soft">
           届いた共有({received.length})
         </h2>
         {received.length === 0 ? (
-          <p className="text-sm text-ink-soft">まだ届いた共有はありません。</p>
+          <p className="text-[16.8px] text-ink-soft">まだ届いた共有はありません。</p>
         ) : (
           <ul className="flex flex-col gap-2">
             {received.map((r) => (
-              <li key={r.id} className="rounded border border-line p-3 text-sm">
-                <p className="text-xs text-ink-soft">
+              <li key={r.id} className="rounded border border-line p-3 text-[16.8px]">
+                <p className="text-[14.4px] text-ink-soft">
                   {nicknameOf.get(r.sharer_id) ?? "不明なユーザー"}さんから
                 </p>
                 <Link href={r.href} className="underline">
@@ -117,16 +117,16 @@ export default async function SharesPage() {
       </section>
 
       <section>
-        <h2 className="mb-2 text-sm font-bold text-ink-soft">
+        <h2 className="mb-2 text-[16.8px] font-bold text-ink-soft">
           送った共有({sent.length})
         </h2>
         {sent.length === 0 ? (
-          <p className="text-sm text-ink-soft">まだ共有していません。</p>
+          <p className="text-[16.8px] text-ink-soft">まだ共有していません。</p>
         ) : (
           <ul className="flex flex-col gap-2">
             {sent.map((r) => (
-              <li key={r.id} className="rounded border border-line p-3 text-sm">
-                <p className="text-xs text-ink-soft">
+              <li key={r.id} className="rounded border border-line p-3 text-[16.8px]">
+                <p className="text-[14.4px] text-ink-soft">
                   {nicknameOf.get(r.recipient_id) ?? "不明なユーザー"}さんへ
                 </p>
                 <Link href={r.href} className="underline">

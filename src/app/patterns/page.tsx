@@ -83,7 +83,7 @@ export default async function PatternsPage({
         <Link href="/" aria-label="トップに戻る" style={{ display: "flex", alignItems: "center" }}>
           <BackArrowIcon />
         </Link>
-        <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>例文パターン集</h1>
+        <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>例文パターン集</h1>
       </div>
 
       <div
@@ -100,7 +100,7 @@ export default async function PatternsPage({
             display: "inline-block",
             background: "var(--grad)",
             color: "#fff",
-            fontSize: 10,
+            fontSize: 12,
             fontWeight: 600,
             borderRadius: 20,
             padding: "3px 12px",
@@ -112,15 +112,15 @@ export default async function PatternsPage({
 
         <div style={{ display: "flex", alignItems: "flex-start", gap: 10 }}>
           <div style={{ flex: 1 }}>
-            <TappableText segments={DEMO_SEGMENTS} fontSize={18} lineHeight={1.7} />
+            <TappableText segments={DEMO_SEGMENTS} fontSize={21.6} lineHeight={1.7} />
           </div>
           <SpeakButton text={DEMO_HANZI} size={28} />
         </div>
 
-        <p style={{ fontSize: 11, fontWeight: 500, color: "var(--ink-soft)", marginTop: 8 }}>{DEMO_PINYIN}</p>
-        <p style={{ fontSize: 14, color: "var(--ink)", marginTop: 4 }}>{DEMO_JA}</p>
+        <p style={{ fontSize: 13.2, fontWeight: 500, color: "var(--ink-soft)", marginTop: 8 }}>{DEMO_PINYIN}</p>
+        <p style={{ fontSize: 16.8, color: "var(--ink)", marginTop: 4 }}>{DEMO_JA}</p>
 
-        <p style={{ fontSize: 11, color: "var(--ink-soft)", textAlign: "center", marginTop: 14 }}>
+        <p style={{ fontSize: 13.2, color: "var(--ink-soft)", textAlign: "center", marginTop: 14 }}>
           文中の単語をタップすると意味と発音が表示されます
         </p>
       </div>
@@ -141,7 +141,7 @@ export default async function PatternsPage({
             textAlign: "center",
             padding: "8px 0",
             borderRadius: 999,
-            fontSize: 12,
+            fontSize: 14.4,
             fontWeight: activeStyle === "colloquial" ? 600 : 400,
             color: activeStyle === "colloquial" ? "var(--ink)" : "var(--ink-soft)",
             background: activeStyle === "colloquial" ? "var(--card)" : "transparent",
@@ -158,7 +158,7 @@ export default async function PatternsPage({
             textAlign: "center",
             padding: "8px 0",
             borderRadius: 999,
-            fontSize: 12,
+            fontSize: 14.4,
             fontWeight: activeStyle === "business" ? 600 : 400,
             color: activeStyle === "business" ? "var(--ink)" : "var(--ink-soft)",
             background: activeStyle === "business" ? "var(--card)" : "transparent",
@@ -201,11 +201,11 @@ export default async function PatternsPage({
             >
               <span style={{ width: 8, height: 8, borderRadius: "50%", background: dotColor, display: "block" }} />
             </div>
-            <span style={{ flex: 1, fontSize: 13, fontWeight: 600, color: "var(--ink)" }}>{s}</span>
+            <span style={{ flex: 1, fontSize: 15.6, fontWeight: 600, color: "var(--ink)" }}>{s}</span>
             <span
               style={{
                 flexShrink: 0,
-                fontSize: 10,
+                fontSize: 12,
                 color: "var(--ink-soft)",
                 background: "var(--paper-deep)",
                 borderRadius: 20,

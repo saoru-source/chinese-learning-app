@@ -91,7 +91,7 @@ export default async function GroupsPage({
         >
           <BackArrowIcon />
         </Link>
-        <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>グループ暗記</h1>
+        <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>グループ暗記</h1>
       </div>
 
       {highlightPair && (
@@ -114,7 +114,7 @@ export default async function GroupsPage({
               borderRadius: 14,
               padding: "10px 14px",
               color: "#fff",
-              fontSize: 22,
+              fontSize: 26.4,
               fontWeight: 700,
               whiteSpace: "nowrap",
             }}
@@ -126,7 +126,7 @@ export default async function GroupsPage({
             size={26}
             bg="rgba(255,255,255,0.25)"
           />
-          <div style={{ fontSize: 12, color: "#fff", opacity: 0.9, lineHeight: 1.5 }}>
+          <div style={{ fontSize: 14.4, color: "#fff", opacity: 0.9, lineHeight: 1.5 }}>
             <p>
               {highlightPair.leftJa} ⇄ {highlightPair.rightJa}
             </p>
@@ -134,7 +134,7 @@ export default async function GroupsPage({
           </div>
         </div>
       )}
-      <p style={{ fontSize: 11, color: "var(--ink-soft)", textAlign: "center", marginBottom: 18 }}>
+      <p style={{ fontSize: 13.2, color: "var(--ink-soft)", textAlign: "center", marginBottom: 18 }}>
         関連語をまとめて覚えると定着率がアップします
       </p>
 
@@ -154,7 +154,7 @@ export default async function GroupsPage({
             textAlign: "center",
             padding: "8px 0",
             borderRadius: 999,
-            fontSize: 13,
+            fontSize: 15.6,
             fontWeight: activeType === "theme" ? 600 : 400,
             color: activeType === "theme" ? "var(--ink)" : "var(--ink-soft)",
             background: activeType === "theme" ? "var(--card)" : "transparent",
@@ -171,7 +171,7 @@ export default async function GroupsPage({
             textAlign: "center",
             padding: "8px 0",
             borderRadius: 999,
-            fontSize: 13,
+            fontSize: 15.6,
             fontWeight: activeType === "pos" ? 600 : 400,
             color: activeType === "pos" ? "var(--ink)" : "var(--ink-soft)",
             background: activeType === "pos" ? "var(--card)" : "transparent",
@@ -212,16 +212,16 @@ export default async function GroupsPage({
                 justifyContent: "center",
                 color: "#fff",
                 fontWeight: 700,
-                fontSize: 16,
+                fontSize: 19.2,
               }}
             >
               {g.category.charAt(0)}
             </div>
             <div style={{ flex: 1, minWidth: 0 }}>
-              <p style={{ fontSize: 13, fontWeight: 700, color: "var(--ink)" }}>{g.category}</p>
+              <p style={{ fontSize: 15.6, fontWeight: 700, color: "var(--ink)" }}>{g.category}</p>
               <p
                 style={{
-                  fontSize: 10,
+                  fontSize: 12,
                   color: "var(--ink-soft)",
                   overflow: "hidden",
                   textOverflow: "ellipsis",
@@ -234,7 +234,7 @@ export default async function GroupsPage({
             <span
               style={{
                 flexShrink: 0,
-                fontSize: 11,
+                fontSize: 13.2,
                 color: "var(--ink-soft)",
                 background: "var(--paper-deep)",
                 borderRadius: 20,

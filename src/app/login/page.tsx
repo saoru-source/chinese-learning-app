@@ -10,21 +10,21 @@ export default async function LoginPage({
 
   return (
     <div className="mx-auto flex min-h-screen max-w-sm flex-col justify-center gap-6 px-4">
-      <h1 className="text-2xl font-bold">ログイン</h1>
+      <h1 className="text-[28.8px] font-bold">ログイン</h1>
 
       {params.message && (
-        <p className="rounded bg-green-50 p-3 text-sm text-green-700">
+        <p className="rounded bg-green-50 p-3 text-[16.8px] text-green-700">
           {params.message}
         </p>
       )}
       {params.error && (
-        <p className="rounded bg-red-50 p-3 text-sm text-red-700">
+        <p className="rounded bg-red-50 p-3 text-[16.8px] text-red-700">
           {params.error}
         </p>
       )}
 
       <form action={signIn} className="flex flex-col gap-3">
-        <label className="flex flex-col gap-1 text-sm">
+        <label className="flex flex-col gap-1 text-[16.8px]">
           メールアドレス
           <input
             type="email"
@@ -33,7 +33,7 @@ export default async function LoginPage({
             className="rounded border border-line px-3 py-2"
           />
         </label>
-        <label className="flex flex-col gap-1 text-sm">
+        <label className="flex flex-col gap-1 text-[16.8px]">
           パスワード
           <input
             type="password"
@@ -47,7 +47,7 @@ export default async function LoginPage({
         </button>
       </form>
 
-      <div className="flex items-center gap-2 text-xs text-ink-soft">
+      <div className="flex items-center gap-2 text-[14.4px] text-ink-soft">
         <span className="h-px flex-1 bg-line" />
         または
         <span className="h-px flex-1 bg-line" />
@@ -59,7 +59,7 @@ export default async function LoginPage({
         </button>
       </form>
 
-      <div className="flex justify-between text-sm">
+      <div className="flex justify-between text-[16.8px]">
         <Link href="/signup">新規登録はこちら</Link>
         <Link href="/forgot-password">パスワードを忘れた方</Link>
       </div>

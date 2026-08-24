@@ -44,7 +44,7 @@ export default async function ReadingPage() {
         <Link href="/" aria-label="トップに戻る" style={{ display: "flex", alignItems: "center" }}>
           <BackArrowIcon />
         </Link>
-        <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>長文読解</h1>
+        <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>長文読解</h1>
       </div>
 
       <div
@@ -70,16 +70,16 @@ export default async function ReadingPage() {
             alignItems: "center",
             justifyContent: "center",
             color: "#fff",
-            fontSize: 24,
+            fontSize: 28.8,
           }}
         >
           读
         </div>
         <div>
-          <p style={{ fontSize: 13, fontWeight: 700, color: "#fff" }}>
+          <p style={{ fontSize: 15.6, fontWeight: 700, color: "#fff" }}>
             {total}本の長文 ・ 各5問の設問
           </p>
-          <p style={{ fontSize: 11, color: "rgba(255,255,255,0.8)", marginTop: 2 }}>
+          <p style={{ fontSize: 13.2, color: "rgba(255,255,255,0.8)", marginTop: 2 }}>
             HSK4〜6の長文を読んで、内容を理解する練習
           </p>
         </div>
@@ -92,7 +92,7 @@ export default async function ReadingPage() {
           <section key={level} style={{ marginBottom: 22 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 10 }}>
               <span style={{ width: 8, height: 8, borderRadius: "50%", background: LEVEL_DOT[level] }} />
-              <h2 style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)" }}>HSK{level}級</h2>
+              <h2 style={{ fontSize: 13.2, fontWeight: 700, color: "var(--ink-soft)" }}>HSK{level}級</h2>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
               {levelPassages.map((p) => (
@@ -123,16 +123,16 @@ export default async function ReadingPage() {
                       justifyContent: "center",
                       color: "#fff",
                       fontWeight: 700,
-                      fontSize: 12,
+                      fontSize: 14.4,
                     }}
                   >
                     {level}
                   </div>
                   <div style={{ flex: 1, minWidth: 0 }}>
-                    <p style={{ fontSize: 13, fontWeight: 700, color: "var(--ink)" }}>{p.title}</p>
+                    <p style={{ fontSize: 15.6, fontWeight: 700, color: "var(--ink)" }}>{p.title}</p>
                     <p
                       style={{
-                        fontSize: 10,
+                        fontSize: 12,
                         color: "var(--ink-soft)",
                         overflow: "hidden",
                         textOverflow: "ellipsis",

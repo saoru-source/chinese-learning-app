@@ -11,8 +11,8 @@ export default function LearnReadingPage() {
   return (
     <main style={{ maxWidth: 480, margin: "0 auto", padding: "16px 16px 40px" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 16 }}>
-        <h1 style={{ fontSize: 20, fontWeight: 700, color: "var(--ink)" }}>読む</h1>
-        <Link href="/learn" style={{ fontSize: 13, textDecoration: "underline", color: "var(--ink-soft)" }}>
+        <h1 style={{ fontSize: 24, fontWeight: 700, color: "var(--ink)" }}>読む</h1>
+        <Link href="/learn" style={{ fontSize: 15.6, textDecoration: "underline", color: "var(--ink-soft)" }}>
           学習に戻る
         </Link>
       </div>

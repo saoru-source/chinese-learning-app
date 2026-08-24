@@ -72,7 +72,7 @@ export default function DictationCard({
           background: "var(--grad)",
           color: "#fff",
           fontWeight: 700,
-          fontSize: 14,
+          fontSize: 16.8,
           border: "none",
           borderRadius: 999,
           padding: "11px 24px",
@@ -84,12 +84,12 @@ export default function DictationCard({
         {playing ? "再生中..." : "音声を再生"}
       </button>
       {!supported && (
-        <p style={{ marginBottom: 8, fontSize: 11, color: "var(--miss-red)" }}>
+        <p style={{ marginBottom: 8, fontSize: 13.2, color: "var(--miss-red)" }}>
           このブラウザは音声読み上げに対応していません。
         </p>
       )}
 
-      <p style={{ textAlign: "left", fontSize: 13, fontWeight: 700, color: "var(--ink)", marginBottom: 14 }}>
+      <p style={{ textAlign: "left", fontSize: 15.6, fontWeight: 700, color: "var(--ink)", marginBottom: 14 }}>
         聞き取った中国語を入力してください
       </p>
 
@@ -110,7 +110,7 @@ export default function DictationCard({
           style={{
             width: "100%",
             textAlign: "center",
-            fontSize: 18,
+            fontSize: 21.6,
             background: "transparent",
             border: "none",
             borderBottom: `2px solid ${underlineColor}`,
@@ -118,7 +118,7 @@ export default function DictationCard({
             outline: "none",
           }}
         />
-        <p style={{ fontSize: 10, color: "var(--ink-soft)", marginTop: 6, marginBottom: 16 }}>
+        <p style={{ fontSize: 12, color: "var(--ink-soft)", marginTop: 6, marginBottom: 16 }}>
           簡体字で入力してください
         </p>
 
@@ -130,7 +130,7 @@ export default function DictationCard({
             background: "var(--grad)",
             color: "#fff",
             fontWeight: 700,
-            fontSize: 14,
+            fontSize: 16.8,
             border: "none",
             borderRadius: 999,
             padding: "12px 0",
@@ -147,7 +147,7 @@ export default function DictationCard({
           style={{
             marginTop: 14,
             textAlign: "left",
-            fontSize: 12,
+            fontSize: 14.4,
             fontWeight: 700,
             color: isCorrect ? "var(--match-green)" : "var(--miss-red)",
           }}
@@ -162,7 +162,7 @@ export default function DictationCard({
           style={{
             display: "block",
             marginTop: 16,
-            fontSize: 13,
+            fontSize: 15.6,
             fontWeight: 700,
             color: "#fff",
             background: "var(--grad)",

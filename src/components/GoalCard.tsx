@@ -57,7 +57,7 @@ export default function GoalCard({ initialGoal }: { initialGoal?: string | null 
       <div style={{ flex: 1, minWidth: 0 }}>
         <div
           style={{
-            fontSize: 9,
+            fontSize: 10.8,
             fontWeight: 700,
             color: "var(--ink-soft)",
             letterSpacing: "0.1em",
@@ -78,7 +78,7 @@ export default function GoalCard({ initialGoal }: { initialGoal?: string | null 
             border: "none",
             outline: "none",
             background: "transparent",
-            fontSize: 13,
+            fontSize: 15.6,
             fontWeight: 700,
             color: "var(--ink)",
             padding: 0,
@@ -86,7 +86,7 @@ export default function GoalCard({ initialGoal }: { initialGoal?: string | null 
         />
       </div>
 
-      <span style={{ flexShrink: 0, fontSize: 9, color: "var(--ink-soft)", opacity: 0.6 }}>タップで編集</span>
+      <span style={{ flexShrink: 0, fontSize: 10.8, color: "var(--ink-soft)", opacity: 0.6 }}>タップで編集</span>
     </div>
   );
 }

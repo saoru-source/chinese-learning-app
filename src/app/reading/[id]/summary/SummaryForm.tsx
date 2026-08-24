@@ -33,23 +33,23 @@ export default function SummaryForm({ passageId }: { passageId: number }) {
           onChange={(e) => setText(e.target.value)}
           rows={6}
           placeholder="ここに中国語で要約を書いてください"
-          className="rounded border border-line px-3 py-2 text-sm"
+          className="rounded border border-line px-3 py-2 text-[16.8px]"
         />
         <button
           type="submit"
           disabled={loading}
-          className="rounded bg-seal px-4 py-2 text-sm text-ink disabled:opacity-50"
+          className="rounded bg-seal px-4 py-2 text-[16.8px] text-ink disabled:opacity-50"
         >
           {loading ? "AIが添削中…" : "AIに添削してもらう"}
         </button>
       </form>
 
-      {error && <p className="mt-4 text-sm text-red-600">{error}</p>}
+      {error && <p className="mt-4 text-[16.8px] text-red-600">{error}</p>}
 
       {feedback && (
         <div className="mt-6 rounded border border-line bg-paper-deep p-4">
-          <p className="mb-2 text-sm font-bold text-ink-soft">AIの添削結果</p>
-          <p className="whitespace-pre-wrap text-sm">{feedback}</p>
+          <p className="mb-2 text-[16.8px] font-bold text-ink-soft">AIの添削結果</p>
+          <p className="whitespace-pre-wrap text-[16.8px]">{feedback}</p>
         </div>
       )}
     </div>

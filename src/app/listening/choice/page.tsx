@@ -51,10 +51,10 @@ export default async function ListeningChoicePage({
           nextHref={`/listening/choice?n=${current + 1}`}
         />
       ) : (
-        <p style={{ fontSize: 13, color: "var(--ink-soft)", textAlign: "center" }}>問題がありません。</p>
+        <p style={{ fontSize: 15.6, color: "var(--ink-soft)", textAlign: "center" }}>問題がありません。</p>
       )}
 
-      <p style={{ fontSize: 11, color: "var(--ink-soft)", textAlign: "center", marginTop: 16 }}>
+      <p style={{ fontSize: 13.2, color: "var(--ink-soft)", textAlign: "center", marginTop: 16 }}>
         ブラウザ標準の音声読み上げ機能を使用します
       </p>
     </main>

@@ -52,8 +52,8 @@ function StatCard({ value, label }: { value: string; label: string }) {
         boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
       }}
     >
-      <p style={{ fontSize: 22, fontWeight: 700, color: "var(--ink)" }}>{value}</p>
-      <p style={{ fontSize: 11, color: "var(--ink-soft)", marginTop: 2 }}>{label}</p>
+      <p style={{ fontSize: 26.4, fontWeight: 700, color: "var(--ink)" }}>{value}</p>
+      <p style={{ fontSize: 13.2, color: "var(--ink-soft)", marginTop: 2 }}>{label}</p>
     </div>
   );
 }
@@ -101,8 +101,8 @@ function LinkRow({
         {icon}
       </div>
       <div style={{ flex: 1, minWidth: 0 }}>
-        <p style={{ fontSize: 13, fontWeight: 700, color: "var(--ink)" }}>{title}</p>
-        <p style={{ fontSize: 10.5, color: "var(--ink-soft)", marginTop: 1 }}>{subtitle}</p>
+        <p style={{ fontSize: 15.6, fontWeight: 700, color: "var(--ink)" }}>{title}</p>
+        <p style={{ fontSize: 12.6, color: "var(--ink-soft)", marginTop: 1 }}>{subtitle}</p>
       </div>
       <ChevronRightIcon />
     </Link>
@@ -162,14 +162,14 @@ export default async function ProfilePage({
         <Link href="/" aria-label="トップに戻る" style={{ display: "flex", alignItems: "center" }}>
           <BackArrowIcon />
         </Link>
-        <h1 style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>マイページ</h1>
+        <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>マイページ</h1>
       </div>
 
       {params.message && (
         <p
           style={{
             marginBottom: 14,
-            fontSize: 12,
+            fontSize: 14.4,
             fontWeight: 700,
             color: "var(--match-green)",
             background: "color-mix(in srgb, var(--match-green) 12%, transparent)",
@@ -184,7 +184,7 @@ export default async function ProfilePage({
         <p
           style={{
             marginBottom: 14,
-            fontSize: 12,
+            fontSize: 14.4,
             fontWeight: 700,
             color: "var(--miss-red)",
             background: "color-mix(in srgb, var(--miss-red) 10%, transparent)",
@@ -219,17 +219,17 @@ export default async function ProfilePage({
             display: "flex",
             alignItems: "center",
             justifyContent: "center",
-            fontSize: 20,
+            fontSize: 24,
             fontWeight: 700,
           }}
         >
           {(profile?.nickname ?? "?").charAt(0)}
         </div>
         <div style={{ flex: 1, minWidth: 0 }}>
-          <p style={{ fontSize: 15, fontWeight: 700, color: "var(--ink)" }}>
+          <p style={{ fontSize: 18, fontWeight: 700, color: "var(--ink)" }}>
             {profile?.nickname || "ニックネーム未設定"}
           </p>
-          <p style={{ fontSize: 11, color: "var(--ink-soft)", marginTop: 2 }}>
+          <p style={{ fontSize: 13.2, color: "var(--ink-soft)", marginTop: 2 }}>
             {profile?.nickname
               ? "フォロー機能で他のユーザーに検索されます"
               : "フォロー機能用の名前がまだありません"}
@@ -258,7 +258,7 @@ export default async function ProfilePage({
             border: "1px solid var(--line)",
             borderRadius: 12,
             padding: "10px 14px",
-            fontSize: 13,
+            fontSize: 15.6,
             color: "var(--ink)",
           }}
         />
@@ -269,7 +269,7 @@ export default async function ProfilePage({
             background: "var(--grad)",
             color: "#fff",
             fontWeight: 700,
-            fontSize: 13,
+            fontSize: 15.6,
             border: "none",
             borderRadius: 12,
             padding: "10px 18px",
@@ -280,7 +280,7 @@ export default async function ProfilePage({
         </button>
       </form>
 
-      <h2 style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>学習の記録</h2>
+      <h2 style={{ fontSize: 14.4, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>学習の記録</h2>
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 10 }}>
         <StatCard value={`${studiedDaysApprox}日`} label="学習日数（目安）" />
         <StatCard value={`${masteredWords}語`} label="習得単語" />
@@ -290,12 +290,12 @@ export default async function ProfilePage({
         <StatCard value="―" label="連続日数（準備中）" />
       </div>
 
-      <h2 style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>配色テーマ</h2>
+      <h2 style={{ fontSize: 14.4, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>配色テーマ</h2>
       <div style={{ marginBottom: 20 }}>
         <ThemeSwitcher />
       </div>
 
-      <h2 style={{ fontSize: 12, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>みんなとつながる</h2>
+      <h2 style={{ fontSize: 14.4, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>みんなとつながる</h2>
       <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 24 }}>
         <LinkRow
           href="/users"
@@ -322,7 +322,7 @@ export default async function ProfilePage({
             border: "1px solid var(--line)",
             color: "var(--ink-soft)",
             fontWeight: 700,
-            fontSize: 13,
+            fontSize: 15.6,
             borderRadius: 999,
             padding: "12px 0",
             cursor: "pointer",

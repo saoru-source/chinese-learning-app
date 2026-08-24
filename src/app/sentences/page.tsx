@@ -60,13 +60,13 @@ export default async function SentencesPage({
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
       <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-2xl font-bold">例文一覧</h1>
-        <Link href="/" className="text-sm underline">
+        <h1 className="text-[28.8px] font-bold">例文一覧</h1>
+        <Link href="/" className="text-[16.8px] underline">
           トップに戻る
         </Link>
       </div>
 
-      <div className="mb-4 flex flex-wrap gap-2 text-sm">
+      <div className="mb-4 flex flex-wrap gap-2 text-[16.8px]">
         <Link
           href={levelHref(null)}
           className={`rounded border border-line px-3 py-1 ${!level ? "bg-seal text-ink border-seal" : ""}`}
@@ -85,12 +85,12 @@ export default async function SentencesPage({
       </div>
 
       {error && (
-        <p className="rounded bg-red-50 p-3 text-sm text-red-700">
+        <p className="rounded bg-red-50 p-3 text-[16.8px] text-red-700">
           データの取得に失敗しました: {error.message}
         </p>
       )}
 
-      <p className="mb-2 text-sm text-ink-soft">
+      <p className="mb-2 text-[16.8px] text-ink-soft">
         全{count ?? 0}件中 {(page - 1) * PAGE_SIZE + 1}〜
         {Math.min(page * PAGE_SIZE, count ?? 0)}件を表示
       </p>
@@ -102,7 +102,7 @@ export default async function SentencesPage({
             : s.grammar_points;
           return (
             <li key={s.id} className="rounded border border-line p-4">
-              <div className="flex items-center justify-between text-xs text-ink-soft">
+              <div className="flex items-center justify-between text-[14.4px] text-ink-soft">
                 <span>HSK{s.hsk_level}</span>
                 {gp?.label && (
                   <span className="rounded bg-jade/20 px-2 py-0.5 text-ink">
@@ -110,11 +110,11 @@ export default async function SentencesPage({
                   </span>
                 )}
               </div>
-              <p className="mt-1 text-lg">{s.hanzi}</p>
-              <p className="text-sm text-ink-soft">{s.pinyin}</p>
-              <p className="text-sm">{s.meaning_ja}</p>
+              <p className="mt-1 text-[21.6px]">{s.hanzi}</p>
+              <p className="text-[16.8px] text-ink-soft">{s.pinyin}</p>
+              <p className="text-[16.8px]">{s.meaning_ja}</p>
               {s.explanation_ja && (
-                <p className="mt-1 text-xs text-ink-soft">
+                <p className="mt-1 text-[14.4px] text-ink-soft">
                   {s.explanation_ja}
                 </p>
               )}
@@ -130,7 +130,7 @@ export default async function SentencesPage({
         })}
       </ul>
 
-      <div className="mt-6 flex items-center justify-center gap-4 text-sm">
+      <div className="mt-6 flex items-center justify-center gap-4 text-[16.8px]">
         {page > 1 ? (
           <Link href={pageHref(page - 1)} className="underline">
             前へ
