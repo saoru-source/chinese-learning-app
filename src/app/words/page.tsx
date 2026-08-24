@@ -313,36 +313,26 @@ export default async function WordsPage({
           background: "#fff",
           borderRadius: 22,
           boxShadow: "0 6px 20px rgba(0,0,0,0.07)",
-          padding: "24px 20px",
+          padding: "12px 16px",
           textAlign: "center",
           marginBottom: 18,
         }}
       >
         <BookmarkToggle />
 
-        <div
-          style={{
-            width: 44,
-            height: 4,
-            borderRadius: 999,
-            background: "var(--grad)",
-            margin: "0 auto 18px",
-          }}
-        />
-
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginBottom: 8 }}>
-          <span style={{ fontSize: 44, fontWeight: 700, color: "var(--ink)" }}>{word.hanzi}</span>
-          <SpeakButton text={word.hanzi} size={30} />
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginBottom: 4 }}>
+          <SpeakButton text={word.hanzi} size={36} />
+          <span style={{ fontSize: 38, fontWeight: 700, color: "var(--ink)" }}>{word.hanzi}</span>
           <PronunciationCheck target={word.hanzi} pinyin={word.pinyin} />
         </div>
 
-        <p style={{ fontSize: 15, fontWeight: 500, color: "var(--ink-soft)", marginBottom: 18 }}>
+        <p style={{ fontSize: 13, fontWeight: 500, color: "var(--ink-soft)", marginBottom: 6 }}>
           {word.pinyin}
         </p>
 
-        <div style={{ borderTop: "1px solid var(--line)", paddingTop: 16 }}>
-          <p style={{ fontSize: 11, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 4 }}>意味</p>
-          <p style={{ fontSize: 20, fontWeight: 700, color: "var(--ink)" }}>{word.meaning_ja}</p>
+        <div style={{ borderTop: "1px solid var(--line)", paddingTop: 6 }}>
+          <p style={{ fontSize: 10, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 2 }}>意味</p>
+          <p style={{ fontSize: 16, fontWeight: 700, color: "var(--ink)" }}>{word.meaning_ja}</p>
         </div>
       </div>
 
@@ -351,6 +341,7 @@ export default async function WordsPage({
           href={index > 0 ? `/words?level=${level}&index=${index - 1}` : "#"}
           aria-disabled={index === 0}
           tabIndex={index === 0 ? -1 : undefined}
+          className="active:scale-90 transition-transform"
           style={{
             display: "flex",
             alignItems: "center",
@@ -368,6 +359,7 @@ export default async function WordsPage({
         </Link>
         <Link
           href={`/words?level=${level}&index=${index + 1}`}
+          className="active:scale-90 transition-transform"
           style={{
             display: "flex",
             alignItems: "center",
