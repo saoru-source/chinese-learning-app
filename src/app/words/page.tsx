@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { tokenizeSentence } from "@/lib/words/segment";
+import { getWordReviewOrder } from "@/lib/words/reviewQueue";
 import BookmarkToggle from "@/components/BookmarkToggle";
 import SpeakButton from "@/components/SpeakButton";
 import PronunciationCheck from "@/components/PronunciationCheck";
@@ -154,12 +155,16 @@ export default async function WordsPage({
 
   const supabase = await createClient();
 
-  const { count } = await supabase
-    .from("words")
-    .select("id", { count: "exact", head: true })
-    .eq("hsk_level", level);
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
 
-  const total = count ?? 0;
+  // 出題順序: 復習予定日(next_review_at)が来ている単語を優先し、次に未学習の
+  // 単語、最後にまだ復習時期でない単語(予定日が近い順)というフォールバック
+  // 付きの順序で並べる(間隔反復。詳細はgetWordReviewOrderのコメント参照)。
+  // indexはこの並び替え後の順序に対する位置として扱う。
+  const order = await getWordReviewOrder(supabase, user?.id ?? null, level);
+  const total = order.length;
 
   if (index >= total) {
     const { data: allWords } = await supabase
@@ -171,12 +176,12 @@ export default async function WordsPage({
     return <CompletionScreen level={level} words={allWords ?? []} />;
   }
 
+  const wordId = order[index];
   const { data: wordRows } = await supabase
     .from("words")
     .select("id, hanzi, pinyin, meaning_ja, hsk_level")
-    .eq("hsk_level", level)
-    .order("id", { ascending: true })
-    .range(index, index);
+    .eq("id", wordId)
+    .limit(1);
 
   const word = wordRows?.[0];
 
@@ -190,11 +195,10 @@ export default async function WordsPage({
   }
 
   // 単語辞書(/learn/dictionary)の「学習済み」判定用。カードとして表示された単語を
-  // progressテーブルに記録する(item_type="word")。既存の行(クイズの正誤記録等)を
-  // 上書きしないよう、ignoreDuplicatesで「まだ無ければ挿入するだけ」にしている。
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  // progressテーブルに記録する(item_type="word")。既存の行(クイズの正誤記録・
+  // 間隔反復の状態等)を上書きしないよう、ignoreDuplicatesで「まだ無ければ
+  // 挿入するだけ」にしている(review_stage/next_review_atは列のデフォルト値
+  // (0/null)のまま=まだ復習スケジュールには乗らない)。
   if (user) {
     await supabase.from("progress").upsert(
       {

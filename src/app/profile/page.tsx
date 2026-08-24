@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { upsertNickname } from "@/lib/profile/actions";
 import { signOut } from "@/lib/supabase/actions";
+import { MASTERY_STAGE } from "@/lib/words/reviewProgress";
 import ThemeSwitcher from "./ThemeSwitcher";
 
 function BackArrowIcon() {
@@ -132,7 +133,7 @@ export default async function ProfilePage({
 
   const { data: progressRows } = await supabase
     .from("progress")
-    .select("item_type, correct_count, incorrect_count, created_at, last_studied_at")
+    .select("item_type, correct_count, incorrect_count, review_stage, created_at, last_studied_at")
     .eq("user_id", user.id);
 
   const rows = progressRows ?? [];
@@ -146,7 +147,9 @@ export default async function ProfilePage({
   for (const r of rows) {
     totalCorrect += r.correct_count;
     totalWrong += r.incorrect_count;
-    if (r.item_type === "word" && r.correct_count > 0) masteredWords++;
+    // 「習得済み」は間隔反復の最終段階(MASTERY_STAGE)まで到達した単語のみ。
+    // 1〜2回正解しただけでは習得済みとしない(review_stage参照)。
+    if (r.item_type === "word" && r.review_stage >= MASTERY_STAGE) masteredWords++;
     if (r.created_at) studiedDates.add(r.created_at.slice(0, 10));
     if (r.last_studied_at) studiedDates.add(r.last_studied_at.slice(0, 10));
   }

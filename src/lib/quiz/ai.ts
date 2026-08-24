@@ -4,6 +4,7 @@ import Anthropic from "@anthropic-ai/sdk";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { getWeakWords, getWeakGrammarPoints, type QuizWord, type QuizGrammarPoint } from "@/lib/quiz/select";
+import { recordWordReviewResult } from "@/lib/words/reviewProgress";
 
 export type QuizScope = "word" | "grammar" | "mix";
 
@@ -258,10 +259,12 @@ export async function generateAiSentenceBatch(
   return { ok: true, items };
 }
 
-async function upsertProgress(
+// 文法点(grammar)の正誤記録。単語(word)は間隔反復の対象になったため
+// recordWordReviewResult(src/lib/words/reviewProgress.ts)を使う一方、
+// 文法は今回のフェーズ対象外のため従来通りのシンプルな正誤カウントのみ。
+async function upsertGrammarProgress(
   supabase: Awaited<ReturnType<typeof createClient>>,
   userId: string,
-  itemType: "word" | "grammar",
   itemId: number,
   correct: boolean
 ) {
@@ -269,7 +272,7 @@ async function upsertProgress(
     .from("progress")
     .select("id, correct_count, incorrect_count")
     .eq("user_id", userId)
-    .eq("item_type", itemType)
+    .eq("item_type", "grammar")
     .eq("item_id", itemId)
     .maybeSingle();
 
@@ -285,7 +288,7 @@ async function upsertProgress(
   } else {
     await supabase.from("progress").insert({
       user_id: userId,
-      item_type: itemType,
+      item_type: "grammar",
       item_id: itemId,
       correct_count: correct ? 1 : 0,
       incorrect_count: correct ? 0 : 1,
@@ -309,9 +312,9 @@ export async function recordAiSentenceResult(
   }
 
   for (const itemId of usedWordIds) {
-    await upsertProgress(supabase, user.id, "word", itemId, correct);
+    await recordWordReviewResult(supabase, user.id, itemId, correct);
   }
   if (usedGrammarPointId !== null) {
-    await upsertProgress(supabase, user.id, "grammar", usedGrammarPointId, correct);
+    await upsertGrammarProgress(supabase, user.id, usedGrammarPointId, correct);
   }
 }
