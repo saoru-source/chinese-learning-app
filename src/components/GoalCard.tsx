@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState } from "react";
+import { setGoalText } from "@/lib/goal/actions";
 
 function TargetIcon() {
   return (
@@ -12,12 +13,17 @@ function TargetIcon() {
   );
 }
 
-// 「目標」テキストに対応するDBカラムは現状(usersテーブル: nickname/hsk_level/theme)存在しないため、
-// このカードはローカルstateのみで完結させている(リロードやログアウトで消える)。
-// 永続化するならusersテーブルにgoal_text列を追加するマイグレーションが必要。
-export default function GoalCard() {
-  const [goal, setGoal] = useState("HSK4合格を目指す");
+const DEFAULT_GOAL = "HSK4合格を目指す";
+
+// テーマ切り替え(src/lib/theme/actions.ts)と同じ方針: ログイン中はusers.goal_text
+// に保存し、未ログイン(ゲスト)時はこのローカルstateのみで完結する(リロードで消える)。
+export default function GoalCard({ initialGoal }: { initialGoal?: string | null }) {
+  const [goal, setGoal] = useState(initialGoal ?? DEFAULT_GOAL);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  const handleBlur = () => {
+    void setGoalText(goal);
+  };
 
   return (
     <div
@@ -65,6 +71,7 @@ export default function GoalCard() {
           type="text"
           value={goal}
           onChange={(e) => setGoal(e.target.value)}
+          onBlur={handleBlur}
           onClick={(e) => e.stopPropagation()}
           style={{
             width: "100%",

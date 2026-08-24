@@ -43,7 +43,7 @@ export default async function Home() {
     ? (
         await supabase
           .from("users")
-          .select("nickname")
+          .select("nickname, goal_text")
           .eq("id", user.id)
           .maybeSingle()
       ).data
@@ -71,7 +71,7 @@ export default async function Home() {
   return (
     <main style={{ maxWidth: 480, margin: "0 auto", padding: "16px 16px 24px" }}>
       <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-        <GoalCard />
+        <GoalCard initialGoal={profile?.goal_text} />
 
         <HeroReviewCard displayName={displayName} />
 
