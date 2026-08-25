@@ -17,6 +17,13 @@ const SCOPE_OPTIONS: { key: QuizScope; label: string; description: string }[] = 
   { key: "mix", label: "ミックス", description: "単語を中心に、バランスよく出題(デフォルト)" },
 ];
 
+// 節目テスト・卒業試験(フェーズ②③)と同じ8割基準。AI出題は毎回新しく
+// 生成される自由練習という位置づけのため、合格してもロック解除等は無く、
+// 「達成感の演出」として結果画面と合格ラインの表示だけを行う(フェーズ④)。
+function passScoreFor(total: number): number {
+  return Math.ceil(total * 0.8);
+}
+
 export default function AiQuizCard() {
   const { levelKey } = useLevel();
   const [scope, setScope] = useState<QuizScope | null>(null);
@@ -26,6 +33,8 @@ export default function AiQuizCard() {
   const [index, setIndex] = useState(0);
   const [revealed, setRevealed] = useState(false);
   const [recording, setRecording] = useState(false);
+  const [score, setScore] = useState(0);
+  const [phase, setPhase] = useState<"quiz" | "result">("quiz");
 
   // 次の10問をバックグラウンドで先読みした結果。使い切ったタイミングで
   // これが用意済みなら待ち時間ゼロで切り替え、間に合っていなければ
@@ -55,6 +64,8 @@ export default function AiQuizCard() {
     setItems([]);
     setIndex(0);
     setRevealed(false);
+    setScore(0);
+    setPhase("quiz");
 
     const result = await loadBatch(currentScope, token);
     if (result === null) return;
@@ -88,6 +99,8 @@ export default function AiQuizCard() {
     setIndex(0);
     setError(null);
     setRevealed(false);
+    setScore(0);
+    setPhase("quiz");
   }
 
   async function handleAnswer(correct: boolean) {
@@ -99,9 +112,14 @@ export default function AiQuizCard() {
     setRecording(false);
     setRevealed(false);
 
+    const finalScore = correct ? score + 1 : score;
+    setScore(finalScore);
+
     const nextIndex = index + 1;
     // 現在のバッチの半分程度(10問なら5問目)を解き終えたタイミングで、
-    // 残り5問を解いている間に完了するよう次の10問の先読みを開始する。
+    // 残り5問を解いている間に完了するよう次の10問の先読みを開始する
+    // (先読みしておくと、結果画面で「もう一度挑戦する」を押した際に
+    // 待ち時間なく次のセットへ進める)。
     const prefetchTriggerIndex = Math.ceil(items.length / 2);
     if (nextIndex === prefetchTriggerIndex) {
       startPrefetch(scope, token);
@@ -112,13 +130,25 @@ export default function AiQuizCard() {
       return;
     }
 
-    // このバッチを使い切った
+    // 10問(1セット)を解き終えたので、節目テスト・卒業試験と同じく
+    // 自動で次のセットへは進まず、結果画面で一旦区切る(フェーズ④)。
+    setPhase("result");
+  }
+
+  async function handleRetry() {
+    if (!scope) return;
+    const token = sessionTokenRef.current;
+
+    setIndex(0);
+    setRevealed(false);
+    setScore(0);
+    setPhase("quiz");
+
     if (nextBatchRef.current) {
       const nextItems = nextBatchRef.current;
       nextBatchRef.current = null;
       prefetchStartedRef.current = false;
       setItems(nextItems);
-      setIndex(0);
       return;
     }
 
@@ -130,7 +160,6 @@ export default function AiQuizCard() {
     if (result.ok) {
       prefetchStartedRef.current = false;
       setItems(result.items);
-      setIndex(0);
     } else {
       setError(result.error);
       setItems([]);
@@ -155,6 +184,53 @@ export default function AiQuizCard() {
             <p className="text-[14.4px] text-ink-soft">{opt.description}</p>
           </button>
         ))}
+      </div>
+    );
+  }
+
+  if (phase === "result") {
+    const total = items.length;
+    const pass = passScoreFor(total);
+    const passed = score >= pass;
+    return (
+      <div className="rounded border border-line p-8 text-center">
+        <p className="mb-2 text-[14.4px] font-bold text-ink-soft">
+          {SCOPE_OPTIONS.find((o) => o.key === scope)?.label} · HSK{levelKey}
+        </p>
+        <p
+          className="mb-2 text-[62.4px] font-extrabold"
+          style={{
+            background: "var(--grad)",
+            WebkitBackgroundClip: "text",
+            backgroundClip: "text",
+            color: "transparent",
+            lineHeight: 1.1,
+          }}
+        >
+          {score}/{total}
+        </p>
+        <p
+          className="mb-6 text-[19.2px] font-bold"
+          style={{ color: passed ? "var(--match-green)" : "var(--miss-red)" }}
+        >
+          {passed ? `合格！(${pass}問以上正解)` : "不合格。もう一度挑戦できます"}
+        </p>
+        <div className="flex justify-center gap-3">
+          <button
+            type="button"
+            onClick={() => void handleRetry()}
+            className="rounded border border-line bg-paper px-6 py-2 text-[15.6px] font-bold text-ink active:scale-95 transition-transform"
+          >
+            もう一度挑戦する
+          </button>
+          <button
+            type="button"
+            onClick={handleReset}
+            className="rounded bg-seal px-6 py-2 text-[15.6px] font-bold text-ink active:scale-95 transition-transform"
+          >
+            範囲を変更
+          </button>
+        </div>
       </div>
     );
   }
