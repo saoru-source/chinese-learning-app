@@ -5,6 +5,12 @@ import { useRouter } from "next/navigation";
 import { speak } from "@/lib/speech";
 import WordDetailCard from "@/components/WordDetailCard";
 import type { ListeningWordDetail } from "@/lib/listening/wordDetail";
+import { stripForCompare, lcsMatch } from "@/lib/lcsMatch";
+
+// PronunciationCheck(発音チェック)・段階的暗記・会話練習と同じ合格ライン。
+// 1文字でも違うと不正解になる完全一致判定は厳しすぎるとの指摘を受け、
+// LCS(最長共通部分列)による一致率判定に変更した際に、他機能と揃えた。
+const PASS_THRESHOLD = 60;
 
 type Question = {
   id: number;
@@ -54,7 +60,11 @@ export default function DictationCard({
     setSupported(typeof window !== "undefined" && "speechSynthesis" in window);
   }, []);
 
-  const isCorrect = input.trim() === question.correct_answer;
+  const cleanTarget = stripForCompare(question.correct_answer);
+  const cleanInput = stripForCompare(input.trim());
+  const { score, matched } = lcsMatch(cleanTarget, cleanInput);
+  const matchPct = cleanTarget.length > 0 ? Math.round((score / cleanTarget.length) * 100) : 0;
+  const isCorrect = matchPct >= PASS_THRESHOLD;
 
   function handlePlay() {
     speak(question.text_zh);
@@ -156,17 +166,24 @@ export default function DictationCard({
       </form>
 
       {checked && (
-        <p
-          style={{
-            marginTop: 14,
-            textAlign: "left",
-            fontSize: 14.4,
-            fontWeight: 700,
-            color: isCorrect ? "var(--match-green)" : "var(--miss-red)",
-          }}
-        >
-          {isCorrect ? "✓ 正解です！" : `✗ 不正解。正解は「${question.correct_answer}」でした。`}
-        </p>
+        <div style={{ marginTop: 14, textAlign: "left" }}>
+          <p
+            style={{
+              fontSize: 14.4,
+              fontWeight: 700,
+              color: isCorrect ? "var(--match-green)" : "var(--miss-red)",
+            }}
+          >
+            {isCorrect ? `✓ 合格！(一致率${matchPct}%)` : `✗ 不合格(一致率${matchPct}%)。正解は下記の通りでした。`}
+          </p>
+          <p style={{ fontSize: 21.6, fontWeight: 700, marginTop: 8, letterSpacing: "0.02em" }}>
+            {cleanTarget.split("").map((ch, i) => (
+              <span key={i} style={{ color: matched[i] ? "var(--match-green)" : "var(--miss-red)" }}>
+                {ch}
+              </span>
+            ))}
+          </p>
+        </div>
       )}
 
       {checked && (

@@ -1,42 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-
-// 姉妹アプリ「HSK会話トレーニング」(claude/HSKconversations.html, HSKspeaking_practice)と
-// 同一のアルゴリズムをそのまま流用。句読点等を除去した上でLCS(最長共通部分列)により
-// お手本テキストと認識結果を文字単位で照合し、一致度を算出する。
-const PUNCT_RE = /[，。！？：；、（）“”"'—…,.!?:;()\s]/g;
-
-function stripForCompare(s: string): string {
-  return s.replace(PUNCT_RE, "");
-}
-
-function lcsMatch(target: string, said: string): { score: number; matched: boolean[] } {
-  const m = target.length;
-  const n = said.length;
-  const dp: number[][] = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
-  for (let i = 1; i <= m; i++) {
-    for (let j = 1; j <= n; j++) {
-      if (target[i - 1] === said[j - 1]) dp[i][j] = dp[i - 1][j - 1] + 1;
-      else dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
-    }
-  }
-  const matched = new Array(m).fill(false);
-  let i = m;
-  let j = n;
-  while (i > 0 && j > 0) {
-    if (target[i - 1] === said[j - 1]) {
-      matched[i - 1] = true;
-      i--;
-      j--;
-    } else if (dp[i - 1][j] >= dp[i][j - 1]) {
-      i--;
-    } else {
-      j--;
-    }
-  }
-  return { score: dp[m][n], matched };
-}
+import { stripForCompare, lcsMatch } from "@/lib/lcsMatch";
 
 // TypeScriptの標準libにWeb Speech APIの型定義が含まれていないため、
 // 実際に使う範囲だけ最小限の型を用意する(anyは使わない)。
