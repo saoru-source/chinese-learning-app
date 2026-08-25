@@ -1,6 +1,6 @@
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
-import { randomOffset } from "@/lib/listening/pickRandom";
+import { pickWeightedListeningQuestion } from "@/lib/listening/select";
 import { fetchListeningWordDetail } from "@/lib/listening/wordDetail";
 import ListeningHeader from "../ListeningHeader";
 import DictationCard from "./DictationCard";
@@ -29,17 +29,7 @@ export default async function ListeningDictationPage({
 
   const total = count ?? 0;
 
-  let question = null;
-  if (total > 0) {
-    const offset = randomOffset(total);
-    const { data } = await supabase
-      .from("listening_questions")
-      .select("id, hsk_level, text_zh, correct_answer")
-      .eq("mode", "dictation")
-      .order("id", { ascending: true })
-      .range(offset, offset);
-    question = data?.[0] ?? null;
-  }
+  const question = total > 0 ? await pickWeightedListeningQuestion(supabase, user.id, "dictation") : null;
 
   const wordDetail = question ? await fetchListeningWordDetail(supabase, question.text_zh) : null;
 
