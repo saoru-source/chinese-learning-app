@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import SpeakButton from "@/components/SpeakButton";
 import PronunciationCheck from "@/components/PronunciationCheck";
+import { recordPatternPronunciationResult } from "@/lib/patterns/actions";
 
 function BackArrowIcon() {
   return (
@@ -88,7 +89,11 @@ export default async function PatternSituationPage({
               <p style={{ flex: 1, fontSize: 21.6, lineHeight: 1.7, color: "var(--ink)" }}>{p.hanzi}</p>
               <div style={{ display: "flex", alignItems: "center", gap: 6, flexShrink: 0 }}>
                 <SpeakButton text={p.hanzi} size={28} />
-                <PronunciationCheck target={p.hanzi} pinyin={p.pinyin} />
+                <PronunciationCheck
+                  target={p.hanzi}
+                  pinyin={p.pinyin}
+                  onResult={recordPatternPronunciationResult.bind(null, p.id)}
+                />
               </div>
             </div>
 

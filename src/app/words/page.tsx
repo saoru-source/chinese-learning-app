@@ -2,6 +2,7 @@ import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import { tokenizeSentence } from "@/lib/words/segment";
 import { getWordReviewOrder } from "@/lib/words/reviewQueue";
+import { recordWordPronunciationResult } from "@/lib/words/pronunciationActions";
 import BookmarkToggle from "@/components/BookmarkToggle";
 import SpeakButton from "@/components/SpeakButton";
 import PronunciationCheck from "@/components/PronunciationCheck";
@@ -329,7 +330,11 @@ export default async function WordsPage({
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginBottom: 4 }}>
           <SpeakButton text={word.hanzi} size={36} layout="column" />
           <span style={{ fontSize: 45.6, fontWeight: 700, color: "var(--ink)" }}>{word.hanzi}</span>
-          <PronunciationCheck target={word.hanzi} pinyin={word.pinyin} />
+          <PronunciationCheck
+            target={word.hanzi}
+            pinyin={word.pinyin}
+            onResult={recordWordPronunciationResult.bind(null, word.id)}
+          />
         </div>
 
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8, marginBottom: 6 }}>

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { recordNewWordLearned } from "@/lib/stepwise/actions";
+import { recordWordPronunciationResult } from "@/lib/words/pronunciationActions";
 import type { NewWord } from "@/lib/stepwise/select";
 import type { Segment } from "@/components/TappableText";
 import TappableText from "@/components/TappableText";
@@ -446,7 +447,12 @@ export default function StudySession({ items }: { items: Item[] }) {
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginBottom: 4 }}>
               <SpeakButton text={current.word.hanzi} size={32} layout="column" />
               <span style={{ fontSize: 40.8, fontWeight: 700, color: "var(--ink)" }}>{current.word.hanzi}</span>
-              <PronunciationCheck key={current.word.id} target={current.word.hanzi} pinyin={current.word.pinyin} />
+              <PronunciationCheck
+                key={current.word.id}
+                target={current.word.hanzi}
+                pinyin={current.word.pinyin}
+                onResult={recordWordPronunciationResult.bind(null, current.word.id)}
+              />
             </div>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 8 }}>
               <p style={{ fontSize: 15.6, fontWeight: 500, color: "var(--ink-soft)" }}>{current.word.pinyin}</p>

@@ -4,6 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 import { upsertNickname } from "@/lib/profile/actions";
 import { signOut } from "@/lib/supabase/actions";
 import { MASTERY_STAGE } from "@/lib/words/reviewProgress";
+import { computeSkillScores } from "@/lib/profile/skillScores";
 import ThemeSwitcher from "./ThemeSwitcher";
 
 // 仮の連絡先(運営者名・正式な連絡先が決まり次第、/terms・/privacyの注記と合わせて更新する)
@@ -165,7 +166,12 @@ export default async function ProfilePage({
     .select("item_type, correct_count, incorrect_count, review_stage, created_at, last_studied_at")
     .eq("user_id", user.id);
 
+  const { count: totalWordCount } = await supabase
+    .from("words")
+    .select("id", { count: "exact", head: true });
+
   const rows = progressRows ?? [];
+  const skillScores = computeSkillScores(rows, totalWordCount ?? 0);
 
   // 正答率: progressの正解数/不正解数の合計から算出(実データに基づく正確な値)。
   let totalCorrect = 0;
@@ -320,6 +326,35 @@ export default async function ProfilePage({
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 20 }}>
         <StatCard value={accuracyPct !== null ? `${accuracyPct}%` : "―"} label="正答率" />
         <StatCard value="―" label="連続日数（準備中）" />
+      </div>
+
+      <h2 style={{ fontSize: 14.4, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>技能別スコア</h2>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 10 }}>
+        <StatCard
+          value={skillScores.speaking.percent !== null ? `${skillScores.speaking.percent}%` : "―"}
+          label={skillScores.speaking.percent !== null ? "話す" : "話す（データなし）"}
+        />
+        <StatCard
+          value={skillScores.listening.percent !== null ? `${skillScores.listening.percent}%` : "―"}
+          label={skillScores.listening.percent !== null ? "聞く" : "聞く（データなし）"}
+        />
+      </div>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 10 }}>
+        <StatCard
+          value={skillScores.reading.percent !== null ? `${skillScores.reading.percent}%` : "―"}
+          label={skillScores.reading.percent !== null ? "読む" : "読む（データなし）"}
+        />
+        <StatCard
+          value={skillScores.word.percent !== null ? `${skillScores.word.percent}%` : "―"}
+          label={skillScores.word.percent !== null ? "単語" : "単語（データなし）"}
+        />
+      </div>
+      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10, marginBottom: 20 }}>
+        <StatCard
+          value={skillScores.grammar.percent !== null ? `${skillScores.grammar.percent}%` : "―"}
+          label={skillScores.grammar.percent !== null ? "文法" : "文法（データなし）"}
+        />
+        <StatCard value="―" label="書く（準備中）" />
       </div>
 
       <h2 style={{ fontSize: 14.4, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>配色テーマ</h2>

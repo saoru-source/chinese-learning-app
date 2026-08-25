@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { recordReadingQuestionResult } from "@/lib/reading/actions";
 
 type Question = {
   id: number;
@@ -21,6 +22,13 @@ export default function ReadingQuestions({
   const [submitted, setSubmitted] = useState(false);
 
   const score = questions.filter((q) => answers[q.id] === q.correct_choice_index).length;
+
+  function handleSubmit() {
+    setSubmitted(true);
+    for (const q of questions) {
+      void recordReadingQuestionResult(q.id, answers[q.id] === q.correct_choice_index);
+    }
+  }
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
@@ -98,7 +106,7 @@ export default function ReadingQuestions({
       {!submitted ? (
         <button
           type="button"
-          onClick={() => setSubmitted(true)}
+          onClick={handleSubmit}
           disabled={Object.keys(answers).length < questions.length}
           style={{
             width: "100%",

@@ -4,6 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 import SpeakButton from "@/components/SpeakButton";
 import PronunciationCheck from "@/components/PronunciationCheck";
 import PosBadge from "@/components/PosBadge";
+import { recordWordPronunciationResult } from "@/lib/words/pronunciationActions";
 
 type Item = {
   order_index: number;
@@ -139,7 +140,7 @@ export default async function GroupDetailPage({
 function WordChip({
   word,
 }: {
-  word: { hanzi: string; pinyin: string | null; meaning_ja: string | null; word_type: string | null } | undefined | null;
+  word: { id: number; hanzi: string; pinyin: string | null; meaning_ja: string | null; word_type: string | null } | undefined | null;
 }) {
   if (!word) return null;
   return (
@@ -147,7 +148,11 @@ function WordChip({
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 4 }}>
         <p style={{ fontSize: 21.6, fontWeight: 700, color: "var(--ink)" }}>{word.hanzi}</p>
         <SpeakButton text={word.hanzi} size={22} layout="column" />
-        <PronunciationCheck target={word.hanzi} pinyin={word.pinyin} />
+        <PronunciationCheck
+          target={word.hanzi}
+          pinyin={word.pinyin}
+          onResult={recordWordPronunciationResult.bind(null, word.id)}
+        />
       </div>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 6, marginTop: 2 }}>
         <p style={{ fontSize: 14.4, fontWeight: 500, color: "var(--ink-soft)" }}>{word.pinyin}</p>
