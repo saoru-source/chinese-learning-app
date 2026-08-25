@@ -177,12 +177,14 @@ export async function generateAiSentenceBatch(
     redirect("/login");
   }
 
-  const { data: profile } = await supabase
-    .from("users")
+  // goal_textは本人専用のuser_goalsテーブルに分離済み(RLS監査(2026-08-25)で
+  // usersテーブル経由だと他人からも読めてしまう状態だったため)。
+  const { data: goal } = await supabase
+    .from("user_goals")
     .select("goal_text")
-    .eq("id", user.id)
+    .eq("user_id", user.id)
     .maybeSingle();
-  const goalText = profile?.goal_text ?? null;
+  const goalText = goal?.goal_text ?? null;
 
   if (scope === "grammar") {
     const points = await getWeakGrammarPoints(supabase, user.id, level, BATCH_SIZE);

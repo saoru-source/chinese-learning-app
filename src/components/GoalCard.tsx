@@ -15,7 +15,7 @@ function TargetIcon() {
 
 const DEFAULT_GOAL = "HSK4合格を目指す";
 
-// テーマ切り替え(src/lib/theme/actions.ts)と同じ方針: ログイン中はusers.goal_text
+// テーマ切り替え(src/lib/theme/actions.ts)と同じ方針: ログイン中はuser_goals.goal_text
 // に保存し、未ログイン(ゲスト)時はこのローカルstateのみで完結する(リロードで消える)。
 export default function GoalCard({ initialGoal }: { initialGoal?: string | null }) {
   const [goal, setGoal] = useState(initialGoal ?? DEFAULT_GOAL);

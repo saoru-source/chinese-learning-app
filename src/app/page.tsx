@@ -43,8 +43,21 @@ export default async function Home() {
     ? (
         await supabase
           .from("users")
-          .select("nickname, goal_text")
+          .select("nickname")
           .eq("id", user.id)
+          .maybeSingle()
+      ).data
+    : null;
+
+  // goal_text(自由記述の目標メモ)は本人専用のuser_goalsテーブルに分離済み
+  // (RLS監査(2026-08-25)で、usersテーブル経由だと他人からも読めてしまう
+  // 状態だったため)。
+  const goal = user
+    ? (
+        await supabase
+          .from("user_goals")
+          .select("goal_text")
+          .eq("user_id", user.id)
           .maybeSingle()
       ).data
     : null;
@@ -71,7 +84,7 @@ export default async function Home() {
   return (
     <main style={{ maxWidth: 480, margin: "0 auto", padding: "16px 16px 24px" }}>
       <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-        <GoalCard initialGoal={profile?.goal_text} />
+        <GoalCard initialGoal={goal?.goal_text} />
 
         <HeroReviewCard displayName={displayName} />
 
