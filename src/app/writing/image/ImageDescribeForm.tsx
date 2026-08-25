@@ -3,6 +3,7 @@
 import { useState } from "react";
 import GlassButton from "@/components/GlassButton";
 import { submitImagePrompt } from "@/lib/writing/actions";
+import AiFeedbackText from "@/components/AiFeedbackText";
 
 export default function ImageDescribeForm({ promptId }: { promptId: number }) {
   const [text, setText] = useState("");
@@ -66,7 +67,7 @@ export default function ImageDescribeForm({ promptId }: { promptId: number }) {
           }}
         >
           <p style={{ fontSize: 14.4, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 8 }}>AIの添削結果</p>
-          <p style={{ fontSize: 15.6, color: "var(--ink)", lineHeight: 1.8, whiteSpace: "pre-wrap" }}>{feedback}</p>
+          <AiFeedbackText text={feedback} />
         </div>
       )}
     </div>

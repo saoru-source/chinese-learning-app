@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { submitPassageSummary } from "@/lib/writing/actions";
+import AiFeedbackText from "@/components/AiFeedbackText";
 
 export default function SummaryForm({ passageId }: { passageId: number }) {
   const [text, setText] = useState("");
@@ -49,7 +50,7 @@ export default function SummaryForm({ passageId }: { passageId: number }) {
       {feedback && (
         <div className="mt-6 rounded border border-line bg-paper-deep p-4">
           <p className="mb-2 text-[16.8px] font-bold text-ink-soft">AIの添削結果</p>
-          <p className="whitespace-pre-wrap text-[16.8px]">{feedback}</p>
+          <AiFeedbackText text={feedback} />
         </div>
       )}
     </div>
