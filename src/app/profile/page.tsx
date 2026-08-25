@@ -6,6 +6,9 @@ import { signOut } from "@/lib/supabase/actions";
 import { MASTERY_STAGE } from "@/lib/words/reviewProgress";
 import ThemeSwitcher from "./ThemeSwitcher";
 
+// 仮の連絡先(運営者名・正式な連絡先が決まり次第、/terms・/privacyの注記と合わせて更新する)
+const CONTACT_EMAIL = "lli.aapl.illi.msft.ill@gmail.com";
+
 function BackArrowIcon() {
   return (
     <svg viewBox="0 0 24 24" width={24} height={24} fill="none" stroke="var(--ink-soft)" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -38,6 +41,32 @@ function ShareIcon() {
       <circle cx="6" cy="12" r="3" />
       <circle cx="18" cy="19" r="3" />
       <path d="m8.6 10.5 6.8-3.9M8.6 13.5l6.8 3.9" />
+    </svg>
+  );
+}
+
+function DocumentIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+      <path d="M14 2v6h6M8 13h8M8 17h8M8 9h2" />
+    </svg>
+  );
+}
+
+function ShieldIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z" />
+    </svg>
+  );
+}
+
+function MailIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="m3 7 9 6 9-6" />
     </svg>
   );
 }
@@ -314,6 +343,45 @@ export default async function ProfilePage({
           title="共有一覧"
           subtitle="フォロー中の相手と共有した例文・長文を見る"
         />
+      </div>
+
+      <h2 style={{ fontSize: 14.4, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>規約・お問い合わせ</h2>
+      <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 12 }}>
+        <LinkRow
+          href="/terms"
+          iconBg="var(--grad)"
+          icon={<DocumentIcon />}
+          title="利用規約"
+          subtitle="本サービスの利用条件"
+        />
+        <LinkRow
+          href="/privacy"
+          iconBg="var(--grad)"
+          icon={<ShieldIcon />}
+          title="プライバシーポリシー"
+          subtitle="個人情報の取り扱いについて"
+        />
+        <LinkRow
+          href={`mailto:${CONTACT_EMAIL}`}
+          iconBg="var(--grad)"
+          icon={<MailIcon />}
+          title="お問い合わせ"
+          subtitle={CONTACT_EMAIL}
+        />
+      </div>
+
+      <div
+        style={{
+          marginBottom: 24,
+          fontSize: 13.2,
+          color: "var(--ink-soft)",
+          background: "var(--card)",
+          borderRadius: 15,
+          padding: "13px 16px",
+          boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
+        }}
+      >
+        アカウントの削除をご希望の場合は、上記のお問い合わせよりご連絡ください。
       </div>
 
       <form action={signOut}>
