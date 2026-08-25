@@ -11,6 +11,7 @@ import {
   QuizIcon,
   GrammarDictIcon,
   WordDictIcon,
+  MilestoneIcon,
 } from "@/components/learnIcons";
 
 export default function LearnPage() {
@@ -57,6 +58,12 @@ export default function LearnPage() {
           icon={<WordDictIcon />}
           gradient="linear-gradient(135deg, var(--gold), var(--jade-deep))"
           href={`/learn/dictionary?level=${levelKey}`}
+        />
+        <MenuTile
+          label="節目テスト"
+          icon={<MilestoneIcon />}
+          gradient="linear-gradient(135deg, var(--jade), var(--gold))"
+          href="/milestones"
         />
       </div>
     </main>
