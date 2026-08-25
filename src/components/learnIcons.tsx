@@ -149,3 +149,13 @@ export function MilestoneIcon(props: { soft?: boolean } = {}) {
     </svg>
   );
 }
+
+export function GraduationIcon(props: { soft?: boolean } = {}) {
+  return (
+    <svg {...(props.soft ? SOFT_PROPS : PROPS)}>
+      <path d="M12 5L2 9.5 12 14l10-4.5L12 5z" />
+      <path d="M6 11.5V16c0 1.5 2.7 3 6 3s6-1.5 6-3v-4.5" />
+      <path d="M20 9.5v5" />
+    </svg>
+  );
+}

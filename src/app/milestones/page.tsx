@@ -87,8 +87,13 @@ export default async function MilestonesPage() {
         </Link>
         <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>節目テスト</h1>
       </div>
-      <p style={{ fontSize: 13.2, color: "var(--ink-soft)", marginBottom: 18 }}>
+      <p style={{ fontSize: 13.2, color: "var(--ink-soft)", marginBottom: 8 }}>
         各レベルの単語を前半・後半に分けて、10問中8問以上の正解で合格です。何度でも挑戦できます。
+      </p>
+      <p style={{ fontSize: 13.2, color: "var(--ink-soft)", marginBottom: 18 }}>
+        前半・後半どちらも合格すると、そのレベルの
+        <Link href="/graduation" style={{ color: "var(--seal)", fontWeight: 700 }}>卒業試験</Link>
+        に挑戦できます。
       </p>
 
       <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
