@@ -3,6 +3,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { checkAndConsumeApiUsage } from "@/lib/apiUsage/limit";
 
 export async function submitWriting(
   formData: FormData
@@ -44,6 +45,11 @@ ${text}
 2. より自然な言い回しがあれば提案する
 3. 良かった点を1つ以上褒める
 出力はプレーンテキストのみで、JSON形式にはしないでください。`;
+
+  const usage = await checkAndConsumeApiUsage(supabase, user.id);
+  if (!usage.ok) {
+    return { ok: false, error: usage.error };
+  }
 
   const client = new Anthropic();
 
@@ -118,6 +124,11 @@ ${text}
 2. より自然な言い回しがあれば提案する
 3. 良かった点を1つ以上褒める
 出力はプレーンテキストのみで、JSON形式にはしないでください。`;
+
+  const usage = await checkAndConsumeApiUsage(supabase, user.id);
+  if (!usage.ok) {
+    return { ok: false, error: usage.error };
+  }
 
   const client = new Anthropic();
 
@@ -196,6 +207,11 @@ ${text}
 3. より自然な言い回しがあれば提案する
 4. 良かった点を1つ以上褒める
 出力はプレーンテキストのみで、JSON形式にはしないでください。`;
+
+  const usage = await checkAndConsumeApiUsage(supabase, user.id);
+  if (!usage.ok) {
+    return { ok: false, error: usage.error };
+  }
 
   const client = new Anthropic();
 

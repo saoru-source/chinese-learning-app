@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { getWeakWords, getWeakGrammarPoints, type QuizWord, type QuizGrammarPoint } from "@/lib/quiz/select";
 import { recordWordReviewResult } from "@/lib/words/reviewProgress";
+import { checkAndConsumeApiUsage } from "@/lib/apiUsage/limit";
 
 export type QuizScope = "word" | "grammar" | "mix";
 
@@ -122,7 +123,12 @@ type RawBatchItem = {
 
 async function callAnthropicBatch(
   prompt: string,
+  supabase: Awaited<ReturnType<typeof createClient>>,
+  userId: string,
 ): Promise<{ ok: true; items: RawBatchItem[] } | { ok: false; error: string }> {
+  const usage = await checkAndConsumeApiUsage(supabase, userId);
+  if (!usage.ok) return usage;
+
   const client = new Anthropic();
 
   try {
@@ -193,7 +199,7 @@ export async function generateAiSentenceBatch(
     }
 
     const prompt = buildGrammarBatchPrompt(level, points, goalText);
-    const result = await callAnthropicBatch(prompt);
+    const result = await callAnthropicBatch(prompt, supabase, user.id);
     if (!result.ok) return result;
 
     const items: AiSentence[] = result.items
@@ -239,7 +245,7 @@ export async function generateAiSentenceBatch(
   }
 
   const prompt = buildWordBatchPrompt(scope, level, groups, goalText);
-  const result = await callAnthropicBatch(prompt);
+  const result = await callAnthropicBatch(prompt, supabase, user.id);
   if (!result.ok) return result;
 
   const items: AiSentence[] = result.items
