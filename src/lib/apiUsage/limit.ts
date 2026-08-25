@@ -42,17 +42,19 @@ export async function checkAndConsumeApiUsage(
   }
 
   if (existing) {
-    await supabase
+    const { error } = await supabase
       .from("api_usage")
       .update({ count: existing.count + 1 })
       .eq("user_id", userId)
       .eq("usage_date", usageDate);
+    if (error) console.error("checkAndConsumeApiUsage (update) failed", error);
   } else {
-    await supabase.from("api_usage").insert({
+    const { error } = await supabase.from("api_usage").insert({
       user_id: userId,
       usage_date: usageDate,
       count: 1,
     });
+    if (error) console.error("checkAndConsumeApiUsage (insert) failed", error);
   }
 
   return { ok: true };

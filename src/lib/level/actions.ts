@@ -19,10 +19,11 @@ export async function setCurrentLevel(level: number) {
   if (!user) return;
 
   // DEFAULT_LEVEL(1級)はthemeのyebeと同様、nullで保存する
-  await supabase
+  const { error } = await supabase
     .from("users")
     .update({ hsk_level: level === DEFAULT_LEVEL ? null : level })
     .eq("id", user.id);
+  if (error) console.error("setCurrentLevel failed", error);
 
   revalidatePath("/", "layout");
 }

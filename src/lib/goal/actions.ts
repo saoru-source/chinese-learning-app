@@ -22,10 +22,11 @@ export async function setGoalText(goalText: string) {
 
   if (!user) return;
 
-  await supabase
+  const { error } = await supabase
     .from("user_goals")
     .upsert(
       { user_id: user.id, goal_text: trimmed || null, updated_at: new Date().toISOString() },
       { onConflict: "user_id" },
     );
+  if (error) console.error("setGoalText failed", error);
 }

@@ -16,10 +16,11 @@ export async function followUser(formData: FormData) {
 
   const targetId = formData.get("targetId") as string;
 
-  await supabase.from("follows").insert({
+  const { error } = await supabase.from("follows").insert({
     follower_id: user.id,
     following_id: targetId,
   });
+  if (error) console.error("followUser failed", error);
 
   revalidatePath("/users");
 }
@@ -36,11 +37,12 @@ export async function unfollowUser(formData: FormData) {
 
   const targetId = formData.get("targetId") as string;
 
-  await supabase
+  const { error } = await supabase
     .from("follows")
     .delete()
     .eq("follower_id", user.id)
     .eq("following_id", targetId);
+  if (error) console.error("unfollowUser failed", error);
 
   revalidatePath("/users");
 }

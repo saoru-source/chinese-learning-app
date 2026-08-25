@@ -288,7 +288,7 @@ async function upsertGrammarProgress(
     .maybeSingle();
 
   if (existing) {
-    await supabase
+    const { error } = await supabase
       .from("progress")
       .update({
         correct_count: existing.correct_count + (correct ? 1 : 0),
@@ -296,8 +296,9 @@ async function upsertGrammarProgress(
         last_studied_at: new Date().toISOString(),
       })
       .eq("id", existing.id);
+    if (error) console.error("upsertGrammarProgress (update) failed", error);
   } else {
-    await supabase.from("progress").insert({
+    const { error } = await supabase.from("progress").insert({
       user_id: userId,
       item_type: "grammar",
       item_id: itemId,
@@ -305,6 +306,7 @@ async function upsertGrammarProgress(
       incorrect_count: correct ? 0 : 1,
       last_studied_at: new Date().toISOString(),
     });
+    if (error) console.error("upsertGrammarProgress (insert) failed", error);
   }
 }
 

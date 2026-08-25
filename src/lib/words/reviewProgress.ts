@@ -40,7 +40,7 @@ export async function recordWordReviewResult(
     : new Date().toISOString();
 
   if (existing) {
-    await supabase
+    const { error } = await supabase
       .from("progress")
       .update({
         correct_count: existing.correct_count + (correct ? 1 : 0),
@@ -50,8 +50,9 @@ export async function recordWordReviewResult(
         last_studied_at: new Date().toISOString(),
       })
       .eq("id", existing.id);
+    if (error) console.error("recordWordReviewResult (update) failed", error);
   } else {
-    await supabase.from("progress").insert({
+    const { error } = await supabase.from("progress").insert({
       user_id: userId,
       item_type: "word",
       item_id: wordId,
@@ -61,5 +62,6 @@ export async function recordWordReviewResult(
       next_review_at: nextReviewAt,
       last_studied_at: new Date().toISOString(),
     });
+    if (error) console.error("recordWordReviewResult (insert) failed", error);
   }
 }

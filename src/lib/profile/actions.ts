@@ -28,6 +28,7 @@ export async function upsertNickname(formData: FormData) {
   );
 
   if (error) {
+    console.error("upsertNickname failed", error);
     const message = error.code === "23505"
       ? "そのニックネームは既に使われています。別の名前にしてください。"
       : `保存に失敗しました: ${error.message}`;

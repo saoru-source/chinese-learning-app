@@ -16,13 +16,14 @@ export async function recordGraduationAttempt(
   const passed = score >= PASS_SCORE;
   if (!user) return { passed };
 
-  await supabase.from("graduation_attempts").insert({
+  const { error } = await supabase.from("graduation_attempts").insert({
     user_id: user.id,
     hsk_level: hskLevel,
     score,
     total_questions: totalQuestions,
     passed,
   });
+  if (error) console.error("recordGraduationAttempt failed", error);
 
   return { passed };
 }

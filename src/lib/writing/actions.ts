@@ -84,13 +84,14 @@ ${buildUserSubmissionBlock(text)}
         ? textBlock.text
         : "AIからの応答が空でした。";
 
-    await supabase.from("writing_submissions").insert({
+    const { error: insertError } = await supabase.from("writing_submissions").insert({
       user_id: user.id,
       item_type: "topic",
       item_id: topicId,
       submitted_text: text,
       ai_feedback: feedback,
     });
+    if (insertError) console.error("submitWriting insert failed", insertError);
 
     return { ok: true, feedback };
   } catch (e) {
@@ -162,13 +163,14 @@ ${buildUserSubmissionBlock(text)}
         ? textBlock.text
         : "AIからの応答が空でした。";
 
-    await supabase.from("writing_submissions").insert({
+    const { error: insertError } = await supabase.from("writing_submissions").insert({
       user_id: user.id,
       item_type: "image",
       item_id: promptId,
       submitted_text: text,
       ai_feedback: feedback,
     });
+    if (insertError) console.error("submitImagePrompt insert failed", insertError);
 
     return { ok: true, feedback };
   } catch (e) {
@@ -244,13 +246,14 @@ ${buildUserSubmissionBlock(text)}
         ? textBlock.text
         : "AIからの応答が空でした。";
 
-    await supabase.from("writing_submissions").insert({
+    const { error: insertError } = await supabase.from("writing_submissions").insert({
       user_id: user.id,
       item_type: "passage_summary",
       item_id: passageId,
       submitted_text: text,
       ai_feedback: feedback,
     });
+    if (insertError) console.error("submitPassageSummary insert failed", insertError);
 
     return { ok: true, feedback };
   } catch (e) {

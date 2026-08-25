@@ -18,10 +18,11 @@ export async function setModeValue(mode: string) {
 
   if (!user) return;
 
-  await supabase
+  const { error } = await supabase
     .from("users")
     .update({ dark_mode: mode === "dark" })
     .eq("id", user.id);
+  if (error) console.error("setModeValue failed", error);
 
   revalidatePath("/", "layout");
 }

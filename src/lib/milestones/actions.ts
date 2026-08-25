@@ -17,7 +17,7 @@ export async function recordMilestoneAttempt(
   const passed = score >= PASS_SCORE;
   if (!user) return { passed };
 
-  await supabase.from("milestone_attempts").insert({
+  const { error } = await supabase.from("milestone_attempts").insert({
     user_id: user.id,
     hsk_level: hskLevel,
     half,
@@ -25,6 +25,7 @@ export async function recordMilestoneAttempt(
     total_questions: totalQuestions,
     passed,
   });
+  if (error) console.error("recordMilestoneAttempt failed", error);
 
   return { passed };
 }

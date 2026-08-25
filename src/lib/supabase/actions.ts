@@ -21,6 +21,9 @@ export async function signIn(formData: FormData) {
   const { error } = await supabase.auth.signInWithPassword({ email, password });
 
   if (error) {
+    // メールアドレス・パスワードはログに出さない(エラー種別のみ記録)。
+    // ログイン試行そのものの履歴はSupabase側のAuth Logsでも確認できる。
+    console.error("signIn failed", error.message);
     redirect(`/login?error=${encodeURIComponent(error.message)}`);
   }
 
@@ -44,6 +47,7 @@ export async function signUp(formData: FormData) {
   });
 
   if (error) {
+    console.error("signUp failed", error.message);
     redirect(`/signup?error=${encodeURIComponent(error.message)}`);
   }
 
@@ -73,6 +77,7 @@ export async function signInWithGoogle() {
   });
 
   if (error) {
+    console.error("signInWithGoogle failed", error.message);
     redirect(`/login?error=${encodeURIComponent(error.message)}`);
   }
 
@@ -92,6 +97,7 @@ export async function requestPasswordReset(formData: FormData) {
   });
 
   if (error) {
+    console.error("requestPasswordReset failed", error.message);
     redirect(`/forgot-password?error=${encodeURIComponent(error.message)}`);
   }
 
@@ -109,6 +115,7 @@ export async function updatePassword(formData: FormData) {
   const { error } = await supabase.auth.updateUser({ password });
 
   if (error) {
+    console.error("updatePassword failed", error.message);
     redirect(`/reset-password?error=${encodeURIComponent(error.message)}`);
   }
 

@@ -19,10 +19,11 @@ export async function setThemeValue(theme: string) {
   if (!user) return;
 
   // yebe(デフォルト)はdata-theme属性なしで表現するため、DBにはnullで保存する
-  await supabase
+  const { error } = await supabase
     .from("users")
     .update({ theme: theme === "yebe" ? null : theme })
     .eq("id", user.id);
+  if (error) console.error("setThemeValue failed", error);
 
   revalidatePath("/", "layout");
 }

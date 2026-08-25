@@ -23,7 +23,7 @@ export async function recordListeningResult(questionId: number, correct: boolean
     .maybeSingle();
 
   if (existing) {
-    await supabase
+    const { error } = await supabase
       .from("progress")
       .update({
         correct_count: existing.correct_count + (correct ? 1 : 0),
@@ -31,8 +31,9 @@ export async function recordListeningResult(questionId: number, correct: boolean
         last_studied_at: new Date().toISOString(),
       })
       .eq("id", existing.id);
+    if (error) console.error("recordListeningResult (update) failed", error);
   } else {
-    await supabase.from("progress").insert({
+    const { error } = await supabase.from("progress").insert({
       user_id: user.id,
       item_type: "listening_question",
       item_id: questionId,
@@ -40,5 +41,6 @@ export async function recordListeningResult(questionId: number, correct: boolean
       incorrect_count: correct ? 0 : 1,
       last_studied_at: new Date().toISOString(),
     });
+    if (error) console.error("recordListeningResult (insert) failed", error);
   }
 }
