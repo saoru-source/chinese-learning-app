@@ -6,6 +6,7 @@ import { speak } from "@/lib/speech";
 import WordDetailCard from "@/components/WordDetailCard";
 import type { ListeningWordDetail } from "@/lib/listening/wordDetail";
 import { stripForCompare, lcsMatch } from "@/lib/lcsMatch";
+import { recordListeningResult } from "@/lib/listening/actions";
 
 // PronunciationCheck(発音チェック)・段階的暗記・会話練習と同じ合格ライン。
 // 1文字でも違うと不正解になる完全一致判定は厳しすぎるとの指摘を受け、
@@ -120,6 +121,7 @@ export default function DictationCard({
         onSubmit={(e) => {
           e.preventDefault();
           setChecked(true);
+          void recordListeningResult(question.id, isCorrect);
         }}
       >
         <input

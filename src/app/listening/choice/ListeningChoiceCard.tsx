@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { speak } from "@/lib/speech";
 import WordDetailCard from "@/components/WordDetailCard";
 import type { ListeningWordDetail } from "@/lib/listening/wordDetail";
+import { recordListeningResult } from "@/lib/listening/actions";
 
 type Question = {
   id: number;
@@ -58,6 +59,11 @@ export default function ListeningChoiceCard({
     speak(question.text_zh);
     setPlaying(true);
     window.setTimeout(() => setPlaying(false), 1500);
+  }
+
+  function handleSelect(choice: string) {
+    setSelected(choice);
+    void recordListeningResult(question.id, choice === question.correct_answer);
   }
 
   return (
@@ -121,7 +127,7 @@ export default function ListeningChoiceCard({
               key={c}
               type="button"
               disabled={showResult}
-              onClick={() => setSelected(c)}
+              onClick={() => handleSelect(c)}
               style={{
                 borderRadius: 13,
                 padding: "12px 10px",
