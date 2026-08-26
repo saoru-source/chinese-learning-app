@@ -2,17 +2,31 @@
 
 import { useEffect, useState } from "react";
 import { useLevel } from "@/lib/level/LevelContext";
-import { getWordDictionaryPage, type DictionaryWord } from "@/lib/words/dictionaryActions";
+import { LEVEL_KEYS, LEVEL_META } from "@/lib/level/levelMeta";
+import { getWordDictionaryPage, type DictionaryWord, type SortMode } from "@/lib/words/dictionaryActions";
+
+const SORT_OPTIONS: { key: SortMode; label: string }[] = [
+  { key: "level", label: "レベル順" },
+  { key: "pinyin", label: "ピンイン順" },
+  { key: "studied", label: "未学習優先" },
+];
 
 export default function WordDictionaryGrid() {
-  const { levelKey } = useLevel();
+  const { levelKey, setLevelKey } = useLevel();
+  const [sortMode, setSortMode] = useState<SortMode>("level");
   const [page, setPage] = useState(1);
 
-  // レベルが切り替わったら1ページ目に戻す(レンダー中にstateを調整する
-  // Reactの推奨パターン。useEffect内でのsetStateは避ける)
+  // レベルが切り替わったら1ページ目に戻す(並び替えモードは維持する。
+  // レンダー中にstateを調整するReactの推奨パターン。useEffect内でのsetStateは避ける)
   const [prevLevelKey, setPrevLevelKey] = useState(levelKey);
   if (levelKey !== prevLevelKey) {
     setPrevLevelKey(levelKey);
+    setPage(1);
+  }
+
+  function handleSortChange(mode: SortMode) {
+    if (mode === sortMode) return;
+    setSortMode(mode);
     setPage(1);
   }
 
@@ -21,12 +35,12 @@ export default function WordDictionaryGrid() {
   const [pageSize, setPageSize] = useState(60);
   const [loadedKey, setLoadedKey] = useState<string | null>(null);
 
-  const requestKey = `${levelKey}:${page}`;
+  const requestKey = `${levelKey}:${sortMode}:${page}`;
   const loading = loadedKey !== requestKey;
 
   useEffect(() => {
     let cancelled = false;
-    getWordDictionaryPage(levelKey, page).then((result) => {
+    getWordDictionaryPage(levelKey, page, sortMode).then((result) => {
       if (cancelled) return;
       setItems(result.items);
       setTotal(result.total);
@@ -36,12 +50,67 @@ export default function WordDictionaryGrid() {
     return () => {
       cancelled = true;
     };
-  }, [levelKey, page, requestKey]);
+  }, [levelKey, page, sortMode, requestKey]);
 
   const totalPages = Math.max(1, Math.ceil(total / pageSize));
 
   return (
     <div>
+      <div style={{ display: "flex", gap: 6, marginBottom: 12, flexWrap: "wrap" }}>
+        {LEVEL_KEYS.map((lv) => (
+          <button
+            key={lv}
+            type="button"
+            onClick={() => setLevelKey(lv)}
+            style={{
+              fontSize: 13.2,
+              fontWeight: 700,
+              padding: "4px 10px",
+              borderRadius: 999,
+              border: "none",
+              cursor: "pointer",
+              color: lv === levelKey ? "#fff" : "var(--ink-soft)",
+              background: lv === levelKey ? "var(--grad)" : "var(--paper-deep)",
+            }}
+          >
+            {LEVEL_META[lv].label}
+          </button>
+        ))}
+      </div>
+
+      <div
+        style={{
+          display: "flex",
+          background: "var(--paper-deep)",
+          borderRadius: 999,
+          padding: 4,
+          marginBottom: 12,
+        }}
+      >
+        {SORT_OPTIONS.map((opt) => (
+          <button
+            key={opt.key}
+            type="button"
+            onClick={() => handleSortChange(opt.key)}
+            style={{
+              flex: 1,
+              textAlign: "center",
+              padding: "7px 0",
+              borderRadius: 999,
+              border: "none",
+              cursor: "pointer",
+              fontSize: 13.2,
+              fontWeight: opt.key === sortMode ? 700 : 400,
+              color: opt.key === sortMode ? "var(--ink)" : "var(--ink-soft)",
+              background: opt.key === sortMode ? "var(--card)" : "transparent",
+              boxShadow: opt.key === sortMode ? "0 2px 6px rgba(0,0,0,0.08)" : "none",
+            }}
+          >
+            {opt.label}
+          </button>
+        ))}
+      </div>
+
       <p style={{ fontSize: 14.4, color: "var(--ink-soft)", marginBottom: 12 }}>
         HSK{levelKey} · 全{total}語
       </p>
