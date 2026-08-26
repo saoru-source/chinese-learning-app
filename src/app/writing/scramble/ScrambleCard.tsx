@@ -30,12 +30,15 @@ export default function ScrambleCard({
   const [answer, setAnswer] = useState<string[]>([]);
   const [checked, setChecked] = useState(false);
   const [revealed, setRevealed] = useState(false);
+  const [attempt, setAttempt] = useState(1);
+  const [showRetryNotice, setShowRetryNotice] = useState(false);
 
   const isCorrect = answer.join("") === stripPunct(question.correct_sentence);
   const allPlaced = bank.length === 0;
 
   function moveToAnswer(index: number) {
     if (checked || revealed) return;
+    setShowRetryNotice(false);
     const word = bank[index];
     setBank((prev) => prev.filter((_, i) => i !== index));
     setAnswer((prev) => [...prev, word]);
@@ -56,6 +59,24 @@ export default function ScrambleCard({
 
   function handleReveal() {
     setRevealed(true);
+  }
+
+  // 1回目が不正解の場合はもう1回だけ並べ直して再挑戦させる。2回目も
+  // 不正解だった場合に初めて正解を表示する(「答えを見る」は試行回数に
+  // 関わらずいつでも即座に正解を表示する、既存仕様のまま)。
+  function handleCheck() {
+    if (isCorrect) {
+      setChecked(true);
+      return;
+    }
+    if (attempt === 1) {
+      setAttempt(2);
+      setBank(question.words_shuffled);
+      setAnswer([]);
+      setShowRetryNotice(true);
+      return;
+    }
+    setChecked(true);
   }
 
   const showResult = checked || revealed;
@@ -84,6 +105,12 @@ export default function ScrambleCard({
       >
         HSK{question.hsk_level}
       </span>
+
+      {showRetryNotice && (
+        <p style={{ fontSize: 13.2, fontWeight: 700, color: "var(--miss-red)", marginBottom: 12 }}>
+          1回目は不正解でした。もう一度挑戦してください
+        </p>
+      )}
 
       {/* 回答欄: タップした単語をこの順番に並べていく。空の間はヒント文言を表示する。 */}
       <div
@@ -175,7 +202,7 @@ export default function ScrambleCard({
             </button>
             <button
               type="button"
-              onClick={() => setChecked(true)}
+              onClick={handleCheck}
               disabled={!allPlaced}
               style={{
                 background: "var(--grad)",
