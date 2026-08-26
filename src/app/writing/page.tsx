@@ -52,6 +52,15 @@ function ImageIcon() {
   );
 }
 
+function GrammarPatternIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="3" y="4" width="18" height="16" rx="2" />
+      <path d="M7 9h10M7 13h6" />
+    </svg>
+  );
+}
+
 function ModeCard({
   href,
   iconBg,
@@ -148,6 +157,13 @@ export default function WritingPage() {
           icon={<ImageIcon />}
           title="画像描写"
           subtitle="画像を見て、その内容を中国語で説明します"
+        />
+        <ModeCard
+          href="/writing/grammar"
+          iconBg="var(--grad)"
+          icon={<GrammarPatternIcon />}
+          title="文法の型で例文添削"
+          subtitle="指定された文法パターンを使って自分で例文を作り、AIが添削します"
         />
       </div>
     </main>
