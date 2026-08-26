@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useLevel } from "@/lib/level/LevelContext";
 import MenuTile from "@/components/MenuTile";
-import { PatternsIcon, LongReadingIcon } from "@/components/learnIcons";
+import { LongReadingIcon } from "@/components/learnIcons";
 
 export default function LearnReadingPage() {
   const { levelKey } = useLevel();
@@ -17,13 +17,7 @@ export default function LearnReadingPage() {
         </Link>
       </div>
 
-      <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
-        <MenuTile
-          label="例文パターン集"
-          icon={<PatternsIcon />}
-          gradient="linear-gradient(135deg, var(--jade), var(--jade-deep))"
-          href={`/patterns?level=${levelKey}`}
-        />
+      <div style={{ display: "grid", gridTemplateColumns: "1fr", gap: 10 }}>
         <MenuTile
           label="長文読解"
           icon={<LongReadingIcon />}
