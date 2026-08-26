@@ -29,9 +29,9 @@ function MoonIcon() {
 
 const NAV = [
   { zh: "家", label: "ホーム", path: "/" },
-  { zh: "词", label: "単語", path: "/words" },
   { zh: "试", label: "学習", path: "/learn" },
-  { zh: "听", label: "リスニング", path: "/listening" },
+  { zh: "典", label: "辞書", path: "/learn/dictionary" },
+  { zh: "测", label: "テスト", path: "/milestones" },
   { zh: "我", label: "マイページ", path: "/profile" },
 ];
 
@@ -42,6 +42,13 @@ export default function AppShell({ children }: { children: ReactNode }) {
   const [levelOpen, setLevelOpen] = useState(false);
   const { modeKey, setModeKey } = useMode();
   const pathname = usePathname();
+
+  // /learn/dictionaryは/learnの下位パスなので、startsWithの単純比較だと
+  // 学習タブと辞書タブが同時にactiveになってしまう。最も長く一致した
+  // パスのタブだけをactiveにする。
+  const activeNavPath = NAV.filter((n) =>
+    n.path === "/" ? pathname === "/" : pathname.startsWith(n.path),
+  ).sort((a, b) => b.path.length - a.path.length)[0]?.path;
 
   return (
     <div style={{ minHeight: "100dvh", display: "flex", flexDirection: "column" }}>
@@ -394,7 +401,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
       >
         <div style={{ display: "flex", maxWidth: 480, margin: "0 auto" }}>
           {NAV.map((item) => {
-            const active = item.path === "/" ? pathname === "/" : pathname.startsWith(item.path);
+            const active = activeNavPath === item.path;
             return (
               <Link
                 key={item.path}

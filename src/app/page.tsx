@@ -3,7 +3,17 @@ import { createClient } from "@/lib/supabase/server";
 import GoalCard from "@/components/GoalCard";
 import HeroReviewCard from "@/components/HeroReviewCard";
 import MenuTile from "@/components/MenuTile";
-import { SpeakIcon, ListenIcon, ReadIcon, WriteIcon, QuizIcon } from "@/components/learnIcons";
+import {
+  SpeakIcon,
+  ListenIcon,
+  ReadIcon,
+  WriteIcon,
+  QuizIcon,
+  GrammarDictIcon,
+  WordDictIcon,
+  MilestoneIcon,
+  GraduationIcon,
+} from "@/components/learnIcons";
 
 const HOME_MENU_TILES = [
   { label: "話す", href: "/learn/speaking", icon: <SpeakIcon />, gradient: "var(--grad)" },
@@ -30,6 +40,37 @@ const HOME_MENU_TILES = [
     href: "/quiz/ai",
     icon: <QuizIcon />,
     gradient: "linear-gradient(135deg, var(--lavender), var(--seal-deep))",
+  },
+];
+
+// /learn(学習ハブ)の同じ項目と同じアイコン・配色を流用し、統一感を保つ。
+const HOME_DICTIONARY_TILES = [
+  {
+    label: "単語辞書",
+    href: "/learn/dictionary",
+    icon: <WordDictIcon />,
+    gradient: "linear-gradient(135deg, var(--gold), var(--jade-deep))",
+  },
+  {
+    label: "文法辞書",
+    href: "/learn/grammar",
+    icon: <GrammarDictIcon />,
+    gradient: "linear-gradient(135deg, var(--seal), var(--seal-deep))",
+  },
+];
+
+const HOME_TEST_TILES = [
+  {
+    label: "節目テスト",
+    href: "/milestones",
+    icon: <MilestoneIcon />,
+    gradient: "linear-gradient(135deg, var(--jade), var(--gold))",
+  },
+  {
+    label: "卒業試験",
+    href: "/graduation",
+    icon: <GraduationIcon />,
+    gradient: "linear-gradient(135deg, var(--gold), var(--seal))",
   },
 ];
 
@@ -102,6 +143,28 @@ export default async function Home() {
           </h2>
           <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
             {HOME_MENU_TILES.map((tile) => (
+              <MenuTile key={tile.href} label={tile.label} href={tile.href} icon={tile.icon} gradient={tile.gradient} />
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <h2 style={{ fontSize: 13.2, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>
+            辞書
+          </h2>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+            {HOME_DICTIONARY_TILES.map((tile) => (
+              <MenuTile key={tile.href} label={tile.label} href={tile.href} icon={tile.icon} gradient={tile.gradient} />
+            ))}
+          </div>
+        </section>
+
+        <section>
+          <h2 style={{ fontSize: 13.2, fontWeight: 700, color: "var(--ink-soft)", marginBottom: 10 }}>
+            テスト
+          </h2>
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+            {HOME_TEST_TILES.map((tile) => (
               <MenuTile key={tile.href} label={tile.label} href={tile.href} icon={tile.icon} gradient={tile.gradient} />
             ))}
           </div>
