@@ -84,7 +84,7 @@ ${buildGoalContext(goalText)}
 
 ${BATCH_OUTPUT_FORMAT}
 [
-  { "id": 1, "hanzi": "中国語の例文(簡体字)", "pinyin": "その例文の拼音(声調記号付き)", "meaning_ja": "日本語訳", "explanation_ja": "使った単語や文法についての簡潔な日本語解説(1〜2文)" },
+  { "id": 1, "hanzi": "中国語の例文(簡体字)", "pinyin": "その例文の拼音(声調記号付き)", "meaning_ja": "日本語訳", "explanation_ja": "使った単語の意味・使い方についての簡潔な日本語解説(1〜2文)" },
   ...
 ]`;
 }
