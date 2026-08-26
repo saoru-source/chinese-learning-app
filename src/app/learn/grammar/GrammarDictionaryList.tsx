@@ -2,7 +2,14 @@
 
 import { useLevel } from "@/lib/level/LevelContext";
 
-type GrammarPoint = { id: number; hsk_level: number; label: string; explanation: string | null };
+type GrammarPoint = {
+  id: number;
+  hsk_level: number;
+  label: string;
+  explanation: string | null;
+  example_hanzi: string | null;
+  example_meaning_ja: string | null;
+};
 
 export default function GrammarDictionaryList({ points }: { points: GrammarPoint[] }) {
   const { levelKey } = useLevel();
@@ -41,6 +48,14 @@ export default function GrammarDictionaryList({ points }: { points: GrammarPoint
               </span>
             </div>
             {p.explanation && <p style={{ fontSize: 15.6, color: "var(--ink-soft)" }}>{p.explanation}</p>}
+            {p.example_hanzi && (
+              <div style={{ marginTop: 8, paddingTop: 8, borderTop: "1px solid var(--line)" }}>
+                <p style={{ fontSize: 16.8, color: "var(--ink)" }}>{p.example_hanzi}</p>
+                {p.example_meaning_ja && (
+                  <p style={{ fontSize: 13.2, color: "var(--ink-soft)", marginTop: 2 }}>{p.example_meaning_ja}</p>
+                )}
+              </div>
+            )}
           </div>
         ))}
         {filtered.length === 0 && (
