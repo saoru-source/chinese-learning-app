@@ -112,7 +112,7 @@ export default function WritingPage() {
         <Link href="/" aria-label="トップに戻る" style={{ display: "flex", alignItems: "center" }}>
           <BackArrowIcon />
         </Link>
-        <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>ライティング</h1>
+        <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>書く</h1>
       </div>
 
       <p style={{ fontSize: 14.4, color: "var(--ink-soft)", marginBottom: 16, lineHeight: 1.6 }}>

@@ -49,7 +49,7 @@ export default async function ScramblePage({
   return (
     <main style={{ maxWidth: 480, margin: "0 auto", padding: "16px 16px 40px" }}>
       <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16 }}>
-        <Link href="/writing" aria-label="ライティングに戻る" style={{ display: "flex", alignItems: "center" }}>
+        <Link href="/writing" aria-label="書くに戻る" style={{ display: "flex", alignItems: "center" }}>
           <BackArrowIcon />
         </Link>
         <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>語順並べ替え</h1>

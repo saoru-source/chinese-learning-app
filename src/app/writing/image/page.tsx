@@ -15,7 +15,7 @@ function BackArrowIcon() {
 function Header() {
   return (
     <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 16 }}>
-      <Link href="/writing" aria-label="ライティングに戻る" style={{ display: "flex", alignItems: "center" }}>
+      <Link href="/writing" aria-label="書くに戻る" style={{ display: "flex", alignItems: "center" }}>
         <BackArrowIcon />
       </Link>
       <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>画像描写</h1>
