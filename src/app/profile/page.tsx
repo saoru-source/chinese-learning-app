@@ -8,7 +8,7 @@ import { computeSkillScores } from "@/lib/profile/skillScores";
 import ThemeSwitcher from "./ThemeSwitcher";
 
 // 仮の連絡先(運営者名・正式な連絡先が決まり次第、/terms・/privacyの注記と合わせて更新する)
-const CONTACT_EMAIL = "lli.aapl.illi.msft.ill@gmail.com";
+const CONTACT_EMAIL = "0000@gmail.com";
 
 function BackArrowIcon() {
   return (

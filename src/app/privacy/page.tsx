@@ -43,7 +43,7 @@ export default function PrivacyPage() {
       </div>
 
       <p style={{ fontSize: 14.4, color: "var(--ink-soft)", lineHeight: 1.8, marginBottom: 22 }}>
-        さおり（以下「運営者」といいます）は、本アプリ「中文一途（仮）」（以下「本サービス」といいます）における利用者の個人情報の取り扱いについて、以下のとおりプライバシーポリシー（以下「本ポリシー」といいます）を定めます。
+        SOLSORAL（以下「運営者」といいます）は、本アプリ「中文一途（仮）」（以下「本サービス」といいます）における利用者の個人情報の取り扱いについて、以下のとおりプライバシーポリシー（以下「本ポリシー」といいます）を定めます。
       </p>
 
       <Section title="1. 取得する情報">
@@ -98,8 +98,8 @@ export default function PrivacyPage() {
       <Section title="7. お問い合わせ">
         <p style={{ marginBottom: 8 }}>本ポリシーに関するお問い合わせ、開示・削除等のご請求は、下記までご連絡ください。</p>
         <p>
-          <a href="mailto:lli.aapl.illi.msft.ill@gmail.com" style={{ color: "var(--ink)", fontWeight: 700, textDecoration: "underline" }}>
-            lli.aapl.illi.msft.ill@gmail.com
+          <a href="mailto:0000@gmail.com" style={{ color: "var(--ink)", fontWeight: 700, textDecoration: "underline" }}>
+            0000@gmail.com
           </a>
         </p>
       </Section>
