@@ -192,7 +192,7 @@ export default async function WordsPage({
     return (
       <main style={{ maxWidth: 480, margin: "0 auto", padding: "24px 16px" }}>
         <p style={{ fontSize: 16.8, color: "var(--ink-soft)" }}>単語が見つかりませんでした。</p>
-        <Link href="/" className="underline text-[16.8px]">トップに戻る</Link>
+        <Link href="/" className="text-[16.8px] text-ink-soft">トップに戻る</Link>
       </main>
     );
   }

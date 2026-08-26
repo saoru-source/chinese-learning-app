@@ -42,7 +42,7 @@ export default async function ForgotPasswordPage({
       </form>
 
       <div className="text-[16.8px]">
-        <Link href="/login">ログイン画面に戻る</Link>
+        <Link href="/login" className="text-ink-soft">ログイン画面に戻る</Link>
       </div>
     </div>
   );

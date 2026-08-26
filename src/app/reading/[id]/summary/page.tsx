@@ -3,6 +3,14 @@ import { notFound, redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import SummaryForm from "./SummaryForm";
 
+function BackArrowIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="var(--ink-soft)" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M15 5l-7 7 7 7" />
+    </svg>
+  );
+}
+
 export default async function PassageSummaryPage({
   params,
 }: {
@@ -30,11 +38,11 @@ export default async function PassageSummaryPage({
 
   return (
     <div className="mx-auto max-w-md px-4 py-10">
-      <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-[28.8px] font-bold">長文要約</h1>
-        <Link href={`/reading/${passage.id}`} className="text-[16.8px] underline">
-          本文に戻る
+      <div className="mb-6 flex items-center gap-2.5">
+        <Link href={`/reading/${passage.id}`} aria-label="本文に戻る" className="flex items-center">
+          <BackArrowIcon />
         </Link>
+        <h1 className="text-[28.8px] font-bold">長文要約</h1>
       </div>
 
       <div className="mb-6 rounded border border-line p-4">

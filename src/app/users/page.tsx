@@ -3,6 +3,14 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { followUser, unfollowUser } from "@/lib/follows/actions";
 
+function BackArrowIcon() {
+  return (
+    <svg viewBox="0 0 24 24" width={24} height={24} fill="none" stroke="var(--ink-soft)" strokeWidth={2.2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M19 12H5M12 19l-7-7 7-7" />
+    </svg>
+  );
+}
+
 export default async function UsersPage({
   searchParams,
 }: {
@@ -70,11 +78,11 @@ export default async function UsersPage({
 
   return (
     <div className="mx-auto max-w-md px-4 py-10">
-      <div className="mb-6 flex items-center justify-between">
-        <h1 className="text-[28.8px] font-bold">みんなを探す</h1>
-        <Link href="/" className="text-[16.8px] underline">
-          トップに戻る
+      <div className="mb-6 flex items-center gap-2.5">
+        <Link href="/" aria-label="トップに戻る" className="flex items-center">
+          <BackArrowIcon />
         </Link>
+        <h1 className="text-[28.8px] font-bold">みんなを探す</h1>
       </div>
 
       {!myProfile?.nickname && (

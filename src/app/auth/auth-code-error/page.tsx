@@ -8,7 +8,7 @@ export default function AuthCodeErrorPage() {
         リンクの有効期限が切れているか、無効な可能性があります。
         もう一度お試しください。
       </p>
-      <Link href="/login" className="underline">
+      <Link href="/login" className="text-[16.8px] text-ink-soft">
         ログイン画面に戻る
       </Link>
     </div>
