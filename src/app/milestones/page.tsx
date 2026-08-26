@@ -44,7 +44,7 @@ function StatusBadge({ status }: { status: MilestoneStatus }) {
           padding: "3px 10px",
         }}
       >
-        未合格
+        不合格
       </span>
     );
   }

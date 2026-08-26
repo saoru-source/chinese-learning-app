@@ -54,7 +54,7 @@ function StatusBadge({ status }: { status: GraduationStatus }) {
           padding: "3px 10px",
         }}
       >
-        未合格
+        不合格
       </span>
     );
   }
