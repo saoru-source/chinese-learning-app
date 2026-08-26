@@ -30,7 +30,7 @@ export default function ListeningHeader({
         <Link href="/" aria-label="トップに戻る" style={{ display: "flex", alignItems: "center" }}>
           <BackArrowIcon />
         </Link>
-        <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>ヒアリング</h1>
+        <h1 style={{ fontSize: 19.2, fontWeight: 700, color: "var(--ink)" }}>聞く</h1>
       </div>
 
       <div
