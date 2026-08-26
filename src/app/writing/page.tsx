@@ -44,7 +44,7 @@ function BookIcon({ stroke = "white" }: { stroke?: string }) {
 
 function ImageIcon() {
   return (
-    <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="var(--ink-soft)" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <svg viewBox="0 0 24 24" width={18} height={18} fill="none" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       <rect x="3" y="4" width="18" height="16" rx="2" />
       <circle cx="9" cy="10" r="1.5" />
       <path d="M21 16l-5.5-5.5L4 21" />
@@ -142,55 +142,13 @@ export default function WritingPage() {
           subtitle="長文読解で読んだ文章を、自分の言葉で中国語のまま要約します（要約は各長文のページから）"
         />
 
-        <div
-          style={{
-            display: "flex",
-            alignItems: "flex-start",
-            gap: 14,
-            background: "var(--card)",
-            borderRadius: 18,
-            padding: "16px 16px",
-            boxShadow: "0 4px 14px rgba(0,0,0,0.06)",
-            opacity: 0.55,
-          }}
-        >
-          <div
-            style={{
-              flexShrink: 0,
-              width: 40,
-              height: 40,
-              borderRadius: 12,
-              background: "var(--paper-deep)",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <ImageIcon />
-          </div>
-          <div style={{ flex: 1, minWidth: 0 }}>
-            <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <p style={{ fontSize: 16.8, fontWeight: 700, color: "var(--ink)" }}>画像描写</p>
-              <span
-                style={{
-                  flexShrink: 0,
-                  fontSize: 12,
-                  fontWeight: 700,
-                  color: "var(--ink)",
-                  background: "var(--paper-deep)",
-                  border: "1px solid var(--line)",
-                  borderRadius: 20,
-                  padding: "2px 8px",
-                }}
-              >
-                近日公開
-              </span>
-            </div>
-            <p style={{ fontSize: 13.2, color: "var(--ink-soft)", marginTop: 2, lineHeight: 1.5 }}>
-              画像を見て、その内容を中国語で説明します(画像素材準備中)
-            </p>
-          </div>
-        </div>
+        <ModeCard
+          href="/writing/image"
+          iconBg="var(--grad)"
+          icon={<ImageIcon />}
+          title="画像描写"
+          subtitle="画像を見て、その内容を中国語で説明します"
+        />
       </div>
     </main>
   );

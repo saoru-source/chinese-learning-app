@@ -23,7 +23,12 @@ function Header() {
   );
 }
 
-export default async function WritingImagePage() {
+export default async function WritingImagePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ promptId?: string }>;
+}) {
+  const { promptId } = await searchParams;
   const supabase = await createClient();
   const {
     data: { user },
@@ -77,15 +82,42 @@ export default async function WritingImagePage() {
     );
   }
 
-  const offset = randomOffset(total);
-  const { data } = await supabase
-    .from("writing_image_prompts")
-    .select("id, image_url, hsk_level, topic")
-    .eq("is_published", true)
-    .order("id", { ascending: true })
-    .range(offset, offset);
+  // promptIdをURLのsearchParamsで固定する。/writing/image自身が乱数で
+  // お題を選ぶ設計だと、AI添削のServer Action呼び出し後にNext.jsが
+  // このページを再フェッチするたびに別のお題に差し替わってしまい、
+  // フォームが再マウントされて添削結果が消えてしまう不具合があったため。
+  let prompt: {
+    id: number;
+    image_url: string;
+    hsk_level: number;
+    topic: string | null;
+    reference_keywords: string | null;
+  } | null = null;
 
-  const prompt = data?.[0] ?? null;
+  if (promptId) {
+    const { data } = await supabase
+      .from("writing_image_prompts")
+      .select("id, image_url, hsk_level, topic, reference_keywords")
+      .eq("id", Number(promptId))
+      .eq("is_published", true)
+      .maybeSingle();
+    prompt = data ?? null;
+  }
+
+  if (!prompt) {
+    const offset = randomOffset(total);
+    const { data } = await supabase
+      .from("writing_image_prompts")
+      .select("id, image_url, hsk_level, topic, reference_keywords")
+      .eq("is_published", true)
+      .order("id", { ascending: true })
+      .range(offset, offset);
+
+    const picked = data?.[0] ?? null;
+    if (picked) {
+      redirect(`/writing/image?promptId=${picked.id}`);
+    }
+  }
 
   return (
     <main style={{ maxWidth: 480, margin: "0 auto", padding: "16px 16px 40px" }}>
@@ -128,6 +160,12 @@ export default async function WritingImagePage() {
             />
             {prompt.topic && (
               <p style={{ fontSize: 15.6, color: "var(--ink-soft)", lineHeight: 1.6 }}>{prompt.topic}</p>
+            )}
+            {prompt.reference_keywords && (
+              <p style={{ fontSize: 13.2, color: "var(--ink-soft)", lineHeight: 1.6, marginTop: 10 }}>
+                <span style={{ fontWeight: 700 }}>参考語彙: </span>
+                {prompt.reference_keywords}
+              </p>
             )}
           </div>
 
