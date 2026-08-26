@@ -98,8 +98,8 @@ export default function PrivacyPage() {
       <Section title="7. お問い合わせ">
         <p style={{ marginBottom: 8 }}>本ポリシーに関するお問い合わせ、開示・削除等のご請求は、下記までご連絡ください。</p>
         <p>
-          <a href="mailto:0000@gmail.com" style={{ color: "var(--ink)", fontWeight: 700, textDecoration: "underline" }}>
-            0000@gmail.com
+          <a href="mailto:solsoralsol@gmail.com" style={{ color: "var(--ink)", fontWeight: 700, textDecoration: "underline" }}>
+            solsoralsol@gmail.com
           </a>
         </p>
       </Section>
