@@ -31,7 +31,6 @@ const NAV = [
   { zh: "家", label: "ホーム", path: "/" },
   { zh: "试", label: "学習", path: "/learn" },
   { zh: "典", label: "辞書", path: "/learn/dictionary" },
-  { zh: "测", label: "テスト", path: "/milestones" },
   { zh: "我", label: "マイページ", path: "/profile" },
 ];
 

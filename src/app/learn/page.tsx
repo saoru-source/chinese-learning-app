@@ -9,10 +9,6 @@ import {
   ReadIcon,
   WriteIcon,
   QuizIcon,
-  GrammarDictIcon,
-  WordDictIcon,
-  MilestoneIcon,
-  GraduationIcon,
 } from "@/components/learnIcons";
 
 function BackArrowIcon() {
@@ -55,30 +51,6 @@ export default function LearnPage() {
           icon={<QuizIcon />}
           gradient="linear-gradient(135deg, var(--lavender), var(--seal-deep))"
           href={`/quiz/ai?level=${levelKey}`}
-        />
-        <MenuTile
-          label="文法辞書"
-          icon={<GrammarDictIcon />}
-          gradient="linear-gradient(135deg, var(--seal), var(--seal-deep))"
-          href={`/learn/grammar?level=${levelKey}`}
-        />
-        <MenuTile
-          label="単語辞書"
-          icon={<WordDictIcon />}
-          gradient="linear-gradient(135deg, var(--gold), var(--jade-deep))"
-          href={`/learn/dictionary?level=${levelKey}`}
-        />
-        <MenuTile
-          label="節目テスト"
-          icon={<MilestoneIcon />}
-          gradient="linear-gradient(135deg, var(--jade), var(--gold))"
-          href="/milestones"
-        />
-        <MenuTile
-          label="卒業試験"
-          icon={<GraduationIcon />}
-          gradient="linear-gradient(135deg, var(--gold), var(--seal))"
-          href="/graduation"
         />
       </div>
     </main>
